@@ -1,0 +1,23 @@
+# --- Power BI & Excel ---
+*.pbix.rsv
+*.pbit
+*.ms-adms
+*.tmp
+~$*
+*.laccdb
+
+# --- Datos (Opcional) ---
+# Si los CSVs son muy pesados, es mejor no subirlos a GitHub 
+# y dejarlos solo en tu carpeta local 'data/raw'
+# Descomenta la siguiente línea si quieres ignorar los datos:
+# data/raw/*.csv
+
+# --- Carpeta Scratch (Ideas y borradores) ---
+# Ignoramos todo el contenido de scratch para que puedas 
+# guardar bocetos, notas rápidas o archivos temporales sin ensuciar el repo.
+scratch/
+
+# --- Otros ---
+.DS_Store
+Thumbs.db
+.vscode/
