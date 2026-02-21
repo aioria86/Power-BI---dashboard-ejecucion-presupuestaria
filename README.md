@@ -1,26 +1,81 @@
 # Dashboard de Ejecución Presupuestaria - Aragón (2013-2024)
 
 ## 📊 Descripción del Proyecto
-Este proyecto de Business Intelligence analiza la evolución financiera del Gobierno de Aragón durante la última década. El objetivo es transformar los datasets de ejecución presupuestaria del portal de **Aragón Open Data** en un dashboard estratégico que permita identificar tendencias de gasto, desviaciones presupuestarias y prioridades sectoriales.
+
+Proyecto de **Business Intelligence con Power BI** enfocado en el análisis de la ejecución presupuestaria del Gobierno de Aragón utilizando datos abiertos oficiales (2013-2024).
+
+El objetivo es construir un dashboard estratégico que permita analizar:
+
+* Ejecución de **gastos públicos**.
+* Evolución de **ingresos**.
+* Clasificación presupuestaria completa (económica, funcional, orgánica y financiación).
+* Tendencias financieras y prioridades de política pública.
+
+Los datos provienen del portal **Aragón Open Data** y se trabajan bajo un enfoque de modelo estrella para análisis avanzado.
+
+---
 
 ## 📂 Estructura del Repositorio
-- `data/`: Contiene los archivos CSV originales (raw) y los procesados.
-- `reports/`: Archivos .pbip de Power BI y exportaciones en PDF.
-- `scripts/`: Notas sobre transformaciones en Power Query o DAX.
-- `scratch/`: (Ignorado por Git) Espacio para borradores e ideas rápidas.
+
+* `data/raw/` → Archivos CSV originales descargados del portal open data.
+
+  * Estado de ejecución de gastos.
+  * Estado de ejecución de ingresos.
+  * Estructura económica.
+  * Estructura funcional.
+  * Estructura orgánica.
+  * Estructura de financiación.
+* `docs/` → Documentación y planificación del proyecto.
+* `img/iconos/` → Recursos visuales utilizados en el dashboard.
+* `reports/` → Archivos Power BI (.pbip / .pbix) y exportaciones.
+* `scratch/` → Borradores e ideas rápidas (uso local).
+
+---
 
 ## 🛠️ Desafíos Técnicos (ETL)
-- **Normalización Numérica:** Limpieza de formatos de moneda europeos (puntos para miles, comas para decimales).
-- **Consolidación:** Unión de 12 archivos anuales en una única Tabla de Hechos.
-- **Jerarquías:** Mapeo de códigos de 'Centro Gestor' y 'Económico' para análisis funcional.
+
+* Normalización de formatos numéricos europeos.
+* Consolidación de múltiples ejercicios en tablas de hechos únicas.
+* Integración de estructuras presupuestarias oficiales como dimensiones.
+* Modelado tipo **Star Schema** para análisis financiero público.
+
+---
 
 ## 📈 KPIs Principales
-- **% de Ejecución:** Comparativa entre Crédito Inicial vs. Obligaciones Reconocidas.
-- **Variación Interanual:** Crecimiento del gasto por capítulos económicos.
-- **Análisis de Modificaciones:** Impacto de los ajustes presupuestarios durante el ejercicio.
+
+* % Ejecución Presupuestaria (Obligaciones vs Crédito Definitivo).
+* % Pago sobre obligaciones reconocidas.
+* Cumplimiento de previsión de ingresos.
+* Resultado presupuestario (Ingresos vs Gastos).
+* Análisis por capítulo económico y función pública.
+
+---
+
+## 🧩 Clasificación Presupuestaria
+
+El modelo incorpora estructuras oficiales:
+
+* **Económica:** Capítulos, artículos, conceptos y subconceptos.
+* **Funcional:** Políticas públicas y programas de gasto.
+* **Orgánica:** Centros gestores e instituciones.
+* **Financiación:** Origen de los recursos económicos.
+
+---
 
 ## 📝 Diccionario de Datos Rápido
-- **Capítulo 1:** Gastos de Personal.
-- **Capítulo 2:** Gasto Corriente (Bienes y servicios).
-- **Capítulo 4/7:** Transferencias (Subvenciones).
-- **Capítulo 6:** Inversiones Reales (Obra pública).
+
+* **Capítulo 1:** Gastos de Personal.
+* **Capítulo 2:** Bienes y Servicios.
+* **Capítulo 4/7:** Transferencias.
+* **Capítulo 6:** Inversiones Reales.
+
+---
+
+## 🚀 Objetivo del Proyecto
+
+Desarrollar un dashboard profesional orientado a analítica financiera del sector público, demostrando capacidades en:
+
+* Modelado de datos en Power BI.
+* Transformaciones ETL.
+* Diseño de KPIs estratégicos.
+* Visualización avanzada aplicada a finanzas públicas.
