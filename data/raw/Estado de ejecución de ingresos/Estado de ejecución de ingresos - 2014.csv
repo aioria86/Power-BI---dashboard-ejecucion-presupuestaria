@@ -1,0 +1,571 @@
+﻿_id,Ejercicio,Centro Gestor,Economico,Financiacion,Descripcion,Prevision Inicial,Modificaciones,Prevision Definitiva,D.Rec. Netos,Recaudado Neto
+1,2014,12000,380000,91003,Reintegros ej.cerrados de Presidencia y Justicia,,,,"0,00","0,00"
+2,2014,12500,100000,91003,Tarifa Autonómica del I.R.P.F.,"1.067.039.000,00",,"1.067.039.000,00","1.079.532.240,00","1.079.532.240,00"
+3,2014,12500,100001,91003,Tarifa Autonómica del I.R.P.F. - Ejercicio 2009,,,,"-11.797.340,97","-11.797.340,97"
+4,2014,12500,100003,91003,Tarifa Autonómica del IRPF. Liquidación Ej. 2012,,,,"-42.110.042,14","-42.110.042,14"
+5,2014,12500,110000,91003,Sobre adquisiciones por herencia o legado,"159.600.000,00",,"159.600.000,00",,
+6,2014,12500,110003,91003,Donaciones,"12.285.000,00",,"12.285.000,00",,
+7,2014,12500,111000,91003,Sobre el patrimonio neto de las personas físicas,"27.000.000,00",,"27.000.000,00",,
+8,2014,12500,112000,91003,Sobre Grandes superficies,"4.935.000,00",,"4.935.000,00",,
+9,2014,12500,113000,91003,Sobre emisiones contaminantes,"6.090.000,00",,"6.090.000,00",,
+10,2014,12500,200000,91003,Sobre Transmisiones Patrimoniales Onerosas,"108.570.000,00",,"108.570.000,00",,
+11,2014,12500,200001,91003,Sobre Operaciones Societarias,"12.285.000,00",,"12.285.000,00",,
+12,2014,12500,200002,91003,Sobre Transmisiones de vehículos,"2.415.000,00",,"2.415.000,00",,
+13,2014,12500,201000,91003,Efectos timbrados y otros,"45.675.000,00",,"45.675.000,00",,
+14,2014,12500,201001,91003,Exceso letras de cambio,"52.500,00",,"52.500,00",,
+15,2014,12500,201002,91003,Reintegros a metálico,"3.675.000,00",,"3.675.000,00",,
+16,2014,12500,210001,91003,I.V.A. Sobre Operaciones Internas,"882.000.000,00",,"882.000.000,00","908.754.490,00","908.754.490,00"
+17,2014,12500,210011,91003,Impuesto Valor Añadido - Ejercicio 2008,,,,"-5.326.657,96","-5.326.657,96"
+18,2014,12500,210012,91003,Impuesto Valor Añadido - Ejercicio 2009,,,,"-20.749.587,36","-20.749.587,36"
+19,2014,12500,210014,91003,IVA. Liquidación Ej. 2012,,,,"78.093.620,20","78.093.620,20"
+20,2014,12500,220000,91003,Sobre el alcohol y bebidas derivadas,"15.000.000,00",,"15.000.000,00","15.235.680,00","15.235.680,00"
+21,2014,12500,220001,91003,Sobre Cerveza,"4.846.000,00",,"4.846.000,00","4.866.510,00","4.866.510,00"
+22,2014,12500,220003,91003,Sobre labores de tabaco,"142.500.000,00",,"142.500.000,00","142.597.910,00","142.597.910,00"
+23,2014,12500,220005,91003,Sobre determinados medios de transporte,"11.000.000,00",,"11.000.000,00",,
+24,2014,12500,220006,91003,Sobre productos intermedios,"325.000,00",,"325.000,00","321.555,33","321.555,33"
+25,2014,12500,220007,91003,Sobre energía (electricidad),"71.000.000,00",,"71.000.000,00","71.190.450,00","71.190.450,00"
+26,2014,12500,220008,91003,Sobre hidrocarburos,"265.000.000,00",,"265.000.000,00","265.896.010,00","265.896.010,00"
+27,2014,12500,220010,91003,Sobre alcohol y bebidas derivadas - Ejercicio 2009,,,,"-166.240,11","-166.240,11"
+28,2014,12500,220011,91003,Sobre Cerveza - Ejercicio 2009,,,,"-21.635,51","-21.635,51"
+29,2014,12500,220013,91003,Sobre labores de tabaco - Ejercicio 2009,,,,"-14.681,06","-14.681,06"
+30,2014,12500,220016,91003,Sobre productos intermedios - Ejercicio 2009,,,,"-2.715,23","-2.715,23"
+31,2014,12500,220018,91003,Sobre hidrocarburos - Ejercicio 2009,,,,"-841.842,94","-841.842,94"
+32,2014,12500,220030,91003,S/ Alcohol y bebidas derivadas. Liquidación 2012,,,,"-1.568.172,72","-1.568.172,72"
+33,2014,12500,220031,91003,S/ Cerveza. Liquidación Ej. 2012,,,,"-14.190,17","-14.190,17"
+34,2014,12500,220032,91003,S/ Labores Tabaco. Liquidación Ej. 2012,,,,"10.341.923,47","10.341.923,47"
+35,2014,12500,220036,91003,S/ Productos Intermedios. Liquidación Ej. 2012,,,,"-19.548,51","-19.548,51"
+36,2014,12500,220037,91003,S/ Energía Electrica. Liquidación Ej. 2012,,,,"9.240.908,81","9.240.908,81"
+37,2014,12500,220038,91003,S/ Hidrocarburos. Liquidación Ej. 2012,,,,"3.023.624,56","3.023.624,56"
+38,2014,12500,300050,91003,Venta de Bienes de Cortes de Aragón,"36.000,00",,"36.000,00","27.000,00","27.000,00"
+39,2014,12500,301006,91003,"Venta de  Public de Educ., Univ., Cult. y Deporte","15.000,00",,"15.000,00","389,91","173,77"
+40,2014,12500,301050,91003,Venta de Publicac. de Cortes de Aragón,"10.000,00",,"10.000,00","7.500,00","7.500,00"
+41,2014,12500,302000,91003,Venta de cartones de bingo,"280.000,00",,"280.000,00","286.638,46","286.638,46"
+42,2014,12500,310050,91003,Entradas Cortes de Aragón,"255.000,00",,"255.000,00","191.250,00","191.250,00"
+43,2014,12500,319000,91003,Prestación Serv. de Presidencia y Justicia,"130.680,00",,"130.680,00","108.000,00","94.500,00"
+44,2014,12500,319005,91003,"Prestación Serv. de Sanidad, B. Social y Familia",,,,"728.956,87","533.615,69"
+45,2014,12500,319006,91003,"Prestación Serv. de Educ., Univ., Cult. y Deporte","1.935.000,00",,"1.935.000,00","3.252.727,02","2.858.254,06"
+46,2014,12500,319103,91003,Prestación de servicios en guarderías,"900.000,00",,"900.000,00","868.687,23","796.492,33"
+47,2014,12500,319109,91003,Prestación de servicios en cartografía,"1.000,00",,"1.000,00","898,50","898,50"
+48,2014,12500,319111,91003,Cuotas alumnos Inst. Formación Agroambiental,"200.000,00",,"200.000,00","835,05","835,05"
+49,2014,12500,319116,91003,Prestación de Servicios en Residencias,"500.000,00",,"500.000,00",,
+50,2014,12500,319118,91003,Prestación Servicios RACI,"71.050,00",,"71.050,00","14.480,91","2.764,19"
+51,2014,12500,319321,91003,Transporte Sanitario por Helicóptero,"100.000,00",,"100.000,00","208.283,00","114.233,00"
+52,2014,12500,322017,91003,"Tasa 17- Serv.fac.advos monte,aprov.for.,vías pec.",,,,"14,47","14,47"
+53,2014,12500,327014,91003,"Tasa 14- Serv. act. Indus,energ,metrol,miner,comer",,,,"6,60","6,60"
+54,2014,12500,329001,91003,Tasa 01- Dirección e inspección de obras,"1.016.000,00",,"1.016.000,00","1.233.234,13","871.436,27"
+55,2014,12500,329002,91003,"Tasa 02- Redac. proyec,confr,tasación obra y proy.",,,,"2.387,69",
+56,2014,12500,329003,91003,"Tasa 03- Serv.admvos, redacc. informes,activ. fac.","61.400,00",,"61.400,00","209.981,58","201.950,80"
+57,2014,12500,329004,91003,Tasa 04- Por Autorizacones Espectáculos Públicos,"20.000,00",,"20.000,00","33.022,63","33.022,63"
+58,2014,12500,329005,91003,Tasa 05-S. Mat. orde. transp. terr carretera,"1.400.000,00",,"1.400.000,00","1.381.569,10","1.381.569,10"
+59,2014,12500,329006,91003,Tasa 06- Act. en materia de vivienda protegida,,,,"340,89","313,41"
+60,2014,12500,329007,91003,Tasa 07-Serv. Exped. cédula habitabilidad,"4.000,00",,"4.000,00","36.119,36","36.119,36"
+61,2014,12500,329009,91003,Tasa 09-S. facult. ord. y def. de las ind for. ag.,,,,"1.898,91","1.898,91"
+62,2014,12500,329010,91003,Tasa 10-S. facultativos agronómicos,"4.950,00",,"4.950,00","229.523,61","229.523,61"
+63,2014,12500,329011,91003,Tasa 11-Servicios  facultativos veterinarios,"600.000,00",,"600.000,00","727.064,73","727.049,77"
+64,2014,12500,329012,91003,Tasa 12-Ins. y ctroles sanitarios  anim y sus prod,"35.000,00",,"35.000,00","324.041,41","324.041,41"
+65,2014,12500,329013,91003,"Tasa 13-Aut., Inspec., materia centros sanitarios","120.000,00",,"120.000,00","242.083,10","242.083,10"
+66,2014,12500,329014,91003,Tasa 14-Ord. activ. indust. energ. metrol. mineras,"2.571.620,99",,"2.571.620,99","1.426.670,36","1.327.403,89"
+67,2014,12500,329015,91003,Tasa 15-Serv. exped. titulos académicos y profesio,"657.000,00",,"657.000,00","724.345,36","724.345,36"
+68,2014,12500,329016,91003,Tasa 16-Expedición licencias caza y pesca,,,,"40.332,11","40.332,11"
+69,2014,12500,329017,91003,"Tasa 17-S. facul. montes, forestales y v. pecuaria","420.000,00",,"420.000,00","421.658,20","398.416,87"
+70,2014,12500,329019,91003,Tasa 19-S. Adtvod y Técnicos de juego,"625.000,00",,"625.000,00","793.979,53","793.979,53"
+71,2014,12500,329020,91003,"Tasa 20-Aut, Insp y actu. cen y est. farmaceúticos","48.000,00",,"48.000,00","60.867,54","60.867,54"
+72,2014,12500,329021,91003,Tasa 21-Aut. Insp. centros Servicios Sociales,"30.000,00",,"30.000,00","25.126,85","25.126,85"
+73,2014,12500,329022,91003,Tasa 22-Inserción anuncios en el BOA,"270.800,00",,"270.800,00","289.515,61","289.515,61"
+74,2014,12500,329023,91003,"Tasa 23-Inscripción y Publicidad Asoc,Fun,CP y CCA","22.000,00",,"22.000,00","35.082,73","35.082,73"
+75,2014,12500,329024,91003,Tasa 24-Derechos Examen pruebas selectiva C.Aut.,,,,"394.125,25","394.125,25"
+76,2014,12500,329025,91003,Tasa 25-S. Registro Territorial P.Intelectual de A,"9.500,00",,"9.500,00","10.133,66","9.902,67"
+77,2014,12500,329027,91003,Tasa 27-Acreditación laborat. ctrol calidad edific,,,,"1.278,04","639,02"
+78,2014,12500,329030,91003,Tasa 30-Tasa inscripción Reg. de org. modif. genét,"2.200,00",,"2.200,00","2.156,62","2.156,62"
+79,2014,12500,329032,91003,Tasa 32-Tasa act. serv. radiodifusión y televisión,,,,"1.466,62","1.466,62"
+80,2014,12500,329033,91003,Tasa 33-Tasa por ocup. v.pecuar. y conc.uso dom.p.,,,,"88.415,22","75.152,16"
+81,2014,12500,329037,91003,Tasa 37-Tasa dchos. de exam. pruebas de acceso FP,"211.352,10",,"211.352,10","111.186,53","111.186,53"
+82,2014,12500,329038,91003,Tasa 38- S. admtvos diligencias bastanteo de poder,"5.240,00",,"5.240,00","10.310,97","10.310,97"
+83,2014,12500,329039,91003,Tasa39-Insc pruebas obt. tit. postobligatorios,"136.000,00",,"136.000,00","115.799,81","115.799,81"
+84,2014,12500,329040,91003,Tasa 40-Tasa s. adm actuaciones gestión tributaria,,,,"38.013,34","38.013,34"
+85,2014,12500,329042,91003,Tasa 42 - Análisis e Informes del Lab. Salud Públi,"50.000,00",,"50.000,00",,
+86,2014,12500,330000,91003,Precios Públicos del Laboratorio Agroalimentario,"64.000,00",,"64.000,00","29.644,09","24.810,33"
+87,2014,12500,330001,91003,Precios Públicos del C. Transferencia Agroalimenta,,,,"276,00","216,00"
+88,2014,12500,330004,91003,Precios Públicos del Laboratorio Calidad Edificaci,,,,"4.986,79","3.226,94"
+89,2014,12500,330005,91003,Precios Públicos en materia de deportes,,,,"32.056,59",
+90,2014,12500,330006,91003,Instalaciones deportivas,"45.000,00",,"45.000,00","50.752,62","36.463,92"
+91,2014,12500,330007,91003,Actividades Deportivas,"10.000,00",,"10.000,00",,
+92,2014,12500,330011,91003,Grado superior FP y artes plásticas y diseño,"1.765.000,00",,"1.765.000,00",,
+93,2014,12500,330012,91003,Precios Públicos de Caza y Pesca,"160.000,00",,"160.000,00",,
+94,2014,12500,335000,91003,P. Públicos del Laboratorio de Calidad de la Edif.,"14.000,00",,"14.000,00",,
+95,2014,12500,370000,91003,Casinos,"2.592.000,00",,"2.592.000,00",,
+96,2014,12500,370001,91003,Bingos,"20.304.000,00",,"20.304.000,00",,
+97,2014,12500,370002,91003,Máquinas recreativas,"25.380.000,00",,"25.380.000,00",,
+98,2014,12500,370003,91003,"Loterías,rifas,boletos y combinaciones aleatorias","16.200,00",,"16.200,00",,
+99,2014,12500,380000,91003,Reintegros ej.cerrados de Presidencia y Justicia,,,,"53.454,41","53.454,41"
+100,2014,12500,380001,91003,Reintegros ej.cerrados de Hacienda y Admón Pública,,,,"130.926,05","130.926,05"
+101,2014,12500,380002,91003,"Reintegros ej.cerrados de OP, Urb., Vivienda y Tte",,,,"421.720,60","248.498,31"
+102,2014,12500,380002,91102,"Reintegros ej.cerrados de OP, Urb., Vivienda y Tte",,,,"94.776,90","94.776,90"
+103,2014,12500,380003,34020,"Reintegros ej.cer de Agricultura, Ganadería y M.Am",,,,"261,57","261,57"
+104,2014,12500,380003,34031,"Reintegros ej.cer de Agricultura, Ganadería y M.Am",,,,"10.157,73","10.157,73"
+105,2014,12500,380003,91003,"Reintegros ej.cer de Agricultura, Ganadería y M.Am",,"73.858,12","73.858,12","243.248,19","243.248,19"
+106,2014,12500,380004,14101,Reintegros ej.cerrados de Industria e Innovación,,,,"1.069,25","1.069,25"
+107,2014,12500,380004,39013,Reintegros ej.cerrados de Industria e Innovación,,,,"0,00","0,00"
+108,2014,12500,380004,39048,Reintegros ej.cerrados de Industria e Innovación,,,,"8.602,16","8.602,16"
+109,2014,12500,380004,39103,Reintegros ej.cerrados de Industria e Innovación,,,,"74.165,66","74.165,66"
+110,2014,12500,380004,91003,Reintegros ej.cerrados de Industria e Innovación,,,,"221.855,88","221.855,88"
+111,2014,12500,380004,91102,Reintegros ej.cerrados de Industria e Innovación,,,,"252.919,17","252.919,17"
+112,2014,12500,380005,91003,"Reintegros ej.cerrados de Sanidad, B. Social y Fam",,,,"51.502,94","51.502,94"
+113,2014,12500,380006,11101,"Reintegros ej.cerrados de Educ., Univ., Cult. y D",,,,"1.654,99","1.654,99"
+114,2014,12500,380006,39047,"Reintegros ej.cerrados de Educ., Univ., Cult. y D",,,,"5.522,18","5.522,18"
+115,2014,12500,380006,39081,"Reintegros ej.cerrados de Educ., Univ., Cult. y D",,,,"22.833,75","22.833,75"
+116,2014,12500,380006,91003,"Reintegros ej.cerrados de Educ., Univ., Cult. y D",,,,"144.342,68","144.342,68"
+117,2014,12500,380006,91102,"Reintegros ej.cerrados de Educ., Univ., Cult. y D",,,,"25.252,65","25.252,65"
+118,2014,12500,380007,91003,Reintegros ej.cerrados de Economía y Empleo,,,,"26.814,71","26.814,71"
+119,2014,12500,380008,91003,Reintegros ej.cerrados de P.Territorial e I,,,,"3.914,21","3.914,21"
+120,2014,12500,380100,91003,Reintegros de ejercicios cerrados,"22.218,23",,"22.218,23",,
+121,2014,12500,381000,91003,Reintegros ej. corriente de Presidencia y Justicia,,,,"5.759,88","5.759,88"
+122,2014,12500,381001,91003,Reintegros ej. corriente de Hacienda y Adm. Públic,,"52.537,96","52.537,96","2.296.874,46","2.296.874,46"
+123,2014,12500,381002,91003,"Reintegros ej. corriente de OOPP, Urb, Viv y Trans",,,,"20,00","20,00"
+124,2014,12500,381003,12101,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"435.731,45","435.731,45"
+125,2014,12500,381003,12102,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"193.110,44","193.110,44"
+126,2014,12500,381003,34004,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"21.989,54","21.989,54"
+127,2014,12500,381003,34007,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"585,75","585,75"
+128,2014,12500,381003,34031,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"8.406,70","8.406,70"
+129,2014,12500,381003,34032,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"1.960,94","1.960,94"
+130,2014,12500,381003,34044,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"3.886,79","3.886,79"
+131,2014,12500,381003,34046,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"12.693,91","12.693,91"
+132,2014,12500,381003,34047,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"1.287,45","1.287,45"
+133,2014,12500,381003,36001,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"21.718,50","21.718,50"
+134,2014,12500,381003,91003,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"203.134,22","203.134,22"
+135,2014,12500,381005,91003,"Reintegros ej. corriente de Sanidad, B Social y Fa",,,,"10,00","10,00"
+136,2014,12500,381006,91003,"Reintegros ej. corriente de Educ,Uni,Cult y Deport",,,,"78.670,03","78.670,03"
+137,2014,12500,381007,91003,Reintegros ej. corriente de Economía y Empleo,,,,"442,90","442,90"
+138,2014,12500,381008,91003,Reintegros ej.corriente de P.Territorial e Interio,,,,"899,49","899,49"
+139,2014,12500,381098,91003,Reintegros de pagos a justificar,,,,"1.073,16","1.073,16"
+140,2014,12500,381099,91003,Otros reintegros de Presupuesto corriente,"3.614.000,00",,"3.614.000,00",,
+141,2014,12500,390000,91003,Costas por sentencias judiciales,"95.000,00",,"95.000,00","200.610,84","136.502,98"
+142,2014,12500,390001,91003,Daños carreteras,"110.000,00",,"110.000,00","111.259,83","83.144,40"
+143,2014,12500,393012,91003,Cursos y otros ingresos de P. Territorial e Interi,,"34.000,00","34.000,00","34.000,00","34.000,00"
+144,2014,12500,394005,91003,OTROS INGRESOS,"15.700.000,00",,"15.700.000,00",,
+145,2014,12500,395000,91003,Multas y sanciones de Presidencia y Justicia,,,,"4.430,00","1.530,00"
+146,2014,12500,395001,91003,Multas y sanciones de Hacienda y Admón Pública,,,,"37.220,08","19.985,69"
+147,2014,12500,395002,91003,"Multas y sanciones de Obras P., Urb., Viv. y Ttes.",,,,"4.824.944,41","2.937.471,99"
+148,2014,12500,395003,91003,"Multas y sanciones de Agricultura, Ganad. y M.Amb.","280.000,00",,"280.000,00","1.292.510,91","626.287,96"
+149,2014,12500,395004,91003,Multas y sanciones de Industria e Innovación,,,,"10.450,97","2.649,97"
+150,2014,12500,395005,91003,"Multas y sanciones de Sanidad, B. Social y Familia",,,,"818.709,19","252.068,39"
+151,2014,12500,395006,91003,"Multas y sanciones de Educación, Univ., Cult. y D.",,,,"5.000,00","5.000,00"
+152,2014,12500,395007,91003,Multas y sanciones de Economía y Empleo,,,,"1.896.791,70","1.228.179,41"
+153,2014,12500,395008,91003,Multas y sanciones Política Territorial e Interior,"10.000,00",,"10.000,00","17.084,38","16.411,24"
+154,2014,12500,395099,91003,Otras multas y sanciones,"588.947,50",,"588.947,50",,
+155,2014,12500,395100,91003,Multas y sanciones,"7.628.500,00",,"7.628.500,00",,
+156,2014,12500,396001,91003,Ing.diversos.Rec eventuales.Hacienda y AP,,,,"7.206,75","7.206,75"
+157,2014,12500,396002,91003,"Ing.diversos.Rec eventuales.OP,Urb,Viv y Transport",,,,"28.300,73","28.300,73"
+158,2014,12500,396003,91003,"Ing.diversos.Rec eventuales.Agricultura,Gan y M Am","213.600,00",,"213.600,00","13.017,91","13.017,91"
+159,2014,12500,396005,91003,"Ing.diversos.Rec eventuales.Sanidad, B Social y Fa",,,,"89.955,84","89.955,84"
+160,2014,12500,396006,91003,"Ing.diversos.Rec eventuales.Educación,Univ,Cult,De",,,,"64.176,01","64.033,06"
+161,2014,12500,396008,91003,Ing.diversos Rec eventuales P. Territorial e Inter,,,,"14.959,04","14.959,04"
+162,2014,12500,396100,91003,Ingresos diversos. Recursos eventuales,"2.220.658,59",,"2.220.658,59","99.660,30","99.660,30"
+163,2014,12500,398001,91003,Recargo de apremio,,,,"7.056,98","7.056,98"
+164,2014,12500,398002,91003,Intereses de demora,,,,"91.209,41","70.828,46"
+165,2014,12500,400012,91003,Fondo Suficiencia - Ejercicio 2008,,,,"-14.194.050,66","-14.194.050,66"
+166,2014,12500,400022,91003,Fondo de Suficiencia - Ejercicio 2009,,,,"-31.748.645,19","-31.748.645,19"
+167,2014,12500,400025,91003,Fondos Adicionales Finan Autonómica Ejercicio 2009,,,,"-1.048.373,07","-1.048.373,07"
+168,2014,12500,400027,91003,Fondos de Convergencia Autonómica Ejercicio 2012,,,,"107.070.400,01","107.070.400,01"
+169,2014,12500,400040,91003,Fondos de Cohesión Sanitaria - Ejercicio 2011,,,,"5.762,00","5.762,00"
+170,2014,12500,400050,91003,Fondo Suficiencia Global,"216.800.000,00",,"216.800.000,00","262.029.910,00","262.029.910,00"
+171,2014,12500,400051,91003,Fondo de Garantía Servicios Públicos Fundamentales,"56.200.000,00",,"56.200.000,00","56.191.026,25","56.191.026,25"
+172,2014,12500,400152,91003,Fondo Cooperación Liquidación Ejercicio 2012,"125.500.000,00",,"125.500.000,00",,
+173,2014,12500,400153,91003,Fondo Suficiencia Global Ejercicio 2012,,,,"-47.084.678,78","-47.084.678,78"
+174,2014,12500,400154,91003,Fondo de Garantía Ejercicio 2012,,,,"-7.182.856,56","-7.182.856,56"
+175,2014,12500,400400,91003,Anticipo de Tesorería (art.64 Ley 22/2009),,,,"0,00","0,00"
+176,2014,12500,403000,34001,Ayudas complementarias a la Política Agraria Común,"700.000,00",,"700.000,00","226.758,00","226.758,00"
+177,2014,12500,403004,91003,Estadística agraria,"52.016,70",,"52.016,70","66.658,39",
+178,2014,12500,403099,12101,"Otras subvenciones de Agricultura, Gan. y M.A.","1.237.560,00",,"1.237.560,00",,
+179,2014,12500,403099,34011,"Otras subvenciones de Agricultura, Gan. y M.A.","228.000,00",,"228.000,00","16.866,00","16.866,00"
+180,2014,12500,404000,39005,Ayudas a jubilación y reestructuración de empresas,"64.710,00",,"64.710,00",,
+181,2014,12500,404003,35005,Pensiones a ancianos y enfermos,"40.000,00",,"40.000,00","30.871,16","30.871,16"
+182,2014,12500,404005,91003,Plan de desarrollo gitano,,,,"28.972,49","28.972,49"
+183,2014,12500,404006,91003,Prestaciones básicas de Servicios Sociales,,,,"942.955,74","942.955,74"
+184,2014,12500,404009,35014,Erradicación de la pobreza,,"720.748,83","720.748,83","720.748,83","720.748,83"
+185,2014,12500,404020,91003,Plan Acción a favor de pers. situación dependencia,"50.000.000,00",,"50.000.000,00",,
+186,2014,12500,404021,39054,Víctimas violencia de género,"100.000,00","22.690,21","122.690,21","181.479,26","181.479,26"
+187,2014,12500,404021,39092,Víctimas violencia de género,"169.856,00","39.185,00","209.041,00","209.041,00","209.041,00"
+188,2014,12500,405001,39015,Fomento de la donación y trasplante de órganos,"64.795,74",,"64.795,74","69.328,63","69.328,63"
+189,2014,12500,405002,39017,Prevención del S.I.D.A.,"134.195,67",,"134.195,67",,
+190,2014,12500,405003,39018,Actuaciones en drogodependencias,"562.853,30",,"562.853,30","466.877,42","466.877,42"
+191,2014,12500,405004,39019,Prevención de enfermedades emergentes,"64.032,53",,"64.032,53","9.304,00","9.304,00"
+192,2014,12500,405005,39016,Junta Arbitral de Consumo,"24.271,59",,"24.271,59",,
+193,2014,12500,405007,39049,Form.Cont.Uso racional del medicamento para médic.,"615.135,24",,"615.135,24","722.660,51","722.660,51"
+194,2014,12500,406099,39109,Otras subvenciones en materia de Justicia,,,,"38.940,87","38.940,87"
+195,2014,12500,407003,39108,Funcionamiento de centros docentes,,,,"266.717,74",
+196,2014,12500,407004,39064,Confederaciones de A.P.A.S. y colectivos,,,,"-4,31","-7.379,19"
+197,2014,12500,407013,39025,"Plan rest,utiliz. Educat. pueblos abandon.:Bubal","24.780,00",,"24.780,00",,
+198,2014,12500,407015,39119,Difusión Formación Profesional,,,,"571.032,29","571.032,29"
+199,2014,12500,409009,39071,Otras subvenciones de Administraciones Públicas,,,,"760.194,90","219,45"
+200,2014,12500,412001,55001,Escuelas Taller,,,,"-6.295,26","-6.295,26"
+201,2014,12500,416009,39016,Otras subvenciones Instituto Nacional de Consumo,,,,"16.730,12","16.730,12"
+202,2014,12500,419000,39042,Centro Superior Deportes: Fomento actividad depor.,,"53.000,00","53.000,00","93.769,00","53.000,00"
+203,2014,12500,419007,39040,Instituto Nacional de Administración Pública INAP,,"1.045.640,00","1.045.640,00","1.045.640,00","1.045.640,00"
+204,2014,12500,420000,91003,"Fondo programa de ""Ahorro e incapacidad temporal""","9.650.525,35",,"9.650.525,35","6.034.437,40","6.034.437,40"
+205,2014,12500,420001,91003,Compens. asistencia sanitaria conting. prof.,"200.000,00",,"200.000,00",,
+206,2014,12500,421001,35011,Plan Acción a favor de pers. situación dependencia,,,,"28.290.674,43","26.176.564,67"
+207,2014,12500,460009,51010,Otras subvenciones de Diputaciones Provinciales,,"9.000,00","9.000,00","9.000,00","9.000,00"
+208,2014,12500,460009,91003,Otras subvenciones de Diputaciones Provinciales,,,,"0,00","0,00"
+209,2014,12500,492100,14101,Programa Operativo FEDER 2007-2013,"1.151.237,03",,"1.151.237,03",,
+210,2014,12500,492100,14105,Programa Operativo FEDER 2007-2013,,"4.509,98","4.509,98","4.509,98",
+211,2014,12500,493000,11101,Fondo Social Europeo- Objetivo 3,"561.710,79",,"561.710,79",,
+212,2014,12500,493001,11099,Iniciativa Comunitaria EQUAL,,,,"21.094,80","21.094,80"
+213,2014,12500,493100,11101,Fondo Social Europeo- Programa Operativo 2007-2013,"12.961.006,89",,"12.961.006,89",,
+214,2014,12500,496000,12101,Agricultura -Política Agraria Común,"440.900.000,00",,"440.900.000,00","433.412.003,33","433.412.003,33"
+215,2014,12500,496000,91003,Agricultura -Política Agraria Común,,,,"121.892,24","121.892,24"
+216,2014,12500,496009,12101,Agricultura- Otras subvenciones corrientes,"110.000,00",,"110.000,00",,
+217,2014,12500,497000,12102,Fondo Europeo Agrícola de Desarrollo Rural,"1.489.354,05",,"1.489.354,05","1.188.352,75","1.188.352,75"
+218,2014,12500,499000,19001,Punto de Información Europea,"25.000,00",,"25.000,00","25.000,00","25.000,00"
+219,2014,12500,499099,19004,Otras subvenciones del exterior,"402.050,00",,"402.050,00","960.000,00","960.000,00"
+220,2014,12500,511003,91003,Intereses por prestamos BEI convenio 2013,,,,"723.043,08","723.043,08"
+221,2014,12500,511004,91003,Intereses por prestamos BEI convenio 2014,,,,"0,00","0,00"
+222,2014,12500,520000,91003,Intereses,"8.000.000,00",,"8.000.000,00","4.828.323,93","4.783.375,50"
+223,2014,12500,520002,91003,Intereses vivienda,,,,"20.244,14","20.244,14"
+224,2014,12500,520050,91003,De las Cortes de Aragón,"43.000,00",,"43.000,00","27.250,00","27.250,00"
+225,2014,12500,521000,91003,Intereses de emisión de deuda,,,,"200.109,50","200.109,50"
+226,2014,12500,540001,91003,Renta de Inmuebles,,,,"478.523,71","474.461,99"
+227,2014,12500,540008,91003,Arrendamientos de locales,"1.300,00",,"1.300,00","8.621,70","7.843,94"
+228,2014,12500,540009,91003,Alquileres de viviendas,"400.000,00",,"400.000,00","379.754,04","339.398,52"
+229,2014,12500,550001,91003,Cánones de concesiones,"2.300.000,00",,"2.300.000,00","1.780.923,34","1.364.280,39"
+230,2014,12500,551000,91003,Ingresos de productos,,,,"700,00","700,00"
+231,2014,12500,552002,91003,De producción agraria,,,,"10.140,56","6.730,37"
+232,2014,12500,552003,91003,De protección y gestión de los montes,"625.000,00",,"625.000,00","1.275.388,79","944.701,25"
+233,2014,12500,552004,91003,De tecnología agraria,,,,"3.138,00","3.138,00"
+234,2014,12500,552006,91003,Reservas nacionales caza,,,,"19.371,83","10.981,47"
+235,2014,12500,552007,91003,10% Fondo mejoras forestales,,,,"25.636,31",
+236,2014,12500,552008,91003,Permisos de caza en cotos sociales,,,,"7.463,00","6.678,00"
+237,2014,12500,552009,91003,Otros aprovechamientos,"900.000,00",,"900.000,00","118.121,63","118.121,63"
+238,2014,12500,553000,91003,Cánones de I.T.V. privadas,"4.622.925,00",,"4.622.925,00","4.910.977,80","2.793.138,75"
+239,2014,12500,553003,91003,"De Educación, Universidad, Cultura y Deporte",,,,"5.946,93","5.946,93"
+240,2014,12500,553009,91003,Otros cánones,"1.400.000,00",,"1.400.000,00","169.349,56","164.801,21"
+241,2014,12500,559009,91003,Otros aprovechamientos,,,,"22.458,05","20.417,02"
+242,2014,12500,590000,91003,Ingresos por viviendas de promoción pública,"1.300.000,00",,"1.300.000,00","1.678.477,53","1.553.384,20"
+243,2014,12500,590009,91003,Otros ingresos patrimoniales,"7.331.445,13",,"7.331.445,13",,
+244,2014,12500,600000,91003,Venta de terrenos,"800.000,00",,"800.000,00","6.170,57","6.170,57"
+245,2014,12500,600001,91003,"De Economía, Hacienda y Empleo",,,,"10.000,00","10.000,00"
+246,2014,12500,610000,91003,Venta de inversiones reales- Varios,"200.000,00",,"200.000,00","1.253.133,00","777.933,00"
+247,2014,12500,620000,91003,Venta de inmuebles,"28.092.412,18",,"28.092.412,18","7.730.405,00","7.730.405,00"
+248,2014,12500,702001,36004,Acciones prioritarias: incendios forestales,"3.152.800,00",,"3.152.800,00","1.146.338,97","1.146.338,97"
+249,2014,12500,702005,39077,Convenio Ciclo Integral del Agua,"8.066.987,00",,"8.066.987,00","8.066.987,00","8.066.987,00"
+250,2014,12500,702009,36001,Otras subvenciones en materia de Medio Ambiente,"592.000,00",,"592.000,00","444.819,43","444.819,43"
+251,2014,12500,704002,39001,Plan de vivienda,"2.400.000,00","17.601.732,06","20.001.732,06","28.703.986,69","28.703.986,69"
+252,2014,12500,704002,39117,Plan de vivienda,,"3.059.608,00","3.059.608,00","6.346.000,00","3.059.608,00"
+253,2014,12500,705006,34014,Campañas de sanidad animal,"20.000,00",,"20.000,00","-242.945,70","-242.945,70"
+254,2014,12500,705006,34021,Campañas de sanidad animal,"500.000,00",,"500.000,00","471.365,00","471.365,00"
+255,2014,12500,705006,34039,Campañas de sanidad animal,"250.000,00",,"250.000,00","-500.214,39","-500.214,39"
+256,2014,12500,705007,34025,Agrupación Defensa Sanitaria,"1.000,00",,"1.000,00",,
+257,2014,12500,705008,34006,Apicultura,"110.000,00",,"110.000,00","87.350,00","87.350,00"
+258,2014,12500,705009,34005,Otras subvenciones de capital,"1.000.000,00",,"1.000.000,00","437.574,00",
+259,2014,12500,705009,34020,Otras subvenciones de capital,,,,"156.600,00","156.600,00"
+260,2014,12500,705009,34044,Otras subvenciones de capital,"1.925.000,00","-183.675,00","1.741.325,00","284.159,79","284.159,79"
+261,2014,12500,705009,34046,Otras subvenciones de capital,"1.721.369,87",,"1.721.369,87","809.205,53","809.205,53"
+262,2014,12500,705009,34047,Otras subvenciones de capital,"4.029.907,68","-36.945,84","3.992.961,84","1.396.415,07","1.396.415,07"
+263,2014,12500,705009,34050,Otras subvenciones de capital,"600.000,00",,"600.000,00","64.440,73","64.440,73"
+264,2014,12500,705009,34051,Otras subvenciones de capital,,,,"-693.000,00","-693.000,00"
+265,2014,12500,705009,34056,Otras subvenciones de capital,,,,"91.815,28",
+266,2014,12500,705010,34026,Agrup.Tratam. Integrado Agricultura (ATRIAS),"165.000,00",,"165.000,00",,
+267,2014,12500,705013,34015,Semillas y plantas de viveros,"115.000,00",,"115.000,00","95.000,00","95.000,00"
+268,2014,12500,705014,34007,Industrias Agrarias,"2.584.648,00",,"2.584.648,00","660.869,44","660.869,44"
+269,2014,12500,705015,34043,Modernización de explotaciones,"5.380.000,00","-510.208,33","4.869.791,67","172.639,55","172.639,55"
+270,2014,12500,705017,34017,Lucha contra agentes nocivos,"473.000,00",,"473.000,00","436.750,00","436.750,00"
+271,2014,12500,705017,34018,Lucha contra agentes nocivos,"125.000,00",,"125.000,00","101.000,00","101.000,00"
+272,2014,12500,705018,34023,Control lechero,"70.000,00",,"70.000,00",,
+273,2014,12500,705021,34004,Agroambientales,"6.400.000,00",,"6.400.000,00","3.734.109,32","3.734.109,32"
+274,2014,12500,705022,34031,Cese anticipado,"250.000,00",,"250.000,00","227.248,25","227.248,25"
+275,2014,12500,705025,34032,Indemnización compensatoria básica,"1.825.000,00","-173.470,83","1.651.529,17","1.359.631,31","1.359.631,31"
+276,2014,12500,705026,34016,Nuevas variedades vegetales,"43.000,00",,"43.000,00","30.052,64","30.052,64"
+277,2014,12500,705030,34037,Reconversión de plantaciones frutícolas,,,,"-250.000,00","-250.000,00"
+278,2014,12500,705032,34049,Ayudas del Fondo Europeo de Pesca,"52.000,00",,"52.000,00",,
+279,2014,12500,705035,34053,Plan nacional de subproductos,,,,"768.605,46","-65.309,54"
+280,2014,12500,705036,34052,Planes ordenación sector porcino,,,,"-50.020,32","-50.020,32"
+281,2014,12500,707001,39028,"Otras subvenciones de Educación, Cultura y Deporte",,,,"-1.383.016,81","-1.383.016,81"
+282,2014,12500,709001,32200,Plan Especial de Teruel,"30.000.000,00",,"30.000.000,00","30.000.000,00","30.000.000,00"
+283,2014,12500,709009,39118,Otras subvenciones de capital,,,,"58.394,18","58.394,18"
+284,2014,12500,740001,39050,De IDAE para el  fomento ahorro energético,,,,"-885.233,58","-885.233,58"
+285,2014,12500,760009,51001,Otras subvenciones de Diputaciones Provinciales,,"180.000,00","180.000,00","180.000,00",
+286,2014,12500,760009,51009,Otras subvenciones de Diputaciones Provinciales,,"288.994,87","288.994,87","288.994,87","288.994,87"
+287,2014,12500,762001,52002,De Administraciones Comarcales,,,,"39.200,00","39.200,00"
+288,2014,12500,780009,91003,Otras Transferencias De Familias Y Otras Instituc.,,,,"3.002.789,31","2.793.472,26"
+289,2014,12500,792000,14099,Fondo Europeo de Desarrollo Regional. Objetivo 2,,,,"3.914.332,62","3.914.332,62"
+290,2014,12500,792100,14101,Programa Operativo FEDER 2007-2013,"6.227.600,33","4.366.084,00","10.593.684,33",,
+291,2014,12500,792100,14102,Programa Operativo FEDER 2007-2013,"56.128,48",,"56.128,48","212.352,15","212.352,15"
+292,2014,12500,792100,14104,Programa Operativo FEDER 2007-2013,,,,"28.086,51","28.086,51"
+293,2014,12500,792100,14105,Programa Operativo FEDER 2007-2013,,,,"0,00","0,00"
+294,2014,12500,793100,11101,Fondo Social Europeo- Programa Operativo 2007-2013,"5.040.760,00","-4.490.050,00","550.710,00",,
+295,2014,12500,796000,12101,Fondo Europeo Agrícola de Garantía,"103.500,00",,"103.500,00","1.346.771,63","1.346.771,63"
+296,2014,12500,796002,12101,Plan Nacional Apícola,"220.000,00",,"220.000,00","93.764,72","93.764,72"
+297,2014,12500,797000,12102,Forestación,"1.225.000,00",,"1.225.000,00","1.609.350,18","1.609.350,18"
+298,2014,12500,797001,12102,Agroambientales,"12.800.000,00",,"12.800.000,00","8.626.824,64","8.626.824,64"
+299,2014,12500,797002,12102,Cese Anticipado,"500.000,00",,"500.000,00","452.219,88","452.219,88"
+300,2014,12500,797003,12102,Indemnización Compensación Básica,"3.650.000,00","-346.941,66","3.303.058,34","2.714.675,81","2.714.675,81"
+301,2014,12500,797004,12102,"Modernización explotaciones, incorporación jóvenes","14.610.000,00","-1.387.766,66","13.222.233,34","7.232.961,71","7.232.961,71"
+302,2014,12500,797006,12102,Modernización de regadíos,"14.572.885,25",,"14.572.885,25","8.731.901,08","8.731.901,08"
+303,2014,12500,797008,12102,"P.D.R.- Renov., dllo de pueblos y patrimonio rural","450.000,00","3.035.168,75","3.485.168,75","3.413.337,17","3.413.337,17"
+304,2014,12500,797009,12102,P.D.R.- Diversif. actividades en el ámbito agrario,"5.700.000,00",,"5.700.000,00","5.371.038,53","5.371.038,53"
+305,2014,12500,797011,12102,PDR Formación,"178.163,00","-14.163,00","164.000,00","127.719,02","127.719,02"
+306,2014,12500,797012,12102,P.D.R.- Transf. y comercializ. productos agrícolas,"5.169.296,00",,"5.169.296,00","2.476.796,45","2.476.796,45"
+307,2014,12500,797013,12102,PDR Medidas forestales,"3.721.518,59",,"3.721.518,59","3.543.287,60","3.543.287,60"
+308,2014,12500,797014,12102,PDR Concentración  parcelaria,"2.049.273,57",,"2.049.273,57","958.579,42","958.579,42"
+309,2014,12500,797018,12102,PDR Protección del  Medio Ambiente,"150.500,00",,"150.500,00","95.769,62","95.769,62"
+310,2014,12500,797099,12102,Otras transferencias de capital,"18.575.840,55","-1.394.516,68","17.181.323,87","6.354.410,70","6.354.410,70"
+311,2014,12500,798000,15101,Fondo Europeo de Pesca,"91.000,00",,"91.000,00",,
+312,2014,12500,799000,19003,Otras subvenciones del exterior,"45.225,00",,"45.225,00","-241.126,60","-241.126,60"
+313,2014,12500,821000,39103,Reintegros varios de préstamos a largo plazo,,,,"124.340,83","124.340,83"
+314,2014,12500,821001,91003,Reintegros préstamos convenios con EE Locales,"3.500.000,00",,"3.500.000,00",,
+315,2014,12500,870000,19003,Remanentes de Tesorería,,"116.275,00","116.275,00",,
+316,2014,12500,870000,39019,Remanentes de Tesorería,,"9.292,00","9.292,00",,
+317,2014,12500,870000,39040,Remanentes de Tesorería,,"64.460,96","64.460,96",,
+318,2014,12500,870000,39042,Remanentes de Tesorería,,"39.214,00","39.214,00",,
+319,2014,12500,870000,39059,Remanentes de Tesorería,,"348.540,35","348.540,35",,
+320,2014,12500,870000,39100,Remanentes de Tesorería,,"242.127,47","242.127,47",,
+321,2014,12500,870000,39102,Remanentes de Tesorería,,"1.809.181,69","1.809.181,69",,
+322,2014,12500,870000,39103,Remanentes de Tesorería,,"3.704.755,94","3.704.755,94",,
+323,2014,12500,870000,39108,Remanentes de Tesorería,,"731.509,11","731.509,11",,
+324,2014,12500,870000,51009,Remanentes de Tesorería,,"239.646,82","239.646,82",,
+325,2014,12500,870000,91003,Remanentes de Tesorería,,"86.590.094,53","86.590.094,53",,
+326,2014,12500,900000,91003,Emisión de Deuda Pública-,"1.159.890.000,00",,"1.159.890.000,00","745.630.148,73","745.630.148,73"
+327,2014,12500,910000,39103,Préstamos recibidos a largo plazo,,,,"19.650.000,00",
+328,2014,12500,910000,39119,Préstamos recibidos a largo plazo,,,,"571.032,29","571.032,29"
+329,2014,12500,910000,91003,Préstamos recibidos a largo plazo,,,,"73.854.099,15","73.854.099,15"
+330,2014,12500,920000,39072,Préstamos recibidos Ley de Presupuestos 2013,,,,"-265,30","-265,30"
+331,2014,12500,920000,91003,Préstamos recibidos Ley de Presupuestos 2013,,,,"275.000.000,00","275.000.000,00"
+332,2014,12500,921000,91003,Préstamos recibidos a corto plazo,,,,"62.442.009,33","62.442.009,33"
+333,2014,12510,110000,91003,Sobre adquisiciones por herencia o legado,,,,"156.826.822,14","101.254.222,69"
+334,2014,12510,110003,91003,Donaciones,,,,"5.043.213,24","2.487.404,16"
+335,2014,12510,111000,91003,Sobre el patrimonio neto de las personas físicas,,,,"28.892.819,85","28.855.985,05"
+336,2014,12510,112000,91003,Sobre Grandes superficies,,,,"5.891.534,24","5.545.281,15"
+337,2014,12510,113000,91003,Sobre emisiones contaminantes,,,,"1.316.557,16","1.316.557,16"
+338,2014,12510,200000,91003,Sobre Transmisiones Patrimoniales Onerosas,,,,"68.052.381,15","61.154.128,83"
+339,2014,12510,200001,91003,Sobre Operaciones Societarias,,,,"792.783,82","790.203,88"
+340,2014,12510,200002,91003,Sobre Transmisiones de vehículos,,,,"1.725.444,13","1.724.089,66"
+341,2014,12510,201000,91003,Efectos timbrados y otros,,,,"28.359.120,89","26.730.349,13"
+342,2014,12510,201001,91003,Exceso letras de cambio,,,,"20.705,73","20.705,73"
+343,2014,12510,201002,91003,Reintegros a metálico,,,,"1.680.388,29","1.680.388,29"
+344,2014,12510,220004,91003,S/ venta minorista de determinados hidrocarburos,,,,"36.854,61","12.046,05"
+345,2014,12510,220005,91003,Sobre determinados medios de transporte,,,,"4.587.173,08","4.116.993,87"
+346,2014,12510,370000,91003,Casinos,,,,"300.245,35","300.245,35"
+347,2014,12510,370001,91003,Bingos,,,,"11.448.095,86","11.448.095,86"
+348,2014,12510,370002,91003,Máquinas recreativas,,,,"18.946.732,73","15.770.332,73"
+349,2014,12510,370003,91003,"Loterías,rifas,boletos y combinaciones aleatorias",,,,"1.164.121,07","1.164.121,07"
+350,2014,12510,370005,91003,Loterías y apuestas ON LINE,,,,"1.566.359,55","1.240.461,69"
+351,2014,12510,370006,91003,Bingo Electrónico,,,,"179.849,62","179.849,62"
+352,2014,12510,395001,91003,Multas y sanciones de Hacienda y Admón Pública,,,,"0,00","0,00"
+353,2014,12510,398002,91003,Intereses de demora,,,,"2.189.174,70","1.813.687,75"
+354,2014,12520,110000,91003,Sobre adquisiciones por herencia o legado,,,,"21.247.369,79","18.740.637,08"
+355,2014,12520,110003,91003,Donaciones,,,,"905.002,73","854.187,33"
+356,2014,12520,111000,91003,Sobre el patrimonio neto de las personas físicas,,,,"16.195,12","12.706,52"
+357,2014,12520,200000,91003,Sobre Transmisiones Patrimoniales Onerosas,,,,"12.189.436,42","11.177.149,73"
+358,2014,12520,200001,91003,Sobre Operaciones Societarias,,,,"70.550,87","70.505,86"
+359,2014,12520,200002,91003,Sobre Transmisiones de vehículos,,,,"470.354,12","468.782,84"
+360,2014,12520,201000,91003,Efectos timbrados y otros,,,,"4.698.931,70","4.305.265,59"
+361,2014,12520,201002,91003,Reintegros a metálico,,,,"1.728,90","1.728,90"
+362,2014,12520,220005,91003,Sobre determinados medios de transporte,,,,"709.204,05","582.621,90"
+363,2014,12520,370001,91003,Bingos,,,,"366.366,24","366.366,24"
+364,2014,12520,370002,91003,Máquinas recreativas,,,,"3.997.566,94","2.978.736,36"
+365,2014,12520,370003,91003,"Loterías,rifas,boletos y combinaciones aleatorias",,,,"34.777,08","34.777,08"
+366,2014,12520,370006,91003,Bingo Electrónico,,,,"7.621,07","7.621,07"
+367,2014,12520,398001,91003,Recargo de apremio,,,,"753,76",
+368,2014,12520,398002,91003,Intereses de demora,,,,"215.049,27","194.380,73"
+369,2014,12530,110000,91003,Sobre adquisiciones por herencia o legado,,,,"8.060.821,91","7.856.755,84"
+370,2014,12530,110003,91003,Donaciones,,,,"394.894,57","342.809,09"
+371,2014,12530,111000,91003,Sobre el patrimonio neto de las personas físicas,,,,"1.074,89","1.074,89"
+372,2014,12530,113000,91003,Sobre emisiones contaminantes,,,,"-786.432,79","-786.432,79"
+373,2014,12530,200000,91003,Sobre Transmisiones Patrimoniales Onerosas,,,,"4.650.766,94","4.468.329,00"
+374,2014,12530,200001,91003,Sobre Operaciones Societarias,,,,"107.831,88","107.831,88"
+375,2014,12530,200002,91003,Sobre Transmisiones de vehículos,,,,"264.261,29","264.261,29"
+376,2014,12530,201000,91003,Efectos timbrados y otros,,,,"2.844.548,85","2.635.475,62"
+377,2014,12530,201001,91003,Exceso letras de cambio,,,,"21.970,35","21.970,35"
+378,2014,12530,201002,91003,Reintegros a metálico,,,,"237.796,03","237.796,03"
+379,2014,12530,220005,91003,Sobre determinados medios de transporte,,,,"510.668,78","460.057,16"
+380,2014,12530,370002,91003,Máquinas recreativas,,,,"2.123.513,84","1.430.485,51"
+381,2014,12530,370003,91003,"Loterías,rifas,boletos y combinaciones aleatorias",,,,"144.925,16","144.925,16"
+382,2014,12530,398002,91003,Intereses de demora,,,,"37.467,73","35.607,08"
+383,2014,51000,330002,91003,Precios Públicos de los Centros de Form del INAEM,"2.000,00",,"2.000,00","678,00","678,00"
+384,2014,51000,380012,11101,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"507.336,89","347.517,73"
+385,2014,51000,380012,19004,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"-32.308,28","-32.308,28"
+386,2014,51000,380012,33004,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"208.565,35","208.565,35"
+387,2014,51000,380012,33005,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"467.100,61","250.671,55"
+388,2014,51000,380012,91003,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"1.848.075,67","1.213.821,01"
+389,2014,51000,381012,11101,Reint. Ppto. corriente INAEM,,,,"2.310,00","2.310,00"
+390,2014,51000,381012,33004,Reint. Ppto. corriente INAEM,,,,"67,00","67,00"
+391,2014,51000,381012,91003,Reint. Ppto. corriente INAEM,,,,"2.322,34","2.322,34"
+392,2014,51000,396100,91003,Ingresos diversos. Recursos eventuales,,,,"0,00","0,00"
+393,2014,51000,398001,91003,Recargo de apremio,,,,"12.929,18","12.929,18"
+394,2014,51000,398002,91003,Intereses de demora,,,,"5.569,61","5.569,61"
+395,2014,51000,404099,33003,Otras subv. Empleo y de Servicios Sociales,,,,"654.786,00",
+396,2014,51000,404099,39071,Otras subv. Empleo y de Servicios Sociales,"61.300,00",,"61.300,00",,
+397,2014,51000,413000,33002,Conferencia Sectorial de Empleo,"581.742,00","-283.380,00","298.362,00","394.343,00",
+398,2014,51000,413000,33003,Conferencia Sectorial de Empleo,,,,"0,00","0,00"
+399,2014,51000,413000,33004,Conferencia Sectorial de Empleo,"21.029.945,56","-246.338,00","20.783.607,56","23.897.061,00",
+400,2014,51000,413000,33005,Conferencia Sectorial de Empleo,"12.844.693,00","-1.529.845,56","11.314.847,44","7.546.637,00",
+401,2014,51000,413000,33009,Conferencia Sectorial de Empleo,,"657.238,00","657.238,00","657.238,00","0,00"
+402,2014,51000,413001,39008,Planes trabajo Centros Nacionales Formación Ocup.,"280.000,00",,"280.000,00",,
+403,2014,51000,413003,39111,Otras subv del Servicio Público de Empleo Estatal,"26.950,00",,"26.950,00",,
+404,2014,51000,520000,91003,Intereses,"30.000,00",,"30.000,00","69.504,32","69.504,32"
+405,2014,51000,713009,33002,Otras subvenciones Serv. Público de Empleo INEM,"95.981,00",,"95.981,00",,
+406,2014,51000,870000,19090,Remanentes de Tesorería,,"198.122,06","198.122,06",,
+407,2014,51000,870000,33008,Remanentes de Tesorería,,"214.517,81","214.517,81",,
+408,2014,52000,300005,91003,"Venta de Bienes de Sanidad, B. Social y Familia",,,,"350,00","350,00"
+409,2014,52000,315000,91003,S.A.S. Ingresos por servicios en hospitales,,,,"0,00",
+410,2014,52000,319115,91003,Prestación de servicios en hospitales del SAS,"17.500.000,00",,"17.500.000,00","17.917.394,58","12.602.822,73"
+411,2014,52000,329001,91003,Tasa 01- Dirección e inspección de obras,,,,"307.156,13","303.450,66"
+412,2014,52000,329024,91003,Tasa 24-Derechos Examen pruebas selectiva C.Aut.,,,,"-12.432,12","-12.432,12"
+413,2014,52000,380100,91003,Reintegros de ejercicios cerrados,,,,"69.830,54","69.830,54"
+414,2014,52000,381005,91003,"Reintegros ej. corriente de Sanidad, B Social y Fa",,,,"1.704,92","1.704,92"
+415,2014,52000,381100,91003,Reintegros de ejercicio corriente,,,,"610.027,70","605.176,46"
+416,2014,52000,390002,91003,Ingresos por cursos,,,,"143.059,31","143.059,31"
+417,2014,52000,393005,91003,"Cursos y otros ingresos de Sanidad, BS y Familia",,,,"162.872,94","162.872,94"
+418,2014,52000,396100,91003,Ingresos diversos. Recursos eventuales,,"49.883,70","49.883,70","141.603,74","127.871,04"
+419,2014,52000,398001,91003,Recargo de apremio,,,,"1.274,23","1.274,23"
+420,2014,52000,398002,91003,Intereses de demora,,,,"385,27","385,27"
+421,2014,52000,405001,39015,Fomento de la donación y trasplante de órganos,,,,"28.617,23","28.617,23"
+422,2014,52000,470009,72007,Otras subvenciones de empresas,,,,"17.269,20","17.269,20"
+423,2014,52000,470009,91003,Otras subvenciones de empresas,,"180.538,39","180.538,39","180.538,39","180.538,39"
+424,2014,52000,499099,19090,Otras subvenciones del exterior,,"131.547,59","131.547,59","131.547,59","131.547,59"
+425,2014,52000,520000,91003,Intereses,"50.000,00",,"50.000,00","36.954,82","36.954,82"
+426,2014,52000,553009,91003,Otros cánones,,,,"1.294.519,26","1.168.943,76"
+427,2014,52000,770010,19090,proyectos producción y transferencia conocimiento,,"74.414,85","74.414,85","74.414,85","74.414,85"
+428,2014,52000,770010,72009,proyectos producción y transferencia conocimiento,,"10.000,00","10.000,00","10.000,00","10.000,00"
+429,2014,52000,870000,39040,Remanentes de Tesorería,,"157.794,50","157.794,50",,
+430,2014,52000,870000,55005,Remanentes de Tesorería,,"248.433,23","248.433,23",,
+431,2014,52000,870000,72010,Remanentes de Tesorería,,"158.000,00","158.000,00",,
+432,2014,53000,319100,91003,Prestación de Servicios en Residencias IASS,"12.000.000,00",,"12.000.000,00","10.875.512,68","9.697.777,09"
+433,2014,53000,319102,91003,Prest. Servicios Centros Sociales y clubs IASS,"1.000.000,00",,"1.000.000,00","142.062,32","116.976,36"
+434,2014,53000,319103,91003,Prestación de servicios en guarderías,,,,"17.292,75","17.292,75"
+435,2014,53000,380005,91003,"Reintegros ej.cerrados de Sanidad, B. Social y Fam",,,,"29.851,47","29.851,47"
+436,2014,53000,380010,11101,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"798,70","798,70"
+437,2014,53000,380010,91003,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"170.979,74","152.498,81"
+438,2014,53000,381005,35011,"Reintegros ej. corriente de Sanidad, B Social y Fa",,,,"10.283,59","10.283,59"
+439,2014,53000,381005,91003,"Reintegros ej. corriente de Sanidad, B Social y Fa",,,,"187.455,01","134.933,27"
+440,2014,53000,381010,91003,Reint. Ppto. corriente I. A. Servicios Sociales,,,,"288.224,28","288.224,28"
+441,2014,53000,395005,91003,"Multas y sanciones de Sanidad, B. Social y Familia",,,,"267.216,87","8.449,24"
+442,2014,53000,395100,91003,Multas y sanciones,"60.000,00",,"60.000,00",,
+443,2014,53000,396005,91003,"Ing.diversos.Rec eventuales.Sanidad, B Social y Fa",,,,"65.894,24","65.894,24"
+444,2014,53000,398001,91003,Recargo de apremio,,,,"5.331,94","5.331,94"
+445,2014,53000,398002,91003,Intereses de demora,,,,"1.640,54","1.640,54"
+446,2014,53000,412001,33004,Escuelas Taller,,"212.418,88","212.418,88","204.409,33","204.409,33"
+447,2014,53000,520000,91003,Intereses,"20.000,00",,"20.000,00","75.191,53","75.191,53"
+448,2014,53000,553010,91003,Canones del IASS,,,,"14.362,74","14.362,74"
+449,2014,54000,396005,91003,"Ing.diversos.Rec eventuales.Sanidad, B Social y Fa",,,,"57,83","57,83"
+450,2014,54000,520000,91003,Intereses,"1.500,00",,"1.500,00","7,45","7,45"
+451,2014,55000,311001,91003,Prestación de Servicios en residencias,"675.000,00",,"675.000,00",,
+452,2014,55000,311003,91003,Prestación de Servicios centros sociales y clubs,"15.000,00",,"15.000,00",,
+453,2014,55000,311008,91003,Prestación de Servicios en albergues,"70.000,00",,"70.000,00",,
+454,2014,55000,311009,91003,Prestación de servicios por Carné Joven,"550.000,00",,"550.000,00",,
+455,2014,55000,319104,91003,Prestación de servicios por Carnés Juveniles,,,,"18.291,06","18.291,06"
+456,2014,55000,319106,91003,Prestación de servicios en campos de trabajo,,,,"-90,00","-90,00"
+457,2014,55000,319107,91003,Prestación de servicios en albergues,,,,"54.326,17","40.478,80"
+458,2014,55000,319108,91003,Prestación de servicios del Carné Joven,,,,"597.001,11","440.936,38"
+459,2014,55000,319116,91003,Prestación de Servicios en Residencias,,,,"613.031,94","611.088,54"
+460,2014,55000,381100,91003,Reintegros de ejercicio corriente,,,,"862,47","862,47"
+461,2014,55000,396005,91003,"Ing.diversos.Rec eventuales.Sanidad, B Social y Fa",,,,"3,92","3,92"
+462,2014,55000,396100,91003,Ingresos diversos. Recursos eventuales,,,,"257,91","257,91"
+463,2014,55000,398001,91003,Recargo de apremio,,,,"46,16","46,16"
+464,2014,55000,470009,91003,Otras subvenciones de empresas,"100.000,00",,"100.000,00",,
+465,2014,55000,520000,91003,Intereses,"3.000,00",,"3.000,00","44,75","44,75"
+466,2014,55000,540008,91003,Arrendamientos de locales,,,,"17.447,00","10.838,00"
+467,2014,55000,553009,91003,Otros cánones,,,,"4.078,85","4.078,85"
+468,2014,71000,314002,91003,Prestación Servicios AST,,"4.341.756,26","4.341.756,26","3.456.423,37","2.029.102,83"
+469,2014,71000,314003,91003,Prestación Servicios AST: IP,,"328.073,72","328.073,72","312.116,30","243.010,51"
+470,2014,71000,380100,91003,Reintegros de ejercicios cerrados,,,,"101,25","101,25"
+471,2014,71000,381000,91003,Reintegros ej. corriente de Presidencia y Justicia,,,,"7.443,74","7.443,74"
+472,2014,71000,381100,91003,Reintegros de ejercicio corriente,,,,"7,94","7,94"
+473,2014,71000,396100,91003,Ingresos diversos. Recursos eventuales,,,,"1.023,53","1.023,53"
+474,2014,71000,410009,91003,Otr subv. Instituto Aragonés de Servicios Sociales,,"1.008,80","1.008,80","1.008,80",
+475,2014,71000,411009,91003,Otras subvenciones del Servicio Aragonés de Salud,,"446.322,99","446.322,99","430.032,84","26.775,00"
+476,2014,71000,412009,91003,Otras subvenciones Instituto Aragonés de Empleo,,"91.953,02","91.953,02","87.937,52","450,00"
+477,2014,71000,440009,91003,Otras subv. de Empresas Públicas y Entes Públicos,,"14.561,88","14.561,88","2.178,00",
+478,2014,71000,450002,91003,Aport Departamentos DGA:infraestructuras centros,,"1.750.000,45","1.750.000,45","1.462.877,66","569.019,77"
+479,2014,71000,450008,91003,Aportaciones Departamentos D.G.A.,,"1.014.092,77","1.014.092,77","988.569,27","143.304,05"
+480,2014,71000,520000,91003,Intereses,,,,"2.631,48","2.631,48"
+481,2014,71000,711009,91003,Otras subvenciones del Servicio Aragonés de Salud,,,,"11.346,70",
+482,2014,71000,719009,91003,Transferencias de otros Organismos Autónomos,,"2.266,33","2.266,33","5.265,17","5.265,17"
+483,2014,71000,750008,91003,Aportaciones Departamentos D.G.A.,,"1.511.642,84","1.511.642,84","812.107,29","2.178,01"
+484,2014,71000,792100,14101,Programa Operativo FEDER 2007-2013,"1.925.000,00",,"1.925.000,00","1.925.000,00","23.919,02"
+485,2014,72000,221000,91003,Impuesto s/contaminación de las aguas,"40.900.276,30",,"40.900.276,30","46.074.924,84","44.215.776,20"
+486,2014,72000,329001,91003,Tasa 01- Dirección e inspección de obras,"25.000,00",,"25.000,00","36.382,13","36.382,13"
+487,2014,72000,329003,91003,"Tasa 03- Serv.admvos, redacc. informes,activ. fac.","500,00",,"500,00",,
+488,2014,72000,330009,91003,Tratamiento fosas sépticas,"100.000,00",,"100.000,00","111.426,94","97.769,58"
+489,2014,72000,395100,91003,Multas y sanciones,"30.000,00",,"30.000,00","153.857,26","138.507,26"
+490,2014,72000,396100,91003,Ingresos diversos. Recursos eventuales,"50.000,00",,"50.000,00","61.187,54","31.547,80"
+491,2014,72000,398001,91003,Recargo de apremio,,,,"112.036,06","112.036,06"
+492,2014,72000,398002,91003,Intereses de demora,,,,"48.560,90","48.560,90"
+493,2014,72000,492100,14101,Programa Operativo FEDER 2007-2013,,,,"36.342,10","36.342,10"
+494,2014,72000,520000,91003,Intereses,"100.000,00",,"100.000,00","94.856,29","41.399,90"
+495,2014,72000,740009,55010,Otras subvenciones de capital,,"625.000,00","625.000,00","577.333,97","577.333,97"
+496,2014,72000,750000,55010,Transferencias de la Comunidad Autónoma de Aragón,,"0,00","0,00","0,00","0,00"
+497,2014,72000,794000,16001,Fondo de Cohesión,,,,"778.037,71","778.037,71"
+498,2014,72000,821001,91003,Reintegros préstamos convenios con EE Locales,"736.300,00",,"736.300,00","704.907,35","411.890,34"
+499,2014,73000,329020,91003,"Tasa 20-Aut, Insp y actu. cen y est. farmaceúticos",,,,"6.496,13","6.496,13"
+500,2014,73000,329035,91003,Tasa 35- Tasa eval. ensayos clínicos y p. sanitari,"130.000,00",,"130.000,00","182.226,11","182.226,11"
+501,2014,73000,330010,91003,Servicios Investigación Biomédica,"1.000.000,00",,"1.000.000,00","142.588,45","107.961,49"
+502,2014,73000,380100,39020,Reintegros de ejercicios cerrados,,,,"1.260,88","1.260,88"
+503,2014,73000,380100,91003,Reintegros de ejercicios cerrados,,,,"74,00","74,00"
+504,2014,73000,381100,91003,Reintegros de ejercicio corriente,,,,"3.847,75","3.847,75"
+505,2014,73000,393005,91003,"Cursos y otros ingresos de Sanidad, BS y Familia","30.000,00",,"30.000,00","130.227,62","116.564,40"
+506,2014,73000,396005,91003,"Ing.diversos.Rec eventuales.Sanidad, B Social y Fa",,,,"15.835,78","5.671,78"
+507,2014,73000,405006,39053,Políticas de cohesión y estrategias de salud,,,,"700.000,00","700.000,00"
+508,2014,73000,405099,39020,Otras subvenciones en materia de Salud y Consumo,"1.791.086,34",,"1.791.086,34","1.014.473,78","1.014.473,78"
+509,2014,73000,405099,39053,Otras subvenciones en materia de Salud y Consumo,"917.912,19",,"917.912,19",,
+510,2014,73000,407006,39053,MEC - Plan nacional de investigación,,,,"107.317,65","48.181,81"
+511,2014,73000,440002,91003,Transferencia de la Universidad de Zaragoza,"100.000,00",,"100.000,00",,
+512,2014,73000,450008,55007,Aportaciones Departamentos D.G.A.,,"164.982,50","164.982,50","164.982,50",
+513,2014,73000,470009,72009,Otras subvenciones de empresas,"1.769.351,43",,"1.769.351,43","2.778.344,58","2.324.033,85"
+514,2014,73000,480009,72009,"Otras subv. familias,instituciones sin fines lucro",,,,"205.820,42","138.346,08"
+515,2014,73000,499099,19090,Otras subvenciones del exterior,"395.989,90",,"395.989,90","316.083,77","310.145,25"
+516,2014,73000,520000,91003,Intereses,"1.000,00",,"1.000,00","2.032,85","2.032,85"
+517,2014,73000,553009,91003,Otros cánones,,,,"933,28","933,28"
+518,2014,73000,709009,39020,Otras subvenciones de capital,"518.459,63",,"518.459,63",,
+519,2014,73000,709009,39053,Otras subvenciones de capital,"527.293,24",,"527.293,24",,
+520,2014,73000,750008,55007,Aportaciones Departamentos D.G.A.,,"5.000,00","5.000,00","5.000,00",
+521,2014,73000,770010,72009,proyectos producción y transferencia conocimiento,"330.000,00",,"330.000,00",,
+522,2014,73000,799000,19090,Otras subvenciones del exterior,"143.380,00",,"143.380,00",,
+523,2014,73000,870000,19090,Remanentes de Tesorería,,"120.000,00","120.000,00",,
+524,2014,73000,870000,55007,Remanentes de Tesorería,,"13.899,47","13.899,47",,
+525,2014,73000,870000,72009,Remanentes de Tesorería,,"411.395,75","411.395,75",,
+526,2014,74000,319319,91003,Prestación de Servicios en laboratorios,"93.000,00",,"93.000,00","55.669,20","43.439,42"
+527,2014,74000,319320,39114,Prestación servicios investigación agroalimentaria,,,,"223.930,40","77.355,82"
+528,2014,74000,319320,52003,Prestación servicios investigación agroalimentaria,,,,"1.652,89","1.652,89"
+529,2014,74000,319320,72012,Prestación servicios investigación agroalimentaria,"230.000,00",,"230.000,00","151.763,06","76.146,56"
+530,2014,74000,319320,91003,Prestación servicios investigación agroalimentaria,,,,"30.523,00","30.523,00"
+531,2014,74000,380100,91003,Reintegros de ejercicios cerrados,,,,"239,53","239,53"
+532,2014,74000,381100,91003,Reintegros de ejercicio corriente,"35.000,00",,"35.000,00","46.372,29","46.372,29"
+533,2014,74000,393001,51002,Congreso Truficultura,,,,"3.000,00","3.000,00"
+534,2014,74000,396100,72012,Ingresos diversos. Recursos eventuales,,,,"47.468,00","47.468,00"
+535,2014,74000,396100,91003,Ingresos diversos. Recursos eventuales,,,,"3.846,36","3.846,36"
+536,2014,74000,450008,55007,Aportaciones Departamentos D.G.A.,,,,"216.000,00",
+537,2014,74000,450008,91003,Aportaciones Departamentos D.G.A.,"130.000,00",,"130.000,00","137.076,77","137.076,77"
+538,2014,74000,470009,91003,Otras subvenciones de empresas,"750,00",,"750,00","164,78","164,78"
+539,2014,74000,520000,91003,Intereses,"5.000,00",,"5.000,00","571,79","571,79"
+540,2014,74000,552000,91003,De investigación agraria,"90.000,00",,"90.000,00","405.362,79","109.700,11"
+541,2014,74000,552005,91003,Aprovechamientos de fincas agrícolas,"110.000,00",,"110.000,00","171.282,18","169.282,18"
+542,2014,74000,553009,91003,Otros cánones,"770,00",,"770,00","64,51","64,51"
+543,2014,74000,703009,39114,Otras subvenciones de Economía y Hacienda,,,,"0,00","0,00"
+544,2014,74000,707003,39037,Plan Nacional de Investigación,"420.000,00","46.887,50","466.887,50","291.808,73","185.614,28"
+545,2014,74000,719011,39003,Instituto Nacional Investigación y Tecnología Agra,"650.000,00","975.366,44","1.625.366,44","975.366,44","975.366,44"
+546,2014,74000,719011,39035,Instituto Nacional Investigación y Tecnología Agra,"55.105,00",,"55.105,00",,
+547,2014,74000,719011,39044,Instituto Nacional Investigación y Tecnología Agra,"225.000,00",,"225.000,00","161.459,11","161.459,11"
+548,2014,74000,740009,55010,Otras subvenciones de capital,,"500.000,00","500.000,00","500.000,00",
+549,2014,74000,750001,55007,Proyectos demostración - Invest. Agroaliment.,,,,"18.000,00","18.000,00"
+550,2014,74000,750008,55007,Aportaciones Departamentos D.G.A.,"380.000,00","273.076,99","653.076,99","371.732,76","50.667,02"
+551,2014,74000,760009,51002,Otras subvenciones de Diputaciones Provinciales,,"6.000,00","6.000,00","6.000,00",
+552,2014,74000,760009,51007,Otras subvenciones de Diputaciones Provinciales,,"32.000,00","32.000,00","32.000,00","32.000,00"
+553,2014,74000,760009,51008,Otras subvenciones de Diputaciones Provinciales,,"90.000,00","90.000,00","165.000,00","90.000,00"
+554,2014,74000,770010,71008,proyectos producción y transferencia conocimiento,"30.000,00",,"30.000,00","0,01","0,01"
+555,2014,74000,799000,19090,Otras subvenciones del exterior,"100.000,00","265.263,30","365.263,30","281.689,85","162.321,36"
+556,2014,74000,870000,51007,Remanentes de Tesorería,,"4.273,93","4.273,93",,
+557,2014,74000,870000,51008,Remanentes de Tesorería,,"23.848,68","23.848,68",,
+558,2014,74000,870000,55010,Remanentes de Tesorería,,"504.586,83","504.586,83",,
+559,2014,75000,329016,91003,Tasa 16-Expedición licencias caza y pesca,"2.019.149,95",,"2.019.149,95","1.993.249,11","1.993.249,11"
+560,2014,75000,329017,91003,"Tasa 17-S. facul. montes, forestales y v. pecuaria","194.575,03",,"194.575,03","145.467,91","145.467,91"
+561,2014,75000,329026,91003,Tasa 26-Tasa servicios gestión de los cotos,"862.122,66",,"862.122,66","878.893,64","878.893,64"
+562,2014,75000,329028,91003,Tasa 28-Tasa ser.adm. protección del medio ambient,"395.623,14",,"395.623,14","480.898,89","480.898,89"
+563,2014,75000,329029,91003,Tasa 29-Tasa S.Adm. conservación biodiversidad,"12.202,37",,"12.202,37","14.339,59","14.339,59"
+564,2014,75000,329034,91003,Tasa 34-S. admtivos. calificación ambien act. clas,"188.145,85",,"188.145,85","207.265,18","207.265,18"
+565,2014,75000,394005,91003,OTROS INGRESOS,,,,"685,44","685,44"
+566,2014,75000,520000,91003,Intereses,"1.500,00",,"1.500,00","1.555,24","1.555,24"
+567,2014,76000,396010,91003,Ingresos diversos Bco Sangre y Tejidos de Aragón,"8.912.486,86",,"8.912.486,86","8.427.339,60","831.211,85"
+568,2014,76000,520000,91003,Intereses,"12.400,00",,"12.400,00","4.682,68","4.682,68"
+569,2014,77000,381100,91003,Reintegros de ejercicio corriente,,,,"357,16","357,16"
+570,2014,77000,520000,91003,Intereses,"50,00",,"50,00","74,73","74,73"

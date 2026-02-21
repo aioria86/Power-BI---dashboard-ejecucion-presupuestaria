@@ -1,0 +1,770 @@
+﻿_id,EJERCICIO,CENTRO GESTOR,DESCRIPCION CORTA,DESCRIPCION LARGA
+1,2024,00001,Cortes de Aragón,Cortes de Aragón
+2,2024,00100,Ingresos de las Cortes de Aragón,Ingresos de las Cortes de Aragón
+3,2024,01000,Ingresos de las Cortes de Aragón,Ingresos de las Cortes de Aragón
+4,2024,00101,Cortes de Aragón,Cortes de Aragón
+5,2024,01010,Cortes de Aragón,Cortes de Aragón
+6,2024,00102,El Justicia de Aragón,El Justicia de Aragón
+7,2024,01020,El Justicia de Aragón,El Justicia de Aragón
+8,2024,00103,Cámara de Cuentas de Aragón,Cámara de Cuentas de Aragón
+9,2024,01030,Cámara de Cuentas de Aragón,Cámara de Cuentas de Aragón
+10,2024,00002,Presidencia del Gobierno de Aragón,Presidencia del Gobierno de Aragón
+11,2024,00200,Ingresos de Presidencia Gobierno Aragón,Ingresos de Presidencia Gobierno Aragón
+12,2024,02000,Ingresos de Presidencia del Gobierno,Ingresos de Presidencia del Gobierno
+13,2024,00201,Secretaría General de la Presidencia,Secretaría General de la Presidencia
+14,2024,02010,Secretaría General de la Presidencia,Secretaría General de la Presidencia
+15,2024,00209,Gastos Centralizados Presidencia Gobierno Aragón,Gastos Centralizados Presidencia Gobierno Aragón
+16,2024,02099,Gastos Centralizados Presidencia Gobierno Aragón,Gastos Centralizados Presidencia Gobierno Aragón
+17,2024,00003,Consejo Consultivo de Aragón,Consejo Consultivo de Aragón
+18,2024,00300,Ingresos Consejo Consultivo de Aragón,Ingresos Consejo Consultivo de Aragón
+19,2024,03000,Ingresos Consejo Consultivo de Aragón,Ingresos Consejo Consultivo de Aragón
+20,2024,00301,Consejo Consultivo de Aragón,Consejo Consultivo de Aragón
+21,2024,03010,Consejo Consultivo de Aragón,Consejo Consultivo de Aragón
+22,2024,00309,Gastos Centralizados Consejo Consultivo de Aragón,Gastos Centralizados Consejo Consultivo de Aragón
+23,2024,03099,Gastos Centralizados Consejo Consultivo de Aragón,Gastos Centralizados Consejo Consultivo de Aragón
+24,2024,00004,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+25,2024,00400,Ingr.Tribunal Admtvo. de Contr. Públicos de Aragón,Ingr.Tribunal Admtvo. de Contr. Públicos de Aragón
+26,2024,04000,Ingr. Tribunal Admtvo. de Cont. Públicos de Aragón,Ingr. Tribunal Admtvo. de Cont. Públicos de Aragón
+27,2024,00401,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+28,2024,04010,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+29,2024,00402,No operativo,No operativo
+30,2024,04020,No operativo,No operativo
+31,2024,00005,No operativo,No operativo
+32,2024,00500,No operativo,No operativo
+33,2024,05000,No operativo,No operativo
+34,2024,00502,No operativo,No operativo
+35,2024,05020,No operativo,No operativo
+36,2024,00509,No operativo,No operativo
+37,2024,05099,No operativo,No operativo
+38,2024,00009,Consejo Económico y Social de Aragón,Consejo Económico y Social de Aragón
+39,2024,00900,Ingresos Consejo Ec. y Social de Aragón,Ingresos Consejo Ec. y Social de Aragón
+40,2024,09000,Ingresos Consejo Ec. y Social de Aragón,Ingresos Consejo Ec. y Social de Aragón
+41,2024,00901,Consejo Económico y Social de Aragón,Consejo Económico y Social de Aragón
+42,2024,09010,Consejo Económico y Social de Aragón,Consejo Económico y Social de Aragón
+43,2024,00909,Gastos Centralizados Consejo Económico y Social,Gastos Centralizados Consejo Económico y Social
+44,2024,09099,Gastos Centralizados Consejo Económico y Social,Gastos Centralizados Consejo Económico y Social
+45,2024,00010,"Presidencia, Interior y Cultura","Presidencia, Interior y Cultura"
+46,2024,01000,"Ingresos de Presidencia, Interior y Cultura","Ingresos de Presidencia, Interior y Cultura"
+47,2024,10000,"Ingresos de Presidencia, Interior y Cultura","Ingresos de Presidencia, Interior y Cultura"
+48,2024,01001,"S.G.T. de Presidencia, Interior y Cultura","S.G.T. de Presidencia, Interior y Cultura"
+49,2024,10010,"S.G.T. de Presidencia, Interior y Cultura","S.G.T. de Presidencia, Interior y Cultura"
+50,2024,01002,Dirección General de Servicios Jurídicos,Dirección General de Servicios Jurídicos
+51,2024,10020,Dirección General de Servicios Jurídicos,Dirección General de Servicios Jurídicos
+52,2024,01003,Dirección General  de Administración Local,Dirección General  de Administración Local
+53,2024,10030,Dirección General  de Administración Local,Dirección General  de Administración Local
+54,2024,01004,"D.G. Rel. Instituc., Acción Exterior y Transparenc","D.G. Rel. Instituc., Acción Exterior y Transparenc"
+55,2024,10040,"D.G. Rel. Instituc., Acción Exterior y Transparenc","D.G. Rel. Instituc., Acción Exterior y Transparenc"
+56,2024,01005,No operativo,No operativo
+57,2024,10050,No operativo,No operativo
+58,2024,01006,Delegación Territorial de Huesca,Delegación Territorial de Huesca
+59,2024,10060,Delegación Territorial de Huesca,Delegación Territorial de Huesca
+60,2024,01007,Delegación Territorial de Teruel,Delegación Territorial de Teruel
+61,2024,10070,Delegación Territorial de Teruel,Delegación Territorial de Teruel
+62,2024,01008,Dirección General de Interior y Emergencias,Dirección General de Interior y Emergencias
+63,2024,10080,Dirección General de Interior y Emergencias,Dirección General de Interior y Emergencias
+64,2024,01009,"Gastos Central. Presidencia, Interior y Cultura","Gastos Central. Presidencia, Interior y Cultura"
+65,2024,10090,Dirección General de Deporte,Dirección General de Deporte
+66,2024,10099,"Gastos Central. Presidencia, Interior y Cultura","Gastos Central. Presidencia, Interior y Cultura"
+67,2024,01010,Dirección General de Cultura,Dirección General de Cultura
+68,2024,10100,Dirección General de Cultura,Dirección General de Cultura
+69,2024,01011,Dirección General de Patrimonio Cultural,Dirección General de Patrimonio Cultural
+70,2024,10110,Dirección General de Patrimonio Cultural,Dirección General de Patrimonio Cultural
+71,2024,01012,Dirección General de Desarrollo Estatutario,Dirección General de Desarrollo Estatutario
+72,2024,10120,Dirección General de Desarrollo Estatutario,Dirección General de Desarrollo Estatutario
+73,2024,01013,DG Política Económica,DG Política Económica
+74,2024,10130,D.G. Politica Económica,D.G. Politica Económica
+75,2024,01014,D.G. Trabajo,D.G. de Trabajo
+76,2024,10140,D.G. Trabajo,D.G. Trabajo
+77,2024,01015,D.G. PYMES y Autónomos,D.G. PYMES y Autónomos
+78,2024,10150,D.G. PYMES y Autónomos,D.G. PYMES y Autónomos
+79,2024,01016,D.G. Prom. Industrial e Innovación,D.G. Prom. Industrial e Innovación
+80,2024,10160,D.G. Prom. Industrial e Innovación,D.G. Prom. Industrial e Innovación
+81,2024,01017,"DG Comercio, Ferias y Artesania","DG Comercio, Ferias y Artesania"
+82,2024,10170,"DG Comercio, Ferias y Artesanía","DG Comercio, Ferias y Artesanía"
+83,2024,01018,DG Energía y Minas,DG Energía y Minas
+84,2024,10180,DG Energía y Minas,DG Energía y Minas
+85,2024,01019,DG Protección de Consumidores y Usuarios,DG Protección de Consumidores y Usuarios
+86,2024,10190,DG Protección de Consumidores y Usuarios,DG Protección de Consumidores y Usuarios
+87,2024,00011,No operativo,No operativo
+88,2024,01100,No operativo,No operativo
+89,2024,11000,No operativo,No operativo
+90,2024,01101,No operativo,No operativo
+91,2024,11010,No operativo,No operativo
+92,2024,01102,No operativo,No operativo
+93,2024,11020,No operativo,No operativo
+94,2024,01103,No operativo,No operativo
+95,2024,11030,No operativo,No operativo
+96,2024,01104,No operativo,No operativo
+97,2024,11040,No operativo,No operativo
+98,2024,01105,No operativo,No operativo
+99,2024,11050,No operativo,No operativo
+100,2024,01106,No operativo,No operativo
+101,2024,11060,No operativo,No operativo
+102,2024,01107,No operativo,No operativo
+103,2024,11070,No operativo,No operativo
+104,2024,01109,No operativo,No operativo
+105,2024,11099,No operativo,No operativo
+106,2024,01111,No operativo,No operativo
+107,2024,11110,No operativo,No operativo
+108,2024,00012,Hacienda y Administración Pública,Hacienda y Administración Pública
+109,2024,01200,Ingresos de Hacienda y Adm. Pública,Ingresos de Hacienda y Adm. Pública
+110,2024,12000,Ingresos de Hacienda y Adm. Pública,Ingresos de Hacienda y Adm. Pública
+111,2024,01201,S.G.T. de Hacienda y Administ. Pública,S.G.T. de Hacienda y Administ. Pública
+112,2024,12010,S.G.T. de Hacienda y Administ. Pública,S.G.T. de Hacienda y Administ. Pública
+113,2024,01202,Dirección General de Presupuestos,Dirección General de Presupuestos
+114,2024,12020,Dirección General de Presupuestos,Dirección General de Presupuestos
+115,2024,01203,"D.G. de Contratación, Patrimonio y Organización","D.G. de Contratación, Patrimonio y Organización"
+116,2024,12030,"D.G. de Contratación, Patrimonio y Organización","D.G. de Contratación, Patrimonio y Organización"
+117,2024,01204,Intervención General,Intervención General
+118,2024,12040,Intervención General,Intervención General
+119,2024,01205,Dirección General de Tributos,Dirección General de Tributos
+120,2024,12050,Dirección General de Tributos,Dirección General de Tributos
+121,2024,01206,Dirección General de Función Pública,Dirección General de Función Pública
+122,2024,12060,Dirección General de Función Pública,Dirección General de Función Pública
+123,2024,01207,No operativo,No operativo
+124,2024,12070,No operativo,No operativo
+125,2024,01208,D.G. Admón. Electrónica y Aplicaciones Corporativa,D.G. Admón. Electrónica y Aplicaciones Corporativa
+126,2024,12080,D.G. Admón. Electrónica y Aplicaciones Corporativa,D.G. Admón. Electrónica y Aplicaciones Corporativa
+127,2024,01209,Gastos Centralizados Hacienda y Administración Púb,Gastos Centralizados Hacienda y Administración Púb
+128,2024,12090,D.G. de Financiación y Fondos Europeos,D.G. de Financiación y Fondos Europeos
+129,2024,12099,Gastos Centralizados Hacienda y Administración Púb,Gastos Centralizados Hacienda y Administración Púb
+130,2024,01210,DG de Interior y Emergencias,DG de Interior y Emergencias
+131,2024,12100,DG de Interior y Emergencias,DG de Interior y Emergencias
+132,2024,01211,Delegación Territorial de Huesca,Delegación Territorial de Huesca
+133,2024,12110,Delegación Territorial de Huesca,Delegación Territorial de Huesca
+134,2024,01212,Delegación Territorial de Teruel,Delegación Territorial de Teruel
+135,2024,12120,Delegación Territorial de Teruel,Delegación Territorial de Teruel
+136,2024,01250,Ingresos de Secciones Presupuestarias,Ingresos de Secciones Presupuestarias
+137,2024,12500,Ingresos de Secciones Presupuestarias,Ingresos de Secciones Presupuestarias
+138,2024,01251,Ingresos Servicio Provincial de Zaragoza,Ingresos Servicio Provincial de Zaragoza
+139,2024,12510,Ingresos Servicio Provincial de Zaragoza,Ingresos Servicio Provincial de Zaragoza
+140,2024,01252,Ingresos Servicio Provincial de Huesca,Ingresos Servicio Provincial de Huesca
+141,2024,12520,Ingresos Servicio Provincial de Huesca,Ingresos Servicio Provincial de Huesca
+142,2024,01253,Ingresos Servicio Provincial de Teruel,Ingresos Servicio Provincial de Teruel
+143,2024,12530,Ingresos Servicio Provincial de Teruel,Ingresos Servicio Provincial de Teruel
+144,2024,00013,"Fomento, Vivienda, Movilidad y Logística","Fomento, Vivienda, Movilidad y Logística"
+145,2024,01300,"Ingresos Fomento, Vivienda, Movilidad y Logística","Ingresos Fomento, Vivienda, Movilidad y Logística"
+146,2024,13000,"Ingresos Fomento, Vivienda, Movilidad y Logística","Ingresos Fomento, Vivienda, Movilidad y Logística"
+147,2024,01301,"S.G.T. Fomento, Vivienda, Movilidad y Logística","S.G.T. Fomento, Vivienda, Movilidad y Logística"
+148,2024,13010,"S.G.T. Fomento, Vivienda, Movilidad y Logística","S.G.T. Fomento, Vivienda, Movilidad y Logística"
+149,2024,01302,D.G. de Planificación Estratégica y Logística,D.G. de Planificación Estratégica y Logística
+150,2024,13020,D.G. de Planificación Estratégica y Logística,D.G. de Planificación Estratégica y Logística
+151,2024,01303,Dirección General  de Urbanismo,Dirección General  de Urbanismo
+152,2024,13030,Dirección General de Urbanismo,Dirección General de Urbanismo
+153,2024,01304,D.G. de Carreteras e Infraestructuras,D.G. de Carreteras e Infraestructuras
+154,2024,13040,D.G. de Carreteras e Infraestructuras,D.G. de Carreteras e Infraestructuras
+155,2024,01305,Dirección General de Vivienda,Dirección General  de Vivienda
+156,2024,13050,Dirección General de Vivienda,Dirección General de Vivienda
+157,2024,01306,Dirección General de Transportes,Dirección General de Transportes
+158,2024,13060,Dirección General de Transportes,Dirección General de Transportes
+159,2024,01307,Dirección General de Despoblación,Dirección General de Despoblación
+160,2024,13070,Dirección General de Despoblación,Dirección General de Despoblación
+161,2024,01308,Dirección General de Administración Local,Dirección General de Administración Local
+162,2024,13080,Dirección General de Administración Local,Dirección General de Administración Local
+163,2024,01309,"Gastos Central. Fomento, Vivienda, Movilidad y Log","Gastos Central. Fomento, Vivienda, Movilidad y Log"
+164,2024,13099,"Gastos Central. Fomento, Vivienda, Movilidad y Log","Gastos Central. Fomento, Vivienda, Movilidad y Log"
+165,2024,00014,"Agricultura, Ganadería y Alimentación","Agricultura, Ganadería y Alimentación"
+166,2024,01400,"Ingresos Agricultura, Ganadería y Alimentación","Ingresos Agricultura, Ganadería y Alimentación"
+167,2024,14000,"Ingresos Agricultura, Ganadería y Alimentación","Ingresos Agricultura, Ganadería y Alimentación"
+168,2024,01401,"S.G.T. de Agricultura, Ganadería y Alimentación","S.G.T. de Agricultura, Ganadería y Alimentación"
+169,2024,14010,"S.G.T. de Agricultura, Ganadería y Alimentación","S.G.T. de Agricultura, Ganadería y Alimentación"
+170,2024,14011,DRyS-Sevicio Provincial de Huesca,DRyS-Sevicio Provincial de Huesca
+171,2024,14012,DRyS-Sevicio Provincial de Teruel,DRyS-Sevicio Provincial de Teruel
+172,2024,14013,DRyS-Sevicio Provincial de Zaragoza,DRyS-Sevicio Provincial de Zaragoza
+173,2024,01402,Dirección General de Producción Agraria,Dirección General de Producción Agraria
+174,2024,14020,Dirección General de Producción Agraria,Dirección General de Producción Agraria
+175,2024,01403,D.G. de Calidad y Seguridad Alimentaria,D.G. de Calidad y Seguridad Alimentaria
+176,2024,14030,D.G. de Calidad y Seguridad Alimentaria,D.G. de Calidad y Seguridad Alimentaria
+177,2024,01404,No operativo,No operativo
+178,2024,14040,No operativo,No operativo
+179,2024,01405,D.G. de Desarrollo Rural,D.G. de Desarrollo Rural
+180,2024,14050,D.G. de Desarrollo Rural,D.G. de Desarrollo Rural
+181,2024,01406,No operativo,No operativo
+182,2024,14060,No operativo,No operativo
+183,2024,01407,D. G. de Innovación y Promoción Agroalimentaria,D. G. de Innovación y Promoción Agroalimentaria
+184,2024,14070,D. G. de Innovación y Promoción Agroalimentaria,D. G. de Innovación y Promoción Agroalimentaria
+185,2024,01408,D.G. Caza y Pesca,D.G. Caza y Pesca
+186,2024,14080,D.G. Caza y Pesca,D.G. Caza y Pesca
+187,2024,01409,"Gastos Centralizados Agricultura, Gan. y Alimentac","Gastos Centralizados Agricultura, Gan. y Alimentac"
+188,2024,14099,"Gastos Centralizados Agricultura, Gan. y Alimentac","Gastos Centralizados Agricultura, Gan. y Alimentac"
+189,2024,00015,"Economía, Empleo e Industria","Economía, Empleo e Industria"
+190,2024,01500,"Ingresos de Economía, Empleo e Industria","Ingresos de Economía, Empleo e Industria"
+191,2024,15000,"Ingresos de Economía, Empleo e Industria","Ingresos de Economía, Empleo e Industria"
+192,2024,01501,"S.G.T. de Economía, Empleo e Industria","S.G.T. de Economía, Empleo e Industria"
+193,2024,15010,"S.G.T. de Economía, Empleo e Industria","S.G.T. de Economía, Empleo e Industria"
+194,2024,01502,D.G. de Política Económica,D.G. de Política Económica
+195,2024,15020,D.G. de Política Económica,D.G. de Política Económica
+196,2024,01503,D.G. de Trabajo,D.G. de Trabajo
+197,2024,15030,D.G. de Trabajo,D.G. de Trabajo
+198,2024,01504,No operativo,No operativo
+199,2024,15040,No operativo,No operativo
+200,2024,01505,D.G. de Promoción Industrial e Innovación,D.G. de Promoción Industrial e Innovación
+201,2024,15050,D.G. de Promoción Industrial e Innovación,D.G. de Promoción Industrial e Innovación
+202,2024,01506,"D.G. de Comercio, Ferias y Artesanía","D.G. de Comercio, Ferias y Artesanía"
+203,2024,15060,"D.G. de Comercio, Ferias y Artesanía","D.G. de Comercio, Ferias y Artesanía"
+204,2024,01507,D. G. de Energía y Minas,D. G. de Energía y Minas
+205,2024,15070,D. G. de Energía y Minas,D. G. de Energía y Minas
+206,2024,01508,D.G. de Protección de Consumidores y Usuarios,D.G. de Protección de Consumidores y Usuarios
+207,2024,15080,D.G. de Protección de Consumidores y Usuarios,D.G. de Protección de Consumidores y Usuarios
+208,2024,01509,"Gastos Centralizados Economía, Empleo e Industria","Gastos Centralizados Economía, Empleo e Industria"
+209,2024,15090,D.G. de PYMES y Autónomos,D.G. de PYMES y Autónomos
+210,2024,15099,"Gastos Centralizados Economía, Empleo e Industria","Gastos Centralizados Economía, Empleo e Industria"
+211,2024,01510,Dirección General de Ciencia e Investigación,Dirección General de Ciencia e Investigación
+212,2024,15100,Dirección General de Ciencia e Investigación,Dirección General de Ciencia e Investigación
+213,2024,01511,Dirección General de Universidades,Dirección General de Universidades
+214,2024,15110,Dirección General de Universidades,Dirección General de Universidades
+215,2024,00016,Sanidad,Sanidad
+216,2024,01600,Ingresos Sanidad,Ingresos Sanidad
+217,2024,16000,Ingresos Sanidad,Ingresos Sanidad
+218,2024,01601,S.G.T. de Sanidad,S.G.T. de Sanidad
+219,2024,16010,S.G.T. de Sanidad,S.G.T. de Sanidad
+220,2024,01602,D.G. de Asistencia Sanitaria y Planificación,D.G. de Asistencia Sanitaria y Planificación
+221,2024,16020,D.G. de Asistencia Sanitaria y Planificación,D.G. de Asistencia Sanitaria y Planificación
+222,2024,01603,D.G. Salud Digital e Infraestructuras,D.G. Salud Digital e Infraestructuras
+223,2024,16030,D.G. Salud Digital e Infraestructuras,D.G. Salud Digital e Infraestructuras
+224,2024,01604,D.G. de Salud Pública,D.G. de Salud Pública
+225,2024,16040,D.G. de Salud Pública,D.G. de Salud Pública
+226,2024,01605,Dirección General de Salud Mental,Dirección General de Salud Mental
+227,2024,16050,Dirección General de Salud Mental,Dirección General de Salud Mental
+228,2024,01606,Dirección General de Cuidados y Humanización,Dirección General de Cuidados y Humanización
+229,2024,16060,Dirección General de Cuidados y Humanización,Dirección General de Cuidados y Humanización
+230,2024,01607,No operativa,No operativa
+231,2024,16070,No operativa,No operativa
+232,2024,01609,Gastos Centralizados Sanidad,Gastos Centralizados Sanidad
+233,2024,16099,Gastos Centralizados Sanidad,Gastos Centralizados Sanidad
+234,2024,16220,Sanidad-Sevicio Provincial de Huesca,Sanidad-Sevicio Provincial de Huesca
+235,2024,16440,Sanidad-Sevicio Provincial de Teruel,Sanidad-Sevicio Provincial de Teruel
+236,2024,16500,Sanidad-Sevicio Provincial de Zaragoza,Sanidad-Sevicio Provincial de Zaragoza
+237,2024,00017,No operativo,No operativo
+238,2024,01700,No operativo,No operativo
+239,2024,17000,No operativo,No operativo
+240,2024,01701,No operativo,No operativo
+241,2024,17010,No operativo,No operativo
+242,2024,01702,No operativo,No operativo
+243,2024,17020,No operativo,No operativo
+244,2024,01703,No operativo,No operativo
+245,2024,17030,No operativo,No operativo
+246,2024,01704,No operativo,No operativo
+247,2024,17040,No operativo,No operativo
+248,2024,01705,No operativa,No operativa
+249,2024,17050,No operativa,No operativa
+250,2024,01706,No operativa,No operativa
+251,2024,17060,No operativa,No operativa
+252,2024,01709,No operativo,No operativo
+253,2024,17099,No operativo,No operativo
+254,2024,00018,"Educación, Ciencia y Universidades","Educación, Ciencia y Universidades"
+255,2024,01800,"Ingresos Educación, Ciencia y Universidades","Ingresos Educación, Ciencia y Universidades"
+256,2024,18000,"Ingresos Educación, Ciencia y Universidades","Ingresos Educación, Ciencia y Universidades"
+257,2024,01801,"S.G.T. de Educación, Ciencia y Universidades","S.G.T. de Educación, Ciencia y Universidades"
+258,2024,18010,"S.G.T. de Educación, Ciencia y Universidades","S.G.T. de Educación, Ciencia y Universidades"
+259,2024,18011,EDU-Sevicio Provincial de Zaragoza,EDU-Sevicio Provincial de Zaragoza
+260,2024,18012,EDU-Sevicio Provincial de Huesca,EDU-Sevicio Provincial de Huesca
+261,2024,18013,EDU-Sevicio Provincial deTeruel,EDU-Sevicio Provincial deTeruel
+262,2024,01802,No operativo,No operativo
+263,2024,18020,No operativo,No operativo
+264,2024,01803,No operativo,No operativo
+265,2024,18030,No operativo,No operativo
+266,2024,01804,"D.G. de Personal, Formación e Innovación","D.G. de Personal, Formación e Innovación"
+267,2024,18040,"D.G. de Personal, Formación e Innovación","D.G. de Personal, Formación e Innovación"
+268,2024,01805,"D.G. de Planificación, Centros y Form. Profesional","D.G. de Planificación, Centros y Form. Profesional"
+269,2024,18050,"D.G. de Planificación, Centros y Form. Profesional","D.G. de Planificación, Centros y Form. Profesional"
+270,2024,01806,No operativo,No operativo
+271,2024,18060,No operativo,No operativo
+272,2024,01807,No operativo,No operativo
+273,2024,18070,No operativo,No operativo
+274,2024,01808,No operativo,No operativo
+275,2024,18080,No operativo,No operativo
+276,2024,01809,"Gastos Centralizados Educación, Ciencia y Universi","Gastos Centralizados Educación, Ciencia y Universi"
+277,2024,18090,D.G. de Universidades,D.G. de Universidades
+278,2024,18099,"Gastos Centralizados Educación, Ciencia y Universi","Gastos Centralizados Educación, Ciencia y Universi"
+279,2024,01810,D.G. de Ciencia e Investigación,D.G. de Ciencia e Investigación
+280,2024,18100,D.G. de Ciencia e Investigación,D.G. de Ciencia e Investigación
+281,2024,01811,"D.G. de Política Educ., Ord. Acad. y Educ. Perman.","D.G. de Política Educ., Ord. Acad. y Educ. Perman."
+282,2024,18110,"D.G. de Política Educ., Ord. Acad. y Educ. Perman.","D.G. de Política Educ., Ord. Acad. y Educ. Perman."
+283,2024,00019,No operativo,No operativo
+284,2024,01900,No operativo,No operativo
+285,2024,19000,No operativo,No operativo
+286,2024,01901,No operativo,No operativo
+287,2024,19010,No operativo,No operativo
+288,2024,01902,No operativo,No operativo
+289,2024,19020,No operativo,No operativo
+290,2024,01903,No operativo,No operativo
+291,2024,19030,No operativo,No operativo
+292,2024,01904,No operativo,No operativo
+293,2024,19040,No operativo,No operativo
+294,2024,01905,No operativo,No operativo
+295,2024,19050,No operativo,No operativo
+296,2024,01909,No operativo,No operativo
+297,2024,19099,No operativo,No operativo
+298,2024,00020,Bienestar Social y Familia,Bienestar Social y Familia
+299,2024,02000,Ingresos Bienestar Social y Familia,Ingresos Bienestar Social y Familia
+300,2024,20000,Ingresos Bienestar Social y Familia,Ingresos Bienestar Social y Familia
+301,2024,02001,S.G.T. de Bienestar Social y Familia,S.G.T. de Bienestar Social y Familia
+302,2024,20010,S.G.T. de Bienestar Social y Familia,S.G.T. de Bienestar Social y Familia
+303,2024,20011,S.G.T. de Bienestar Social y Familia,S.G.T. de Bienestar Social y Familia
+304,2024,20012,S.G.T. de Bienestar Social y Familia,S.G.T. de Bienestar Social y Familia
+305,2024,02002,"D.G. de Familia, Infancia y Natalidad","D.G. de Familia, Infancia y Natalidad"
+306,2024,20020,"D.G. de Familia, Infancia y Natalidad","D.G. de Familia, Infancia y Natalidad"
+307,2024,02003,D.G. de Igualdad de Oportunidades,D.G. de Igualdad de Oportunidades
+308,2024,20030,D.G. de Igualdad de Oportunidades,D.G. de Igualdad de Oportunidades
+309,2024,02004,D.G. de Mayores,D.G. de Mayores
+310,2024,20040,D.G. de Mayores,D.G. de Mayores
+311,2024,02005,D.G. de Inclusión Social y Voluntariado,D.G. de Inclusión Social y Voluntariado
+312,2024,20050,D.G. de Inclusión Social y Voluntariado,D.G. de Inclusión Social y Voluntariado
+313,2024,02009,Gastos Central. Bienestar Social y Familia,Gastos Central. Bienestar Social y Familia
+314,2024,20099,Gastos Central. Bienestar Social y Familia,Gastos Central. Bienestar Social y Familia
+315,2024,02010,No operativo,No operativo
+316,2024,20100,No operativo,No operativo
+317,2024,02012,No operativo,No operativo
+318,2024,20120,No operativo,No operativo
+319,2024,00021,"Desarrollo Territorial, Despoblación y Justicia","Desarrollo Territorial, Despoblación y Justicia"
+320,2024,02100,"Ingresos Desarr. Territorial, Despoblac.y Justicia","Ingresos Desarr. Territorial, Despoblac.y Justicia"
+321,2024,21000,"Ingresos Desarr. Territorial, Despoblac.y Justicia","Ingresos Desarr. Territorial, Despoblac.y Justicia"
+322,2024,02101,"S.G.T. Desarrollo Territor., Despoblac. y Justicia","S.G.T. Desarrollo Territor., Despoblac. y Justicia"
+323,2024,21010,"S.G.T. Desarrollo Territor., Despoblac. y Justicia","S.G.T. Desarrollo Territor., Despoblac. y Justicia"
+324,2024,02102,D.G. de Desarrollo Territorial,D.G. de Desarrollo Territorial
+325,2024,21020,D.G. de Desarrollo Territorial,D.G. de Desarrollo Territorial
+326,2024,02103,D.G. de Despoblación,D.G. de Despoblación
+327,2024,21030,D.G. de Despoblación,D.G. de Despoblación
+328,2024,02104,D.G. de Justicia,D.G. de Justicia
+329,2024,21040,D.G. de Justicia,D.G. de Justicia
+330,2024,02109,"Gastos Central. Desarrollo Territ., Despobl. y Jus","Gastos Central. Desarrollo Territ., Despobl. y Jus"
+331,2024,21099,"Gastos Central. Desarrollo Territ., Despobl. y Jus","Gastos Central. Desarrollo Territ., Despobl. y Jus"
+332,2024,00022,Medio Ambiente y Turismo,Medio Ambiente y Turismo
+333,2024,02200,Ingresos Medio Ambiente y Turismo,Ingresos Medio Ambiente y Turismo
+334,2024,22000,Ingresos Medio Ambiente y Turismo,Ingresos Medio Ambiente y Turismo
+335,2024,02201,SGT Medio Ambiente y Turismo,SGT Medio Ambiente y Turismo
+336,2024,22010,SGT Medio Ambiente y Turismo,SGT Medio Ambiente y Turismo
+337,2024,22011,MA-Sevicio Provincial de Huesca,MA-Sevicio Provincial de Huesca
+338,2024,22012,MA-Sevicio Provincial de Teruel,MA-Sevicio Provincial de Teruel
+339,2024,22013,MA-Sevicio Provincial de Zaragoza,MA-Sevicio Provincial de Zaragoza
+340,2024,02202,D.G. de Medio Natural,D.G. de Medio Natural
+341,2024,22020,D.G. de Medio Natural,D.G. de Medio Natural
+342,2024,02203,D.G. Gestión Forestal,D.G. Gestión Forestal
+343,2024,22030,D.G. Gestión Forestal,D.G. Gestión Forestal
+344,2024,02204,D.G. de Calidad Ambiental,D.G. de Calidad Ambiental
+345,2024,22040,D.G. de Calidad Ambiental,D.G. de Calidad Ambiental
+346,2024,02205,D.G. de Educación Ambiental,D.G. de Educación Ambiental
+347,2024,22050,D.G. de Educación Ambiental,D.G. de Educación Ambiental
+348,2024,02206,D.G. de Turismo y Hostelería,D.G. de Turismo y Hostelería
+349,2024,22060,D.G. de Turismo y Hostelería,D.G. de Turismo y Hostelería
+350,2024,02209,Gastos Central. Medio Ambiente y Turismo,Gastos Central. Medio Ambiente y Turismo
+351,2024,22099,Gastos Central. Medio Ambiente y Turismo,Gastos Central. Medio Ambiente y Turismo
+352,2024,00026,A las Administraciones Comarcales,A las Administraciones Comarcales
+353,2024,02600,"Ingresos de ""A las Adm. Comarcales""","Ingresos de ""A las Adm. Comarcales"""
+354,2024,26000,"Ingresos de ""A las Adm. Comarcales""","Ingresos de ""A las Adm. Comarcales"""
+355,2024,02601,Comarca de la Jacetania,Comarca de la Jacetania
+356,2024,26010,Comarca de la Jacetania,Comarca de la Jacetania
+357,2024,02602,Comarca del Alto Gállego,Comarca del Alto Gállego
+358,2024,26020,Comarca del Alto Gállego,Comarca del Alto Gállego
+359,2024,02603,Comarca de Sobrarbe,Comarca de Sobrarbe
+360,2024,26030,Comarca de Sobrarbe,Comarca de Sobrarbe
+361,2024,02604,Comarca de la Ribagorza,Comarca de la Ribagorza
+362,2024,26040,Comarca de la Ribagorza,Comarca de la Ribagorza
+363,2024,02605,Comarca de Cinco Villas,Comarca de Cinco Villas
+364,2024,26050,Comarca de Cinco Villas,Comarca de Cinco Villas
+365,2024,02606,Comarca Hoya de Huesca/ Plana de Uesca,Comarca Hoya de Huesca/ Plana de Uesca
+366,2024,26060,Comarca Hoya de Huesca/ Plana de Uesca,Comarca Hoya de Huesca/ Plana de Uesca
+367,2024,02607,Comarca de Somontano de Barbastro,Comarca de Somontano de Barbastro
+368,2024,26070,Comarca de Somontano de Barbastro,Comarca de Somontano de Barbastro
+369,2024,02608,Comarca de Cinca Medio,Comarca de Cinca Medio
+370,2024,26080,Comarca de Cinca Medio,Comarca de Cinca Medio
+371,2024,02609,Comarca de la Litera/ La Llitera,Comarca de la Litera/ La Llitera
+372,2024,26090,Comarca de la Litera/ La Llitera,Comarca de la Litera/ La Llitera
+373,2024,02610,Comarca de los Monegros,Comarca de los Monegros
+374,2024,26100,Comarca de los Monegros,Comarca de los Monegros
+375,2024,02611,Comarca del Bajo Cinca/ Baix Cinca,Comarca del Bajo Cinca/ Baix Cinca
+376,2024,26110,Comarca del Bajo Cinca/ Baix Cinca,Comarca del Bajo Cinca/ Baix Cinca
+377,2024,02612,Comarca de Tarazona y el Moncayo,Comarca de Tarazona y el Moncayo
+378,2024,26120,Comarca de Tarazona y el Moncayo,Comarca de Tarazona y el Moncayo
+379,2024,02613,Comarca de Campo de Borja,Comarca de Campo de Borja
+380,2024,26130,Comarca de Campo de Borja,Comarca de Campo de Borja
+381,2024,02614,Comarca del Aranda,Comarca del Aranda
+382,2024,26140,Comarca del Aranda,Comarca del Aranda
+383,2024,02615,Comarca de la Ribera Alta del Ebro,Comarca de la Ribera Alta del Ebro
+384,2024,26150,Comarca de la Ribera Alta del Ebro,Comarca de la Ribera Alta del Ebro
+385,2024,02616,Comarca de Valdejalón,Comarca de Valdejalón
+386,2024,26160,Comarca de Valdejalón,Comarca de Valdejalón
+387,2024,02617,Comarca Central,Comarca Central
+388,2024,26170,Comarca Central,Comarca Central
+389,2024,02618,Comarca de la Ribera Baja del Ebro,Comarca de la Ribera Baja del Ebro
+390,2024,26180,Comarca de la Ribera Baja del Ebro,Comarca de la Ribera Baja del Ebro
+391,2024,02619,Comarca Bajo Aragón-Caspe,Comarca Bajo Aragón-Caspe
+392,2024,26190,Comarca Bajo Aragón-Caspe,Comarca Bajo Aragón-Caspe
+393,2024,02620,Comarca de la Comunidad de Calatayud,Comarca de la Comunidad de Calatayud
+394,2024,26200,Comarca de la Comunidad de Calatayud,Comarca de la Comunidad de Calatayud
+395,2024,02621,Comarca de Campo de Cariñena,Comarca de Campo de Cariñena
+396,2024,26210,Comarca de Campo de Cariñena,Comarca de Campo de Cariñena
+397,2024,02622,Comarca de Campo de Belchite,Comarca de Campo de Belchite
+398,2024,26220,Comarca de Campo de Belchite,Comarca de Campo de Belchite
+399,2024,02623,Comarca del Bajo Martín,Comarca del Bajo Martín
+400,2024,26230,Comarca del Bajo Martín,Comarca del Bajo Martín
+401,2024,02624,Comarca de Campo de Daroca,Comarca de Campo de Daroca
+402,2024,26240,Comarca de Campo de Daroca,Comarca de Campo de Daroca
+403,2024,02625,Comarca del Jiloca,Comarca del Jiloca
+404,2024,26250,Comarca del Jiloca,Comarca del Jiloca
+405,2024,02626,Comarca de Cuencas Mineras,Comarca de Cuencas Mineras
+406,2024,26260,Comarca de Cuencas Mineras,Comarca de Cuencas Mineras
+407,2024,02627,Comarca de Andorra- Sierra de Arcos,Comarca de Andorra- Sierra de Arcos
+408,2024,26270,Comarca de Andorra- Sierra de Arcos,Comarca de Andorra- Sierra de Arcos
+409,2024,02628,Comarca del Bajo Aragón,Comarca del Bajo Aragón
+410,2024,26280,Comarca del Bajo Aragón,Comarca del Bajo Aragón
+411,2024,02629,Comarca de la Comunidad de Teruel,Comarca de la Comunidad de Teruel
+412,2024,26290,Comarca de la Comunidad de Teruel,Comarca de la Comunidad de Teruel
+413,2024,02630,Comarca de Maestrazgo,Comarca de Maestrazgo
+414,2024,26300,Comarca de Maestrazgo,Comarca de Maestrazgo
+415,2024,02631,Comarca de la Sierra de Albarracín,Comarca de la Sierra de Albarracín
+416,2024,26310,Comarca de la Sierra de Albarracín,Comarca de la Sierra de Albarracín
+417,2024,02632,Comarca de Gúdar- Javalambre,Comarca de Gúdar- Javalambre
+418,2024,26320,Comarca de Gúdar- Javalambre,Comarca de Gúdar- Javalambre
+419,2024,02633,Comarca del Matarraña/ Matarranya,Comarca del Matarraña/ Matarranya
+420,2024,26330,Comarca del Matarraña/ Matarranya,Comarca del Matarraña/ Matarranya
+421,2024,02634,Servicios Administraciones Comarcales,Servicios Administraciones Comarcales
+422,2024,26340,Servicios Administraciones Comarcales,Servicios Administraciones Comarcales
+423,2024,00030,Diversos Departamentos,Diversos Departamentos
+424,2024,03000,"Ingresos de ""Diversos Departamentos""","Ingresos de ""Diversos Departamentos"""
+425,2024,30000,"Ingresos de ""Diversos Departamentos""","Ingresos de ""Diversos Departamentos"""
+426,2024,03001,Fondo Contingencia Ejecución Presupuest.,Fondo Contingencia Ejecución Presupuest.
+427,2024,30010,Fondo Contingencia Ejecución Presupuest.,Fondo Contingencia Ejecución Presupuest.
+428,2024,03002,Fondo de Gastos de Personal,Fondo de Gastos de Personal
+429,2024,30020,Fondo de Gastos de Personal,Fondo de Gastos de Personal
+430,2024,03003,Deuda Pública,Deuda Pública
+431,2024,30030,Deuda Pública,Deuda Pública
+432,2024,03004,Empresas Públicas y participadas,Empresas Públicas y participadas
+433,2024,30040,Empresas Públicas y participadas,Empresas Públicas y participadas
+434,2024,03005,Promoción y Desarrollo Industrial,Promoción y Desarrollo Industrial
+435,2024,30050,Promoción y Desarrollo Industrial,Promoción y Desarrollo Industrial
+436,2024,03006,Fondo Inclusión Social y Ay. Familiar Ur,Fondo Inclusión Social y Ay. Familiar Ur
+437,2024,30060,Fondo Inclusión Social y Ay. Familiar Ur,Fondo Inclusión Social y Ay. Familiar Ur
+438,2024,03007,Relaciones Laborales,Relaciones Laborales
+439,2024,30070,Relaciones Laborales,Relaciones Laborales
+440,2024,03008,No operativa,No operativa
+441,2024,30080,No operativa,No operativa
+442,2024,03009,Contratación Centralizada y Servicios Interdeparta,Contratación Centralizada y Servicios Interdeparta
+443,2024,30099,Contratación Centralizada y Servicios Interdeparta,Contratación Centralizada y Servicios Interdeparta
+444,2024,03011,REACT-UE,REACT-UE
+445,2024,30110,REACT-UE,REACT-UE
+446,2024,03013,Gastos Diversos,Gastos Diversos
+447,2024,30130,Gastos Diversos,Gastos Diversos
+448,2024,00051,Instituto Aragonés de Empleo,Instituto Aragonés de Empleo
+449,2024,05100,Ingresos del Inst. Aragonés de Empleo,Ingresos del Inst. Aragonés de Empleo
+450,2024,51000,Ingresos del Inst. Aragonés de Empleo,Ingresos del Inst. Aragonés de Empleo
+451,2024,05101,Instituto Aragonés de Empleo,Instituto Aragonés de Empleo
+452,2024,51010,Instituto Aragonés de Empleo,Instituto Aragonés de Empleo
+453,2024,51011,INAEM - Servicio Provincial de Huesca,INAEM - Servicio Provincial de Huesca
+454,2024,51012,INAEM - Servicio Provincial de Teruel,INAEM - Servicio Provincial de Teruel
+455,2024,51013,INAEM - Servicio Provincial de Zaragoza,INAEM - Servicio Provincial de Zaragoza
+456,2024,51014,INAEM - Servicio de Formación,INAEM - Servicio de Formación
+457,2024,51015,INAEM - Servicio de Intermediación,INAEM - Servicio de Intermediación
+458,2024,51016,INAEM - Servicio de Promoción de Empleo,INAEM - Servicio de Promoción de Empleo
+459,2024,00052,Servicio Aragonés de Salud,Servicio Aragonés de Salud
+460,2024,05200,Ingresos del Servicio Aragonés de Salud,Ingresos del Servicio Aragonés de Salud
+461,2024,52000,Ingresos del Servicio Aragonés de Salud,Ingresos del Servicio Aragonés de Salud
+462,2024,05201,Servicio Aragonés de Salud,Servicio Aragonés de Salud
+463,2024,52010,Servicio Aragonés de Salud,Servicio Aragonés de Salud
+464,2024,05205,Ctro. Gestión Integrada Proyectos Corp.,Ctro. Gestión Integrada Proyectos Corp.
+465,2024,52050,Ctro. Gestión Integrada Proyectos Corp.,Ctro. Gestión Integrada Proyectos Corp.
+466,2024,05206,Gerencia 061 Aragon,Gerencia 061 Aragon
+467,2024,52061,Gerencia 061 Aragon,Gerencia 061 Aragon
+468,2024,05209,Liquidación CASAR,
+469,2024,52090,Liquidación CASAR,Liquidación CASAR
+470,2024,052AL,Gerencia Sector Alcañiz,Gerencia Sector Alcañiz
+471,2024,52AL1,Gerencia Sector Alcañiz,Gerencia Sector Alcañiz
+472,2024,52AL2,Hospital de  Alcañiz,Hospital de  Alcañiz
+473,2024,52AL3,Atención Primaria Sector Alcañiz,Atención Primaria Sector Alcañiz
+474,2024,052BA,Gerencia Sector Barbastro,Gerencia Sector Barbastro
+475,2024,52BA1,Gerencia Sector Barbastro,Gerencia Sector Barbastro
+476,2024,52BA2,Hospital Barbastro,Hospital Barbastro
+477,2024,52BA3,Centro Sociosanitario de Fraga,Centro Sociosanitario de Fraga
+478,2024,52BA4,Atención Primaria Sector Barbastro,Atención Primaria Sector Barbastro
+479,2024,052CA,Gerencia Sector Calatayud,Gerencia Sector Calatayud
+480,2024,52CA1,Gerencia Sector Calatayud,Gerencia Sector Calatayud
+481,2024,52CA2,Hospital Ernest Lluch Martin,Hospital Ernest Lluch Martin
+482,2024,52CA3,Atención Primaria Sector Calatayud,Atención Primaria Sector Calatayud
+483,2024,052HU,Gerencia Sector Huesca,Gerencia Sector Huesca
+484,2024,52HU1,Gerencia Sector Huesca,Gerencia Sector Huesca
+485,2024,52HU2,Hospital San Jorge de Huesca,Hospital San Jorge de Huesca
+486,2024,52HU3,Hospital Sagrado Corazón de Jesús,Hospital Sagrado Corazón de Jesús
+487,2024,52HU4,C.R.P. Santo Cristo de los Milagros,C.R.P. Santo Cristo de los Milagros
+488,2024,52HU5,Atención Primaria Sector Huesca,Atención Primaria Sector Huesca
+489,2024,052TE,Gerencia Sector Teruel,Gerencia Sector Teruel
+490,2024,52TE1,Gerencia Sector Teruel,Gerencia Sector Teruel
+491,2024,52TE2,Hospital Obispo Polanco Teruel,Hospital Obispo Polanco Teruel
+492,2024,52TE3,Hospital San José,Hospital San José
+493,2024,52TE4,C.R.P. San Juan de Dios,C.R.P. San Juan de Dios
+494,2024,52TE5,Atención Primaria Sector Teruel,Atención Primaria Sector Teruel
+495,2024,052Z1,Gerencia Sector Zaragoza I,Gerencia Sector Zaragoza I
+496,2024,52Z11,Gerencia Sector Zaragoza I,Gerencia Sector Zaragoza I
+497,2024,52Z12,Hospital Royo Villanova,Hospital Royo Villanova
+498,2024,52Z13,Hospital Nuestra Señora de Gracia,Hospital Nuestra Señora de Gracia
+499,2024,52Z14,Atención Primaria Sector Zaragoza I,Atención Primaria Sector Zaragoza I
+500,2024,052Z2,Gerencia Sector Zaragoza II,Gerencia Sector Zaragoza II
+501,2024,52Z21,Gerencia Sector Zaragoza II,Gerencia Sector Zaragoza II
+502,2024,52Z22,Hospital Universitario Miguel Servet,Hospital Universitario Miguel Servet
+503,2024,52Z23,Atención Primaria Sector Zaragoza II,Atención Primaria Sector Zaragoza II
+504,2024,052Z3,Gerencia Sector Zaragoza III,Gerencia Sector Zaragoza III
+505,2024,52Z31,Gerencia Sector Zaragoza III,Gerencia Sector Zaragoza III
+506,2024,52Z32,Hospital Clínico Universitario Lozano Bl,Hospital Clínico Universitario Lozano Bl
+507,2024,52Z33,H.Geriático San Jorge de Zaragoza,H.Geriático San Jorge de Zaragoza
+508,2024,52Z34,C.R.P. Nuestra Señora del Pilar,C.R.P. Nuestra Señora del Pilar
+509,2024,52Z35,Atención Primaria Sector Zaragoza III,Atención Primaria Sector Zaragoza III
+510,2024,00053,Instituto Aragonés de Servicios Sociales,Instituto Aragonés de Servicios Sociales
+511,2024,05300,Ingresos Inst. Aragonés Serv. Sociales,Ingresos Inst. Aragonés Serv. Sociales
+512,2024,53000,Ingresos Inst. Aragonés Serv. Sociales,Ingresos Inst. Aragonés Serv. Sociales
+513,2024,05301,Instituto Aragonés de Servicios Sociales,Instituto Aragonés de Servicios Sociales
+514,2024,53010,Instituto Aragonés de Servicios Sociales,Instituto Aragonés de Servicios Sociales
+515,2024,53AAA,Acción concertada Plazas Mayores Huesca,Acción concertada Plazas Mayores Huesca
+516,2024,53AAB,Acción concertada Plazas Mayores Teruel,Acción concertada Plazas Mayores Teruel
+517,2024,53AAC,Acción concertada Plazas Mayores Zaragoz,Acción concertada Plazas Mayores Zaragoz
+518,2024,053AB,Residencias,Residencias
+519,2024,53ABA,Residencia de Mayores Ciudad de Huesca,Residencia de Mayores Ciudad de Huesca
+520,2024,53ABB,"Res.Mayores ""Sagrada Familia""-Huesca","Res.Mayores ""Sagrada Familia""-Huesca"
+521,2024,53ABC,"Res.Mayores ""San Blas""-Huesca","Res.Mayores ""San Blas""-Huesca"
+522,2024,53ABD,"Res.Mayores ""Turia""-Teruel","Res.Mayores ""Turia""-Teruel"
+523,2024,53ABE,Residencia de Utrillas,Residencia de Utrillas
+524,2024,53ABF,"Residencia de ""Mayores Ciudad de Albarra","Residencia de ""Mayores Ciudad de Albarra"
+525,2024,53ABG,"Res. de Mayores ""Javalambre"" Teruel","Res. de Mayores ""Javalambre"" Teruel"
+526,2024,53ABH,Res. de Mayores  de Movera,Res. de Mayores  de Movera
+527,2024,53ABI,Res. de Mayores  de Borja,Res. de Mayores  de Borja
+528,2024,53ABJ,"Res. Mayores ""Romareda"" Zaragoza","Res. Mayores ""Romareda"" Zaragoza"
+529,2024,53ABK,Res. de Mayores de Alagon,Res. de Mayores de Alagon
+530,2024,53ABL,"Res. de Mayores ""Las Fuentes"" Zaragoza","Res. de Mayores ""Las Fuentes"" Zaragoza"
+531,2024,53ABM,Centro Asistencial de Calatayud,Centro Asistencial de Calatayud
+532,2024,53ABN,"Centro Asistencial ""Hogar Doz"" Tarazona","Centro Asistencial ""Hogar Doz"" Tarazona"
+533,2024,53ABO,Res. Mayores Actur de Zaragoza,Res. Mayores Actur de Zaragoza
+534,2024,53ABP,"Res. Mayores ""Oliver"" Zaragoza","Res. Mayores ""Oliver"" Zaragoza"
+535,2024,53ABQ,"Res. Mayores ""Elías Martinez"" Zaragoza","Res. Mayores ""Elías Martinez"" Zaragoza"
+536,2024,53ABR,Res. de Mayores de Utebo,Res. de Mayores de Utebo
+537,2024,53ABS,"Res. de Mayores ""Delicias"" - Zaragoza","Res. de Mayores ""Delicias"" - Zaragoza"
+538,2024,53ABT,Residencia Personas Mayores Ateca,Residencia Personas Mayores Ateca
+539,2024,53ACA,"Centro Día en Res. ""Ciudad de Huesca""","Centro Día en Res. ""Ciudad de Huesca"""
+540,2024,53ACB,"Centro Dia Res. ""Sagr.Familia"" Huesca","Centro Dia Res. ""Sagr.Familia"" Huesca"
+541,2024,53ACC,Centro de Dia de Fraga,Centro de Dia de Fraga
+542,2024,53ACD,"Centro Dia en Res.""Romareda"" Zaragoza","Centro Dia en Res.""Romareda"" Zaragoza"
+543,2024,53ACE,"Centro Dia Res ""Las Fuentes"" Zaragoza","Centro Dia Res ""Las Fuentes"" Zaragoza"
+544,2024,53ACF,Centro de Dia de Calatayud,Centro de Dia de Calatayud
+545,2024,53ACG,Hogar 3ª Edad de Ejea de los Caballeros,Hogar 3ª Edad de Ejea de los Caballeros
+546,2024,53ACH,Centro de Día Barrio San José Zaragoza,Centro de Día Barrio San José Zaragoza
+547,2024,53ACI,"Centro de Dia ""San Blas"" Zaragoza","Centro de Dia ""San Blas"" Zaragoza"
+548,2024,53ACJ,"Centro de Dia ""Delicias"" de Zaragoza","Centro de Dia ""Delicias"" de Zaragoza"
+549,2024,53ACK,"Centro de Dia ""Picarral"" de Zaragoza","Centro de Dia ""Picarral"" de Zaragoza"
+550,2024,53ACL,Centro de Dia Valdefierro Zaragoza,Centro de Dia Valdefierro Zaragoza
+551,2024,53ACM,"C. Día y Usos Cultur. Casa Aísa, Huesca","C. Día y Usos Cultur. Casa Aísa, Huesca"
+552,2024,53ACN,"C. Día y Usos Cultur. Casa Aísa, Huesca","C. Día y Usos Cultur. Casa Aísa, Huesca"
+553,2024,53ACO,"Centro de Día ""San León"" - Teruel","Centro de Día ""San León"" - Teruel"
+554,2024,053AD,IASS - Centro Mayores (Hogares),IASS - Centro Mayores (Hogares)
+555,2024,53ADA,Hogar de Barbastro,Hogar de Barbastro
+556,2024,53ADB,Hogar de Binefar,Hogar de Binefar
+557,2024,53ADC,Hogar de Huesca,Hogar de Huesca
+558,2024,53ADD,Hogar de Jaca,Hogar de Jaca
+559,2024,53ADE,Hogar de  Monzón,Hogar de  Monzón
+560,2024,53ADF,Hogar de Sabiñánigo,Hogar de Sabiñánigo
+561,2024,53ADG,"Hogar en Res. Mayores ""Turia"" Teruel","Hogar en Res. Mayores ""Turia"" Teruel"
+562,2024,53ADH,Hogar en Res. Mayores Utrillas,Hogar en Res. Mayores Utrillas
+563,2024,53ADI,Hogar de Alcañiz,Hogar de Alcañiz
+564,2024,53ADJ,Hogar de Andorra,Hogar de Andorra
+565,2024,53ADK,Hogar de Calamocha,Hogar de Calamocha
+566,2024,53ADL,Hogar de Calanda,Hogar de Calanda
+567,2024,53ADM,Hogar de Ojos Negros,Hogar de Ojos Negros
+568,2024,53ADN,Hogar Torrecilla de Alcañiz,Hogar Torrecilla de Alcañiz
+569,2024,53ADO,"Hogar ""Balsas de Ebro Viejo"" Zaragoza","Hogar ""Balsas de Ebro Viejo"" Zaragoza"
+570,2024,53ADP,"Hogar ""Boterón"" de Zaragoza","Hogar ""Boterón"" de Zaragoza"
+571,2024,53ADQ,Club de Casetas,Club de Casetas
+572,2024,53ADR,"Club ""Cervantes"" de Gallur","Club ""Cervantes"" de Gallur"
+573,2024,53ADS,Hogar de Illueca,Hogar de Illueca
+574,2024,53ADT,Hogar Las Fuentes-Zaragoza,Hogar Las Fuentes-Zaragoza
+575,2024,53ADU,"Hogar ""Roger de Flor"" de Zaragoza","Hogar ""Roger de Flor"" de Zaragoza"
+576,2024,53ADV,Hogar de la Tercera Edad Moncayo,Hogar de la Tercera Edad Moncayo
+577,2024,53ADW,Hogar de Mayores Valdefierro - Zaragoza,Hogar de Mayores Valdefierro - Zaragoza
+578,2024,53ADX,Comedor Personas Mayores San Blas de Fonz (Huesca),Comedor Personas Mayores San Blas de Fonz (Huesca)
+579,2024,53AFA,Aulas de Tercera Edad,Aulas de Tercera Edad
+580,2024,53AHA,Gastos Varios de Mayores de Huesca,Gastos Varios de Mayores de Huesca
+581,2024,53AHB,Gastos Varios de Mayores de Teruel,Gastos Varios de Mayores de Teruel
+582,2024,53AHC,Gastos Varios de Mayores de Zaragoza,Gastos Varios de Mayores de Zaragoza
+583,2024,53AHD,Gastos Varios de Mayores en Gerencia,Gastos Varios de Mayores en Gerencia
+584,2024,53AIA,Convenios y Subv. de Mayores Huesca,Convenios y Subv. de Mayores Huesca
+585,2024,53AIB,Convenios y Subv. de Mayores de Teruel,Convenios y Subv. de Mayores de Teruel
+586,2024,53AIC,Convenios y Subv. de Mayores de Zaragoza,Convenios y Subv. de Mayores de Zaragoza
+587,2024,53AID,Convenios y Subv. de Mayores de Gerencia,Convenios y Subv. de Mayores de Gerencia
+588,2024,53AJA,Prestaciones de Mayores de Huesca,Prestaciones de Mayores de Huesca
+589,2024,53AJB,Prestaciones de Mayores de Teruel,Prestaciones de Mayores de Teruel
+590,2024,53AJC,Prestaciones de Mayores de Zaragoza,Prestaciones de Mayores de Zaragoza
+591,2024,53AJD,Ayudas Alimenticias,Ayudas Alimenticias
+592,2024,53AJE,Prestaciones Extraordinarias,Prestaciones Extraordinarias
+593,2024,53AJF,Prestaciones Plan Dependencia - Huesca,Prestaciones Plan Dependencia - Huesca
+594,2024,53AJG,Prestaciones Plan Dependencia - Teruel,Prestaciones Plan Dependencia - Teruel
+595,2024,53AJH,Prestaciones Plan Dependencia - Zaragoza,Prestaciones Plan Dependencia - Zaragoza
+596,2024,53BAA,Acción Concertada Discapacitados Huesca,Acción Concertada Discapacitados Huesca
+597,2024,53BAB,Acción Concertada Discapacitados Teruel,Acción Concertada Discapacitados Teruel
+598,2024,53BAC,Ac.Concertada Dispacitados Zaragoza,Ac.Concertada Dispacitados Zaragoza
+599,2024,53BAD,Ac.Concertada Transf.Dip.Prov. de Zarago,Ac.Concertada Transf.Dip.Prov. de Zarago
+600,2024,53BAE,Acción Concertada Tutelados en Huesca,Acción Concertada Tutelados en Huesca
+601,2024,53BAF,Acción Concertada Tutelados en Teruel,Acción Concertada Tutelados en Teruel
+602,2024,53BAG,Acción Concertada Tutelados en Zaragoza,Acción Concertada Tutelados en Zaragoza
+603,2024,53BAH,Acción Concertada Tutelados en Gerencia,Acción Concertada Tutelados en Gerencia
+604,2024,053BB,Centro Asistencial,Centro Asistencial
+605,2024,53BBA,"Centro Asistencial ""El Pinar""  de Teruel","Centro Asistencial ""El Pinar""  de Teruel"
+606,2024,53BBB,Centro Atención Minus.Psíquicos de Zarag,Centro Atención Minus.Psíquicos de Zarag
+607,2024,53BBC,Centro Dependientes Cesaraugusta Zaragoz,Centro Dependientes Cesaraugusta Zaragoz
+608,2024,53BBD,ESPACIO ARIADNA,ESPACIO ARIADNA
+609,2024,53BEA,Centro Base Huesca,Centro Base Huesca
+610,2024,53BEB,Centro Base Teruel,Centro Base Teruel
+611,2024,53BEC,Centro Base I de Zaragoza,Centro Base I de Zaragoza
+612,2024,53BED,Centro Base II de Zaragoza,Centro Base II de Zaragoza
+613,2024,53BHA,Gastos Varios Dispacitados Huesca,Gastos Varios Dispacitados Huesca
+614,2024,53BHB,Gastos Varios Dispacitados Teruel,Gastos Varios Dispacitados Teruel
+615,2024,53BHC,Gastos Varios Dispacitados Zaragoza,Gastos Varios Dispacitados Zaragoza
+616,2024,53BHD,Gastos Varios Dispacitados Gerencia,Gastos Varios Dispacitados Gerencia
+617,2024,53BHE,Gastos Varios Tutelados en Huesca,Gastos Varios Tutelados en Huesca
+618,2024,53BHF,Gastos Varios Tutelados en Teruel,Gastos Varios Tutelados en Teruel
+619,2024,53BHG,Gastos Varios Tutelados en Zaragoza,Gastos Varios Tutelados en Zaragoza
+620,2024,53BHH,Gastos Varios Tutelados en Gerencia,Gastos Varios Tutelados en Gerencia
+621,2024,53BIA,Convenios y Subv. Discapacitados Huesca,Convenios y Subv. Discapacitados Huesca
+622,2024,53BIB,Convenios y Subv. Discapacitados Teruel,Convenios y Subv. Discapacitados Teruel
+623,2024,53BIC,Convenios y Subv. Discapacitados Zaragoz,Convenios y Subv. Discapacitados Zaragoz
+624,2024,53BID,Convenios y Subv. Discapacitados Gerenci,Convenios y Subv. Discapacitados Gerenci
+625,2024,53BIE,Convenios y Subv. de Tutelados en Huesca,Convenios y Subv. de Tutelados en Huesca
+626,2024,53BIF,Convenios y Subv. de Tutelados en Teruel,Convenios y Subv. de Tutelados en Teruel
+627,2024,53BIG,Convenios y Subv. de Tutelados en Zarago,Convenios y Subv. de Tutelados en Zarago
+628,2024,53BIH,Convenios y Subv. de Tutelados en Gerenc,Convenios y Subv. de Tutelados en Gerenc
+629,2024,53BJA,Prestaciones Dispacitados de Huesca,Prestaciones Dispacitados de Huesca
+630,2024,53BJB,Prestaciones Dispacitados de Teruel,Prestaciones Dispacitados de Teruel
+631,2024,53BJC,Prestaciones Dispacitados de Zaragoza,Prestaciones Dispacitados de Zaragoza
+632,2024,53CAA,Acción Concertada Plazas Menores Huesca,Acción Concertada Plazas Menores Huesca
+633,2024,53CAB,Acción Concertada Plazas Menores Teruel,Acción Concertada Plazas Menores Teruel
+634,2024,53CAC,Acción Concertada Plazas Menores Zaragoz,Acción Concertada Plazas Menores Zaragoz
+635,2024,53CAD,Acción Concertada Plazas Menores Gerenci,Acción Concertada Plazas Menores Gerenci
+636,2024,053CB,Menores- Centros Propios,Menores- Centros Propios
+637,2024,53CBA,Vivienda Tutelada de Huesca,Vivienda Tutelada de Huesca
+638,2024,53CBB,Vivienda Tutelada de Teruel,Vivienda Tutelada de Teruel
+639,2024,53CBC,"COA ""Juan Lanuza I"" de Zaragoza","COA ""Juan Lanuza I"" de Zaragoza"
+640,2024,53CBD,"Res. Menores  ""Cesaraugusta"" de Zaragoza","Res. Menores  ""Cesaraugusta"" de Zaragoza"
+641,2024,53CBE,"Res. Menores  ""Infanta Isabel"" de Zarago","Res. Menores  ""Infanta Isabel"" de Zarago"
+642,2024,53CBF,"C.O.A. ""Juan Lanuza II"" de Zaragoza","C.O.A. ""Juan Lanuza II"" de Zaragoza"
+643,2024,53CBG,"Res. de Menores ""Salduba"" de Zaragoza","Res. de Menores ""Salduba"" de Zaragoza"
+644,2024,53CBH,Piso Prep. Adop. Medina Albaida Zaragoza,Piso Prep. Adop. Medina Albaida Zaragoza
+645,2024,53CBI,"C.E.I. ""San Jorge"" de Zaragoza","C.E.I. ""San Jorge"" de Zaragoza"
+646,2024,53CBJ,Centro Internamiento Menores  Juslibol,Centro Internamiento Menores  Juslibol
+647,2024,53CBK,"Res. Menores ""Villacampa"" de Zaragoza","Res. Menores ""Villacampa"" de Zaragoza"
+648,2024,53CBL,"Vivienda Hogar  ""L. Loste"" de Huesca","Vivienda Hogar  ""L. Loste"" de Huesca"
+649,2024,53CBM,Piso de Emancipación - Teruel,Piso de Emancipación - Teruel
+650,2024,53CBN,Escuelas Taller - Talleres de Empleo,Escuelas Taller - Talleres de Empleo
+651,2024,53CBO,Casa de Acogida III,Casa de Acogida III
+652,2024,53CBP,Casa de Acogida IV,Casa de Acogida IV
+653,2024,53CBQ,Piso Tutelado Menores - Teruel,Piso Tutelado Menores - Teruel
+654,2024,53CBR,Hogar Infantil Casco Histórico Zaragoza,Hogar Infantil Casco Histórico Zaragoza
+655,2024,53CBS,Hogar Infantil Romareda Zaragoza,Hogar Infantil Romareda Zaragoza
+656,2024,53CBT,Piso Tutelado de Menores Centro Zaragoza,Piso Tutelado de Menores Centro Zaragoza
+657,2024,53CBU,Piso Tutelado de Menores Actur Zaragoza,Piso Tutelado de Menores Actur Zaragoza
+658,2024,53CBV,Piso Tutelado de Menores Picarral Zaragoza,Piso Tutelado de Menores Picarral Zaragoza
+659,2024,53CGA,Supervia/Lagasca de Zaragoza,Supervia/Lagasca de Zaragoza
+660,2024,53CHA,Gastos Varios  de Menores de Huesca,Gastos Varios  de Menores de Huesca
+661,2024,53CHB,Gastos Varios  de Menores de Teruel,Gastos Varios  de Menores de Teruel
+662,2024,53CHC,Gastos Varios  de Menores de Zaragoza,Gastos Varios  de Menores de Zaragoza
+663,2024,53CHD,Gastos Varios  de Menores de Gerencia,Gastos Varios  de Menores de Gerencia
+664,2024,53CIA,Convenios y Subv. Menores de Huesca,Convenios y Subv. Menores de Huesca
+665,2024,53CIB,Convenios y Subv. Menores de Teruel,Convenios y Subv. Menores de Teruel
+666,2024,53CIC,Convenios y Subv. Menores de Zaragoza,Convenios y Subv. Menores de Zaragoza
+667,2024,53CID,Convenios y Subv. Menores de Gerencia,Convenios y Subv. Menores de Gerencia
+668,2024,53CJA,Acogimientos  Remunerados de Huesca,Acogimientos  Remunerados de Huesca
+669,2024,53CJB,Acogimientos  Remunerados de Teruel,Acogimientos  Remunerados de Teruel
+670,2024,53CJC,Acogimientos  Remunerados de Zaragoza,Acogimientos  Remunerados de Zaragoza
+671,2024,53CJD,Acogimientos  Remunerados de Gerencia,Acogimientos  Remunerados de Gerencia
+672,2024,53CJE,Prestaciones  Menores de Huesca,Prestaciones  Menores de Huesca
+673,2024,53CJF,Prestaciones  de Menores de Teruel,Prestaciones  de Menores de Teruel
+674,2024,53CJG,Prestaciones  Menores de Zaragoza,Prestaciones  Menores de Zaragoza
+675,2024,53CJH,Ayudas  Urgentes Menores D.88/98  Huesca,Ayudas  Urgentes Menores D.88/98  Huesca
+676,2024,53CJI,Ayudas  Urgentes Menores D.88/98  Teruel,Ayudas  Urgentes Menores D.88/98  Teruel
+677,2024,53CJJ,Ayudas  Urgentes Menores D.88/98  Zarago,Ayudas  Urgentes Menores D.88/98  Zarago
+678,2024,53DAA,Acción Concertada Plz. Inserción Huesca,Acción Concertada Plz. Inserción Huesca
+679,2024,53DHA,Gastos Varios inserción en Gerencia,Gastos Varios inserción en Gerencia
+680,2024,53DIA,Convenios y  Subv. de Inserción Huesca,Convenios y  Subv. de Inserción Huesca
+681,2024,53DIB,Convenios y  Subv. Inserción Teruel,Convenios y  Subv. Inserción Teruel
+682,2024,53DIC,Convenios y  Subv. de Inserción Zaragoza,Convenios y  Subv. de Inserción Zaragoza
+683,2024,53DID,Convenios y  Subv. de Inserción Gerencia,Convenios y  Subv. de Inserción Gerencia
+684,2024,53DIE,Conv.  y  Subv. Programas varios Huesca,Conv.  y  Subv. Programas varios Huesca
+685,2024,53DIF,Con. y Subv. Programas Varios en Teruel,Con. y Subv. Programas Varios en Teruel
+686,2024,53DIG,Conv.  y  Subv. Programas varios Zaragoz,Conv.  y  Subv. Programas varios Zaragoz
+687,2024,53DIH,Conv.  y  Subv. Programas varios Gerenci,Conv.  y  Subv. Programas varios Gerenci
+688,2024,53DJA,Ayudas de Urgencia en  Zaragoza,Ayudas de Urgencia en  Zaragoza
+689,2024,53DJB,Prestaciones de Insercción en  Huesca,Prestaciones de Insercción en  Huesca
+690,2024,53DJC,Prestaciones de Insercción en Teruel,Prestaciones de Insercción en Teruel
+691,2024,53DJD,Prestaciones de Insercción en Zaragoza,Prestaciones de Insercción en Zaragoza
+692,2024,53EIA,Serv. Sociales Entidades Locales Huesca,Serv. Sociales Entidades Locales Huesca
+693,2024,53EIB,Serv. Sociales Entidades Locales Teruel,Serv. Sociales Entidades Locales Teruel
+694,2024,53EIC,Serv. Sociales Entidades Locales Zaragoz,Serv. Sociales Entidades Locales Zaragoz
+695,2024,53EID,Serv. Sociales Entidades Locales Gerenci,Serv. Sociales Entidades Locales Gerenci
+696,2024,53EIE,Servicios Sociales Base  Area deZaragoza,Servicios Sociales Base  Area deZaragoza
+697,2024,53FBA,"Residencia  ""Padre Polanco"" Orihuela Tre","Residencia  ""Padre Polanco"" Orihuela Tre"
+698,2024,53GGA,Dirección Provincial de  Huesca,Dirección Provincial de  Huesca
+699,2024,53GGB,Dirección Provincial  de Teruel,Dirección Provincial  de Teruel
+700,2024,53GGC,Dirección Provincial  de Zaragoza,Dirección Provincial  de Zaragoza
+701,2024,53GGD,Gerencia de IASS,Gerencia de IASS
+702,2024,00054,Instituto Aragonés de la Mujer,Instituto Aragonés de la Mujer
+703,2024,05400,Ingresos del Inst. Aragonés de la Mujer,Ingresos del Inst. Aragonés de la Mujer
+704,2024,54000,Ingresos del Inst. Aragonés de la Mujer,Ingresos del Inst. Aragonés de la Mujer
+705,2024,05401,Instituto Aragonés de la Mujer,Instituto Aragonés de la Mujer
+706,2024,54010,Instituto Aragonés de la Mujer,Instituto Aragonés de la Mujer
+707,2024,00055,Instituto Aragonés de la Juventud,Instituto Aragonés de la Juventud
+708,2024,05500,Ingresos del Inst. Arag. de la Juventud,Ingresos del Inst. Arag. de la Juventud
+709,2024,55000,Ingresos del Inst. Arag. de la Juventud,Ingresos del Inst. Arag. de la Juventud
+710,2024,05501,Instituto Aragonés de la Juventud,Instituto Aragonés de la Juventud
+711,2024,55010,Instituto Aragonés de la Juventud,Instituto Aragonés de la Juventud
+712,2024,00056,Inst.Arag.Enseñanzas Artíst.Superiores,Inst.Arag.Enseñanzas Artíst.Superiores
+713,2024,05600,Ingresos Inst. Ar. Enseñanzas Artíst.Sup,Ingresos Inst. Ar. Enseñanzas Artíst.Sup
+714,2024,56000,Ingresos Inst. Ar. Enseñanzas Artíst.Sup,Ingresos Inst. Ar. Enseñanzas Artíst.Sup
+715,2024,05601,Inst.Arag.Enseñanzas Artíst.Superiores,Inst.Arag.Enseñanzas Artíst.Superiores
+716,2024,56010,Inst.Arag.Enseñanzas Artíst.Superiores,Inst.Arag.Enseñanzas Artíst.Superiores
+717,2024,00071,E.P. Aragonesa de Servicios Telemáticos,E.P. Aragonesa de Servicios Telemáticos
+718,2024,07100,Ingresos Aragonesa Servicios Telemáticos,Ingresos Aragonesa Servicios Telemáticos
+719,2024,71000,Ingresos Aragonesa Servicios Telemáticos,Ingresos Aragonesa Servicios Telemáticos
+720,2024,07101,E.P. Aragonesa de Servicios Telemáticos,E.P. Aragonesa de Servicios Telemáticos
+721,2024,71010,E.P. Aragonesa de Servicios Telemáticos,E.P. Aragonesa de Servicios Telemáticos
+722,2024,7101A,AST - TELECOMUNICACIONES,AST - TELECOMUNICACIONES
+723,2024,00072,Instituto Aragonés del Agua,Instituto Aragonés del Agua
+724,2024,07200,Ingresos del Instituto Aragonés del Agua,Ingresos del Instituto Aragonés del Agua
+725,2024,72000,Ingresos del Instituto Aragonés del Agua,Ingresos del Instituto Aragonés del Agua
+726,2024,07201,Instituto Aragonés del Agua,Instituto Aragonés del Agua
+727,2024,72010,Instituto Aragonés del Agua,Instituto Aragonés del Agua
+728,2024,00073,Instituto Aragonés Ciencias de la Salud,Instituto Aragonés Ciencias de la Salud
+729,2024,07300,Ingresos Inst. Aragonés Ciencias Salud,Ingresos Inst. Aragonés Ciencias Salud
+730,2024,73000,Ingresos Inst. Aragonés Ciencias Salud,Ingresos Inst. Aragonés Ciencias Salud
+731,2024,07301,Instituto Aragonés Ciencias de la Salud,Instituto Aragonés Ciencias de la Salud
+732,2024,73010,Instituto Aragonés Ciencias de la Salud,Instituto Aragonés Ciencias de la Salud
+733,2024,00074,Centro Investigación y Tecnol. Agroalim.,Centro Investigación y Tecnol. Agroalim.
+734,2024,07400,Ingresos Centro Invest. y Tecn. Agroalim,Ingresos Centro Invest. y Tecn. Agroalim
+735,2024,74000,Ingresos Centro Invest. y Tecn. Agroalim,Ingresos Centro Invest. y Tecn. Agroalim
+736,2024,07401,Centro Investigación y Tecnol. Agroalim.,Centro Investigación y Tecnol. Agroalim.
+737,2024,74010,Centro Investigación y Tecnol. Agroalim.,Centro Investigación y Tecnol. Agroalim.
+738,2024,00075,Instituto Aragonés de Gestión Ambiental,Instituto Aragonés de Gestión Ambiental
+739,2024,07500,Ingresos Inst. Arag. Gestión Ambiental,Ingresos Inst. Arag. Gestión Ambiental
+740,2024,75000,Ingresos Inst. Arag. Gestión Ambiental,Ingresos Inst. Arag. Gestión Ambiental
+741,2024,07501,Instituto Aragonés de Gestión Ambiental,Instituto Aragonés de Gestión Ambiental
+742,2024,75010,Instituto Aragonés de Gestión Ambiental,Instituto Aragonés de Gestión Ambiental
+743,2024,00076,E.P. Aragonesa Banco de Sangre y Tejidos,E.P. Aragonesa Banco de Sangre y Tejidos
+744,2024,07600,Ingresos E.P. Banco de Sangre y Tejidos,Ingresos E.P. Banco de Sangre y Tejidos
+745,2024,76000,Ingresos E.P. Banco de Sangre y Tejidos,Ingresos E.P. Banco de Sangre y Tejidos
+746,2024,07601,E.P. Aragonesa Banco de Sangre y Tejidos,E.P. Aragonesa Banco de Sangre y Tejidos
+747,2024,76010,E.P. Aragonesa Banco de Sangre y Tejidos,E.P. Aragonesa Banco de Sangre y Tejidos
+748,2024,00077,Agencia de Calidad y Prospectiva Univers,Agencia de Calidad y Prospectiva Univers
+749,2024,07700,Ingresos Ag. Calidad y Prosp. Univ.,Ingresos Ag. Calidad y Prosp. Univ.
+750,2024,77000,Ingresos Ag. Calidad y Prosp. Univ.,Ingresos Ag. Calidad y Prosp. Univ.
+751,2024,07701,Agencia de Calidad y Prospectiva Univers,Agencia de Calidad y Prospectiva Univers
+752,2024,77010,Agencia de Calidad y Prospectiva Univers,Agencia de Calidad y Prospectiva Univers
+753,2024,00078,Instituto Aragonés de Fomento,Instituto Aragonés de Fomento
+754,2024,07800,Ingresos del Instituto Aragonés de Fomento,Ingresos del Instituto Aragonés de Fomento
+755,2024,78000,Ingresos del Instituto Aragonés de Fomento,Ingresos del Instituto Aragonés de Fomento
+756,2024,07801,Instituto Aragonés de Fomento,Instituto Aragonés de Fomento
+757,2024,78010,Instituto Aragonés de Fomento,Instituto Aragonés de Fomento
+758,2024,00090,No operativa,No operativa
+759,2024,09000,No operativa,No operativa
+760,2024,90000,No operativa,No operativa
+761,2024,09001,No operativa,No operativa
+762,2024,90010,No operativa,No operativa
+763,2024,090CS,No operativa,No operativa
+764,2024,90CS2,No operativa,No operativa
+765,2024,90CS3,No operativa,No operativa
+766,2024,90CS4,No operativa,No operativa
+767,2024,90CS5,No operativa,No operativa
+768,2024,000AD,,
+769,2024,0ADGA,ADGA,ADGA

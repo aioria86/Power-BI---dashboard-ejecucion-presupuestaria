@@ -1,0 +1,647 @@
+﻿_id,EJERCICIO,CENTRO GESTOR,DESCRIPCION CORTA,DESCRIPCION LARGA
+1,2019,1,Cortes de Aragón,Cortes de Aragón
+2,2019,100,Ingresos de las Cortes de Aragón,Ingresos de las Cortes de Aragón
+3,2019,1000,Ingresos de las Cortes de Aragón,Ingresos de las Cortes de Aragón
+4,2019,101,Cortes de Aragón,Cortes de Aragón
+5,2019,1010,Cortes de Aragón,Cortes de Aragón
+6,2019,102,El Justicia de Aragón,El Justicia de Aragón
+7,2019,1020,El Justicia de Aragón,El Justicia de Aragón
+8,2019,103,Cámara de Cuentas de Aragón,Cámara de Cuentas de Aragón
+9,2019,1030,Cámara de Cuentas de Aragón,Cámara de Cuentas de Aragón
+10,2019,2,Presidencia del Gobierno de Aragón,Presidencia del Gobierno de Aragón
+11,2019,200,Ingresos de Presidencia Gobierno Aragón,Ingresos de Presidencia Gobierno Aragón
+12,2019,2000,Ingresos de Presidencia del Gobierno,Ingresos de Presidencia del Gobierno
+13,2019,201,Presidencia del Gobierno de Aragón,Presidencia del Gobierno de Aragón
+14,2019,2010,Presidencia del Gobierno de Aragón,Presidencia del Gobierno de Aragón
+15,2019,3,Consejo Consultivo de Aragón,Consejo Consultivo de Aragón
+16,2019,300,Ingresos Consejo Consultivo de Aragón,Ingresos Consejo Consultivo de Aragón
+17,2019,3000,Ingresos Consejo Consultivo de Aragón,Ingresos Consejo Consultivo de Aragón
+18,2019,301,Consejo Consultivo de Aragón,Consejo Consultivo de Aragón
+19,2019,3010,Consejo Consultivo de Aragón,Consejo Consultivo de Aragón
+20,2019,4,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+21,2019,400,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+22,2019,4000,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+23,2019,401,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+24,2019,4010,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+25,2019,402,No operativo,No operativo
+26,2019,4020,No operativo,No operativo
+27,2019,5,Vicepresidencia del Gobierno,Vicepresidencia del Gobierno
+28,2019,500,Ingresos Vicepresidencia del Gobierno,Ingresos Vicepresidencia del Gobierno
+29,2019,5000,Ingresos Vicepresidencia del Gobierno,Ingresos Vicepresidencia del Gobierno
+30,2019,502,No operativo,No operativo
+31,2019,5020,DG de Desarrollo Estatutario y Programas Europeos,DG de Desarrollo Estatutario y Programas Europeos
+32,2019,9,Consejo Económico y Social de Aragón,Consejo Económico y Social de Aragón
+33,2019,900,Ingresos Consejo Ec. y Social de Aragón,Ingresos Consejo Ec. y Social de Aragón
+34,2019,9000,Ingresos Consejo Ec. y Social de Aragón,Ingresos Consejo Ec. y Social de Aragón
+35,2019,901,Consejo Económico y Social de Aragón,Consejo Económico y Social de Aragón
+36,2019,9010,Consejo Económico y Social de Aragón,Consejo Económico y Social de Aragón
+37,2019,10,Presidencia,Presidencia
+38,2019,1000,Ingresos de Presidencia,Ingresos de Presidencia
+39,2019,10000,Ingresos de Presidencia,Ingresos de Presidencia
+40,2019,1001,S.G.T. de Presidencia,S.G.T. de Presidencia
+41,2019,10010,S.G.T. de Presidencia,S.G.T. de Presidencia
+42,2019,1002,Dirección General de Servicios Jurídicos,Dirección General de Servicios Jurídicos
+43,2019,10020,Dirección General de Servicios Jurídicos,Dirección General de Servicios Jurídicos
+44,2019,1003,D.G. de Administración Local,D.G. de Administración Local
+45,2019,10030,D.G. de Administración Local,D.G. de Administración Local
+46,2019,1004,D.G. Rel. Institucionales y Desarrollo Estatutario,D.G. Rel. Institucionales y Desarrollo Estatutario
+47,2019,10040,D.G. Rel. Institucionales y Desarrollo Estatutario,D.G. Rel. Institucionales y Desarrollo Estatutario
+48,2019,1005,D.G. de Justicia e Interior,D.G. de Justicia e Interior
+49,2019,10050,D.G. de Justicia e Interior,D.G. de Justicia e Interior
+50,2019,1006,Delegación Territorial de Huesca,Delegación Territorial de Huesca
+51,2019,10060,Delegación Territorial de Huesca,Delegación Territorial de Huesca
+52,2019,1007,Delegación Territorial de Teruel,Delegación Territorial de Teruel
+53,2019,10070,Delegación Territorial de Teruel,Delegación Territorial de Teruel
+54,2019,1008,Dirección General de Interior y Protección Civil,Dirección General de Interior y Protección Civil
+55,2019,10080,Dirección General de Interior y Protección Civil,Dirección General de Interior y Protección Civil
+56,2019,11,Ciudadanía y Derechos Sociales,Ciudadanía y Derechos Sociales
+57,2019,1100,Ingresos Ciudadanía y Derechos Sociales,Ingresos Ciudadanía y Derechos Sociales
+58,2019,11000,Ingresos Ciudadanía y Derechos Sociales,Ingresos Ciudadanía y Derechos Sociales
+59,2019,1101,S.G.T. de Ciudadanía y Derechos Sociales,S.G.T. de Ciudadanía y Derechos Sociales
+60,2019,11010,S.G.T. de Ciudadanía y Derechos Sociales,S.G.T. de Ciudadanía y Derechos Sociales
+61,2019,1102,"D.G. Part.Ciudadana, Transparencia, Coop. y Volunt","D.G. Part.Ciudadana, Transparencia, Coop. y Volunt"
+62,2019,11020,"D.G. Part.Ciudadana, Transparencia, Coop. y Volunt","D.G. Part.Ciudadana, Transparencia, Coop. y Volunt"
+63,2019,1103,D.G. de Protección de Consumidores y Usuarios,D.G. de Protección de Consumidores y Usuarios
+64,2019,11030,D.G. de Protección de Consumidores y Usuarios,D.G. de Protección de Consumidores y Usuarios
+65,2019,1104,D.G. de Igualdad y Familias,D.G. de Igualdad y Familias
+66,2019,11040,D.G. de Igualdad y Familias,D.G. de Igualdad y Familias
+67,2019,1105,No operativo,No operativo
+68,2019,11050,No operativo,No operativo
+69,2019,1106,No operativo,No operativo
+70,2019,11060,No operativo,No operativo
+71,2019,1107,No operativo,No operativo
+72,2019,11070,No operativo,No operativo
+73,2019,1111,No operativo,No operativo
+74,2019,11110,No operativo,No operativo
+75,2019,12,Hacienda y Administración Pública,Hacienda y Administración Pública
+76,2019,1200,Ingresos de Hacienda y Adm. Pública,Ingresos de Hacienda y Adm. Pública
+77,2019,12000,Ingresos de Hacienda y Adm. Pública,Ingresos de Hacienda y Adm. Pública
+78,2019,1201,S.G.T. de Hacienda y Administ. Pública,S.G.T. de Hacienda y Administ. Pública
+79,2019,12010,S.G.T. de Hacienda y Administ. Pública,S.G.T. de Hacienda y Administ. Pública
+80,2019,1202,"D.G. Presupuestos,Financiación,Tesorería","D.G. Presupuestos,Financiación,Tesorería"
+81,2019,12020,"DG Presupuestos,Financiación y Tesorería","DG Presupuestos,Financiación y Tesorería"
+82,2019,1203,"D.G. Contratación, Patrimonio y Organiz.","D.G. Contratación, Patrimonio y Organiz."
+83,2019,12030,"D.G. Contratación, Patrimonio y Organiz.","D.G. Contratación, Patrimonio y Organiz."
+84,2019,1204,Intervención General,Intervención General
+85,2019,12040,Intervención General,Intervención General
+86,2019,1205,Dirección General de Tributos,Dirección General de Tributos
+87,2019,12050,Dirección General de Tributos,Dirección General de Tributos
+88,2019,1206,D.G. Función Pública y Calidad de Serv.,D.G. Función Pública y Calidad de Serv.
+89,2019,12060,D.G. Función Pública y Calidad de Serv.,D.G. Función Pública y Calidad de Serv.
+90,2019,1207,No operativo,No operativo
+91,2019,12070,No operativo,No operativo
+92,2019,1208,No operativo,No operativo
+93,2019,12080,No operativo,No operativo
+94,2019,1250,Ingresos de Secciones Presupuestarias,Ingresos de Secciones Presupuestarias
+95,2019,12500,Ingresos de Secciones Presupuestarias,Ingresos de Secciones Presupuestarias
+96,2019,1251,Ingresos Servicio Provincial de Zaragoza,Ingresos Servicio Provincial de Zaragoza
+97,2019,12510,Ingresos Servicio Provincial de Zaragoza,Ingresos Servicio Provincial de Zaragoza
+98,2019,1252,Ingresos Servicio Provincial de Huesca,Ingresos Servicio Provincial de Huesca
+99,2019,12520,Ingresos Servicio Provincial de Huesca,Ingresos Servicio Provincial de Huesca
+100,2019,1253,Ingresos Servicio Provincial de Teruel,Ingresos Servicio Provincial de Teruel
+101,2019,12530,Ingresos Servicio Provincial de Teruel,Ingresos Servicio Provincial de Teruel
+102,2019,13,"Vertebración del Territorio, Movilidad y Vivienda","Vertebración del Territorio, Movilidad y Vivienda"
+103,2019,1300,"Ingresos Vertebración Territorio, Movilidad y Viv.","Ingresos Vertebración Territorio, Movilidad y Viv."
+104,2019,13000,"Ingresos Vertebración Territorio, Movilidad y Viv.","Ingresos Vertebración Territorio, Movilidad y Viv."
+105,2019,1301,"S.G.T. Vertebración Territorio, Movilidad y Viv.","S.G.T. Vertebración Territorio, Movilidad y Viv."
+106,2019,13010,"S.G.T. Vertebración Territorio, Movilidad y Viv.","S.G.T. Vertebración Territorio, Movilidad y Viv."
+107,2019,1302,D.G. de Ordenación del Territorio,D.G. de Ordenación del Territorio
+108,2019,13020,D.G. de Ordenación del Territorio,D.G. de Ordenación del Territorio
+109,2019,1303,D.G. de Urbanismo,D.G. de Urbanismo
+110,2019,13030,D.G. de Urbanismo,D.G. de Urbanismo
+111,2019,1304,D.G. de Movilidad e Infraestructuras,D.G. de Movilidad e Infraestructuras
+112,2019,13040,D.G. de Movilidad e Infraestructuras,D.G. de Movilidad e Infraestructuras
+113,2019,1305,D.G. de Vivienda y Rehabilitación,D.G. de Vivienda y Rehabilitación
+114,2019,13050,D.G. de Vivienda y Rehabilitación,D.G. de Vivienda y Rehabilitación
+115,2019,1306,D.G. de Turismo,D.G. de Turismo
+116,2019,13060,D.G. de Turismo,D.G. de Turismo
+117,2019,14,Desarrollo Rural y Sostenibilidad,Desarrollo Rural y Sostenibilidad
+118,2019,1400,Ingresos Desarrollo Rural y Sostenibilidad,Ingresos Desarrollo Rural y Sostenibilidad
+119,2019,14000,Ingresos Desarrollo Rural y Sostenibilidad,Ingresos Desarrollo Rural y Sostenibilidad
+120,2019,1401,S.G.T. de Desarrollo Rural y Sostenibilidad,S.G.T. de ADesarrollo Rural y Sostenibilidad
+121,2019,14010,S.G.T. de Desarrollo Rural y Sostenibilidad,S.G.T. de Desarrollo Rural y Sostenibilidad
+122,2019,14011,DRyS-Sevicio Provincial de Huesca,DRyS-Sevicio Provincial de Huesca
+123,2019,14012,DRyS-Sevicio Provincial de Teruel,DRyS-Sevicio Provincial de Teruel
+124,2019,14013,DRyS-Sevicio Provincial de Zaragoza,DRyS-Sevicio Provincial de Zaragoza
+125,2019,1402,Dirección General de Producción Agraria,Dirección General de Producción Agraria
+126,2019,14020,Dirección General de Producción Agraria,Dirección General de Producción Agraria
+127,2019,1403,D.G. de Alimentac. y Fto Agroalimentario,D.G. de Alimentac. y Fto Agroalimentario
+128,2019,14030,D.G. de Alimentac. y Fto Agroalimentario,D.G. de Alimentac. y Fto Agroalimentario
+129,2019,1404,D.G. de Sostenibilidad,D.G. de Sostenibilidad
+130,2019,14040,D.G. de Sostenibilidad,D.G. de Sostenibilidad
+131,2019,1405,Dirección General de Desarrollo Rural,Dirección General de Desarrollo Rural
+132,2019,14050,Dirección General de Desarrollo Rural,Dirección General de Desarrollo Rural
+133,2019,1406,D.G. de Gestión Forestal,D.G. de Gestión Forestal
+134,2019,14060,D.G. de Gestión Forestal,D.G. de Gestión Forestal
+135,2019,1407,No operativo,No operativo
+136,2019,14070,No operativo,No operativo
+137,2019,15,"Economía, Industria y Empleo","Economía, Industria y Empleo"
+138,2019,1500,"Ingresos de Economía, Industria y Empleo","Ingresos de Economía, Industria y Empleo"
+139,2019,15000,"Ingresos de Economía, Industria y Empleo","Ingresos de Economía, Industria y Empleo"
+140,2019,1501,"S.G.T. de Economía, Industria y Empleo","S.G.T. de Economía, Industria y Empleo"
+141,2019,15010,"S.G.T. de Economía, Industria y Empleo","S.G.T. de Economía, Industria y Empleo"
+142,2019,1502,D.G. de Economía,D.G. de Economía
+143,2019,15020,D.G. de Economía,D.G. de Economía
+144,2019,1503,D.G. de Trabajo,D.G. de Trabajo
+145,2019,15030,D.G. de Trabajo,D.G. de Trabajo
+146,2019,1504,"D.G. de Industria, PYMES, Comercio y Artesanía","D.G. de Industria, PYMES, Comercio y Artesanía"
+147,2019,15040,"D.G. de Industria, PYMES, Comercio y Artesanía","D.G. de Industria, PYMES, Comercio y Artesanía"
+148,2019,1505,D.G. de Energía y Minas,D.G. de Energía y Minas
+149,2019,15050,D.G. de Energía y Minas,D.G. de Energía y Minas
+150,2019,1506,No operativa,No operativa
+151,2019,15060,No operativa,No operativa
+152,2019,1507,No operativa,No operativa
+153,2019,15070,No operativa,No operativa
+154,2019,16,Sanidad,Sanidad
+155,2019,1600,Ingresos Sanidad,Ingresos Sanidad
+156,2019,16000,Ingresos Sanidad,Ingresos Sanidad
+157,2019,1601,S.G.T. de Sanidad,S.G.T. de Sanidad
+158,2019,16010,S.G.T. de Sanidad,S.G.T. de Sanidad
+159,2019,1602,D.G. de Asistencia Sanitaria,D.G. de Asistencia Sanitaria
+160,2019,16020,D.G. de Asistencia Sanitaria,D.G. de Asistencia Sanitaria
+161,2019,1603,D.G. de Derechos y Garantías de los Usuarios,D.G. de Derechos y Garantías de los Usuarios
+162,2019,16030,D.G. de Derechos y Garantías de los Usuarios,D.G. de Derechos y Garantías de los Usuarios
+163,2019,1604,D.G. de Salud Pública,D.G. de Salud Pública
+164,2019,16040,D.G. de Salud Pública,D.G. de Salud Pública
+165,2019,1605,No operativa,No operativa
+166,2019,16050,No operativa,No operativa
+167,2019,1606,No operativa,No operativa
+168,2019,16060,No operativa,No operativa
+169,2019,1607,No operativa,No operativa
+170,2019,16070,No operativa,No operativa
+171,2019,16220,Sanidad-Sevicio Provincial de Huesca,Sanidad-Sevicio Provincial de Huesca
+172,2019,16440,Sanidad-Sevicio Provincial de Teruel,Sanidad-Sevicio Provincial de Teruel
+173,2019,16500,Sanidad-Sevicio Provincial de Zaragoza,Sanidad-Sevicio Provincial de Zaragoza
+174,2019,17,"Innovación, Investigación y Universidad","Innovación, Investigación y Universidad"
+175,2019,1700,"Ingresos de Innovación, Investigación y Universida","Ingresos de Innovación, Investigación y Universida"
+176,2019,17000,"Ingresos de Innovación, Investigación y Universida","Ingresos de Innovación, Investigación y Universida"
+177,2019,1701,"SGT de Innovación, Investigación y Universidad","SGT de Innovación, Investigación y Universidad"
+178,2019,17010,"SGT de Innovación, Investigación y Universidad","SGT de Innovación, Investigación y Universidad"
+179,2019,1702,D.G. de Universidades,D.G. de Universidades
+180,2019,17020,D.G. de Universidades,D.G. de Universidades
+181,2019,1703,D.G. Investigación e Innovación,D.G. de Investigación e Innovación
+182,2019,17030,D.G. Investigación e Innovación,D.G. de Investigación e Innovación
+183,2019,1704,D.G. de Admón Electrónica y Sdad de la Información,D.G. de Admón Electrónica y Sdad de la Información
+184,2019,17040,D.G. de Admón Electrónica y Sdad de la Información,D.G. de Admón Electrónica y Sdad de la Información
+185,2019,1705,No operativa,No operativa
+186,2019,17050,No operativa,No operativa
+187,2019,1706,No operativa,No operativa
+188,2019,17060,No operativa,No operativa
+189,2019,18,"Educación, Cultura y Deporte","Educación, Cultura y Deporte"
+190,2019,1800,"Ingresos Educación, Cultura y Deporte","Ingresos Educación, Cultura y Deporte"
+191,2019,18000,"Ingresos Educación, Cultura y Deporte","Ingresos Educación, Cultura y Deporte"
+192,2019,1801,"S.G.T. de Educación, Cultura y Deporte","S.G.T. de Educación, Cultura y Deporte"
+193,2019,18010,"S.G.T. de Educación, Cultura y Deporte","S.G.T. de Educación, Cultura y Deporte"
+194,2019,1802,D.G. de Política Lingüística,D.G. de Política Lingüística
+195,2019,18020,D.G de Política Lingüística,D.G. de Política Lingüística
+196,2019,1803,D.G. de Planificación y Formación Profesional,D.G. de Planificación y Formación Profesional
+197,2019,18030,D.G. de Planificación y Formación Profesional,D.G. de Planificación y Formación Profesional
+198,2019,1804,D.G. de Personal y Formación del Profesorado,D.G. de Personal y Formación del Profesorado
+199,2019,18040,D.G. de Personal y Formación del Profesorado,D.G. de Personal y Formación del Profesorado
+200,2019,1805,"D.G. de Innovación, Equidad y Participación","D.G. de Innovación, Equidad y Participación"
+201,2019,18050,"D.G. de Innovación, Equidad y Participación","D.G. de Innovación, Equidad y Participación"
+202,2019,1806,D.G. de Cultura y Patrimonio,Dirección General de Cultura
+203,2019,18060,D.G. de Cultura y Patrimonio,Dirección General de Cultura
+204,2019,1807,D.G. de Deporte,Dirección General de Patrimonio Cultural
+205,2019,18070,D.G. de Deporte,Dirección General de Patrimonio Cultural
+206,2019,1808,No operativa,Dirección General de Deporte
+207,2019,18080,No operativa,Dirección General de Deporte
+208,2019,19,No operativa,No operativa
+209,2019,1900,No operativa,No operativa
+210,2019,19000,No operativa,No operativa
+211,2019,1901,No operativa,No operativa
+212,2019,19010,No operativa,No operativa
+213,2019,1902,No operativa,No operativa
+214,2019,19020,No operativa,No operativa
+215,2019,1903,No operativa,No operativa
+216,2019,19030,No operativa,No operativa
+217,2019,1904,No operativa,No operativa
+218,2019,19040,No operativa,No operativa
+219,2019,1905,Dirección General de Turismo,Dirección General de Turismo
+220,2019,19050,Dirección General de Turismo,Dirección General de Turismo
+221,2019,20,No operativa,No operativa
+222,2019,2000,No operativa,No operativa
+223,2019,20000,No operativa,No operativa
+224,2019,2001,No operativa,No operativa
+225,2019,20010,No operativa,No operativa
+226,2019,20011,No operativa,No operativa
+227,2019,20012,No operativa,No operativa
+228,2019,2002,No operativa,No operativa
+229,2019,20020,No operativa,No operativa
+230,2019,2003,No operativa,No operativa
+231,2019,20030,No operativa,No operativa
+232,2019,2004,No operativa,No operativa
+233,2019,20040,No operativa,No operativa
+234,2019,2010,No operativa,No operativa
+235,2019,20100,No operativa,No operativa
+236,2019,2012,No operativa,No operativa
+237,2019,20120,No operativa,No operativa
+238,2019,26,A las Administraciones Comarcales,A las Administraciones Comarcales
+239,2019,2600,"Ingresos de ""A las Adm. Comarcales""","Ingresos de ""A las Adm. Comarcales"""
+240,2019,26000,"Ingresos de ""A las Adm. Comarcales""","Ingresos de ""A las Adm. Comarcales"""
+241,2019,2601,Comarca de la Jacetania,Comarca de la Jacetania
+242,2019,26010,Comarca de la Jacetania,Comarca de la Jacetania
+243,2019,2602,Comarca del Alto Gállego,Comarca del Alto Gállego
+244,2019,26020,Comarca del Alto Gállego,Comarca del Alto Gállego
+245,2019,2603,Comarca de Sobrarbe,Comarca de Sobrarbe
+246,2019,26030,Comarca de Sobrarbe,Comarca de Sobrarbe
+247,2019,2604,Comarca de la Ribagorza,Comarca de la Ribagorza
+248,2019,26040,Comarca de la Ribagorza,Comarca de la Ribagorza
+249,2019,2605,Comarca de Cinco Villas,Comarca de Cinco Villas
+250,2019,26050,Comarca de Cinco Villas,Comarca de Cinco Villas
+251,2019,2606,Comarca Hoya de Huesca/ Plana de Uesca,Comarca Hoya de Huesca/ Plana de Uesca
+252,2019,26060,Comarca Hoya de Huesca/ Plana de Uesca,Comarca Hoya de Huesca/ Plana de Uesca
+253,2019,2607,Comarca de Somontano de Barbastro,Comarca de Somontano de Barbastro
+254,2019,26070,Comarca de Somontano de Barbastro,Comarca de Somontano de Barbastro
+255,2019,2608,Comarca de Cinca Medio,Comarca de Cinca Medio
+256,2019,26080,Comarca de Cinca Medio,Comarca de Cinca Medio
+257,2019,2609,Comarca de la Litera/ La Llitera,Comarca de la Litera/ La Llitera
+258,2019,26090,Comarca de la Litera/ La Llitera,Comarca de la Litera/ La Llitera
+259,2019,2610,Comarca de los Monegros,Comarca de los Monegros
+260,2019,26100,Comarca de los Monegros,Comarca de los Monegros
+261,2019,2611,Comarca del Bajo Cinca/ Baix Cinca,Comarca del Bajo Cinca/ Baix Cinca
+262,2019,26110,Comarca del Bajo Cinca/ Baix Cinca,Comarca del Bajo Cinca/ Baix Cinca
+263,2019,2612,Comarca de Tarazona y el Moncayo,Comarca de Tarazona y el Moncayo
+264,2019,26120,Comarca de Tarazona y el Moncayo,Comarca de Tarazona y el Moncayo
+265,2019,2613,Comarca de Campo de Borja,Comarca de Campo de Borja
+266,2019,26130,Comarca de Campo de Borja,Comarca de Campo de Borja
+267,2019,2614,Comarca del Aranda,Comarca del Aranda
+268,2019,26140,Comarca del Aranda,Comarca del Aranda
+269,2019,2615,Comarca de la Ribera Alta del Ebro,Comarca de la Ribera Alta del Ebro
+270,2019,26150,Comarca de la Ribera Alta del Ebro,Comarca de la Ribera Alta del Ebro
+271,2019,2616,Comarca de Valdejalón,Comarca de Valdejalón
+272,2019,26160,Comarca de Valdejalón,Comarca de Valdejalón
+273,2019,2617,Delimitación Comarcal de Zaragoza,Delimitación Comarcal de Zaragoza
+274,2019,26170,Delimitación Comarcal de Zaragoza,Delimitación Comarcal de Zaragoza
+275,2019,2618,Comarca de la Ribera Baja del Ebro,Comarca de la Ribera Baja del Ebro
+276,2019,26180,Comarca de la Ribera Baja del Ebro,Comarca de la Ribera Baja del Ebro
+277,2019,2619,Comarca Bajo Aragón-Caspe,Comarca Bajo Aragón-Caspe
+278,2019,26190,Comarca Bajo Aragón-Caspe,Comarca Bajo Aragón-Caspe
+279,2019,2620,Comarca de la Comunidad de Calatayud,Comarca de la Comunidad de Calatayud
+280,2019,26200,Comarca de la Comunidad de Calatayud,Comarca de la Comunidad de Calatayud
+281,2019,2621,Comarca de Campo de Cariñena,Comarca de Campo de Cariñena
+282,2019,26210,Comarca de Campo de Cariñena,Comarca de Campo de Cariñena
+283,2019,2622,Comarca de Campo de Belchite,Comarca de Campo de Belchite
+284,2019,26220,Comarca de Campo de Belchite,Comarca de Campo de Belchite
+285,2019,2623,Comarca del Bajo Martín,Comarca del Bajo Martín
+286,2019,26230,Comarca del Bajo Martín,Comarca del Bajo Martín
+287,2019,2624,Comarca de Campo de Daroca,Comarca de Campo de Daroca
+288,2019,26240,Comarca de Campo de Daroca,Comarca de Campo de Daroca
+289,2019,2625,Comarca del Jiloca,Comarca del Jiloca
+290,2019,26250,Comarca del Jiloca,Comarca del Jiloca
+291,2019,2626,Comarca de Cuencas Mineras,Comarca de Cuencas Mineras
+292,2019,26260,Comarca de Cuencas Mineras,Comarca de Cuencas Mineras
+293,2019,2627,Comarca de Andorra- Sierra de Arcos,Comarca de Andorra- Sierra de Arcos
+294,2019,26270,Comarca de Andorra- Sierra de Arcos,Comarca de Andorra- Sierra de Arcos
+295,2019,2628,Comarca del Bajo Aragón,Comarca del Bajo Aragón
+296,2019,26280,Comarca del Bajo Aragón,Comarca del Bajo Aragón
+297,2019,2629,Comarca de la Comunidad de Teruel,Comarca de la Comunidad de Teruel
+298,2019,26290,Comarca de la Comunidad de Teruel,Comarca de la Comunidad de Teruel
+299,2019,2630,Comarca de Maestrazgo,Comarca de Maestrazgo
+300,2019,26300,Comarca de Maestrazgo,Comarca de Maestrazgo
+301,2019,2631,Comarca de la Sierra de Albarracín,Comarca de la Sierra de Albarracín
+302,2019,26310,Comarca de la Sierra de Albarracín,Comarca de la Sierra de Albarracín
+303,2019,2632,Comarca de Gúdar- Javalambre,Comarca de Gúdar- Javalambre
+304,2019,26320,Comarca de Gúdar- Javalambre,Comarca de Gúdar- Javalambre
+305,2019,2633,Comarca del Matarraña/ Matarranya,Comarca del Matarraña/ Matarranya
+306,2019,26330,Comarca del Matarraña/ Matarranya,Comarca del Matarraña/ Matarranya
+307,2019,2634,Servicios Administraciones Comarcales,Servicios Administraciones Comarcales
+308,2019,26340,Servicios Administraciones Comarcales,Servicios Administraciones Comarcales
+309,2019,30,Diversos Departamentos,Diversos Departamentos
+310,2019,3000,"Ingresos de ""Diversos Departamentos""","Ingresos de ""Diversos Departamentos"""
+311,2019,30000,"Ingresos de ""Diversos Departamentos""","Ingresos de ""Diversos Departamentos"""
+312,2019,3001,Fondo Contingencia Ejecución Presupuest.,Fondo Contingencia Ejecución Presupuest.
+313,2019,30010,Fondo Contingencia Ejecución Presupuest.,Fondo Contingencia Ejecución Presupuest.
+314,2019,3002,Fondo de Gastos de Personal,Fondo de Gastos de Personal
+315,2019,30020,Fondo de Gastos de Personal,Fondo de Gastos de Personal
+316,2019,3003,Deuda Pública,Deuda Pública
+317,2019,30030,Deuda Pública,Deuda Pública
+318,2019,3004,Empresas Públicas y participadas,Empresas Públicas y participadas
+319,2019,30040,Empresas Públicas y participadas,Empresas Públicas y participadas
+320,2019,3005,Fondo de Garantía,Fondo de Garantía
+321,2019,30050,Fondo de Garantía,Fondo de Garantía
+322,2019,3006,Fondo Inclusión Social y Ay. Familiar Ur,Fondo Inclusión Social y Ay. Familiar Ur
+323,2019,30060,Fondo Inclusión Social y Ay. Familiar Ur,Fondo Inclusión Social y Ay. Familiar Ur
+324,2019,3007,Relaciones Laborales,Relaciones Laborales
+325,2019,30070,Relaciones Laborales,Relaciones Laborales
+326,2019,3008,No operativa,No operativa
+327,2019,30080,No operativa,No operativa
+328,2019,3011,No operativa,No operativa
+329,2019,30110,No operativa,No operativa
+330,2019,3013,No operativa,No operativa
+331,2019,30130,No operativa,No operativa
+332,2019,51,Instituto Aragonés de Empleo,Instituto Aragonés de Empleo
+333,2019,5100,Ingresos del Inst. Aragonés de Empleo,Ingresos del Inst. Aragonés de Empleo
+334,2019,51000,Ingresos del Inst. Aragonés de Empleo,Ingresos del Inst. Aragonés de Empleo
+335,2019,5101,Instituto Aragonés de Empleo,Instituto Aragonés de Empleo
+336,2019,51010,Instituto Aragonés de Empleo,Instituto Aragonés de Empleo
+337,2019,51011,INAEM - Servicio Provincial de Huesca,INAEM - Servicio Provincial de Huesca
+338,2019,51012,INAEM - Servicio Provincial de Teruel,INAEM - Servicio Provincial de Teruel
+339,2019,51013,INAEM - Servicio Provincial de Zaragoza,INAEM - Servicio Provincial de Zaragoza
+340,2019,51014,INAEM - Servicio de Formación,INAEM - Servicio de Formación
+341,2019,51015,INAEM - Servicio de Intermediación,INAEM - Servicio de Intermediación
+342,2019,51016,INAEM - Servicio de Promoción de Empleo,INAEM - Servicio de Promoción de Empleo
+343,2019,52,Servicio Aragonés de Salud,Servicio Aragonés de Salud
+344,2019,5200,Ingresos del Servicio Aragonés de Salud,Ingresos del Servicio Aragonés de Salud
+345,2019,52000,Ingresos del Servicio Aragonés de Salud,Ingresos del Servicio Aragonés de Salud
+346,2019,5201,Servicio Aragonés de Salud,Servicio Aragonés de Salud
+347,2019,52010,Servicio Aragonés de Salud,Servicio Aragonés de Salud
+348,2019,5205,Ctro. Gestión Integrada Proyectos Corp.,Ctro. Gestión Integrada Proyectos Corp.
+349,2019,52050,Ctro. Gestión Integrada Proyectos Corp.,Ctro. Gestión Integrada Proyectos Corp.
+350,2019,5206,Gerencia 061 Aragon,Gerencia 061 Aragon
+351,2019,52061,Gerencia 061 Aragon,Gerencia 061 Aragon
+352,2019,5209,Liquidación CASAR,
+353,2019,52090,Liquidación CASAR,Liquidación CASAR
+354,2019,52AL,Gerencia Sector Alcañiz,Gerencia Sector Alcañiz
+355,2019,52AL1,Gerencia Sector Alcañiz,Gerencia Sector Alcañiz
+356,2019,52AL2,Hospital de  Alcañiz,Hospital de  Alcañiz
+357,2019,52AL3,Atención Primaria Sector Alcañiz,Atención Primaria Sector Alcañiz
+358,2019,52BA,Gerencia Sector Barbastro,Gerencia Sector Barbastro
+359,2019,52BA1,Gerencia Sector Barbastro,Gerencia Sector Barbastro
+360,2019,52BA2,Hospital Barbastro,Hospital Barbastro
+361,2019,52BA3,Centro Sociosanitario de Fraga,Centro Sociosanitario de Fraga
+362,2019,52BA4,Atención Primaria Sector Barbastro,Atención Primaria Sector Barbastro
+363,2019,52CA,Gerencia Sector Calatayud,Gerencia Sector Calatayud
+364,2019,52CA1,Gerencia Sector Calatayud,Gerencia Sector Calatayud
+365,2019,52CA2,Hospital Ernest Lluch Martin,Hospital Ernest Lluch Martin
+366,2019,52CA3,Atención Primaria Sector Calatayud,Atención Primaria Sector Calatayud
+367,2019,52HU,Gerencia Sector Huesca,Gerencia Sector Huesca
+368,2019,52HU1,Gerencia Sector Huesca,Gerencia Sector Huesca
+369,2019,52HU2,Hospital San Jorge de Huesca,Hospital San Jorge de Huesca
+370,2019,52HU3,Hospital Sagrado Corazón de Jesús,Hospital Sagrado Corazón de Jesús
+371,2019,52HU4,C.R.P. Santo Cristo de los Milagros,C.R.P. Santo Cristo de los Milagros
+372,2019,52HU5,Atención Primaria Sector Huesca,Atención Primaria Sector Huesca
+373,2019,52TE,Gerencia Sector Teruel,Gerencia Sector Teruel
+374,2019,52TE1,Gerencia Sector Teruel,Gerencia Sector Teruel
+375,2019,52TE2,Hospital Obispo Polanco Teruel,Hospital Obispo Polanco Teruel
+376,2019,52TE3,Hospital San José,Hospital San José
+377,2019,52TE4,C.R.P. San Juan de Dios,C.R.P. San Juan de Dios
+378,2019,52TE5,Atención Primaria Sector Teruel,Atención Primaria Sector Teruel
+379,2019,52Z1,Gerencia Sector Zaragoza I,Gerencia Sector Zaragoza I
+380,2019,52Z11,Gerencia Sector Zaragoza I,Gerencia Sector Zaragoza I
+381,2019,52Z12,Hospital Royo Villanova,Hospital Royo Villanova
+382,2019,52Z13,Hospital Nuestra Señora de Gracia,Hospital Nuestra Señora de Gracia
+383,2019,52Z14,Atención Primaria Sector Zaragoza I,Atención Primaria Sector Zaragoza I
+384,2019,52Z2,Gerencia Sector Zaragoza II,Gerencia Sector Zaragoza II
+385,2019,52Z21,Gerencia Sector Zaragoza II,Gerencia Sector Zaragoza II
+386,2019,52Z22,Hospital Universitario Miguel Servet,Hospital Universitario Miguel Servet
+387,2019,52Z23,Atención Primaria Sector Zaragoza II,Atención Primaria Sector Zaragoza II
+388,2019,52Z3,Gerencia Sector Zaragoza III,Gerencia Sector Zaragoza III
+389,2019,52Z31,Gerencia Sector Zaragoza III,Gerencia Sector Zaragoza III
+390,2019,52Z32,Hospital Clínico Universitario Lozano Bl,Hospital Clínico Universitario Lozano Bl
+391,2019,52Z33,H.Geriático San Jorge de Zaragoza,H.Geriático San Jorge de Zaragoza
+392,2019,52Z34,C.R.P. Nuestra Señora del Pilar,C.R.P. Nuestra Señora del Pilar
+393,2019,52Z35,Atención Primaria Sector Zaragoza III,Atención Primaria Sector Zaragoza III
+394,2019,53,Instituto Aragonés de Servicios Sociales,Instituto Aragonés de Servicios Sociales
+395,2019,5300,Ingresos Inst. Aragonés Serv. Sociales,Ingresos Inst. Aragonés Serv. Sociales
+396,2019,53000,Ingresos Inst. Aragonés Serv. Sociales,Ingresos Inst. Aragonés Serv. Sociales
+397,2019,5301,Instituto Aragonés de Servicios Sociales,Instituto Aragonés de Servicios Sociales
+398,2019,53010,Instituto Aragonés de Servicios Sociales,Instituto Aragonés de Servicios Sociales
+399,2019,53AAA,Acción concertada Plazas Mayores Huesca,Acción concertada Plazas Mayores Huesca
+400,2019,53AAB,Acción concertada Plazas Mayores Teruel,Acción concertada Plazas Mayores Teruel
+401,2019,53AAC,Acción concertada Plazas Mayores Zaragoz,Acción concertada Plazas Mayores Zaragoz
+402,2019,53AB,Residencias,Residencias
+403,2019,53ABA,Residencia de Mayores Ciudad de Huesca,Residencia de Mayores Ciudad de Huesca
+404,2019,53ABB,"Res.Mayores ""Sagrada Familia""-Huesca","Res.Mayores ""Sagrada Familia""-Huesca"
+405,2019,53ABC,"Res.Mayores ""San Blas""-Huesca","Res.Mayores ""San Blas""-Huesca"
+406,2019,53ABD,"Res.Mayores ""Turia""-Teruel","Res.Mayores ""Turia""-Teruel"
+407,2019,53ABE,Residencia de Utrillas,Residencia de Utrillas
+408,2019,53ABF,"Residencia de ""Mayores Ciudad de Albarra","Residencia de ""Mayores Ciudad de Albarra"
+409,2019,53ABG,"Res. de Mayores ""Javalambre"" Teruel","Res. de Mayores ""Javalambre"" Teruel"
+410,2019,53ABH,Res. de Mayores  de Movera,Res. de Mayores  de Movera
+411,2019,53ABI,Res. de Mayores  de Borja,Res. de Mayores  de Borja
+412,2019,53ABJ,"Res. Mayores ""Romareda"" Zaragoza","Res. Mayores ""Romareda"" Zaragoza"
+413,2019,53ABK,Res. de Mayores de Alagon,Res. de Mayores de Alagon
+414,2019,53ABL,"Res. de Mayores ""Las Fuentes"" Zaragoza","Res. de Mayores ""Las Fuentes"" Zaragoza"
+415,2019,53ABM,Centro Asistencial de Calatayud,Centro Asistencial de Calatayud
+416,2019,53ABN,"Centro Asistencial ""Hogar Doz"" Tarazona","Centro Asistencial ""Hogar Doz"" Tarazona"
+417,2019,53ABO,Res. Mayores Actur de Zaragoza,Res. Mayores Actur de Zaragoza
+418,2019,53ABP,"Res. Mayores ""Oliver"" Zaragoza","Res. Mayores ""Oliver"" Zaragoza"
+419,2019,53ABQ,"Res. Mayores ""Elías Martinez"" Zaragoza","Res. Mayores ""Elías Martinez"" Zaragoza"
+420,2019,53ABR,Res. de Mayores de Utebo,Res. de Mayores de Utebo
+421,2019,53ABS,"Res. de Mayores ""Delicias"" - Zaragoza","Res. de Mayores ""Delicias"" - Zaragoza"
+422,2019,53ACA,"Centro Día en Res. ""Ciudad de Huesca""","Centro Día en Res. ""Ciudad de Huesca"""
+423,2019,53ACB,"Centro Dia Res. ""Sagr.Familia"" Huesca","Centro Dia Res. ""Sagr.Familia"" Huesca"
+424,2019,53ACC,Centro de Dia de Fraga,Centro de Dia de Fraga
+425,2019,53ACD,"Centro Dia en Res.""Romareda"" Zaragoza","Centro Dia en Res.""Romareda"" Zaragoza"
+426,2019,53ACE,"Centro Dia Res ""Las Fuentes"" Zaragoza","Centro Dia Res ""Las Fuentes"" Zaragoza"
+427,2019,53ACF,Centro de Dia de Calatayud,Centro de Dia de Calatayud
+428,2019,53ACG,Hogar 3ª Edad de Ejea de los Caballeros,Hogar 3ª Edad de Ejea de los Caballeros
+429,2019,53ACH,Centro de Día Barrio San José Zaragoza,Centro de Día Barrio San José Zaragoza
+430,2019,53ACI,"Centro de Dia ""San Blas"" Zaragoza","Centro de Dia ""San Blas"" Zaragoza"
+431,2019,53ACJ,"Centro de Dia ""Delicias"" de Zaragoza","Centro de Dia ""Delicias"" de Zaragoza"
+432,2019,53ACK,"Centro de Dia ""Picarral"" de Zaragoza","Centro de Dia ""Picarral"" de Zaragoza"
+433,2019,53ACL,Centro de Dia Valdefierro Zaragoza,Centro de Dia Valdefierro Zaragoza
+434,2019,53ACM,"C. Día y Usos Cultur. Casa Aísa, Huesca","C. Día y Usos Cultur. Casa Aísa, Huesca"
+435,2019,53ACN,"C. Día y Usos Cultur. Casa Aísa, Huesca","C. Día y Usos Cultur. Casa Aísa, Huesca"
+436,2019,53ACO,"Centro de Día ""San León"" - Teruel","Centro de Día ""San León"" - Teruel"
+437,2019,53AD,IASS - Centro Mayores (Hogares),IASS - Centro Mayores (Hogares)
+438,2019,53ADA,Hogar de Barbastro,Hogar de Barbastro
+439,2019,53ADB,Hogar de Binefar,Hogar de Binefar
+440,2019,53ADC,Hogar de Huesca,Hogar de Huesca
+441,2019,53ADD,Hogar de Jaca,Hogar de Jaca
+442,2019,53ADE,Hogar de  Monzón,Hogar de  Monzón
+443,2019,53ADF,Hogar de Sabiñánigo,Hogar de Sabiñánigo
+444,2019,53ADG,"Hogar en Res. Mayores ""Turia"" Teruel","Hogar en Res. Mayores ""Turia"" Teruel"
+445,2019,53ADH,Hogar en Res. Mayores Utrillas,Hogar en Res. Mayores Utrillas
+446,2019,53ADI,Hogar de Alcañiz,Hogar de Alcañiz
+447,2019,53ADJ,Hogar de Andorra,Hogar de Andorra
+448,2019,53ADK,Hogar de Calamocha,Hogar de Calamocha
+449,2019,53ADL,Hogar de Calanda,Hogar de Calanda
+450,2019,53ADM,Hogar de Ojos Negros,Hogar de Ojos Negros
+451,2019,53ADN,Hogar Torrecilla de Alcañiz,Hogar Torrecilla de Alcañiz
+452,2019,53ADO,"Hogar ""Balsas de Ebro Viejo"" Zaragoza","Hogar ""Balsas de Ebro Viejo"" Zaragoza"
+453,2019,53ADP,"Hogar ""Boterón"" de Zaragoza","Hogar ""Boterón"" de Zaragoza"
+454,2019,53ADQ,Club de Casetas,Club de Casetas
+455,2019,53ADR,"Club ""Cervantes"" de Gallur","Club ""Cervantes"" de Gallur"
+456,2019,53ADS,Hogar de Illueca,Hogar de Illueca
+457,2019,53ADT,Hogar Las Fuentes-Zaragoza,Hogar Las Fuentes-Zaragoza
+458,2019,53ADU,"Hogar ""Roger de Flor"" de Zaragoza","Hogar ""Roger de Flor"" de Zaragoza"
+459,2019,53ADV,Hogar de la Tercera Edad Moncayo,Hogar de la Tercera Edad Moncayo
+460,2019,53ADW,Hogar de Mayores Valdefierro - Zaragoza,Hogar de Mayores Valdefierro - Zaragoza
+461,2019,53ADX,Comedor Personas Mayores San Blas de Fonz (Huesca),Comedor Personas Mayores San Blas de Fonz (Huesca)
+462,2019,53AFA,Aulas de Tercera Edad,Aulas de Tercera Edad
+463,2019,53AHA,Gastos Varios de Mayores de Huesca,Gastos Varios de Mayores de Huesca
+464,2019,53AHB,Gastos Varios de Mayores de Teruel,Gastos Varios de Mayores de Teruel
+465,2019,53AHC,Gastos Varios de Mayores de Zaragoza,Gastos Varios de Mayores de Zaragoza
+466,2019,53AHD,Gastos Varios de Mayores en Gerencia,Gastos Varios de Mayores en Gerencia
+467,2019,53AIA,Convenios y Subv. de Mayores Huesca,Convenios y Subv. de Mayores Huesca
+468,2019,53AIB,Convenios y Subv. de Mayores de Teruel,Convenios y Subv. de Mayores de Teruel
+469,2019,53AIC,Convenios y Subv. de Mayores de Zaragoza,Convenios y Subv. de Mayores de Zaragoza
+470,2019,53AID,Convenios y Subv. de Mayores de Gerencia,Convenios y Subv. de Mayores de Gerencia
+471,2019,53AJA,Prestaciones de Mayores de Huesca,Prestaciones de Mayores de Huesca
+472,2019,53AJB,Prestaciones de Mayores de Teruel,Prestaciones de Mayores de Teruel
+473,2019,53AJC,Prestaciones de Mayores de Zaragoza,Prestaciones de Mayores de Zaragoza
+474,2019,53AJD,Ayudas Alimenticias,Ayudas Alimenticias
+475,2019,53AJE,Prestaciones Extraordinarias,Prestaciones Extraordinarias
+476,2019,53AJF,Prestaciones Plan Dependencia - Huesca,Prestaciones Plan Dependencia - Huesca
+477,2019,53AJG,Prestaciones Plan Dependencia - Teruel,Prestaciones Plan Dependencia - Teruel
+478,2019,53AJH,Prestaciones Plan Dependencia - Zaragoza,Prestaciones Plan Dependencia - Zaragoza
+479,2019,53BAA,Acción Concertada Discapacitados Huesca,Acción Concertada Discapacitados Huesca
+480,2019,53BAB,Acción Concertada Discapacitados Teruel,Acción Concertada Discapacitados Teruel
+481,2019,53BAC,Ac.Concertada Dispacitados Zaragoza,Ac.Concertada Dispacitados Zaragoza
+482,2019,53BAD,Ac.Concertada Transf.Dip.Prov. de Zarago,Ac.Concertada Transf.Dip.Prov. de Zarago
+483,2019,53BAE,Acción Concertada Tutelados en Huesca,Acción Concertada Tutelados en Huesca
+484,2019,53BAF,Acción Concertada Tutelados en Teruel,Acción Concertada Tutelados en Teruel
+485,2019,53BAG,Acción Concertada Tutelados en Zaragoza,Acción Concertada Tutelados en Zaragoza
+486,2019,53BAH,Acción Concertada Tutelados en Gerencia,Acción Concertada Tutelados en Gerencia
+487,2019,53BB,Centro Asistencial,Centro Asistencial
+488,2019,53BBA,"Centro Asistencial ""El Pinar""  de Teruel","Centro Asistencial ""El Pinar""  de Teruel"
+489,2019,53BBB,Centro Atención Minus.Psíquicos de Zarag,Centro Atención Minus.Psíquicos de Zarag
+490,2019,53BBC,Centro Dependientes Cesaraugusta Zaragoz,Centro Dependientes Cesaraugusta Zaragoz
+491,2019,53BEA,Centro Base Huesca,Centro Base Huesca
+492,2019,53BEB,Centro Base Teruel,Centro Base Teruel
+493,2019,53BEC,Centro Base I de Zaragoza,Centro Base I de Zaragoza
+494,2019,53BED,Centro Base II de Zaragoza,Centro Base II de Zaragoza
+495,2019,53BHA,Gastos Varios Dispacitados Huesca,Gastos Varios Dispacitados Huesca
+496,2019,53BHB,Gastos Varios Dispacitados Teruel,Gastos Varios Dispacitados Teruel
+497,2019,53BHC,Gastos Varios Dispacitados Zaragoza,Gastos Varios Dispacitados Zaragoza
+498,2019,53BHD,Gastos Varios Dispacitados Gerencia,Gastos Varios Dispacitados Gerencia
+499,2019,53BHE,Gastos Varios Tutelados en Huesca,Gastos Varios Tutelados en Huesca
+500,2019,53BHF,Gastos Varios Tutelados en Teruel,Gastos Varios Tutelados en Teruel
+501,2019,53BHG,Gastos Varios Tutelados en Zaragoza,Gastos Varios Tutelados en Zaragoza
+502,2019,53BHH,Gastos Varios Tutelados en Gerencia,Gastos Varios Tutelados en Gerencia
+503,2019,53BIA,Convenios y Subv. Discapacitados Huesca,Convenios y Subv. Discapacitados Huesca
+504,2019,53BIB,Convenios y Subv. Discapacitados Teruel,Convenios y Subv. Discapacitados Teruel
+505,2019,53BIC,Convenios y Subv. Discapacitados Zaragoz,Convenios y Subv. Discapacitados Zaragoz
+506,2019,53BID,Convenios y Subv. Discapacitados Gerenci,Convenios y Subv. Discapacitados Gerenci
+507,2019,53BIE,Convenios y Subv. de Tutelados en Huesca,Convenios y Subv. de Tutelados en Huesca
+508,2019,53BIF,Convenios y Subv. de Tutelados en Teruel,Convenios y Subv. de Tutelados en Teruel
+509,2019,53BIG,Convenios y Subv. de Tutelados en Zarago,Convenios y Subv. de Tutelados en Zarago
+510,2019,53BIH,Convenios y Subv. de Tutelados en Gerenc,Convenios y Subv. de Tutelados en Gerenc
+511,2019,53BJA,Prestaciones Dispacitados de Huesca,Prestaciones Dispacitados de Huesca
+512,2019,53BJB,Prestaciones Dispacitados de Teruel,Prestaciones Dispacitados de Teruel
+513,2019,53BJC,Prestaciones Dispacitados de Zaragoza,Prestaciones Dispacitados de Zaragoza
+514,2019,53CAA,Acción Concertada Plazas Menores Huesca,Acción Concertada Plazas Menores Huesca
+515,2019,53CAB,Acción Concertada Plazas Menores Teruel,Acción Concertada Plazas Menores Teruel
+516,2019,53CAC,Acción Concertada Plazas Menores Zaragoz,Acción Concertada Plazas Menores Zaragoz
+517,2019,53CAD,Acción Concertada Plazas Menores Gerenci,Acción Concertada Plazas Menores Gerenci
+518,2019,53CB,Menores- Centros Propios,Menores- Centros Propios
+519,2019,53CBA,Vivienda Tutelada de Huesca,Vivienda Tutelada de Huesca
+520,2019,53CBB,Vivienda Tutelada de Teruel,Vivienda Tutelada de Teruel
+521,2019,53CBC,"COA ""Juan Lanuza I"" de Zaragoza","COA ""Juan Lanuza I"" de Zaragoza"
+522,2019,53CBD,"Res. Menores  ""Cesaraugusta"" de Zaragoza","Res. Menores  ""Cesaraugusta"" de Zaragoza"
+523,2019,53CBE,"Res. Menores  ""Infanta Isabel"" de Zarago","Res. Menores  ""Infanta Isabel"" de Zarago"
+524,2019,53CBF,"C.O.A. ""Juan Lanuza II"" de Zaragoza","C.O.A. ""Juan Lanuza II"" de Zaragoza"
+525,2019,53CBG,"Res. de Menores ""Salduba"" de Zaragoza","Res. de Menores ""Salduba"" de Zaragoza"
+526,2019,53CBH,Piso Prep. Adop. Medina Albaida Zaragoza,Piso Prep. Adop. Medina Albaida Zaragoza
+527,2019,53CBI,"C.E.I. ""San Jorge"" de Zaragoza","C.E.I. ""San Jorge"" de Zaragoza"
+528,2019,53CBJ,Centro Internamiento Menores  Juslibol,Centro Internamiento Menores  Juslibol
+529,2019,53CBK,"Res. Menores ""Villacampa"" de Zaragoza","Res. Menores ""Villacampa"" de Zaragoza"
+530,2019,53CBL,"Vivienda Hogar  ""L. Loste"" de Huesca","Vivienda Hogar  ""L. Loste"" de Huesca"
+531,2019,53CBM,Piso de Emancipación - Teruel,Piso de Emancipación - Teruel
+532,2019,53CBN,Escuelas Taller - Talleres de Empleo,Escuelas Taller - Talleres de Empleo
+533,2019,53CBO,Casa de Acogida III,Casa de Acogida III
+534,2019,53CBP,Casa de Acogida IV,Casa de Acogida IV
+535,2019,53CBQ,Piso Tutelado - Teruel,Piso Tutelado - Teruel
+536,2019,53CBR,Hogar Infantil Casco Histórico Zaragoza,Hogar Infantil Casco Histórico Zaragoza
+537,2019,53CBS,Hogar Infantil Romareda Zaragoza,Hogar Infantil Romareda Zaragoza
+538,2019,53CBT,Piso Tutelado de Menores Centro Zaragoza,Piso Tutelado de Menores Centro Zaragoza
+539,2019,53CBU,Piso Tutelado de Menores Actur Zaragoza,Piso Tutelado de Menores Actur Zaragoza
+540,2019,53CBV,Piso Tutelado de Menores Picarral Zaragoza,Piso Tutelado de Menores Picarral Zaragoza
+541,2019,53CGA,Supervia/Lagasca de Zaragoza,Supervia/Lagasca de Zaragoza
+542,2019,53CHA,Gastos Varios  de Menores de Huesca,Gastos Varios  de Menores de Huesca
+543,2019,53CHB,Gastos Varios  de Menores de Teruel,Gastos Varios  de Menores de Teruel
+544,2019,53CHC,Gastos Varios  de Menores de Zaragoza,Gastos Varios  de Menores de Zaragoza
+545,2019,53CHD,Gastos Varios  de Menores de Gerencia,Gastos Varios  de Menores de Gerencia
+546,2019,53CIA,Convenios y Subv. Menores de Huesca,Convenios y Subv. Menores de Huesca
+547,2019,53CIB,Convenios y Subv. Menores de Teruel,Convenios y Subv. Menores de Teruel
+548,2019,53CIC,Convenios y Subv. Menores de Zaragoza,Convenios y Subv. Menores de Zaragoza
+549,2019,53CID,Convenios y Subv. Menores de Gerencia,Convenios y Subv. Menores de Gerencia
+550,2019,53CJA,Acogimientos  Remunerados de Huesca,Acogimientos  Remunerados de Huesca
+551,2019,53CJB,Acogimientos  Remunerados de Teruel,Acogimientos  Remunerados de Teruel
+552,2019,53CJC,Acogimientos  Remunerados de Zaragoza,Acogimientos  Remunerados de Zaragoza
+553,2019,53CJD,Acogimientos  Remunerados de Gerencia,Acogimientos  Remunerados de Gerencia
+554,2019,53CJE,Prestaciones  Menores de Huesca,Prestaciones  Menores de Huesca
+555,2019,53CJF,Prestaciones  de Menores de Teruel,Prestaciones  de Menores de Teruel
+556,2019,53CJG,Prestaciones  Menores de Zaragoza,Prestaciones  Menores de Zaragoza
+557,2019,53CJH,Ayudas  Urgentes Menores D.88/98  Huesca,Ayudas  Urgentes Menores D.88/98  Huesca
+558,2019,53CJI,Ayudas  Urgentes Menores D.88/98  Teruel,Ayudas  Urgentes Menores D.88/98  Teruel
+559,2019,53CJJ,Ayudas  Urgentes Menores D.88/98  Zarago,Ayudas  Urgentes Menores D.88/98  Zarago
+560,2019,53DAA,Acción Concertada Plz. Inserción Huesca,Acción Concertada Plz. Inserción Huesca
+561,2019,53DHA,Gastos Varios inserción en Gerencia,Gastos Varios inserción en Gerencia
+562,2019,53DIA,Convenios y  Subv. de Inserción Huesca,Convenios y  Subv. de Inserción Huesca
+563,2019,53DIB,Convenios y  Subv. Inserción Teruel,Convenios y  Subv. Inserción Teruel
+564,2019,53DIC,Convenios y  Subv. de Inserción Zaragoza,Convenios y  Subv. de Inserción Zaragoza
+565,2019,53DID,Convenios y  Subv. de Inserción Gerencia,Convenios y  Subv. de Inserción Gerencia
+566,2019,53DIE,Conv.  y  Subv. Programas varios Huesca,Conv.  y  Subv. Programas varios Huesca
+567,2019,53DIF,Con. y Subv. Programas Varios en Teruel,Con. y Subv. Programas Varios en Teruel
+568,2019,53DIG,Conv.  y  Subv. Programas varios Zaragoz,Conv.  y  Subv. Programas varios Zaragoz
+569,2019,53DIH,Conv.  y  Subv. Programas varios Gerenci,Conv.  y  Subv. Programas varios Gerenci
+570,2019,53DJA,Ayudas de Urgencia en  Zaragoza,Ayudas de Urgencia en  Zaragoza
+571,2019,53DJB,Prestaciones de Insercción en  Huesca,Prestaciones de Insercción en  Huesca
+572,2019,53DJC,Prestaciones de Insercción en Teruel,Prestaciones de Insercción en Teruel
+573,2019,53DJD,Prestaciones de Insercción en Zaragoza,Prestaciones de Insercción en Zaragoza
+574,2019,53EIA,Serv. Sociales Entidades Locales Huesca,Serv. Sociales Entidades Locales Huesca
+575,2019,53EIB,Serv. Sociales Entidades Locales Teruel,Serv. Sociales Entidades Locales Teruel
+576,2019,53EIC,Serv. Sociales Entidades Locales Zaragoz,Serv. Sociales Entidades Locales Zaragoz
+577,2019,53EID,Serv. Sociales Entidades Locales Gerenci,Serv. Sociales Entidades Locales Gerenci
+578,2019,53EIE,Servicios Sociales Base  Area deZaragoza,Servicios Sociales Base  Area deZaragoza
+579,2019,53FBA,"Residencia  ""Padre Polanco"" Orihuela Tre","Residencia  ""Padre Polanco"" Orihuela Tre"
+580,2019,53GGA,Dirección Provincial de  Huesca,Dirección Provincial de  Huesca
+581,2019,53GGB,Dirección Provincial  de Teruel,Dirección Provincial  de Teruel
+582,2019,53GGC,Dirección Provincial  de Zaragoza,Dirección Provincial  de Zaragoza
+583,2019,53GGD,Gerencia de IASS,Gerencia de IASS
+584,2019,54,Instituto Aragonés de la Mujer,Instituto Aragonés de la Mujer
+585,2019,5400,Ingresos del Inst. Aragonés de la Mujer,Ingresos del Inst. Aragonés de la Mujer
+586,2019,54000,Ingresos del Inst. Aragonés de la Mujer,Ingresos del Inst. Aragonés de la Mujer
+587,2019,5401,Instituto Aragonés de la Mujer,Instituto Aragonés de la Mujer
+588,2019,54010,Instituto Aragonés de la Mujer,Instituto Aragonés de la Mujer
+589,2019,55,Instituto Aragonés de la Juventud,Instituto Aragonés de la Juventud
+590,2019,5500,Ingresos del Inst. Arag. de la Juventud,Ingresos del Inst. Arag. de la Juventud
+591,2019,55000,Ingresos del Inst. Arag. de la Juventud,Ingresos del Inst. Arag. de la Juventud
+592,2019,5501,Instituto Aragonés de la Juventud,Instituto Aragonés de la Juventud
+593,2019,55010,Instituto Aragonés de la Juventud,Instituto Aragonés de la Juventud
+594,2019,56,Inst.Arag.Enseñanzas Artíst.Superiores,Inst.Arag.Enseñanzas Artíst.Superiores
+595,2019,5600,Ingresos Inst. Ar. Enseñanzas Artíst.Sup,Ingresos Inst. Ar. Enseñanzas Artíst.Sup
+596,2019,56000,Ingresos Inst. Ar. Enseñanzas Artíst.Sup,Ingresos Inst. Ar. Enseñanzas Artíst.Sup
+597,2019,5601,Inst.Arag.Enseñanzas Artíst.Superiores,Inst.Arag.Enseñanzas Artíst.Superiores
+598,2019,56010,Inst.Arag.Enseñanzas Artíst.Superiores,Inst.Arag.Enseñanzas Artíst.Superiores
+599,2019,71,E.P. Aragonesa de Servicios Telemáticos,E.P. Aragonesa de Servicios Telemáticos
+600,2019,7100,Ingresos Aragonesa Servicios Telemáticos,Ingresos Aragonesa Servicios Telemáticos
+601,2019,71000,Ingresos Aragonesa Servicios Telemáticos,Ingresos Aragonesa Servicios Telemáticos
+602,2019,7101,E.P. Aragonesa de Servicios Telemáticos,E.P. Aragonesa de Servicios Telemáticos
+603,2019,71010,E.P. Aragonesa de Servicios Telemáticos,E.P. Aragonesa de Servicios Telemáticos
+604,2019,7101A,AST - TELECOMUNICACIONES,AST - TELECOMUNICACIONES
+605,2019,72,Instituto Aragonés del Agua,Instituto Aragonés del Agua
+606,2019,7200,Ingresos del Instituto Aragonés del Agua,Ingresos del Instituto Aragonés del Agua
+607,2019,72000,Ingresos del Instituto Aragonés del Agua,Ingresos del Instituto Aragonés del Agua
+608,2019,7201,Instituto Aragonés del Agua,Instituto Aragonés del Agua
+609,2019,72010,Instituto Aragonés del Agua,Instituto Aragonés del Agua
+610,2019,73,Instituto Aragonés Ciencias de la Salud,Instituto Aragonés Ciencias de la Salud
+611,2019,7300,Ingresos Inst. Aragonés Ciencias Salud,Ingresos Inst. Aragonés Ciencias Salud
+612,2019,73000,Ingresos Inst. Aragonés Ciencias Salud,Ingresos Inst. Aragonés Ciencias Salud
+613,2019,7301,Instituto Aragonés Ciencias de la Salud,Instituto Aragonés Ciencias de la Salud
+614,2019,73010,Instituto Aragonés Ciencias de la Salud,Instituto Aragonés Ciencias de la Salud
+615,2019,74,Centro Investigación y Tecnol. Agroalim.,Centro Investigación y Tecnol. Agroalim.
+616,2019,7400,Ingresos Centro Invest. y Tecn. Agroalim,Ingresos Centro Invest. y Tecn. Agroalim
+617,2019,74000,Ingresos Centro Invest. y Tecn. Agroalim,Ingresos Centro Invest. y Tecn. Agroalim
+618,2019,7401,Centro Investigación y Tecnol. Agroalim.,Centro Investigación y Tecnol. Agroalim.
+619,2019,74010,Centro Investigación y Tecnol. Agroalim.,Centro Investigación y Tecnol. Agroalim.
+620,2019,75,Instituto Aragonés de Gestión Ambiental,Instituto Aragonés de Gestión Ambiental
+621,2019,7500,Ingresos Inst. Arag. Gestión Ambiental,Ingresos Inst. Arag. Gestión Ambiental
+622,2019,75000,Ingresos Inst. Arag. Gestión Ambiental,Ingresos Inst. Arag. Gestión Ambiental
+623,2019,7501,Instituto Aragonés de Gestión Ambiental,Instituto Aragonés de Gestión Ambiental
+624,2019,75010,Instituto Aragonés de Gestión Ambiental,Instituto Aragonés de Gestión Ambiental
+625,2019,76,E.P. Aragonesa Banco de Sangre y Tejidos,E.P. Aragonesa Banco de Sangre y Tejidos
+626,2019,7600,Ingresos E.P. Banco de Sangre y Tejidos,Ingresos E.P. Banco de Sangre y Tejidos
+627,2019,76000,Ingresos E.P. Banco de Sangre y Tejidos,Ingresos E.P. Banco de Sangre y Tejidos
+628,2019,7601,E.P. Aragonesa Banco de Sangre y Tejidos,E.P. Aragonesa Banco de Sangre y Tejidos
+629,2019,76010,E.P. Aragonesa Banco de Sangre y Tejidos,E.P. Aragonesa Banco de Sangre y Tejidos
+630,2019,77,Agencia de Calidad y Prospectiva Univers,Agencia de Calidad y Prospectiva Univers
+631,2019,7700,Ingresos Ag. Calidad y Prosp. Univ.,Ingresos Ag. Calidad y Prosp. Univ.
+632,2019,77000,Ingresos Ag. Calidad y Prosp. Univ.,Ingresos Ag. Calidad y Prosp. Univ.
+633,2019,7701,Agencia de Calidad y Prospectiva Univers,Agencia de Calidad y Prospectiva Univers
+634,2019,77010,Agencia de Calidad y Prospectiva Univers,Agencia de Calidad y Prospectiva Univers
+635,2019,90,No operativa,Consorcio Aragonés Sanitario Alta Resol.
+636,2019,9000,No operativa,Ingr. Consorcio Arag. Sanitario Alta Res
+637,2019,90000,No operativa,Ingr. Consorcio Arag. Sanitario Alta Res
+638,2019,9001,No operativa,Consorcio Aragonés Sanitario Alta Resol.
+639,2019,90010,No operativa,Consorcio Aragonés Sanitario Alta Resol.
+640,2019,90CS,No operativa,Centros Alta Resolución
+641,2019,90CS2,No operativa,Centro A.R. Pirineos (JACA)
+642,2019,90CS3,No operativa,Centro A.R. Cinco Villas (EJEA)
+643,2019,90CS4,No operativa,Centro A.R. Bajo Cinca (FRAGA)
+644,2019,90CS5,No operativa,Centro A.R. Moncayo (TARAZONA)
+645,2019,AD,,
+646,2019,ADGA,ADGA,ADGA

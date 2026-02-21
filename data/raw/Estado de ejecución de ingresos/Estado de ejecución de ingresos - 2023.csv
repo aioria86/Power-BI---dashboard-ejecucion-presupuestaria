@@ -1,0 +1,711 @@
+﻿_id,Ejercicio,Centro Gestor,Economico,Financiacion,Descripcion,Prevision Inicial,Modificaciones,Prevision Definitiva,D.Rec. Netos,Recaudado Neto
+1,2023,12500,100000,91003,Tarifa Autonómica del I.R.P.F.,"1.806.338.150,00",,"1.806.338.150,00","1.806.338.150,00","1.806.338.150,00"
+2,2023,12500,100006,91003,Tarifa Autonómica IRPF Ejercicios Anteriores,"120.658.430,00",,"120.658.430,00","133.810.120,36","133.810.120,36"
+3,2023,12500,110000,91003,Sobre adquisiciones por herencia o legado,"140.000.000,00",,"140.000.000,00",,
+4,2023,12500,110003,91003,Donaciones,"6.500.000,00",,"6.500.000,00",,
+5,2023,12500,111000,91003,Sobre el patrimonio neto de las personas físicas,"56.500.000,00",,"56.500.000,00",,
+6,2023,12500,112000,91003,Sobre Grandes superficies,"5.500.000,00",,"5.500.000,00",,
+7,2023,12500,115000,91003,Impuestos Depósitos Entidades de Crédito,"10.500.000,00",,"10.500.000,00",,
+8,2023,12500,200000,91003,Sobre Transmisiones Patrimoniales Onerosas,"162.000.000,00",,"162.000.000,00",,
+9,2023,12500,200001,91003,Sobre Operaciones Societarias,"1.300.000,00",,"1.300.000,00",,
+10,2023,12500,200002,91003,Sobre Transmisiones de vehículos,"2.300.000,00",,"2.300.000,00",,
+11,2023,12500,201000,91003,Documentos Notariales,"64.000.000,00",,"64.000.000,00",,
+12,2023,12500,201002,91003,Documentos Administrativos,"1.700.000,00",,"1.700.000,00",,
+13,2023,12500,210001,91003,I.V.A. Sobre Operaciones Internas,"1.316.848.300,00",,"1.316.848.300,00","1.316.848.300,00","1.316.848.300,00"
+14,2023,12500,210017,91003,IVA Liquidación Ejercicios Anteriores,"-32.735.340,00",,"-32.735.340,00","-65.144.260,28","-65.144.260,28"
+15,2023,12500,220000,91003,Sobre el alcohol y bebidas derivadas,"17.389.360,00",,"17.389.360,00","17.389.360,00","17.389.360,00"
+16,2023,12500,220001,91003,Sobre Cerveza,"5.966.560,00",,"5.966.560,00","5.966.560,00","5.966.560,00"
+17,2023,12500,220003,91003,Sobre labores de tabaco,"121.807.360,00",,"121.807.360,00","121.807.360,00","121.807.360,00"
+18,2023,12500,220005,91003,Sobre determinados medios de transporte,"9.500.000,00",,"9.500.000,00",,
+19,2023,12500,220006,91003,Sobre productos intermedios,"513.500,00",,"513.500,00","513.500,00","513.500,00"
+20,2023,12500,220007,91003,Sobre energía (electricidad),"59.713.060,00",,"59.713.060,00","59.713.060,00","59.713.060,00"
+21,2023,12500,220008,91003,Sobre hidrocarburos,"378.828.420,00",,"378.828.420,00","378.828.420,00","378.828.420,00"
+22,2023,12500,220009,91003,Impuesto Especial (Ejercicios anteriores),"-13.129.850,00",,"-13.129.850,00",,
+23,2023,12500,220010,91003,Sobre alcohol y bebidas derivadas - (Ej. anteriore,,,,"-2.061.856,61","-2.061.856,61"
+24,2023,12500,220011,91003,Sobre Cerveza - (Ej. anteriores),,,,"-271.086,52","-271.086,52"
+25,2023,12500,220013,91003,Sobre labores de tabaco - (Ej. anteriores),,,,"-9.551.860,16","-9.551.860,16"
+26,2023,12500,220016,91003,Sobre productos intermedios - (Ej. anteriores),,,,"30.197,63","30.197,63"
+27,2023,12500,220017,91003,Sobre energía (electricidad) - (Ej. anteriores),,,,"-10.219.561,87","-10.219.561,87"
+28,2023,12500,220018,91003,Sobre hidrocarburos - (Ej. anteriores),,,,"10.070.258,07","10.070.258,07"
+29,2023,12500,232000,91003,S/ Emisiones contaminantes,"110.000,00",,"110.000,00",,
+30,2023,12500,232001,91003,Impuesto s/ depósito de residuos en vertederos,"12.000.000,00",,"12.000.000,00",,
+31,2023,12500,234000,91003,S/ aprovechamiento hidroeléctrico,"17.045.460,00",,"17.045.460,00",,
+32,2023,12500,235000,91003,S/ líneas de alta tensión,"2.016.000,00",,"2.016.000,00",,
+33,2023,12500,240000,91003,Casinos,"200.000,00",,"200.000,00",,
+34,2023,12500,240001,91003,Bingos,"5.000.000,00",,"5.000.000,00",,
+35,2023,12500,240002,91003,Máquinas recreativas,"15.000.000,00",,"15.000.000,00",,
+36,2023,12500,240003,91003,"Loterías,rifas,boletos y combinaciones aleatorias","1.900.000,00",,"1.900.000,00",,
+37,2023,12500,240004,91003,Bingo Electrónico,"380.000,00",,"380.000,00",,
+38,2023,12500,250000,91003,Impuesto s/ actividades de juego,"3.500.000,00",,"3.500.000,00",,
+39,2023,12500,300050,91003,Venta de Bienes de Cortes de Aragón,"19.000,00",,"19.000,00","9.500,00","9.500,00"
+40,2023,12500,300100,91003,Venta de Bienes de Departamentos y Org. Públicos,,,,"6.263,66","6.263,66"
+41,2023,12500,301006,91003,"Venta de Public de Educ., U., C. y Deporte (No ope",,,,"7.203,21","5.482,01"
+42,2023,12500,301050,91003,Venta de Publicac. de Cortes de Aragón,"5.000,00",,"5.000,00","2.500,00","2.500,00"
+43,2023,12500,301100,91003,Venta de Publicaciones Departamentos y Org. Públic,"3.000,00",,"3.000,00",,
+44,2023,12500,302000,91003,Venta de cartones de bingo,"160.000,00",,"160.000,00",,
+45,2023,12500,303000,91003,Venta de impresos,500,,500,,
+46,2023,12500,310050,91003,Entradas Cortes de Aragón,"300.000,00",,"300.000,00","150.000,00","150.000,00"
+47,2023,12500,319005,91003,"Prestación Serv. de Sanidad, B. Social y Familia",,,,"8.189,84",
+48,2023,12500,319006,91003,"Prestación Serv. de Educ., Cult. y Dpte","1.944.932,78",,"1.944.932,78","1.538.530,05","1.230.811,19"
+49,2023,12500,319103,91003,Prestación de servicios en guarderías,"1.187.670,00",,"1.187.670,00","1.043.116,06","975.147,59"
+50,2023,12500,319111,91003,Cuotas alumnos Inst. Formación Agroambiental,,,,"1.614,00","1.614,00"
+51,2023,12500,319118,91003,Prestación Servicios RACI,"17.400,00",,"17.400,00","38.843,21","19.262,82"
+52,2023,12500,319200,91003,Prestación Servicios - Copagos,"64.300,00",,"64.300,00",,
+53,2023,12500,319201,91003,"Prest Serv - Asesoramiento Jurídico EP, Fund y Con","200.000,00",,"200.000,00","244.263,80","239.999,80"
+54,2023,12500,319321,91003,Transporte Sanitario por Helicóptero,"265.000,00",,"265.000,00","202.599,40","130.598,26"
+55,2023,12500,319324,91003,Prestación del servicio de comedor,"17.895.740,07",,"17.895.740,07",,
+56,2023,12500,329001,91003,Tasa 01- Dirección e inspección de obras,"1.430.000,00",,"1.430.000,00","2.324.702,97","1.604.102,53"
+57,2023,12500,329003,91003,"Tasa 03- Serv.admvos, redacc. informes,activ. fac.","71.656,05",,"71.656,05","258.154,63","237.338,63"
+58,2023,12500,329004,91003,Tasa 04- Por Autorizacones Espectáculos Públicos,"36.525,00",,"36.525,00","39.228,76","39.228,76"
+59,2023,12500,329005,91003,Tasa 05-S. Mat. orde. transp. terr carretera,"1.550.000,00",,"1.550.000,00","1.816.520,19","1.816.520,19"
+60,2023,12500,329008,91003,Tasa 08-Ocup. terrenos o uso Bienes Dominio Públic,,,,"52.804,30","31.738,30"
+61,2023,12500,329010,91003,Tasa 10-S. facultativos agronómicos,"23.098,14",,"23.098,14","260.331,26","260.331,26"
+62,2023,12500,329011,91003,Tasa 11-Servicios  facultativos veterinarios,"823.000,00",,"823.000,00","812.100,60","812.098,47"
+63,2023,12500,329012,91003,Tasa 12-Ins. y ctroles sanitarios  anim y sus prod,"2.150.000,00",,"2.150.000,00","1.891.132,85","1.887.071,90"
+64,2023,12500,329013,91003,"Tasa 13-Aut., Inspec., materia centros sanitarios","1.200.000,00",,"1.200.000,00","1.056.458,54","1.056.458,54"
+65,2023,12500,329014,91003,Tasa 14-Ord. activ. indust. energ. metrol. mineras,"2.240.000,00",,"2.240.000,00","3.111.782,21","3.049.731,47"
+66,2023,12500,329015,91003,Tasa 15-Serv. exped. titulos académicos y profesio,"600.026,08",,"600.026,08","684.860,00","684.860,00"
+67,2023,12500,329016,91003,Tasa 16-Expedición licencias caza y pesca,,,,"30.713,35","30.713,35"
+68,2023,12500,329017,91003,"Tasa 17-S. facul. montes, forestales y v. pecuaria","450.000,00",,"450.000,00","611.362,60","555.831,71"
+69,2023,12500,329019,91003,Tasa 19-S. Adtvod y Técnicos de juego,"483.000,00",,"483.000,00","673.224,11","673.224,11"
+70,2023,12500,329020,91003,"Tasa 20-Aut, Insp y actu. cen y est. farmaceúticos","40.000,00",,"40.000,00","43.635,69","43.635,69"
+71,2023,12500,329021,91003,Tasa 21-Aut. Insp. centros Servicios Sociales,"30.000,00",,"30.000,00","19.301,11","19.301,11"
+72,2023,12500,329022,91003,Tasa 22-Inserción anuncios en el BOA,"500.000,00",,"500.000,00","1.165.135,05","1.165.135,05"
+73,2023,12500,329023,91003,"Tasa 23-Inscripción y Publicidad Asoc,Fun,CP y CCA","58.000,00",,"58.000,00","68.585,40","68.585,40"
+74,2023,12500,329024,91003,Tasa 24-Derechos Examen pruebas selectiva C.Aut.,"450.000,00",,"450.000,00","712.375,19","712.375,19"
+75,2023,12500,329025,91003,Tasa 25-S. Registro Territorial P.Intelectual de A,"9.000,00",,"9.000,00","7.919,78","7.890,48"
+76,2023,12500,329032,91003,Tasa 32-Tasa act. serv. radiodifusión y televisión,"1.500,00",,"1.500,00","13.010,12","13.010,12"
+77,2023,12500,329033,91003,Tasa 33-Tasa por ocup. v.pecuar. y conc.uso dom.p.,,,,"595.039,61","533.561,66"
+78,2023,12500,329037,91003,Tasa 37-Tasa dchos. de exam. pruebas de acceso FP,,,,"199.774,73","199.774,73"
+79,2023,12500,329038,91003,Tasa 38- S. admtvos diligencias bastanteo de poder,"6.100,00",,"6.100,00","7.380,56","7.380,56"
+80,2023,12500,329039,91003,Tasa39-Insc pruebas obt. tit. postobligatorios,"60.000,00",,"60.000,00","47.938,82","47.938,82"
+81,2023,12500,329040,91003,Tasa 40-Tasa s. adm actuaciones gestión tributaria,,,,"250.578,99","250.578,99"
+82,2023,12500,329042,91003,Tasa 42 - Análisis e Informes del Lab. Salud Públi,"20.000,00",,"20.000,00","14.270,75","14.270,75"
+83,2023,12500,329043,91003,Tasa 43- Inscripción Cooperativas y Sdes. Laboral,"7.400,00",,"7.400,00","8.527,74","8.527,74"
+84,2023,12500,329044,91003,Tasa 44- Autorización Agencias de Colocación,"17.700,00",,"17.700,00","28.389,87","28.389,87"
+85,2023,12500,329045,91003,Tasa 45- Inscripción Centros Colaboradores,"83.000,00",,"83.000,00","88.963,05","88.963,05"
+86,2023,12500,329046,91003,Tasa 46- Serv. prestados Reg. Cooperativas Aragón,"19.000,00",,"19.000,00","19.477,74","19.477,74"
+87,2023,12500,329047,91003,Tasa 47- Serv. prestados Reg. adm. Sociedades Lab.,"1.300,00",,"1.300,00","417,65","417,65"
+88,2023,12500,329048,72013,Tasa 48- Ocupación o Concesión del uso privativo,,,,"297.634,91","150.538,66"
+89,2023,12500,329050,91003,Tasa 50.-Prestación servicios Admts. materia turís,,,,"23.890,00","23.890,00"
+90,2023,12500,329051,91003,Tasa 51.-Tramitac.Expropiac.Ocupac.servidum.regadi,,,,"6.045,00","6.045,00"
+91,2023,12500,330000,91003,Precios Públicos del Laboratorio Agroalimentario,"60.000,00",,"60.000,00","79.260,32","77.617,07"
+92,2023,12500,330004,91003,Precios Públicos del Laboratorio Calidad Edificaci,,,,"7.567,77","7.347,11"
+93,2023,12500,330005,91003,Precios Públicos en materia de deportes,"68.000,00",,"68.000,00","14.867,55","14.867,55"
+94,2023,12500,330006,91003,Instalaciones deportivas,"50.000,00",,"50.000,00","77.955,10","77.240,30"
+95,2023,12500,330007,91003,Actividades Deportivas,"4.200,00",,"4.200,00","1.412,80","1.412,80"
+96,2023,12500,330012,91003,Precios Públicos de Caza y Pesca,"165.000,00",,"165.000,00",,
+97,2023,12500,330013,91003,Precios Públicos Medicina Legal de Aragón (IMLA),"50.000,00",,"50.000,00","20.030,00","16.200,00"
+98,2023,12500,330015,91003,Precio Público IAEST,"3.000,00",,"3.000,00",,
+99,2023,12500,380000,32200,Reintegros ej.cerrados de Presidencia y Justicia,,,,"33.988,10","33.988,10"
+100,2023,12500,380000,32218,Reintegros ej.cerrados de Presidencia y Justicia,,,,"1.873,29","1.873,29"
+101,2023,12500,380000,32219,Reintegros ej.cerrados de Presidencia y Justicia,,"2.240,48","2.240,48","100.356,09","100.356,09"
+102,2023,12500,380000,32220,Reintegros ej.cerrados de Presidencia y Justicia,,"63.360,72","63.360,72","144.533,96","144.533,96"
+103,2023,12500,380000,32221,Reintegros ej.cerrados de Presidencia y Justicia,,"775,79","775,79","5.876,00","5.876,00"
+104,2023,12500,380000,91003,Reintegros ej.cerrados de Presidencia y Justicia,,,,"38.580,88","38.580,88"
+105,2023,12500,380000,91218,Reintegros ej.cerrados de Presidencia y Justicia,,,,"1.873,28","1.873,28"
+106,2023,12500,380000,91219,Reintegros ej.cerrados de Presidencia y Justicia,,"2.240,48","2.240,48","100.355,99","100.355,99"
+107,2023,12500,380000,91220,Reintegros ej.cerrados de Presidencia y Justicia,,"63.360,72","63.360,72","144.533,95","144.533,95"
+108,2023,12500,380000,91221,Reintegros ej.cerrados de Presidencia y Justicia,,"775,79","775,79","5.875,98","5.875,98"
+109,2023,12500,380001,91003,Reintegros ej.cerrados de Hacienda y Admón Pública,,,,"4.208,81","4.208,81"
+110,2023,12500,380001,91019,Reintegros ej.cerrados de Hacienda y Admón Pública,,,,"-173.661,11","-173.661,11"
+111,2023,12500,380002,32219,"Reintegros ej.cerrados de OP, Urb., Vivienda y Tte",,,,"23.057,29","23.057,29"
+112,2023,12500,380002,32220,"Reintegros ej.cerrados de OP, Urb., Vivienda y Tte",,,,"6.532,07","6.350,57"
+113,2023,12500,380002,39001,"Reintegros ej.cerrados de OP, Urb., Vivienda y Tte",,,,"422.956,44","422.956,44"
+114,2023,12500,380002,39127,"Reintegros ej.cerrados de OP, Urb., Vivienda y Tte",,,,"23.659,08","22.833,12"
+115,2023,12500,380002,91003,"Reintegros ej.cerrados de OP, Urb., Vivienda y Tte",,,,"1.005.471,91","1.005.471,91"
+116,2023,12500,380002,91220,"Reintegros ej.cerrados de OP, Urb., Vivienda y Tte",,,,"6.532,06","6.350,56"
+117,2023,12500,380003,12101,"Reintegros ej.cer de Agricultura, Ganadería y M.Am",,,,"45.320,89","45.320,89"
+118,2023,12500,380003,12102,"Reintegros ej.cer de Agricultura, Ganadería y M.Am",,,,"-7.332,36","-7.332,36"
+119,2023,12500,380003,12202,"Reintegros ej.cer de Agricultura, Ganadería y M.Am",,,,"11.291,88","11.291,88"
+120,2023,12500,380003,34046,"Reintegros ej.cer de Agricultura, Ganadería y M.Am",,,,"526,96","526,96"
+121,2023,12500,380003,34066,"Reintegros ej.cer de Agricultura, Ganadería y M.Am",,,,"8.429,30","8.429,30"
+122,2023,12500,380003,34068,"Reintegros ej.cer de Agricultura, Ganadería y M.Am",,,,"179.704,47","179.704,47"
+123,2023,12500,380003,36004,"Reintegros ej.cer de Agricultura, Ganadería y M.Am",,,,"14,9","14,9"
+124,2023,12500,380003,91003,"Reintegros ej.cer de Agricultura, Ganadería y M.Am",,"696.390,37","696.390,37","734.376,59","734.376,59"
+125,2023,12500,380004,14201,Reintegros ej.cerrados de Industria e Innovación,,,,"106.852,50","106.852,50"
+126,2023,12500,380004,14209,Reintegros ej.cerrados de Industria e Innovación,,,,"1.128.501,65","1.128.501,65"
+127,2023,12500,380004,32219,Reintegros ej.cerrados de Industria e Innovación,,,,"344.823,49","344.823,49"
+128,2023,12500,380004,39103,Reintegros ej.cerrados de Industria e Innovación,,,,"118,3","118,3"
+129,2023,12500,380004,39136,Reintegros ej.cerrados de Industria e Innovación,,,,"621,76","621,76"
+130,2023,12500,380004,39137,Reintegros ej.cerrados de Industria e Innovación,,,,"3.226,50","3.226,50"
+131,2023,12500,380004,91003,Reintegros ej.cerrados de Industria e Innovación,,,,"122.961,95","122.961,95"
+132,2023,12500,380004,91219,Reintegros ej.cerrados de Industria e Innovación,,,,"344.823,49","344.823,49"
+133,2023,12500,380005,91003,"Reintegros ej.cerrados de Sanidad, B. Social y Fam",,,,"383,18","383,18"
+134,2023,12500,380006,32219,"Reintegros ej.cerrados de Educ., Univ., Cult. y D",,,,"12.711,24","12.711,24"
+135,2023,12500,380006,35017,"Reintegros ej.cerrados de Educ., Univ., Cult. y D",,,,"4.225,00","4.225,00"
+136,2023,12500,380006,39059,"Reintegros ej.cerrados de Educ., Univ., Cult. y D",,"9.280,00","9.280,00","9.280,00","9.280,00"
+137,2023,12500,380006,39135,"Reintegros ej.cerrados de Educ., Univ., Cult. y D",,,,"1.859,79","1.859,79"
+138,2023,12500,380006,91003,"Reintegros ej.cerrados de Educ., Univ., Cult. y D",,,,"44.082,92","44.082,92"
+139,2023,12500,380006,91219,"Reintegros ej.cerrados de Educ., Univ., Cult. y D",,,,"12.711,24","12.711,24"
+140,2023,12500,380007,32218,Reintegros ej.cerrados de Economía y Empleo,,,,"20.510,00","20.510,00"
+141,2023,12500,380007,32219,Reintegros ej.cerrados de Economía y Empleo,,,,"724,78","724,78"
+142,2023,12500,380007,32220,Reintegros ej.cerrados de Economía y Empleo,,,,"31.446,97","31.446,97"
+143,2023,12500,380007,32443,Reintegros ej.cerrados de Economía y Empleo,,,,"8.040.500,00","8.040.500,00"
+144,2023,12500,380007,91003,Reintegros ej.cerrados de Economía y Empleo,,,,"23.126,99","19.521,45"
+145,2023,12500,380007,91218,Reintegros ej.cerrados de Economía y Empleo,,,,"20.510,00","20.510,00"
+146,2023,12500,380007,91219,Reintegros ej.cerrados de Economía y Empleo,,,,"724,78","724,78"
+147,2023,12500,380007,91220,Reintegros ej.cerrados de Economía y Empleo,,,,"31.446,96","31.446,96"
+148,2023,12500,380009,11201,"Reint. ejerc. cerrados Sanidad, B.Social y Familia",,,,"156,82","156,82"
+149,2023,12500,380009,32435,"Reint. ejerc. cerrados Sanidad, B.Social y Familia",,"97.746,93","97.746,93","97.746,93","97.746,93"
+150,2023,12500,380009,37001,"Reint. ejerc. cerrados Sanidad, B.Social y Familia",,"96.309,12","96.309,12","111.243,21","111.243,21"
+151,2023,12500,380009,39135,"Reint. ejerc. cerrados Sanidad, B.Social y Familia",,,,"2.875,00","2.875,00"
+152,2023,12500,380009,91003,"Reint. ejerc. cerrados Sanidad, B.Social y Familia",,,,"23.594,33","23.594,33"
+153,2023,12500,380100,11201,Reintegros de ejercicios cerrados,,,,"33.866,61","33.866,61"
+154,2023,12500,380100,91003,Reintegros de ejercicios cerrados,,,,"114.866,51","114.866,51"
+155,2023,12500,381000,91003,Reintegros ej. corriente de Presidencia y Justicia,,,,"37.278,10","37.278,10"
+156,2023,12500,381001,91003,Reintegros ej. corriente de Hacienda y Adm. Públic,,,,"8.599,69","8.599,69"
+157,2023,12500,381002,91003,"Reintegros ej. corriente de OOPP, Urb, Viv y Trans",,,,"3.459,00","3.459,00"
+158,2023,12500,381003,12101,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"815.934,11","815.934,11"
+159,2023,12500,381003,12202,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"103.945,93","103.945,93"
+160,2023,12500,381003,12203,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"18.151,32","18.151,32"
+161,2023,12500,381003,34066,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"4.178,83","4.178,83"
+162,2023,12500,381003,91003,"Reintegros ej. corriente de Agricultura,Gan y M.Am",,,,"44.367,62","44.367,62"
+163,2023,12500,381004,32437,Reintegros ej. corriente de Industria e Innovación,,,,"26.947,92","26.947,92"
+164,2023,12500,381004,91003,Reintegros ej. corriente de Industria e Innovación,,,,"3.408,37","3.408,37"
+165,2023,12500,381005,91003,"Reintegros ej. corriente de Sanidad, B Social y Fa",,,,"665,5","665,5"
+166,2023,12500,381006,91003,"Reintegros ej. corriente de Educ,Uni,Cult y Deport",,,,"52.544,12","52.544,12"
+167,2023,12500,381007,91003,Reintegros ej. corriente de Economía y Empleo,,,,"114,48",
+168,2023,12500,381098,91003,Reintegros de pagos a justificar,,,,"15.042,00","15.042,00"
+169,2023,12500,381101,91003,Reintegro Pagos Tesorería General Seguridad Social,,,,"10.581,13","10.581,13"
+170,2023,12500,390000,91003,Costas por sentencias judiciales,"200.000,00",,"200.000,00","253.269,11","221.976,81"
+171,2023,12500,390001,91003,Daños carreteras,,,,"11.781,58","6.416,47"
+172,2023,12500,390003,91003,Aportaciones por gastos centralizados,,"31.289,04","31.289,04","31.289,04","31.289,04"
+173,2023,12500,391000,91003,Daños en carreteras,"80.000,00",,"80.000,00","81.787,21","79.325,18"
+174,2023,12500,393012,91003,Cursos y otros ingresos de P. Territorial e Interi,,"132.300,00","132.300,00","132.300,00","132.300,00"
+175,2023,12500,395000,91003,Multas y sanciones de Presidencia y Justicia,,,,"17.060,00","11.060,00"
+176,2023,12500,395001,91003,Multas y sanciones de Hacienda y Admón Pública,,,,"-11.484,35","-13.700,00"
+177,2023,12500,395002,91003,"Multas y sanciones de Obras P., Urb., Viv. y Ttes.",,,,"3.603.500,80","3.154.145,98"
+178,2023,12500,395003,91003,"Multas y sanciones de Agricultura, Ganad. y M.Amb.",,,,"1.777.027,65","1.283.057,55"
+179,2023,12500,395004,91003,Multas y sanciones de Industria e Innovación,,,,"77.205,14","20.348,47"
+180,2023,12500,395005,91003,"Multas y sanciones de Sanidad, B. Social y Familia","1.500.000,00",,"1.500.000,00","1.792.333,60","619.511,22"
+181,2023,12500,395006,91003,"Multas y sanciones de Educación, Univ., Cult. y D.",,,,"4.493,99","4.493,99"
+182,2023,12500,395007,91003,Multas y sanciones de Economía y Empleo,"3.300.000,00",,"3.300.000,00","3.903.440,28","2.911.483,53"
+183,2023,12500,395009,91003,SERVICIOS SOCIALES Y FAMILIA,,,,"8.640,60","8.040,60"
+184,2023,12500,395100,91003,Multas y sanciones,"2.543.500,00",,"2.543.500,00",,
+185,2023,12500,396000,91003,Ing.diversos.Rec eventuales.Presidencia y Justicia,,"11.277,75","11.277,75","11.998,34","11.998,34"
+186,2023,12500,396001,91003,Ing.diversos.Rec eventuales.Hacienda y AP,,"117.934,23","117.934,23","118.864,77","118.864,77"
+187,2023,12500,396002,91003,"Ing.diversos.Rec eventuales.OP,Urb,Viv y Transport",,,,"329,7","329,7"
+188,2023,12500,396003,91003,"Ing.diversos.Rec eventuales.Agricultura,Gan y M Am",,,,"1.802,35","1.802,35"
+189,2023,12500,396006,91003,"Ing.diversos.Rec eventuales.Educación,Univ,Cult,De",,,,"38.325,03","38.233,65"
+190,2023,12500,396009,91003,"Indemnizaciones, incautaciones, penalidades, etc.",,,,"1.553.378,75","1.553.378,75"
+191,2023,12500,398001,91003,Recargo de apremio,,,,"180.133,41","48.631,68"
+192,2023,12500,398002,91003,Intereses de demora,,,,"174.825,06","164.499,80"
+193,2023,12500,398002,91019,Intereses de demora,,,,"988,33","988,33"
+194,2023,12500,400050,91003,Fondo Suficiencia Global,"336.673.080,00",,"336.673.080,00","336.673.080,00","336.673.080,00"
+195,2023,12500,400051,91003,Fondo de Garantía Servicios Públicos Fundamentales,"231.382.390,00",,"231.382.390,00","231.382.387,92","231.382.387,92"
+196,2023,12500,400150,91003,FondoSuficiencia Global liquidación ej. anteriores,"12.611.030,00",,"12.611.030,00","12.611.033,58","12.611.033,58"
+197,2023,12500,400151,91003,Fondo de Garantía Serv Púb. Fund. Ejer. anteriores,"50.332.420,00",,"50.332.420,00",,
+198,2023,12500,400162,91003,Fondo Garantia Liquidación Ejercicios Anteriores,,,,"67.730.511,95","67.730.511,95"
+199,2023,12500,400170,91003,Fondos de Convergencia Autonómica Ejerc. Anterior,"50.960.920,00",,"50.960.920,00","49.931.234,95","49.931.234,95"
+200,2023,12500,400402,91003,Cancelación Aticipos a Comunidades Autónomas,"-35.375.400,00",,"-35.375.400,00","-35.375.400,00","-35.375.400,00"
+201,2023,12500,402003,39137,Bono Social Térmico,"3.100.000,00","6.297.952,70","9.397.952,70","9.397.952,57","9.397.952,57"
+202,2023,12500,403004,91003,Estadística agraria,"71.406,13",,"71.406,13","71.406,13","71.406,13"
+203,2023,12500,403006,34066,AGE PDR,"1.430.000,00",,"1.430.000,00","1.212.800,13","1.212.800,13"
+204,2023,12500,403099,34011,"Otras subvenciones de Agricultura, Gan. y M.A.","180.000,00",,"180.000,00","155.356,70","155.356,70"
+205,2023,12500,403099,34015,"Otras subvenciones de Agricultura, Gan. y M.A.","275.633,37",,"275.633,37",,
+206,2023,12500,403099,34016,"Otras subvenciones de Agricultura, Gan. y M.A.","44.000,00",,"44.000,00",,
+207,2023,12500,403099,34017,"Otras subvenciones de Agricultura, Gan. y M.A.","388.522,65",,"388.522,65",,
+208,2023,12500,403099,34021,"Otras subvenciones de Agricultura, Gan. y M.A.","325.500,00",,"325.500,00",,
+209,2023,12500,403099,34039,"Otras subvenciones de Agricultura, Gan. y M.A.","125.000,00",,"125.000,00",,
+210,2023,12500,403099,34069,"Otras subvenciones de Agricultura, Gan. y M.A.",,"229.250,00","229.250,00","229.250,00","229.250,00"
+211,2023,12500,403099,36006,"Otras subvenciones de Agricultura, Gan. y M.A.","286.528,00",,"286.528,00",,
+212,2023,12500,404003,35005,Pensiones a ancianos y enfermos,"6.500,00",,"6.500,00","1.463,40","1.463,40"
+213,2023,12500,404005,35012,Plan de desarrollo gitano,"51.600,00",,"51.600,00","51.600,00","51.600,00"
+214,2023,12500,404006,35013,Prestaciones básicas de Servicios Sociales,"3.635.318,00",,"3.635.318,00","3.635.318,02","3.635.318,02"
+215,2023,12500,404009,35014,Erradicación de la pobreza,"657.292,00","1.654.253,99","2.311.545,99","2.311.545,99","2.311.545,99"
+216,2023,12500,404021,39054,Víctimas violencia de género,"300.000,00",,"300.000,00","20.160,00","20.160,00"
+217,2023,12500,404021,39092,Víctimas violencia de género,"373.400,00","260.846,77","634.246,77","451.275,75","451.275,75"
+218,2023,12500,404021,39135,Víctimas violencia de género,"2.723.716,71","3.075.112,62","5.798.829,33","6.098.829,33",
+219,2023,12500,404022,35017,Plan Corresponsables-CS Igualdad,,"10.505.445,83","10.505.445,83","10.505.445,83","10.505.445,83"
+220,2023,12500,404023,35018,Programa refuerzo antención primaria social,"810.500,00",,"810.500,00","810.500,00","810.500,00"
+221,2023,12500,404099,37001,Otras subv. Empleo y de Servicios Sociales,"8.975.000,00","1.118.237,54","10.093.237,54","10.083.942,85","10.083.942,85"
+222,2023,12500,405001,39015,Fomento de la donación y trasplante de órganos,"63.000,00",,"63.000,00","33.363,69",
+223,2023,12500,405003,39018,Actuaciones en drogodependencias,"472.000,00",,"472.000,00","465.132,46","465.132,46"
+224,2023,12500,405004,39129,Prevención de enfermedades emergentes,,,,"83.797,90",
+225,2023,12500,405005,39016,Junta Arbitral de Consumo,"43.152,94","22.780,35","65.933,29","65.933,29","65.933,29"
+226,2023,12500,405006,39027,Políticas de cohesión y estrategias de salud,"130.000,00","2.708.493,00","2.838.493,00","1.107.778,43",0
+227,2023,12500,405007,39049,Form.Cont.Uso racional del medicamento para médic.,"750.000,00",,"750.000,00","1.163.998,75",
+228,2023,12500,405099,39075,Otras subvenciones en materia de Salud y Consumo,,,,"1.408.332,76",0
+229,2023,12500,405099,39088,Otras subvenciones en materia de Salud y Consumo,,"501.985,95","501.985,95","501.985,95",
+230,2023,12500,405099,39130,Otras subvenciones en materia de Salud y Consumo,,"92.123,00","92.123,00","92.123,00","92.123,00"
+231,2023,12500,405099,91003,Otras subvenciones en materia de Salud y Consumo,,,,"4.704,18","4.704,18"
+232,2023,12500,407018,39122,Calidad en Formación Profesional,"280.000,00","536.249,07","816.249,07","816.249,07","816.249,07"
+233,2023,12500,407019,39122,Formación Profesional Dual,"280.000,00",,"280.000,00",,
+234,2023,12500,407099,39026,"Otras subvenciones  Educación, Cultura y Deporte","5.000,00",,"5.000,00",,
+235,2023,12500,407099,39059,"Otras subvenciones  Educación, Cultura y Deporte",,"1.191.142,00","1.191.142,00","1.191.142,00","1.191.142,00"
+236,2023,12500,407099,39107,"Otras subvenciones  Educación, Cultura y Deporte","200.000,00","10.373,49","210.373,49","210.373,49","210.373,49"
+237,2023,12500,407099,39151,"Otras subvenciones  Educación, Cultura y Deporte",,,,"2.844.368,10",
+238,2023,12500,407099,39159,"Otras subvenciones  Educación, Cultura y Deporte",,"3.052.981,00","3.052.981,00","3.102.124,00","3.052.981,00"
+239,2023,12500,407099,39409,"Otras subvenciones  Educación, Cultura y Deporte",,"156.652,00","156.652,00","156.652,00","156.652,00"
+240,2023,12500,407099,39410,"Otras subvenciones  Educación, Cultura y Deporte",,"1.170.631,00","1.170.631,00","1.170.631,00","1.170.631,00"
+241,2023,12500,407099,39500,"Otras subvenciones  Educación, Cultura y Deporte",,"180.000,00","180.000,00","180.000,00","180.000,00"
+242,2023,12500,409005,39144,Sistema cualificaciones y FP para el empleo,"27.428.304,81",,"27.428.304,81","29.059.873,44","29.059.873,44"
+243,2023,12500,409007,32433,Next Generation EU MRR,"11.601.919,65","-4.896.711,64","6.705.208,01","6.754.958,00","6.754.958,00"
+244,2023,12500,409007,32434,Next Generation EU MRR,"174.050,82",,"174.050,82",,
+245,2023,12500,409007,32435,Next Generation EU MRR,"5.557.302,32","-1.914.973,02","3.642.329,30",0,0
+246,2023,12500,409007,32436,Next Generation EU MRR,"2.721.817,99",,"2.721.817,99",,
+247,2023,12500,409007,32437,Next Generation EU MRR,,"890.000,00","890.000,00","890.000,00",
+248,2023,12500,409007,32438,Next Generation EU MRR,"12.977.808,72","11.790.688,80","24.768.497,52","27.022.387,99","18.623.352,99"
+249,2023,12500,409007,32439,Next Generation EU MRR,"108.663,97","19.666,56","128.330,53","294.961,81","294.961,81"
+250,2023,12500,409007,32440,Next Generation EU MRR,"100.000,00","-100.000,00",0,,
+251,2023,12500,409007,32441,Next Generation EU MRR,"3.738.868,19",,"3.738.868,19",,
+252,2023,12500,409007,32442,Next Generation EU MRR,,,,"1.464.375,00","1.464.375,00"
+253,2023,12500,409007,32444,Next Generation EU MRR,"347.996,00",,"347.996,00",,
+254,2023,12500,409007,32445,Next Generation EU MRR,"4.168.383,00",,"4.168.383,00",,
+255,2023,12500,409007,32446,Next Generation EU MRR,"4.354.804,42","-626.232,71","3.728.571,71","3.728.571,72","3.728.571,72"
+256,2023,12500,409007,32451,Next Generation EU MRR,,"4.686.935,00","4.686.935,00","4.686.935,00","4.686.935,00"
+257,2023,12500,409007,32454,Next Generation EU MRR,,"1.131.600,00","1.131.600,00","1.131.600,00","1.131.600,00"
+258,2023,12500,409007,39403,Next Generation EU MRR,"240.895,97",,"240.895,97",,
+259,2023,12500,409007,39404,Next Generation EU MRR,"603.840,00","-488.000,00","115.840,00","115.840,00","115.840,00"
+260,2023,12500,409009,33011,Otras subvenciones de Administraciones Públicas,,"441.616,32","441.616,32","441.616,32","441.616,32"
+261,2023,12500,409009,39071,Otras subvenciones de Administraciones Públicas,,"1.762.300,00","1.762.300,00","1.823.445,60","1.437.241,72"
+262,2023,12500,409009,39145,Otras subvenciones de Administraciones Públicas,,"116.321,77","116.321,77","66.770,40","66.770,40"
+263,2023,12500,409009,39146,Otras subvenciones de Administraciones Públicas,,,,"1.313.492,00",
+264,2023,12500,409009,39148,Otras subvenciones de Administraciones Públicas,,"701.010,04","701.010,04","701.010,04","701.010,04"
+265,2023,12500,409009,39158,Otras subvenciones de Administraciones Públicas,,"582.604,29","582.604,29","1.165.208,58","582.132,05"
+266,2023,12500,409009,39160,Otras subvenciones de Administraciones Públicas,,,,"365.244,95","59.189,81"
+267,2023,12500,409009,39403,Otras subvenciones de Administraciones Públicas,"8.646,00",,"8.646,00",,
+268,2023,12500,409009,39407,Otras subvenciones de Administraciones Públicas,"270.540,00","198.007,20","468.547,20","468.547,20","468.547,20"
+269,2023,12500,412009,39403,Otras subvenciones Instituto Aragonés de Empleo,"71.280,00",,"71.280,00",,
+270,2023,12500,419000,39042,Centro Superior Deportes: Fomento actividad depor.,"100.000,00","-18.018,85","81.981,15","81.981,15","81.981,15"
+271,2023,12500,419007,39040,Instituto Nacional de Administración Pública INAP,,"2.008.440,00","2.008.440,00","2.008.440,00","2.008.440,00"
+272,2023,12500,419013,39015,Transf. Organización Nacional de Trasplantes (ONT),,,,"3.000,00","3.000,00"
+273,2023,12500,420000,91003,"Fondo programa de ""Ahorro e incapacidad temporal""","10.000.000,00",,"10.000.000,00","4.477.705,20","4.477.705,20"
+274,2023,12500,420001,91003,Compens. asistencia sanitaria conting. prof.,,,,"94.062,14","94.062,14"
+275,2023,12500,421001,35011,Plan Acción a favor de pers. situación dependencia,,,,"96.667.419,67","96.667.419,67"
+276,2023,12500,421001,91003,Plan Acción a favor de pers. situación dependencia,"81.000.000,00","10.355.546,03","91.355.546,03",,
+277,2023,12500,480001,91003,Juegos escolares,"178.500,00","163.322,40","341.822,40","993.090,71","993.090,71"
+278,2023,12500,492200,14201,Programa Operativo FEDER 2014-2020,"569.068,15",,"569.068,15",,
+279,2023,12500,492200,14202,Programa Operativo FEDER 2014-2020,,,,"55.500,88","55.500,88"
+280,2023,12500,492201,14202,PProg Op. INTERREG V-A-ESPAÑA-FRA-AND 2014-2020,,,,"28.680,17","28.680,17"
+281,2023,12500,492201,14208,PProg Op. INTERREG V-A-ESPAÑA-FRA-AND 2014-2020,"6.868,45",,"6.868,45",,
+282,2023,12500,492202,11202,FEDER. Programa Operativo 2021-2027,"5.332.696,13","-5.332.696,13",0,,
+283,2023,12500,492202,14210,FEDER. Programa Operativo 2021-2027,"2.326.664,53",,"2.326.664,53",,
+284,2023,12500,492203,14211,POCTEFA. Programa Operativo 2021-2027,"6.800,00",,"6.800,00",,
+285,2023,12500,492203,14212,POCTEFA. Programa Operativo 2021-2027,"57.600,00",,"57.600,00",,
+286,2023,12500,493200,11201,Fondo Social Europeo- Programa Operativo 2014-2020,"307.097,58",,"307.097,58","159.416,15","159.416,15"
+287,2023,12500,493200,11202,Fondo Social Europeo- Programa Operativo 2014-2020,"4.363.956,38",,"4.363.956,38",,
+288,2023,12500,493201,11202,FSE. Programa Operativo 2021-2027,"32.664,53","4.580.508,60","4.613.173,13","1.080.256,80","1.080.256,80"
+289,2023,12500,494000,11209,REACT-UE,"1.134.131,74",,"1.134.131,74","2.866.162,29","2.866.162,29"
+290,2023,12500,494000,14209,REACT-UE,"43.020.260,67",,"43.020.260,67",,
+291,2023,12500,496000,12101,Agricultura -Política Agraria Común,"426.680.028,45",,"426.680.028,45","382.586.388,20","382.586.388,20"
+292,2023,12500,496000,91003,Agricultura -Política Agraria Común,,,,"39.606,55","39.606,55"
+293,2023,12500,496001,12101,Plan fruta escolar y lácteos en las escuelas,"547.637,00",,"547.637,00",,
+294,2023,12500,496009,12101,Agricultura- Otras subvenciones corrientes,"550.104,96",,"550.104,96","661.972,64","661.972,64"
+295,2023,12500,497000,12202,Fondo Europeo Agrícola de Desarrollo Rural,"2.685.286,09",,"2.685.286,09","2.471.975,66","2.471.975,66"
+296,2023,12500,497000,12204,Fondo Europeo Agrícola de Desarrollo Rural,"3.846.698,68",,"3.846.698,68","859.995,77","859.995,77"
+297,2023,12500,497001,12203,FEADER EURI,"1.000.000,00",,"1.000.000,00","851.859,83","851.859,83"
+298,2023,12500,499000,19001,Punto de Información Europea,"34.200,00",,"34.200,00","34.200,00","34.200,00"
+299,2023,12500,499099,19007,Otras subvenciones del exterior,"89.785,00",,"89.785,00",,
+300,2023,12500,499099,19008,Otras subvenciones del exterior,675,,675,"1.733,26","1.733,26"
+301,2023,12500,499099,19011,Otras subvenciones del exterior,"61.343,25",,"61.343,25",,
+302,2023,12500,499099,19090,Otras subvenciones del exterior,"1.500.000,00",,"1.500.000,00","5.092.149,30","5.092.149,30"
+303,2023,12500,511000,91003,Intereses de Préstamos Concedidos,"164.928,00",,"164.928,00","217.595,77","167.628,04"
+304,2023,12500,511003,91003,Intereses por prestamos BEI convenio 2013,"1.030.425,23",,"1.030.425,23","1.396.470,83","1.396.470,83"
+305,2023,12500,512000,91003,Intereses de Avales Otorgados,"194.700,77",,"194.700,77","282.622,90","282.622,90"
+306,2023,12500,520000,91003,Intereses,"5.000,00","12.560.170,74","12.565.170,74","16.773.785,12","14.647.289,66"
+307,2023,12500,520002,91003,Intereses vivienda,,,,"41.208,24","41.208,24"
+308,2023,12500,540001,91003,Renta de Inmuebles,,,,"7.497,47","5.849,28"
+309,2023,12500,540008,91003,Arrendamientos de locales,"1.500,00",,"1.500,00","1.850,49","1.747,02"
+310,2023,12500,540009,91003,Alquileres de viviendas,"422.732,00",,"422.732,00","529.717,04","428.102,21"
+311,2023,12500,550001,91003,Cánones de concesiones,"1.000.000,00",,"1.000.000,00","1.356.259,01","865.542,62"
+312,2023,12500,551000,91003,Ingresos de productos,,,,"1.662,00","1.662,00"
+313,2023,12500,552002,91003,De producción agraria,,,,"2.750,83","2.750,83"
+314,2023,12500,552003,72013,De protección y gestión de los montes,"817.531,50",,"817.531,50","724.118,47","632.974,71"
+315,2023,12500,552003,91003,De protección y gestión de los montes,,,,"191.093,96","57.218,96"
+316,2023,12500,552004,91003,De tecnología agraria,,,,500,500
+317,2023,12500,552006,91003,Reservas nacionales caza,,,,"209.870,27","209.870,27"
+318,2023,12500,552008,91003,Permisos de caza en cotos sociales,,,,"8.565,75","8.225,75"
+319,2023,12500,552009,91003,Otros aprovechamientos,,,,"39.364,44","39.364,44"
+320,2023,12500,553000,91003,Cánones de I.T.V. privadas,"6.100.000,00",,"6.100.000,00","6.150.643,50","5.065.599,28"
+321,2023,12500,553003,91003,"De Educación, Universidad, Cultura y Deporte","7.000,00",,"7.000,00","5.223,05","5.223,05"
+322,2023,12500,553008,91003,"Cánones, gestión de residuos","1.070.000,00",,"1.070.000,00","1.233.203,23","1.009.584,71"
+323,2023,12500,553009,91003,Otros cánones,"12.600,00",,"12.600,00","277.863,80","259.895,73"
+324,2023,12500,559009,91003,Otros aprovechamientos,,,,"56.968,25","8.500,99"
+325,2023,12500,590000,91003,Ingresos por viviendas de promoción pública,,,,"5.436,79","5.436,79"
+326,2023,12500,590009,91003,Otros ingresos patrimoniales,"66.875,00",,"66.875,00",,
+327,2023,12500,600000,91003,Venta de terrenos,"5.000.000,00","19.449.800,00","24.449.800,00","24.449.800,00","24.449.800,00"
+328,2023,12500,610000,91003,Venta de inversiones reales- Varios,,,,"24.220,00","24.020,00"
+329,2023,12500,620000,91003,Venta de inmuebles,,,,"187.885,40","187.885,40"
+330,2023,12500,702002,36008,AREAS INFLUENCIA SOCIO-ECON. PARQUES NACIONALES,"175.662,98",,"175.662,98",,
+331,2023,12500,702009,36012,Otras subvenciones en materia de Medio Ambiente,"62.000,00",,"62.000,00",,
+332,2023,12500,702009,36014,Otras subvenciones en materia de Medio Ambiente,,,,"725.531,71","725.531,71"
+333,2023,12500,702009,36015,Otras subvenciones en materia de Medio Ambiente,"100.000,00",,"100.000,00",,
+334,2023,12500,702009,39128,Otras subvenciones en materia de Medio Ambiente,"200.000,00",,"200.000,00",,
+335,2023,12500,703009,39116,Otras subvenciones de Economía y Hacienda,,,,"-12.487,29","-12.487,29"
+336,2023,12500,704002,39157,Plan de vivienda,"13.642.000,00",,"13.642.000,00","13.642.000,00","13.385.250,49"
+337,2023,12500,704099,39150,Otras subvenciones de Fomento,"7.600.000,00",,"7.600.000,00","7.600.000,00","7.600.000,00"
+338,2023,12500,705006,34021,Campañas de sanidad animal,"396.666,15",,"396.666,15","278.376,78","278.376,78"
+339,2023,12500,705006,34039,Campañas de sanidad animal,,,,"82.405,06","82.405,06"
+340,2023,12500,705008,34006,Apicultura,"190.495,32",,"190.495,32","179.672,02","179.672,02"
+341,2023,12500,705009,39152,Otras subvenciones de capital,,"100.000,00","100.000,00","100.000,00","100.000,00"
+342,2023,12500,705013,34015,Semillas y plantas de viveros,"80.018,56",,"80.018,56","295.605,00","295.605,00"
+343,2023,12500,705017,34017,Lucha contra agentes nocivos,"437.269,24",,"437.269,24","670.674,87","670.674,87"
+344,2023,12500,705018,34023,Control lechero,"50.000,00",,"50.000,00","21.760,01","21.760,01"
+345,2023,12500,705054,34066,AGE PDR,"16.865.810,38",,"16.865.810,38","14.304.095,80","14.304.095,80"
+346,2023,12500,706009,39413,Otras subvenciones de capital,,"200.000,00","200.000,00","200.000,00","200.000,00"
+347,2023,12500,707001,39159,"Otras subvenciones de Educación, Cultura y Deporte",,"6.101.725,00","6.101.725,00","6.101.725,00","6.101.725,00"
+348,2023,12500,708021,39135,VIOLENCIA DE GÉNERO,"100.000,00","368.412,80","468.412,80","468.412,80",
+349,2023,12500,709001,32223,Plan Especial de Teruel,"30.000.000,00",,"30.000.000,00","30.000.000,00",
+350,2023,12500,709006,39027,Otras subvenciones,,"15.551.577,00","15.551.577,00","14.596.025,09",0
+351,2023,12500,709007,32427,Next Generation EU MRR,"50.279.651,34","-574.651,34","49.705.000,00","34.604.665,00","26.144.125,28"
+352,2023,12500,709007,32428,Next Generation EU MRR,"6.978.125,51",,"6.978.125,51",,
+353,2023,12500,709007,32431,Next Generation EU MRR,"9.636.410,25","753.079,00","10.389.489,25","753.079,00","753.079,00"
+354,2023,12500,709007,32433,Next Generation EU MRR,"1.790.200,00","-1.030.450,01","759.749,99","710.000,00","710.000,00"
+355,2023,12500,709007,32434,Next Generation EU MRR,"21.309.367,51","12.406.160,59","33.715.528,10","16.550.859,16","16.550.859,16"
+356,2023,12500,709007,32435,Next Generation EU MRR,"38.522.719,77","1.228.372,58","39.751.092,35","35.613.421,65",
+357,2023,12500,709007,32436,Next Generation EU MRR,"48.870.296,67",,"48.870.296,67",,
+358,2023,12500,709007,32437,Next Generation EU MRR,"81.710.075,30","24.834.170,34","106.544.245,64","52.690.014,00","24.969.519,00"
+359,2023,12500,709007,32438,Next Generation EU MRR,"32.530.525,69",,"32.530.525,69","553.617,05","553.617,05"
+360,2023,12500,709007,32439,Next Generation EU MRR,"17.093.309,43","-15.116.398,92","1.976.910,51","3.338.485,34",
+361,2023,12500,709007,32440,Next Generation EU MRR,"1.219.660,52","-1.219.660,52",0,"984.752,36","984.752,36"
+362,2023,12500,709007,32441,Next Generation EU MRR,"16.745.881,65","-5.006.149,06","11.739.732,59","6.912.677,99","6.912.677,99"
+363,2023,12500,709007,32442,Next Generation EU MRR,"4.991.250,00","900.000,00","5.891.250,00","4.455.350,00","4.455.350,00"
+364,2023,12500,709007,32443,Next Generation EU MRR,"39.887.709,32","22.740.000,00","62.627.709,32","55.440.000,00","55.440.000,00"
+365,2023,12500,709007,32444,Next Generation EU MRR,"82.200,00",,"82.200,00",,
+366,2023,12500,709007,32447,Next Generation EU MRR,"1.549.210,81",,"1.549.210,81",,
+367,2023,12500,709007,32449,Next Generation EU MRR,"3.117.944,41",,"3.117.944,41","1.578.284,00","1.578.284,00"
+368,2023,12500,709007,32451,Next Generation EU MRR,,"614.680,00","614.680,00","614.680,00","614.680,00"
+369,2023,12500,709007,32455,Next Generation EU MRR,,,,"1.316.690,00",
+370,2023,12500,709009,39088,Otras subvenciones de capital,,"705.917,75","705.917,75","705.917,75","454.924,77"
+371,2023,12500,709009,39148,Otras subvenciones de capital,,"847.164,67","847.164,67","847.164,67","847.164,67"
+372,2023,12500,719000,39042,Construcciones deportivas (Ctro Superior Deportes),,"32.505,20","32.505,20","28.488,31","28.488,31"
+373,2023,12500,719003,32100,Plan de la Minería,"4.108.120,10",,"4.108.120,10","2.368.892,58","2.368.892,58"
+374,2023,12500,719003,32448,Plan de la Minería,"5.953.823,86",,"5.953.823,86","4.029.219,25","4.029.219,25"
+375,2023,12500,719003,32452,Plan de la Minería,,"1.706.489,77","1.706.489,77","1.706.489,77",
+376,2023,12500,740001,32437,De IDAE para el  fomento ahorro energético,,"5.150.000,00","5.150.000,00","5.150.000,00","5.150.000,00"
+377,2023,12500,740001,39143,De IDAE para el  fomento ahorro energético,"2.118.763,10",,"2.118.763,10","445.000,00","445.000,00"
+378,2023,12500,740003,39133,Progr.ef.energética PYME y empresa industrial,"123.000,00","548.000,00","671.000,00","671.000,00","671.000,00"
+379,2023,12500,760009,51001,Otras subvenciones de Diputaciones Provinciales,,"800.000,00","800.000,00","800.000,00","400.000,00"
+380,2023,12500,761009,53003,Otras Subv. Ayuntamientos,,"279.198,72","279.198,72","279.198,72",
+381,2023,12500,792002,14106,Programa Interregional Europe FEDER,"16.188,73",,"16.188,73","19.884,96","19.884,96"
+382,2023,12500,792002,14208,Programa Interregional Europe FEDER,,,,"85.413,06","85.413,06"
+383,2023,12500,792200,14201,Programa Operativo FEDER 2014-2020,"2.531.578,70",,"2.531.578,70","7.345.693,89","7.345.693,89"
+384,2023,12500,792200,14202,Programa Operativo FEDER 2014-2020,,,,"34.459,67","34.459,67"
+385,2023,12500,792200,14210,Programa Operativo FEDER 2014-2020,"6.800.000,00","-6.800.000,00",0,,
+386,2023,12500,792203,14209,EUROPA REACT-UE,"17.967.515,17","5.006.149,06","22.973.664,23",,
+387,2023,12500,792204,14210,Prog. Op. FEDER 2021-2027,"1.789.281,67","6.800.000,00","8.589.281,67","2.264.318,10","2.264.318,10"
+388,2023,12500,796000,12101,Fondo Europeo Agrícola de Garantía,"22.895.805,00",,"22.895.805,00","20.328.393,42","20.328.393,42"
+389,2023,12500,796002,12101,Plan Nacional Apícola,"410.990,64",,"410.990,64","342.195,14","342.195,14"
+390,2023,12500,796006,12101,Otras subvenciones FEAGA,"300.000,00",,"300.000,00","164.841,64","164.841,64"
+391,2023,12500,797027,12203,FEADER EURI,"13.726.175,21",,"13.726.175,21","6.166.475,02","6.166.475,02"
+392,2023,12500,797028,12202,FEADER,"69.000.326,66","-56.382,98","68.943.943,68","45.256.612,85","45.256.612,85"
+393,2023,12500,797028,12204,FEADER,"8.583.055,68",,"8.583.055,68","1.296.389,71","1.296.389,71"
+394,2023,12500,797099,12202,Otras transferencias de capital,,,,"8.447.065,85","8.447.065,85"
+395,2023,12500,799000,19003,Otras subvenciones del exterior,"49.491,00",,"49.491,00",,
+396,2023,12500,821002,91003,"Reintegros préstamos a largo plazo, convenios BEI","12.500.000,00",,"12.500.000,00","12.499.999,99","12.499.999,99"
+397,2023,12500,821009,91003,Reintegros a largo plazo de vivienda y rehab.,"921.947,00",,"921.947,00","1.271.886,51","1.192.912,30"
+398,2023,12500,870000,32427,Remanentes de Tesorería,,"37.584.135,00","37.584.135,00",,
+399,2023,12500,870000,32428,Remanentes de Tesorería,,"15.127.487,41","15.127.487,41",,
+400,2023,12500,870000,32431,Remanentes de Tesorería,,"111.192,63","111.192,63",,
+401,2023,12500,870000,32434,Remanentes de Tesorería,,"1.609.853,51","1.609.853,51",,
+402,2023,12500,870000,32435,Remanentes de Tesorería,,"6.393.992,62","6.393.992,62",,
+403,2023,12500,870000,32436,Remanentes de Tesorería,,"19.957.816,39","19.957.816,39",,
+404,2023,12500,870000,32437,Remanentes de Tesorería,,"540.000,00","540.000,00",,
+405,2023,12500,870000,32438,Remanentes de Tesorería,,"35.765.199,26","35.765.199,26",,
+406,2023,12500,870000,32439,Remanentes de Tesorería,,"287.738,55","287.738,55",,
+407,2023,12500,870000,32443,Remanentes de Tesorería,,"2.818.420,68","2.818.420,68",,
+408,2023,12500,870000,32449,Remanentes de Tesorería,,"23.096,32","23.096,32",,
+409,2023,12500,870000,39127,Remanentes de Tesorería,,"2.468.072,25","2.468.072,25",,
+410,2023,12500,870000,39150,Remanentes de Tesorería,,"7.600.000,00","7.600.000,00",,
+411,2023,12500,870000,39157,Remanentes de Tesorería,,"380.000,00","380.000,00",,
+412,2023,12500,870000,39403,Remanentes de Tesorería,,"39.604,32","39.604,32",,
+413,2023,12500,910000,91003,Préstamos recibidos a largo plazo,"197.991.000,04",,"197.991.000,04",,
+414,2023,12500,910105,91003,Préstamos L/P Fondo Liquidez Autonómico Déficit,"130.670.000,00","1.880.211,63","132.550.211,63","132.939.998,97","132.939.998,97"
+415,2023,12500,910106,91003,Préstamos L/P Fondo Liquidez Autonómico Vencimient,"1.335.841.717,98",,"1.335.841.717,98","1.329.850.549,57","1.329.850.549,57"
+416,2023,12500,910107,91003,Préstamos L/P Fondo Liquidez Autonómico Liq.Negati,"35.375.400,00",,"35.375.400,00","35.375.398,30","35.375.398,30"
+417,2023,12500,910110,91003,Préstamos L/P F.Liquidez Auto.Déficit Ej.Cerrados,,"70.500.000,00","70.500.000,00","70.499.915,67","70.499.915,67"
+418,2023,12510,110000,91003,Sobre adquisiciones por herencia o legado,,,,"78.801.293,96","73.703.318,51"
+419,2023,12510,110003,91003,Donaciones,,,,"836.882,95","86.959,03"
+420,2023,12510,111000,91003,Sobre el patrimonio neto de las personas físicas,,,,"57.937.600,66","56.706.332,86"
+421,2023,12510,112000,91003,Sobre Grandes superficies,,,,"5.573.499,14","5.573.499,14"
+422,2023,12510,115000,91003,Impuestos Depósitos Entidades de Crédito,,,,"13.311.261,54","13.311.261,54"
+423,2023,12510,200000,91003,Sobre Transmisiones Patrimoniales Onerosas,,,,"104.538.110,36","102.645.850,14"
+424,2023,12510,200001,91003,Sobre Operaciones Societarias,,,,"1.053.644,02","1.052.066,85"
+425,2023,12510,200002,91003,Sobre Transmisiones de vehículos,,,,"1.686.758,62","1.684.056,62"
+426,2023,12510,201000,91003,Documentos Notariales,,,,"48.824.540,26","47.966.448,88"
+427,2023,12510,201002,91003,Documentos Administrativos,,,,"839.854,47","837.564,41"
+428,2023,12510,220005,91003,Sobre determinados medios de transporte,,,,"16.214.372,49","14.713.295,58"
+429,2023,12510,220049,91003,Tramo autonómico s/hidrocarburos,,,,"-951,72","-951,72"
+430,2023,12510,232000,91003,S/ Emisiones contaminantes,,,,"3.201,75","3.201,75"
+431,2023,12510,232001,91003,Impuesto s/ depósito de residuos en vertederos,,,,"12.775.571,18","12.775.571,18"
+432,2023,12510,233000,91003,S/ Tendidos aéreos,,,,"392.958,07","39.296,06"
+433,2023,12510,234000,91003,S/ aprovechamiento hidroeléctrico,,,,"14.525.383,21","14.525.383,21"
+434,2023,12510,235000,91003,S/ líneas de alta tensión,,,,"2.350.552,86","2.350.552,86"
+435,2023,12510,240000,91003,Casinos,,,,"395.081,56","395.081,56"
+436,2023,12510,240001,91003,Bingos,,,,"5.302.399,09","5.302.399,09"
+437,2023,12510,240002,91003,Máquinas recreativas,,,,"19.746.114,62","17.596.713,61"
+438,2023,12510,240003,91003,"Loterías,rifas,boletos y combinaciones aleatorias",,,,"1.764.682,54","1.764.682,54"
+439,2023,12510,240004,91003,Bingo Electrónico,,,,"1.207.730,61","1.207.730,61"
+440,2023,12510,250000,91003,Impuesto s/ actividades de juego,,,,"4.288.532,05","4.288.532,05"
+441,2023,12510,396001,91003,Ing.diversos.Rec eventuales.Hacienda y AP,,,,"15.251,01","15.251,01"
+442,2023,12510,398002,91003,Intereses de demora,,,,"635.890,01","528.946,16"
+443,2023,12520,110000,91003,Sobre adquisiciones por herencia o legado,,,,"20.285.891,58","19.979.238,62"
+444,2023,12520,110003,91003,Donaciones,,,,"1.113.052,62","1.085.242,26"
+445,2023,12520,111000,91003,Sobre el patrimonio neto de las personas físicas,,,,"1.743,71","1.743,71"
+446,2023,12520,200000,91003,Sobre Transmisiones Patrimoniales Onerosas,,,,"32.743.913,10","32.271.010,07"
+447,2023,12520,200001,91003,Sobre Operaciones Societarias,,,,"92.272,02","92.272,02"
+448,2023,12520,200002,91003,Sobre Transmisiones de vehículos,,,,"486.392,79","486.018,40"
+449,2023,12520,201000,91003,Documentos Notariales,,,,"10.297.454,65","10.166.416,53"
+450,2023,12520,220005,91003,Sobre determinados medios de transporte,,,,"2.525.139,96","2.270.380,27"
+451,2023,12520,240001,91003,Bingos,,,,"109.315,04","109.315,04"
+452,2023,12520,240002,91003,Máquinas recreativas,,,,"4.032.581,92","3.702.679,92"
+453,2023,12520,240003,91003,"Loterías,rifas,boletos y combinaciones aleatorias",,,,"514,16","514,16"
+454,2023,12520,396001,91003,Ing.diversos.Rec eventuales.Hacienda y AP,,,,"375,56","375,56"
+455,2023,12520,398001,91003,Recargo de apremio,,,,"1.327,83","309,1"
+456,2023,12520,398002,91003,Intereses de demora,,,,"108.259,51","85.584,84"
+457,2023,12530,110000,91003,Sobre adquisiciones por herencia o legado,,,,"10.056.164,41","9.853.445,61"
+458,2023,12530,110003,91003,Donaciones,,,,"566.595,66","565.114,48"
+459,2023,12530,111000,91003,Sobre el patrimonio neto de las personas físicas,,,,"2.670,91","2.670,91"
+460,2023,12530,200000,91003,Sobre Transmisiones Patrimoniales Onerosas,,,,"10.977.977,67","10.587.982,81"
+461,2023,12530,200001,91003,Sobre Operaciones Societarias,,,,"55.390,15","55.390,15"
+462,2023,12530,200002,91003,Sobre Transmisiones de vehículos,,,,"318.139,37","318.139,37"
+463,2023,12530,201000,91003,Documentos Notariales,,,,"4.596.154,90","4.477.644,13"
+464,2023,12530,220005,91003,Sobre determinados medios de transporte,,,,"1.125.353,25","1.043.905,22"
+465,2023,12530,240002,91003,Máquinas recreativas,,,,"2.297.073,39","1.930.190,09"
+466,2023,12530,240003,91003,"Loterías,rifas,boletos y combinaciones aleatorias",,,,"82,06","82,06"
+467,2023,12530,398002,91003,Intereses de demora,,,,"51.896,09","50.203,61"
+468,2023,51000,329001,91003,Tasa 01- Dirección e inspección de obras,,,,"12.218,58","12.218,58"
+469,2023,51000,330002,91003,Precios Públicos de los Centros de Form del INAEM,"1.500,00",,"1.500,00",432,432
+470,2023,51000,380012,11101,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"158,36","158,36"
+471,2023,51000,380012,11201,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"35.319,34","11.357,55"
+472,2023,51000,380012,11209,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"93.316,66","93.316,66"
+473,2023,51000,380012,19090,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"97.468,60","97.468,60"
+474,2023,51000,380012,32433,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"335.380,53","330.174,53"
+475,2023,51000,380012,33003,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"596,56","596,56"
+476,2023,51000,380012,33004,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"524.740,65","501.567,00"
+477,2023,51000,380012,33005,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"263.273,39","216.475,29"
+478,2023,51000,380012,39144,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"2.527.433,41","2.518.947,37"
+479,2023,51000,380012,91003,Reint. ejerc. cerrados Instituto Aragonés Empleo,"1.000.000,00",,"1.000.000,00","750.569,34","719.254,72"
+480,2023,51000,380012,91019,Reint. ejerc. cerrados Instituto Aragonés Empleo,,,,"15.511,27","13.262,74"
+481,2023,51000,381012,11201,Reint. Ppto. corriente INAEM,,,,150,150
+482,2023,51000,381012,19090,Reint. Ppto. corriente INAEM,,,,"71.150,41","71.150,41"
+483,2023,51000,381012,32433,Reint. Ppto. corriente INAEM,,,,"142.547,64","125.047,64"
+484,2023,51000,381012,32446,Reint. Ppto. corriente INAEM,,,,"4.941,00","4.941,00"
+485,2023,51000,381012,33004,Reint. Ppto. corriente INAEM,,,,"90.595,62","90.595,62"
+486,2023,51000,381012,33005,Reint. Ppto. corriente INAEM,,,,"84.353,25","74.364,46"
+487,2023,51000,381012,39144,Reint. Ppto. corriente INAEM,,,,"240.851,90","240.851,90"
+488,2023,51000,381012,91003,Reint. Ppto. corriente INAEM,,,,"24.289,32","24.289,32"
+489,2023,51000,381101,91003,Reintegro Pagos Tesorería General Seguridad Social,,,,"498,34","498,34"
+490,2023,51000,395007,91003,Multas y sanciones de Economía y Empleo,,,,"16.170,72","16.170,72"
+491,2023,51000,396100,91003,Ingresos diversos. Recursos eventuales,,,,"1.711,76","1.711,76"
+492,2023,51000,398001,91003,Recargo de apremio,"30.000,00",,"30.000,00","34.266,24","34.266,24"
+493,2023,51000,398002,91003,Intereses de demora,"20.000,00",,"20.000,00","131.522,83","121.106,25"
+494,2023,51000,404099,39071,Otras subv. Empleo y de Servicios Sociales,"96.899,99",,"96.899,99","91.228,61","91.228,61"
+495,2023,51000,407099,39008,"Otras subvenciones  Educación, Cultura y Deporte",,"60.000,00","60.000,00","2.634,10","2.634,10"
+496,2023,51000,409005,39144,Sistema cualificaciones y FP para el empleo,,,,"-3.964.609,16","-3.964.609,16"
+497,2023,51000,409007,32433,Next Generation EU MRR,,"5.596.961,65","5.596.961,65",,
+498,2023,51000,409007,32446,Next Generation EU MRR,,"626.232,71","626.232,71",,
+499,2023,51000,413000,33002,Conferencia Sectorial de Empleo,"1.390.358,45","336.680,55","1.727.039,00","904.690,51",0
+500,2023,51000,413000,33004,Conferencia Sectorial de Empleo,"30.442.900,92","5.871.769,08","36.314.670,00","34.951.853,26","33.385.000,00"
+501,2023,51000,413000,33005,Conferencia Sectorial de Empleo,"36.454.443,15","10.831.393,85","47.285.837,00","46.603.193,45",0
+502,2023,51000,413000,39008,Conferencia Sectorial de Empleo,"60.000,00","-60.000,00",0,,
+503,2023,51000,520000,91003,Intereses,480,,480,,
+504,2023,51000,709007,32433,Next Generation EU MRR,,"640.200,00","640.200,00",,
+505,2023,51000,713009,33002,Otras subvenciones Serv. Público de Empleo INEM,"727.000,00",,"727.000,00","727.000,00",
+506,2023,51000,713009,33005,Otras subvenciones Serv. Público de Empleo INEM,"300.000,00",,"300.000,00",,
+507,2023,51000,870000,32433,Remanentes de Tesorería,,"2.197.600,89","2.197.600,89",,
+508,2023,51000,870000,32446,Remanentes de Tesorería,,"6.000.643,59","6.000.643,59",,
+509,2023,52000,319115,91003,Prestación de servicios en hospitales del SALUD,"15.100.000,00",,"15.100.000,00","21.364.853,18","17.365.484,82"
+510,2023,52000,329001,91003,Tasa 01- Dirección e inspección de obras,,"1.654.123,33","1.654.123,33","1.961.331,75","1.961.331,75"
+511,2023,52000,329024,91003,Tasa 24-Derechos Examen pruebas selectiva C.Aut.,,"426.820,20","426.820,20","438.779,39","438.779,39"
+512,2023,52000,380100,91003,Reintegros de ejercicios cerrados,,"24.635,78","24.635,78","34.403,45","32.524,85"
+513,2023,52000,381100,91003,Reintegros de ejercicio corriente,,"294.338,34","294.338,34","326.409,81","214.727,66"
+514,2023,52000,381101,91003,Reintegro Pagos Tesorería General Seguridad Social,,"26.725,20","26.725,20","132.984,99","132.984,99"
+515,2023,52000,390002,91003,Ingresos por cursos,,"215.019,53","215.019,53","215.019,53","215.019,53"
+516,2023,52000,393005,91003,"Cursos y otros ingresos de Sanidad, BS y Familia",,"26.024,38","26.024,38","192.962,09","192.962,09"
+517,2023,52000,396009,91003,"Indemnizaciones, incautaciones, penalidades, etc.",,"311.477,66","311.477,66","351.677,88","351.677,88"
+518,2023,52000,396100,91003,Ingresos diversos. Recursos eventuales,,"142.237,30","142.237,30","184.194,31","176.505,02"
+519,2023,52000,398001,91003,Recargo de apremio,,"2.803,32","2.803,32","2.803,32","2.803,32"
+520,2023,52000,398002,91003,Intereses de demora,,"5.109,03","5.109,03","11.866,37","11.866,37"
+521,2023,52000,405001,39015,Fomento de la donación y trasplante de órganos,,"23.948,56","23.948,56","23.948,56","23.948,56"
+522,2023,52000,440004,39134,Subv. Agencia Española Medicamentos y Prod. Sanita,,,,"43.750,00","43.750,00"
+523,2023,52000,440009,72016,Otras subv. de Empresas Públicas y Entes Públicos,,"1.213.312,23","1.213.312,23","1.213.312,23","1.213.312,23"
+524,2023,52000,470009,91003,Otras subvenciones de empresas,,"323.139,16","323.139,16","323.139,16","323.139,16"
+525,2023,52000,499099,19090,Otras subvenciones del exterior,,"34.771,21","34.771,21","34.771,21","34.771,21"
+526,2023,52000,520000,91003,Intereses,,"47.167,46","47.167,46","72.253,36","72.253,36"
+527,2023,52000,553009,91003,Otros cánones,,"811.120,31","811.120,31","1.908.777,69","877.845,13"
+528,2023,52000,610000,91003,Venta de inversiones reales- Varios,,"1.300,00","1.300,00","1.300,00","1.300,00"
+529,2023,52000,709007,32437,Next Generation EU MRR,,"710.000,00","710.000,00",,
+530,2023,52000,709007,32439,Next Generation EU MRR,,"15.116.398,92","15.116.398,92",,
+531,2023,52000,780009,72029,Otras Transferencias De Familias Y Otras Instituc.,,"14.036,00","14.036,00","14.036,00","14.036,00"
+532,2023,52000,870000,32439,Remanentes de Tesorería,,"8.915.633,52","8.915.633,52",,
+533,2023,53000,319100,91003,Prestación de Servicios en Residencias IASS,"12.240.000,00",,"12.240.000,00","8.687.752,55","7.835.543,19"
+534,2023,53000,319102,91003,Prest. Servicios Centros Sociales y clubs IASS,"175.000,00",,"175.000,00","2.284.575,27","1.721.200,43"
+535,2023,53000,319116,91003,Prestación de Servicios en Residencias,"5.360.000,00",,"5.360.000,00","5.772.909,79","5.772.909,79"
+536,2023,53000,319200,91003,Prestación Servicios - Copagos,"300.000,00",,"300.000,00","359.343,95","342.396,66"
+537,2023,53000,329001,91003,Tasa 01- Dirección e inspección de obras,"30.000,00",,"30.000,00","184.687,59","184.687,59"
+538,2023,53000,380010,11209,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"89.539,32","89.539,32"
+539,2023,53000,380010,32219,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"585.846,68","585.846,68"
+540,2023,53000,380010,32220,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"16.246,34","16.246,34"
+541,2023,53000,380010,32221,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"73.185,96","73.185,96"
+542,2023,53000,380010,32435,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"34.271,71","34.271,71"
+543,2023,53000,380010,35012,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"86.232,25","86.232,25"
+544,2023,53000,380010,35013,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"101.160,31","101.160,31"
+545,2023,53000,380010,39407,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"3.240,00","3.240,00"
+546,2023,53000,380010,91003,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"214.167,64","214.167,64"
+547,2023,53000,380010,91219,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"185.846,68","185.846,68"
+548,2023,53000,380010,91221,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"73.185,96","73.185,96"
+549,2023,53000,380011,91003,Reint .Ej .Cerr. IASS_Dep.,,"3.274.196,34","3.274.196,34","3.404.718,64","3.404.718,64"
+550,2023,53000,380100,91003,Reintegros de ejercicios cerrados,,,,204,204
+551,2023,53000,381010,91003,Reint. Ppto. corriente I. A. Servicios Sociales,,,,"267.139,65","267.139,65"
+552,2023,53000,381101,91003,Reintegro Pagos Tesorería General Seguridad Social,,,,"1.629,16","1.629,16"
+553,2023,53000,395005,91003,"Multas y sanciones de Sanidad, B. Social y Familia","15.000,00",,"15.000,00","15.266,45","241,1"
+554,2023,53000,395100,91003,Multas y sanciones,,,,"1.803,04","1.803,04"
+555,2023,53000,396005,91003,"Ing.diversos.Rec eventuales.Sanidad, B Social y Fa","75.000,00",,"75.000,00","45.719,33","45.373,72"
+556,2023,53000,396100,91003,Ingresos diversos. Recursos eventuales,,,,"7.277,98","7.277,98"
+557,2023,53000,398001,91003,Recargo de apremio,,,,"3.715,37","3.715,37"
+558,2023,53000,398002,91003,Intereses de demora,,,,"50.111,23","33.156,45"
+559,2023,53000,409007,32435,Next Generation EU MRR,,"1.914.973,02","1.914.973,02",,
+560,2023,53000,409007,39404,Next Generation EU MRR,,"488.000,00","488.000,00",,
+561,2023,53000,412001,33004,Escuelas Taller,"251.299,40",,"251.299,40",,
+562,2023,53000,412009,33004,Otras subvenciones Instituto Aragonés de Empleo,,,,"286.010,36","286.010,36"
+563,2023,53000,520000,91003,Intereses,,,,"82.593,42","82.593,42"
+564,2023,53000,553010,91003,Canones del IASS,"10.000,00",,"10.000,00","5.500,00","3.500,00"
+565,2023,53000,610000,91003,Venta de inversiones reales- Varios,,,,500,500
+566,2023,53000,709007,32435,Next Generation EU MRR,,"1.944.476,70","1.944.476,70",,
+567,2023,53000,780009,72031,Otras Transferencias De Familias Y Otras Instituc.,,"4.500,00","4.500,00","4.500,00","4.500,00"
+568,2023,53000,870000,32435,Remanentes de Tesorería,,"13.102.782,93","13.102.782,93",,
+569,2023,53000,870000,39403,Remanentes de Tesorería,,"26.104,33","26.104,33",,
+570,2023,53000,870000,72028,Remanentes de Tesorería,,"135.221,70","135.221,70",,
+571,2023,54000,380010,32440,Reint. ejerc. cerrados I. A. Servicios Sociales,,,,"10.417,38","10.417,38"
+572,2023,54000,380100,35017,Reintegros de ejercicios cerrados,,,,"803.184,19","803.184,19"
+573,2023,54000,380100,39092,Reintegros de ejercicios cerrados,,,,"13.797,81","13.797,81"
+574,2023,54000,380100,39135,Reintegros de ejercicios cerrados,,,,"2.380,50","2.380,50"
+575,2023,54000,380100,91003,Reintegros de ejercicios cerrados,,,,"3.048,20","3.048,20"
+576,2023,54000,409007,32440,Next Generation EU MRR,,"100.000,00","100.000,00",,
+577,2023,54000,520000,91003,Intereses,"5.000,00",,"5.000,00",,
+578,2023,54000,709007,32440,Next Generation EU MRR,,"1.219.660,52","1.219.660,52",,
+579,2023,54000,870000,32440,Remanentes de Tesorería,,"1.830.303,31","1.830.303,31",,
+580,2023,54000,870000,39403,Remanentes de Tesorería,,"10.176,89","10.176,89",,
+581,2023,55000,319104,91003,Prestación de servicios por Carnés Juveniles,100,,100,,
+582,2023,55000,319106,91003,Prestación de servicios en campos de trabajo,,,,"11.550,00","11.550,00"
+583,2023,55000,319107,91003,Prestación de servicios en albergues,"80.000,00",,"80.000,00","143.222,54","141.168,25"
+584,2023,55000,319108,91003,Prestación de servicios del Carné Joven,"420.000,00",,"420.000,00","420.588,71","404.863,50"
+585,2023,55000,319116,91003,Prestación de Servicios en Residencias,"804.785,04",,"804.785,04","725.926,42","725.844,64"
+586,2023,55000,329001,91003,Tasa 01- Dirección e inspección de obras,,,,"8.914,62","8.914,62"
+587,2023,55000,381101,91003,Reintegro Pagos Tesorería General Seguridad Social,,,,"1.035,54","1.035,54"
+588,2023,55000,398002,91003,Intereses de demora,,,,"4,23","4,23"
+589,2023,55000,553009,91003,Otros cánones,"4.000,00",,"4.000,00","623,97","623,97"
+590,2023,55000,870000,39403,Remanentes de Tesorería,,"20.353,42","20.353,42",,
+591,2023,71000,314002,91003,Prestación Servicios AST,"2.829.640,00",,"2.829.640,00","2.702.475,89","10.930,95"
+592,2023,71000,314003,91003,Prestación Servicios AST: IP,"722.330,84",,"722.330,84","851.287,51","655.501,85"
+593,2023,71000,314004,91003,Prestación Servicios AST: DPH,"255.153,77",,"255.153,77","310.381,22","290.328,82"
+594,2023,71000,380100,91003,Reintegros de ejercicios cerrados,,,,"4.663,98","4.663,98"
+595,2023,71000,381100,91003,Reintegros de ejercicio corriente,,,,"72,13","72,13"
+596,2023,71000,409007,39403,Next Generation EU MRR,"38.951,10",,"38.951,10",,
+597,2023,71000,440009,91003,Otras subv. de Empresas Públicas y Entes Públicos,,"63.934,28","63.934,28","96.407,85","72.033,07"
+598,2023,71000,450008,91003,Aportaciones Departamentos D.G.A.,,"11.436.941,82","11.436.941,82","10.868.632,67","2.111.608,32"
+599,2023,71000,709007,32442,Next Generation EU MRR,"4.215.000,00",,"4.215.000,00",,
+600,2023,71000,792204,14210,Prog. Op. FEDER 2021-2027,"2.428.018,43",,"2.428.018,43",,
+601,2023,71000,870000,32441,Remanentes de Tesorería,,"759.233,58","759.233,58",,
+602,2023,72000,230000,91003,Impuesto s/contaminación de las aguas,,,,"219.622,86","219.622,86"
+603,2023,72000,230000,91072,Impuesto s/contaminación de las aguas,"4.000.000,00",,"4.000.000,00","4.807.112,44","3.524.599,65"
+604,2023,72000,230100,91072,IMAR,"64.100.000,00",,"64.100.000,00","61.199.755,58","45.192.718,88"
+605,2023,72000,329001,91003,Tasa 01- Dirección e inspección de obras,"255.000,00",,"255.000,00","273.288,17","273.288,17"
+606,2023,72000,329003,91003,"Tasa 03- Serv.admvos, redacc. informes,activ. fac.","1.500,00",,"1.500,00",,
+607,2023,72000,329049,91003,TASA 49.- CLASIF.APROB. PLANES EMERG. P.E.BALSAS,"50.000,00",,"50.000,00","20.500,00","20.500,00"
+608,2023,72000,330009,91003,Tratamiento fosas sépticas,"190.000,00",,"190.000,00","230.299,35","214.090,77"
+609,2023,72000,390004,91003,Cargas Urbanísticas IAA,"3.500.000,00",,"3.500.000,00","2.773.487,70","11.700,00"
+610,2023,72000,395100,91003,Multas y sanciones,"85.000,00",,"85.000,00","177.597,80","177.597,80"
+611,2023,72000,396100,32220,Ingresos diversos. Recursos eventuales,,,,"7.569,39","7.569,39"
+612,2023,72000,396100,32436,Ingresos diversos. Recursos eventuales,,,,"195.267,47","195.267,47"
+613,2023,72000,396100,91003,Ingresos diversos. Recursos eventuales,"275.000,00",,"275.000,00","144.755,25","145.292,73"
+614,2023,72000,396100,91220,Ingresos diversos. Recursos eventuales,,,,"7.569,42","7.569,42"
+615,2023,72000,397000,91003,Sanciones Tributarias,,,,"5.076,00","5.076,00"
+616,2023,72000,398001,91003,Recargo de apremio,"450.000,00",,"450.000,00","1.082.351,21","1.082.351,21"
+617,2023,72000,398001,91072,Recargo de apremio,,,,"2,39","2,39"
+618,2023,72000,398002,91003,Intereses de demora,"15.000,00",,"15.000,00","41.801,26","41.263,78"
+619,2023,72000,409007,32436,Next Generation EU MRR,"40.963,03",,"40.963,03",,
+620,2023,72000,520000,91003,Intereses,780,,780,"8.066,59","8.066,59"
+621,2023,72000,709007,32436,Next Generation EU MRR,"4.516.381,38",,"4.516.381,38",,
+622,2023,72000,821001,91003,Reintegros préstamos convenios con EE Locales,"11.810,00",,"11.810,00","11.810,29","11.810,29"
+623,2023,73000,329020,91003,"Tasa 20-Aut, Insp y actu. cen y est. farmaceúticos","5.000,00",,"5.000,00","8.602,14","8.602,14"
+624,2023,73000,329024,91003,Tasa 24-Derechos Examen pruebas selectiva C.Aut.,,,,"286,6","286,6"
+625,2023,73000,329035,91003,Tasa 35- Tasa eval. ensayos clínicos y p. sanitari,"15.000,00",,"15.000,00","7.062,36","7.062,36"
+626,2023,73000,330010,91003,Servicios Investigación Biomédica,"811.000,00",,"811.000,00","555.945,13","477.039,74"
+627,2023,73000,380100,39053,Reintegros de ejercicios cerrados,,,,"2.697,02","2.697,02"
+628,2023,73000,381100,39412,Reintegros de ejercicio corriente,,,,"13.284,00","13.284,00"
+629,2023,73000,381100,91003,Reintegros de ejercicio corriente,,,,"28.056,96","2.047,02"
+630,2023,73000,393005,91003,"Cursos y otros ingresos de Sanidad, BS y Familia","120.000,00",,"120.000,00","53.674,25","53.674,25"
+631,2023,73000,396005,91003,"Ing.diversos.Rec eventuales.Sanidad, B Social y Fa","3.000,00",,"3.000,00","4.619,62","4.059,61"
+632,2023,73000,405099,39053,Otras subvenciones en materia de Salud y Consumo,"1.090.752,30",,"1.090.752,30","1.332.184,76","301.614,76"
+633,2023,73000,407006,39053,MEC - Plan nacional de investigación,,,,"-47.200,43","-47.200,43"
+634,2023,73000,411009,55002,Otras subvenciones del Servicio Aragonés de Salud,"464.000,00",,"464.000,00","464.000,00",
+635,2023,73000,440002,91003,Transferencia de la Universidad de Zaragoza,"165.500,00",,"165.500,00","150.320,05","150.320,05"
+636,2023,73000,440003,91003,Transf. Inst. Investigación Sanitaria de Aragón,"100.000,00",,"100.000,00",,
+637,2023,73000,450008,55007,Aportaciones Departamentos D.G.A.,,"24.760,00","24.760,00","24.760,00",
+638,2023,73000,470009,72009,Otras subvenciones de empresas,"950.836,21",,"950.836,21","28.947,33","28.947,33"
+639,2023,73000,499099,19090,Otras subvenciones del exterior,"557.200,01","418.048,51","975.248,52","975.248,52","975.248,52"
+640,2023,73000,520000,91003,Intereses,,,,9,9
+641,2023,73000,709009,39053,Otras subvenciones de capital,"50.514,70",,"50.514,70",0,0
+642,2023,73000,709009,39412,Otras subvenciones de capital,,"1.696.274,00","1.696.274,00","1.696.274,00",
+643,2023,73000,711009,55002,Otras subvenciones del Servicio Aragonés de Salud,"186.000,00",,"186.000,00","186.000,00",
+644,2023,73000,750008,55007,Aportaciones Departamentos D.G.A.,,"2.150,00","2.150,00","2.150,00",
+645,2023,73000,770010,72009,proyectos producción y transferencia conocimiento,"133.137,27",,"133.137,27",,
+646,2023,73000,799000,19090,Otras subvenciones del exterior,"61.911,11","408.088,89","470.000,00","470.000,00","470.000,00"
+647,2023,73000,870000,32439,Remanentes de Tesorería,,"41.294,36","41.294,36",,
+648,2023,73000,870000,39412,Remanentes de Tesorería,,"820.000,00","820.000,00",,
+649,2023,74000,319319,72012,Prestación de Servicios en laboratorios,"50.000,00","30.291,74","80.291,74","80.291,74","69.777,14"
+650,2023,74000,319320,72012,Prestación servicios investigación agroalimentaria,"700.000,00","12.132,99","712.132,99","706.892,58","636.415,64"
+651,2023,74000,329024,91003,Tasa 24-Derechos Examen pruebas selectiva C.Aut.,,,,"618,16","618,16"
+652,2023,74000,380100,91003,Reintegros de ejercicios cerrados,,,,"18.810,97","18.810,97"
+653,2023,74000,381100,91003,Reintegros de ejercicio corriente,"50.000,00",,"50.000,00","21.166,74","21.166,74"
+654,2023,74000,396100,91003,Ingresos diversos. Recursos eventuales,,,,518,518
+655,2023,74000,450008,91003,Aportaciones Departamentos D.G.A.,"180.000,00",,"180.000,00","78.626,40","78.626,40"
+656,2023,74000,552000,72012,De investigación agraria,"927.156,09","510.632,51","1.437.788,60","1.437.807,83","1.437.700,14"
+657,2023,74000,552005,91003,Aprovechamientos de fincas agrícolas,"305.332,25",,"305.332,25","312.978,49","157.366,26"
+658,2023,74000,707003,39037,Plan Nacional de Investigación,"2.200.000,00","60.069,69","2.260.069,69","2.260.069,69","2.126.503,69"
+659,2023,74000,709007,32444,Next Generation EU MRR,"2.280.000,00",,"2.280.000,00",,
+660,2023,74000,712009,55007,Otras subvenciones Instituto Aragonés de Empleo,,"76.131,85","76.131,85","228.789,67","228.789,67"
+661,2023,74000,750008,39414,Aportaciones Departamentos D.G.A.,,"46.348,02","46.348,02","46.348,92",
+662,2023,74000,750008,55007,Aportaciones Departamentos D.G.A.,"596.904,30",,"596.904,30","469.223,39","215.561,53"
+663,2023,74000,760009,51007,Otras subvenciones de Diputaciones Provinciales,"55.000,00",,"55.000,00","55.000,00",
+664,2023,74000,760009,51008,Otras subvenciones de Diputaciones Provinciales,,"150.000,00","150.000,00","150.000,00","150.000,00"
+665,2023,74000,799000,19090,Otras subvenciones del exterior,"361.656,95","297.501,56","659.158,51","659.158,51","594.558,04"
+666,2023,75000,329016,91003,Tasa 16-Expedición licencias caza y pesca,"2.062.000,00",,"2.062.000,00","1.813.965,99","1.813.965,99"
+667,2023,75000,329017,91003,"Tasa 17-S. facul. montes, forestales y v. pecuaria","133.000,00",,"133.000,00","283.957,14","283.957,14"
+668,2023,75000,329026,91003,Tasa 26-Tasa servicios gestión de los cotos,"900.000,00",,"900.000,00","947.499,74","947.499,74"
+669,2023,75000,329028,91003,Tasa 28-Tasa ser.adm. protección del medio ambient,"1.183.000,00",,"1.183.000,00","1.026.051,94","1.026.051,94"
+670,2023,75000,329029,91003,Tasa 29-Tasa S.Adm. conservación biodiversidad,"29.000,00",,"29.000,00","5.562,30","5.562,30"
+671,2023,75000,329034,91003,Tasa 34-S. admtivos. calificación ambien act. clas,"320.000,00",,"320.000,00","155.223,98","155.223,98"
+672,2023,75000,381101,91003,Reintegro Pagos Tesorería General Seguridad Social,,,,"1.123,89","1.123,89"
+673,2023,76000,329024,91003,Tasa 24-Derechos Examen pruebas selectiva C.Aut.,,,,"1.114,51","1.114,51"
+674,2023,76000,330014,91003,Ingresos de BST,"11.159.128,05",,"11.159.128,05","10.622.735,90","448.173,75"
+675,2023,76000,396010,91003,Ingresos diversos Bco Sangre y Tejidos de Aragón,,,,"22.261,24","19.349,24"
+676,2023,76000,405006,39149,Políticas de cohesión y estrategias de salud,,"70.090,65","70.090,65","70.090,65",
+677,2023,77000,319323,91003,Prestación Servicios o Actividades Propias ACPUA,"20.000,00",,"20.000,00","9.800,00","9.800,00"
+678,2023,77000,380100,91003,Reintegros de ejercicios cerrados,,,,"7.510,80","7.510,80"
+679,2023,77000,381100,91003,Reintegros de ejercicio corriente,,,,221,221
+680,2023,78000,329024,91003,Tasa 24-Derechos Examen pruebas selectiva C.Aut.,,,,"102,08","102,08"
+681,2023,78000,380100,32218,Reintegros de ejercicios cerrados,,,,"7.854,31",500
+682,2023,78000,380100,32221,Reintegros de ejercicios cerrados,,,,"24.271,49","24.271,49"
+683,2023,78000,380100,91218,Reintegros de ejercicios cerrados,,,,"7.854,31",500
+684,2023,78000,380100,91221,Reintegros de ejercicios cerrados,,,,"24.271,48","24.271,48"
+685,2023,78000,390002,91003,Ingresos por cursos,"25.800,00",,"25.800,00","21.850,00","21.730,00"
+686,2023,78000,396100,91003,Ingresos diversos. Recursos eventuales,,,,"4.489,77","3.701,24"
+687,2023,78000,398001,91003,Recargo de apremio,,,,"835,43",100
+688,2023,78000,398002,91003,Intereses de demora,,,,"2.629,20","2.549,81"
+689,2023,78000,409007,39403,Next Generation EU MRR,,"128.435,52","128.435,52","64.217,76","64.217,76"
+690,2023,78000,409007,39405,Next Generation EU MRR,"114.167,35","66.217,68","180.385,03","66.217,68","66.217,68"
+691,2023,78000,422000,91003,Formación Profesional para el Empleo,,,,"5.305,60","5.305,60"
+692,2023,78000,493201,11202,FSE. Programa Operativo 2021-2027,"535.713,85","267.854,15","803.568,00","803.568,00",
+693,2023,78000,499099,14104,Otras subvenciones del exterior,"9.916,67",,"9.916,67","14.450,00","14.450,00"
+694,2023,78000,499099,14213,Otras subvenciones del exterior,"14.325,76",,"14.325,76",,
+695,2023,78000,499099,19012,Otras subvenciones del exterior,"67.372,00",,"67.372,00","67.732,00","67.732,00"
+696,2023,78000,499099,19090,Otras subvenciones del exterior,"38.600,29",,"38.600,29","178,13","178,13"
+697,2023,78000,511000,91003,Intereses de Préstamos Concedidos,"106.169,19",,"106.169,19","202.894,61","86.894,17"
+698,2023,78000,511005,91003,Intereses Prést. concedidos EE. Grupo Multig. y As,,,,"2.895,09","2.412,57"
+699,2023,78000,540001,91003,Renta de Inmuebles,"975.866,03",,"975.866,03","1.209.473,88","911.717,47"
+700,2023,78000,709007,32450,Next Generation EU MRR,"1.945.731,24","15.565.849,92","17.511.581,16",,
+701,2023,78000,709009,19013,Otras subvenciones de capital,"17.511.581,16","-17.081.067,40","430.513,76",,
+702,2023,78000,780009,91003,Otras Transferencias De Familias Y Otras Instituc.,,,,"19.453,56","19.453,56"
+703,2023,78000,799000,14213,Otras subvenciones del exterior,"26.338,20",,"26.338,20",,
+704,2023,78000,799000,19012,Otras subvenciones del exterior,"5.000,00",,"5.000,00","5.000,00","5.000,00"
+705,2023,78000,820000,91003,Reintegros varios de préstamos a corto plazo,"760.169,19",,"760.169,19","886.666,67","63.333,33"
+706,2023,78000,820016,91003,Reintegro Préstamos C.P. EE.Grupo Multigru. y Asoc,,,,"76.430,55","57.322,91"
+707,2023,78000,821000,91003,Reintegros varios de préstamos a largo plazo,,,,"118.436,74","118.436,74"
+708,2023,78000,840001,91003,Títulos representativos de ppdad empresas privadas,,,,1,1
+709,2023,78010,390002,91003,Ingresos por cursos,,,,-40,-40
+710,2023,Resultado total,,,,"8.249.589.665,89","475.492.014,59","8.725.081.680,48","7.919.931.035,97","7.639.309.764,39"

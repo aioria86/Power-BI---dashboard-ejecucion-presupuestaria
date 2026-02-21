@@ -1,0 +1,624 @@
+﻿_id,EJERCICIO,CENTRO GESTOR,DESCRIPCION CORTA,DESCRIPCION LARGA
+1,2016,01,Cortes de Aragón,Cortes de Aragón
+2,2016,0100,Ingresos de las Cortes de Aragón,Ingresos de las Cortes de Aragón
+3,2016,01000,Ingresos de las Cortes de Aragón,Ingresos de las Cortes de Aragón
+4,2016,0101,Cortes de Aragón,Cortes de Aragón
+5,2016,01010,Cortes de Aragón,Cortes de Aragón
+6,2016,0102,El Justicia de Aragón,El Justicia de Aragón
+7,2016,01020,El Justicia de Aragón,El Justicia de Aragón
+8,2016,0103,Cámara de Cuentas de Aragón,Cámara de Cuentas de Aragón
+9,2016,01030,Cámara de Cuentas de Aragón,Cámara de Cuentas de Aragón
+10,2016,02,Presidencia del Gobierno de Aragón,Presidencia del Gobierno de Aragón
+11,2016,0200,Ingresos de Presidencia Gobierno Aragón,Ingresos de Presidencia Gobierno Aragón
+12,2016,02000,Ingresos de Presidencia del Gobierno,Ingresos de Presidencia del Gobierno
+13,2016,0201,Presidencia del Gobierno de Aragón,Presidencia del Gobierno de Aragón
+14,2016,02010,Presidencia del Gobierno de Aragón,Presidencia del Gobierno de Aragón
+15,2016,03,Consejo Consultivo de Aragón,Consejo Consultivo de Aragón
+16,2016,0300,Ingresos Consejo Consultivo de Aragón,Ingresos Consejo Consultivo de Aragón
+17,2016,03000,Ingresos Consejo Consultivo de Aragón,Ingresos Consejo Consultivo de Aragón
+18,2016,0301,Consejo Consultivo de Aragón,Consejo Consultivo de Aragón
+19,2016,03010,Consejo Consultivo de Aragón,Consejo Consultivo de Aragón
+20,2016,04,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+21,2016,0400,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+22,2016,04000,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+23,2016,0401,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+24,2016,04010,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+25,2016,0402,No operativo,No operativo
+26,2016,04020,No operativo,No operativo
+27,2016,09,Consejo Económico y Social de Aragón,Consejo Económico y Social de Aragón
+28,2016,0900,Ingresos Consejo Ec. y Social de Aragón,Ingresos Consejo Ec. y Social de Aragón
+29,2016,09000,Ingresos Consejo Ec. y Social de Aragón,Ingresos Consejo Ec. y Social de Aragón
+30,2016,0901,Consejo Económico y Social de Aragón,Consejo Económico y Social de Aragón
+31,2016,09010,Consejo Económico y Social de Aragón,Consejo Económico y Social de Aragón
+32,2016,10,Presidencia,Presidencia
+33,2016,1000,Ingresos de Presidencia,Ingresos de Presidencia
+34,2016,10000,Ingresos de Presidencia,Ingresos de Presidencia
+35,2016,1001,S.G.T. de Presidencia,S.G.T. de Presidencia
+36,2016,10010,S.G.T. de Presidencia,S.G.T. de Presidencia
+37,2016,1002,Dirección General de Servicios Jurídicos,Dirección General de Servicios Jurídicos
+38,2016,10020,Dirección General de Servicios Jurídicos,Dirección General de Servicios Jurídicos
+39,2016,1003,D.G. de Administración Local,D.G. de Administración Local
+40,2016,10030,D.G. de Administración Local,D.G. de Administración Local
+41,2016,1004,D.G. Rel. Institucionales y Desarrollo Estatutario,D.G. Rel. Institucionales y Desarrollo Estatutario
+42,2016,10040,D.G. Rel. Institucionales y Desarrollo Estatutario,D.G. Rel. Institucionales y Desarrollo Estatutario
+43,2016,1005,D.G. de Justicia e Interior,D.G. de Justicia e Interior
+44,2016,10050,D.G. de Justicia e Interior,D.G. de Justicia e Interior
+45,2016,1006,Delegación Territorial de Huesca,Delegación Territorial de Huesca
+46,2016,10060,Delegación Territorial de Huesca,Delegación Territorial de Huesca
+47,2016,1007,Delegación Territorial de Teruel,Delegación Territorial de Teruel
+48,2016,10070,Delegación Territorial de Teruel,Delegación Territorial de Teruel
+49,2016,11,Ciudadanía y Derechos Sociales,Ciudadanía y Derechos Sociales
+50,2016,1100,Ingresos Ciudadanía y Derechos Sociales,Ingresos Ciudadanía y Derechos Sociales
+51,2016,11000,Ingresos Ciudadanía y Derechos Sociales,Ingresos Ciudadanía y Derechos Sociales
+52,2016,1101,S.G.T. de Ciudadanía y Derechos Sociales,S.G.T. de Ciudadanía y Derechos Sociales
+53,2016,11010,S.G.T. de Ciudadanía y Derechos Sociales,S.G.T. de Ciudadanía y Derechos Sociales
+54,2016,1102,"D.G. Part.Ciudadana, Transparencia, Coop. y Ac.Ext","D.G. Part.Ciudadana, Transparencia, Coop. y Ac.Ext"
+55,2016,11020,"D.G. Part.Ciudadana, Transparencia, Coop. y Ac.Ext","D.G. Part.Ciudadana, Transparencia, Coop. y Ac.Ext"
+56,2016,1103,D.G. de Protección de Consumidores y Usuarios,D.G. de Protección de Consumidores y Usuarios
+57,2016,11030,D.G. de Protección de Consumidores y Usuarios,D.G. de Protección de Consumidores y Usuarios
+58,2016,1104,D.G. de Igualdad y Familias,D.G. de Igualdad y Familias
+59,2016,11040,D.G. de Igualdad y Familias,D.G. de Igualdad y Familias
+60,2016,1105,No operativo,No operativo
+61,2016,11050,No operativo,No operativo
+62,2016,1106,No operativo,No operativo
+63,2016,11060,No operativo,No operativo
+64,2016,1107,No operativo,No operativo
+65,2016,11070,No operativo,No operativo
+66,2016,1111,No operativo,No operativo
+67,2016,11110,No operativo,No operativo
+68,2016,12,Hacienda y Administración Pública,Hacienda y Administración Pública
+69,2016,1200,Ingresos de Hacienda y Adm. Pública,Ingresos de Hacienda y Adm. Pública
+70,2016,12000,Ingresos de Hacienda y Adm. Pública,Ingresos de Hacienda y Adm. Pública
+71,2016,1201,S.G.T. de Hacienda y Administ. Pública,S.G.T. de Hacienda y Administ. Pública
+72,2016,12010,S.G.T. de Hacienda y Administ. Pública,S.G.T. de Hacienda y Administ. Pública
+73,2016,1202,"D.G. Presupuestos,Financiación,Tesorería","D.G. Presupuestos,Financiación,Tesorería"
+74,2016,12020,"DG Presupuestos,Financiación y Tesorería","DG Presupuestos,Financiación y Tesorería"
+75,2016,1203,"D.G. Contratación, Patrimonio y Organiz.","D.G. Contratación, Patrimonio y Organiz."
+76,2016,12030,"D.G. Contratación, Patrimonio y Organiz.","D.G. Contratación, Patrimonio y Organiz."
+77,2016,1204,Intervención General,Intervención General
+78,2016,12040,Intervención General,Intervención General
+79,2016,1205,Dirección General de Tributos,Dirección General de Tributos
+80,2016,12050,Dirección General de Tributos,Dirección General de Tributos
+81,2016,1206,D.G. Función Pública y Calidad de Serv.,D.G. Función Pública y Calidad de Serv.
+82,2016,12060,D.G. Función Pública y Calidad de Serv.,D.G. Función Pública y Calidad de Serv.
+83,2016,1207,No operativo,No operativo
+84,2016,12070,No operativo,No operativo
+85,2016,1208,No operativo,No operativo
+86,2016,12080,No operativo,No operativo
+87,2016,1250,Ingresos de Secciones Presupuestarias,Ingresos de Secciones Presupuestarias
+88,2016,12500,Ingresos de Secciones Presupuestarias,Ingresos de Secciones Presupuestarias
+89,2016,1251,Ingresos Servicio Provincial de Zaragoza,Ingresos Servicio Provincial de Zaragoza
+90,2016,12510,Ingresos Servicio Provincial de Zaragoza,Ingresos Servicio Provincial de Zaragoza
+91,2016,1252,Ingresos Servicio Provincial de Huesca,Ingresos Servicio Provincial de Huesca
+92,2016,12520,Ingresos Servicio Provincial de Huesca,Ingresos Servicio Provincial de Huesca
+93,2016,1253,Ingresos Servicio Provincial de Teruel,Ingresos Servicio Provincial de Teruel
+94,2016,12530,Ingresos Servicio Provincial de Teruel,Ingresos Servicio Provincial de Teruel
+95,2016,13,"Vertebración del Territorio, Movilidad y Vivienda","Vertebración del Territorio, Movilidad y Vivienda"
+96,2016,1300,"Ingresos Vertebración Territorio, Movilidad y Viv.","Ingresos Vertebración Territorio, Movilidad y Viv."
+97,2016,13000,"Ingresos Vertebración Territorio, Movilidad y Viv.","Ingresos Vertebración Territorio, Movilidad y Viv."
+98,2016,1301,"S.G.T. Vertebración Territorio, Movilidad y Viv.","S.G.T. Vertebración Territorio, Movilidad y Viv."
+99,2016,13010,"S.G.T. Vertebración Territorio, Movilidad y Viv.","S.G.T. Vertebración Territorio, Movilidad y Viv."
+100,2016,1302,D.G. de Ordenación del Territorio,D.G. de Ordenación del Territorio
+101,2016,13020,D.G. de Ordenación del Territorio,D.G. de Ordenación del Territorio
+102,2016,1303,D.G. de Urbanismo,D.G. de Urbanismo
+103,2016,13030,D.G. de Urbanismo,D.G. de Urbanismo
+104,2016,1304,D.G. de Movilidad e Infraestructuras,D.G. de Movilidad e Infraestructuras
+105,2016,13040,D.G. de Movilidad e Infraestructuras,D.G. de Movilidad e Infraestructuras
+106,2016,1305,D.G. de Vivienda y Rehabilitación,D.G. de Vivienda y Rehabilitación
+107,2016,13050,D.G. de Vivienda y Rehabilitación,D.G. de Vivienda y Rehabilitación
+108,2016,1306,D.G. de Turismo,D.G. de Turismo
+109,2016,13060,D.G. de Turismo,D.G. de Turismo
+110,2016,14,Desarrollo Rural y Sostenibilidad,Desarrollo Rural y Sostenibilidad
+111,2016,1400,Ingresos Desarrollo Rural y Sostenibilidad,Ingresos Desarrollo Rural y Sostenibilidad
+112,2016,14000,Ingresos Desarrollo Rural y Sostenibilidad,Ingresos Desarrollo Rural y Sostenibilidad
+113,2016,1401,S.G.T. de Desarrollo Rural y Sostenibilidad,S.G.T. de ADesarrollo Rural y Sostenibilidad
+114,2016,14010,S.G.T. de Desarrollo Rural y Sostenibilidad,S.G.T. de Desarrollo Rural y Sostenibilidad
+115,2016,14011,DRyS-Sevicio Provincial de Huesca,DRyS-Sevicio Provincial de Huesca
+116,2016,14012,DRyS-Sevicio Provincial de Teruel,DRyS-Sevicio Provincial de Teruel
+117,2016,14013,DRyS-Sevicio Provincial de Zaragoza,DRyS-Sevicio Provincial de Zaragoza
+118,2016,1402,Dirección General de Producción Agraria,Dirección General de Producción Agraria
+119,2016,14020,Dirección General de Producción Agraria,Dirección General de Producción Agraria
+120,2016,1403,D.G. de Alimentac. y Fto Agroalimentario,D.G. de Alimentac. y Fto Agroalimentario
+121,2016,14030,D.G. de Alimentac. y Fto Agroalimentario,D.G. de Alimentac. y Fto Agroalimentario
+122,2016,1404,D.G. de Sostenibilidad,D.G. de Sostenibilidad
+123,2016,14040,D.G. de Sostenibilidad,D.G. de Sostenibilidad
+124,2016,1405,Dirección General de Desarrollo Rural,Dirección General de Desarrollo Rural
+125,2016,14050,Dirección General de Desarrollo Rural,Dirección General de Desarrollo Rural
+126,2016,1406,D.G. de Gestión Forestal,D.G. de Gestión Forestal
+127,2016,14060,D.G. de Gestión Forestal,D.G. de Gestión Forestal
+128,2016,1407,No operativo,No operativo
+129,2016,14070,No operativo,No operativo
+130,2016,15,"Economía, Industria y Empleo","Economía, Industria y Empleo"
+131,2016,1500,"Ingresos de Economía, Industria y Empleo","Ingresos de Economía, Industria y Empleo"
+132,2016,15000,"Ingresos de Economía, Industria y Empleo","Ingresos de Economía, Industria y Empleo"
+133,2016,1501,"S.G.T. de Economía, Industria y Empleo","S.G.T. de Economía, Industria y Empleo"
+134,2016,15010,"S.G.T. de Economía, Industria y Empleo","S.G.T. de Economía, Industria y Empleo"
+135,2016,1502,D.G. de Economía,D.G. de Economía
+136,2016,15020,D.G. de Economía,D.G. de Economía
+137,2016,1503,D.G. de Trabajo,D.G. de Trabajo
+138,2016,15030,D.G. de Trabajo,D.G. de Trabajo
+139,2016,1504,"D.G. de Industria, PYMES, Comercio y Artesanía","D.G. de Industria, PYMES, Comercio y Artesanía"
+140,2016,15040,"D.G. de Industria, PYMES, Comercio y Artesanía","D.G. de Industria, PYMES, Comercio y Artesanía"
+141,2016,1505,D.G. de Energía y Minas,D.G. de Energía y Minas
+142,2016,15050,D.G. de Energía y Minas,D.G. de Energía y Minas
+143,2016,1506,No operativa,No operativa
+144,2016,15060,No operativa,No operativa
+145,2016,1507,No operativa,No operativa
+146,2016,15070,No operativa,No operativa
+147,2016,16,Sanidad,Sanidad
+148,2016,1600,Ingresos Sanidad,Ingresos Sanidad
+149,2016,16000,Ingresos Sanidad,Ingresos Sanidad
+150,2016,1601,S.G.T. de Sanidad,S.G.T. de Sanidad
+151,2016,16010,S.G.T. de Sanidad,S.G.T. de Sanidad
+152,2016,1602,D.G. de Asistencia Sanitaria,D.G. de Asistencia Sanitaria
+153,2016,16020,D.G. de Asistencia Sanitaria,D.G. de Asistencia Sanitaria
+154,2016,1603,D.G. de Derechos y Garantías de los Usuarios,D.G. de Derechos y Garantías de los Usuarios
+155,2016,16030,D.G. de Derechos y Garantías de los Usuarios,D.G. de Derechos y Garantías de los Usuarios
+156,2016,1604,D.G. de Salud Pública,D.G. de Salud Pública
+157,2016,16040,D.G. de Salud Pública,D.G. de Salud Pública
+158,2016,1605,No operativa,No operativa
+159,2016,16050,No operativa,No operativa
+160,2016,1606,No operativa,No operativa
+161,2016,16060,No operativa,No operativa
+162,2016,1607,No operativa,No operativa
+163,2016,16070,No operativa,No operativa
+164,2016,16220,Sanidad-Sevicio Provincial de Huesca,Sanidad-Sevicio Provincial de Huesca
+165,2016,16440,Sanidad-Sevicio Provincial de Teruel,Sanidad-Sevicio Provincial de Teruel
+166,2016,16500,Sanidad-Sevicio Provincial de Zaragoza,Sanidad-Sevicio Provincial de Zaragoza
+167,2016,17,"Innovación, Investigación y Universidad","Innovación, Investigación y Universidad"
+168,2016,1700,"Ingresos de Innovación, Investigación y Universida","Ingresos de Innovación, Investigación y Universida"
+169,2016,17000,"Ingresos de Innovación, Investigación y Universida","Ingresos de Innovación, Investigación y Universida"
+170,2016,1701,"SGT de Innovación, Investigación y Universidad","SGT de Innovación, Investigación y Universidad"
+171,2016,17010,"SGT de Innovación, Investigación y Universidad","SGT de Innovación, Investigación y Universidad"
+172,2016,1702,D.G. de Universidades,D.G. de Universidades
+173,2016,17020,D.G. de Universidades,D.G. de Universidades
+174,2016,1703,D.G. Investigación e Innovación,D.G. de Investigación e Innovación
+175,2016,17030,D.G. Investigación e Innovación,D.G. de Investigación e Innovación
+176,2016,1704,D.G. de Admón Electrónica y Sdad de la Información,D.G. de Admón Electrónica y Sdad de la Información
+177,2016,17040,D.G. de Admón Electrónica y Sdad de la Información,D.G. de Admón Electrónica y Sdad de la Información
+178,2016,1705,No operativa,No operativa
+179,2016,17050,No operativa,No operativa
+180,2016,1706,No operativa,No operativa
+181,2016,17060,No operativa,No operativa
+182,2016,18,"Educación, Cultura y Deporte","Educación, Cultura y Deporte"
+183,2016,1800,"Ingresos Educación, Cultura y Deporte","Ingresos Educación, Cultura y Deporte"
+184,2016,18000,"Ingresos Educación, Cultura y Deporte","Ingresos Educación, Cultura y Deporte"
+185,2016,1801,"S.G.T. de Educación, Cultura y Deporte","S.G.T. de Educación, Cultura y Deporte"
+186,2016,18010,"S.G.T. de Educación, Cultura y Deporte","S.G.T. de Educación, Cultura y Deporte"
+187,2016,1802,D.G. de Política Lingüística,D.G. de Política Lingüística
+188,2016,18020,D.G de Política Lingüística,D.G. de Política Lingüística
+189,2016,1803,D.G. de Planificación y Formación Profesional,D.G. de Planificación y Formación Profesional
+190,2016,18030,D.G. de Planificación y Formación Profesional,D.G. de Planificación y Formación Profesional
+191,2016,1804,D.G. de Personal y Formación del Profesorado,D.G. de Personal y Formación del Profesorado
+192,2016,18040,D.G. de Personal y Formación del Profesorado,D.G. de Personal y Formación del Profesorado
+193,2016,1805,"D.G. de Innovación, Equidad y Participación","D.G. de Innovación, Equidad y Participación"
+194,2016,18050,"D.G. de Innovación, Equidad y Participación","D.G. de Innovación, Equidad y Participación"
+195,2016,1806,D.G. de Cultura y Patrimonio,Dirección General de Cultura
+196,2016,18060,D.G. de Cultura y Patrimonio,Dirección General de Cultura
+197,2016,1807,D.G. de Deporte,Dirección General de Patrimonio Cultural
+198,2016,18070,D.G. de Deporte,Dirección General de Patrimonio Cultural
+199,2016,1808,No operativa,Dirección General de Deporte
+200,2016,18080,No operativa,Dirección General de Deporte
+201,2016,19,No operativa,No operativa
+202,2016,1900,No operativa,No operativa
+203,2016,19000,No operativa,No operativa
+204,2016,1901,No operativa,No operativa
+205,2016,19010,No operativa,No operativa
+206,2016,1902,No operativa,No operativa
+207,2016,19020,No operativa,No operativa
+208,2016,1903,No operativa,No operativa
+209,2016,19030,No operativa,No operativa
+210,2016,1904,No operativa,No operativa
+211,2016,19040,No operativa,No operativa
+212,2016,20,No operativa,No operativa
+213,2016,2000,No operativa,No operativa
+214,2016,20000,No operativa,No operativa
+215,2016,2001,No operativa,No operativa
+216,2016,20010,No operativa,No operativa
+217,2016,20011,No operativa,No operativa
+218,2016,20012,No operativa,No operativa
+219,2016,2002,No operativa,No operativa
+220,2016,20020,No operativa,No operativa
+221,2016,2003,No operativa,No operativa
+222,2016,20030,No operativa,No operativa
+223,2016,2004,No operativa,No operativa
+224,2016,20040,No operativa,No operativa
+225,2016,2010,No operativa,No operativa
+226,2016,20100,No operativa,No operativa
+227,2016,2012,No operativa,No operativa
+228,2016,20120,No operativa,No operativa
+229,2016,26,A las Administraciones Comarcales,A las Administraciones Comarcales
+230,2016,2600,"Ingresos de ""A las Adm. Comarcales""","Ingresos de ""A las Adm. Comarcales"""
+231,2016,26000,"Ingresos de ""A las Adm. Comarcales""","Ingresos de ""A las Adm. Comarcales"""
+232,2016,2601,Comarca de la Jacetania,Comarca de la Jacetania
+233,2016,26010,Comarca de la Jacetania,Comarca de la Jacetania
+234,2016,2602,Comarca del Alto Gállego,Comarca del Alto Gállego
+235,2016,26020,Comarca del Alto Gállego,Comarca del Alto Gállego
+236,2016,2603,Comarca de Sobrarbe,Comarca de Sobrarbe
+237,2016,26030,Comarca de Sobrarbe,Comarca de Sobrarbe
+238,2016,2604,Comarca de la Ribagorza,Comarca de la Ribagorza
+239,2016,26040,Comarca de la Ribagorza,Comarca de la Ribagorza
+240,2016,2605,Comarca de Cinco Villas,Comarca de Cinco Villas
+241,2016,26050,Comarca de Cinco Villas,Comarca de Cinco Villas
+242,2016,2606,Comarca Hoya de Huesca/ Plana de Uesca,Comarca Hoya de Huesca/ Plana de Uesca
+243,2016,26060,Comarca Hoya de Huesca/ Plana de Uesca,Comarca Hoya de Huesca/ Plana de Uesca
+244,2016,2607,Comarca de Somontano de Barbastro,Comarca de Somontano de Barbastro
+245,2016,26070,Comarca de Somontano de Barbastro,Comarca de Somontano de Barbastro
+246,2016,2608,Comarca de Cinca Medio,Comarca de Cinca Medio
+247,2016,26080,Comarca de Cinca Medio,Comarca de Cinca Medio
+248,2016,2609,Comarca de la Litera/ La Llitera,Comarca de la Litera/ La Llitera
+249,2016,26090,Comarca de la Litera/ La Llitera,Comarca de la Litera/ La Llitera
+250,2016,2610,Comarca de los Monegros,Comarca de los Monegros
+251,2016,26100,Comarca de los Monegros,Comarca de los Monegros
+252,2016,2611,Comarca del Bajo Cinca/ Baix Cinca,Comarca del Bajo Cinca/ Baix Cinca
+253,2016,26110,Comarca del Bajo Cinca/ Baix Cinca,Comarca del Bajo Cinca/ Baix Cinca
+254,2016,2612,Comarca de Tarazona y el Moncayo,Comarca de Tarazona y el Moncayo
+255,2016,26120,Comarca de Tarazona y el Moncayo,Comarca de Tarazona y el Moncayo
+256,2016,2613,Comarca de Campo de Borja,Comarca de Campo de Borja
+257,2016,26130,Comarca de Campo de Borja,Comarca de Campo de Borja
+258,2016,2614,Comarca del Aranda,Comarca del Aranda
+259,2016,26140,Comarca del Aranda,Comarca del Aranda
+260,2016,2615,Comarca de la Ribera Alta del Ebro,Comarca de la Ribera Alta del Ebro
+261,2016,26150,Comarca de la Ribera Alta del Ebro,Comarca de la Ribera Alta del Ebro
+262,2016,2616,Comarca de Valdejalón,Comarca de Valdejalón
+263,2016,26160,Comarca de Valdejalón,Comarca de Valdejalón
+264,2016,2617,Delimitación Comarcal de Zaragoza,Delimitación Comarcal de Zaragoza
+265,2016,26170,Delimitación Comarcal de Zaragoza,Delimitación Comarcal de Zaragoza
+266,2016,2618,Comarca de la Ribera Baja del Ebro,Comarca de la Ribera Baja del Ebro
+267,2016,26180,Comarca de la Ribera Baja del Ebro,Comarca de la Ribera Baja del Ebro
+268,2016,2619,Comarca Bajo Aragón-Caspe,Comarca Bajo Aragón-Caspe
+269,2016,26190,Comarca Bajo Aragón-Caspe,Comarca Bajo Aragón-Caspe
+270,2016,2620,Comarca de la Comunidad de Calatayud,Comarca de la Comunidad de Calatayud
+271,2016,26200,Comarca de la Comunidad de Calatayud,Comarca de la Comunidad de Calatayud
+272,2016,2621,Comarca de Campo de Cariñena,Comarca de Campo de Cariñena
+273,2016,26210,Comarca de Campo de Cariñena,Comarca de Campo de Cariñena
+274,2016,2622,Comarca de Campo de Belchite,Comarca de Campo de Belchite
+275,2016,26220,Comarca de Campo de Belchite,Comarca de Campo de Belchite
+276,2016,2623,Comarca del Bajo Martín,Comarca del Bajo Martín
+277,2016,26230,Comarca del Bajo Martín,Comarca del Bajo Martín
+278,2016,2624,Comarca de Campo de Daroca,Comarca de Campo de Daroca
+279,2016,26240,Comarca de Campo de Daroca,Comarca de Campo de Daroca
+280,2016,2625,Comarca del Jiloca,Comarca del Jiloca
+281,2016,26250,Comarca del Jiloca,Comarca del Jiloca
+282,2016,2626,Comarca de Cuencas Mineras,Comarca de Cuencas Mineras
+283,2016,26260,Comarca de Cuencas Mineras,Comarca de Cuencas Mineras
+284,2016,2627,Comarca de Andorra- Sierra de Arcos,Comarca de Andorra- Sierra de Arcos
+285,2016,26270,Comarca de Andorra- Sierra de Arcos,Comarca de Andorra- Sierra de Arcos
+286,2016,2628,Comarca del Bajo Aragón,Comarca del Bajo Aragón
+287,2016,26280,Comarca del Bajo Aragón,Comarca del Bajo Aragón
+288,2016,2629,Comarca de la Comunidad de Teruel,Comarca de la Comunidad de Teruel
+289,2016,26290,Comarca de la Comunidad de Teruel,Comarca de la Comunidad de Teruel
+290,2016,2630,Comarca de Maestrazgo,Comarca de Maestrazgo
+291,2016,26300,Comarca de Maestrazgo,Comarca de Maestrazgo
+292,2016,2631,Comarca de la Sierra de Albarracín,Comarca de la Sierra de Albarracín
+293,2016,26310,Comarca de la Sierra de Albarracín,Comarca de la Sierra de Albarracín
+294,2016,2632,Comarca de Gúdar- Javalambre,Comarca de Gúdar- Javalambre
+295,2016,26320,Comarca de Gúdar- Javalambre,Comarca de Gúdar- Javalambre
+296,2016,2633,Comarca del Matarraña/ Matarranya,Comarca del Matarraña/ Matarranya
+297,2016,26330,Comarca del Matarraña/ Matarranya,Comarca del Matarraña/ Matarranya
+298,2016,2634,Servicios Administraciones Comarcales,Servicios Administraciones Comarcales
+299,2016,26340,Servicios Administraciones Comarcales,Servicios Administraciones Comarcales
+300,2016,30,Diversos Departamentos,Diversos Departamentos
+301,2016,3000,"Ingresos de ""Diversos Departamentos""","Ingresos de ""Diversos Departamentos"""
+302,2016,30000,"Ingresos de ""Diversos Departamentos""","Ingresos de ""Diversos Departamentos"""
+303,2016,3001,Fondo Contingencia Ejecución Presupuest.,Fondo Contingencia Ejecución Presupuest.
+304,2016,30010,Fondo Contingencia Ejecución Presupuest.,Fondo Contingencia Ejecución Presupuest.
+305,2016,3002,Fondo de Gastos de Personal,Fondo de Gastos de Personal
+306,2016,30020,Fondo de Gastos de Personal,Fondo de Gastos de Personal
+307,2016,3003,Deuda Pública,Deuda Pública
+308,2016,30030,Deuda Pública,Deuda Pública
+309,2016,3004,Empresas Públicas y participadas,Empresas Públicas y participadas
+310,2016,30040,Empresas Públicas y participadas,Empresas Públicas y participadas
+311,2016,3005,No operativa,No operativa
+312,2016,30050,Gastos Diversos,Gastos Diversos
+313,2016,3006,Fondo Inclusión Social y Ay. Familiar Ur,Fondo Inclusión Social y Ay. Familiar Ur
+314,2016,30060,Fondo Inclusión Social y Ay. Familiar Ur,Fondo Inclusión Social y Ay. Familiar Ur
+315,2016,3008,No operativa,No operativa
+316,2016,30080,No operativa,No operativa
+317,2016,3011,No operativa,No operativa
+318,2016,30110,No operativa,No operativa
+319,2016,3013,No operativa,No operativa
+320,2016,30130,No operativa,No operativa
+321,2016,51,Instituto Aragonés de Empleo,Instituto Aragonés de Empleo
+322,2016,5100,Ingresos del Inst. Aragonés de Empleo,Ingresos del Inst. Aragonés de Empleo
+323,2016,51000,Ingresos del Inst. Aragonés de Empleo,Ingresos del Inst. Aragonés de Empleo
+324,2016,5101,Instituto Aragonés de Empleo,Instituto Aragonés de Empleo
+325,2016,51010,Instituto Aragonés de Empleo,Instituto Aragonés de Empleo
+326,2016,51011,INAEM - Servicio Provincial de Huesca,INAEM - Servicio Provincial de Huesca
+327,2016,51012,INAEM - Servicio Provincial de Teruel,INAEM - Servicio Provincial de Teruel
+328,2016,51013,INAEM - Servicio Provincial de Zaragoza,INAEM - Servicio Provincial de Zaragoza
+329,2016,51014,INAEM - Servicio de Formación,INAEM - Servicio de Formación
+330,2016,51015,INAEM - Servicio de Intermediación,INAEM - Servicio de Intermediación
+331,2016,51016,INAEM - Servicio de Promoción de Empleo,INAEM - Servicio de Promoción de Empleo
+332,2016,52,Servicio Aragonés de Salud,Servicio Aragonés de Salud
+333,2016,5200,Ingresos del Servicio Aragonés de Salud,Ingresos del Servicio Aragonés de Salud
+334,2016,52000,Ingresos del Servicio Aragonés de Salud,Ingresos del Servicio Aragonés de Salud
+335,2016,5201,Servicio Aragonés de Salud,Servicio Aragonés de Salud
+336,2016,52010,Servicio Aragonés de Salud,Servicio Aragonés de Salud
+337,2016,5205,Ctro. Gestión Integrada Proyectos Corp.,Ctro. Gestión Integrada Proyectos Corp.
+338,2016,52050,Ctro. Gestión Integrada Proyectos Corp.,Ctro. Gestión Integrada Proyectos Corp.
+339,2016,5206,Gerencia 061 Aragon,Gerencia 061 Aragon
+340,2016,52061,Gerencia 061 Aragon,Gerencia 061 Aragon
+341,2016,5209,Liquidación CASAR,
+342,2016,52090,Liquidación CASAR,Liquidación CASAR
+343,2016,52AL,Gerencia Sector Alcañiz,Gerencia Sector Alcañiz
+344,2016,52AL1,Gerencia Sector Alcañiz,Gerencia Sector Alcañiz
+345,2016,52AL2,Hospital de  Alcañiz,Hospital de  Alcañiz
+346,2016,52AL3,Atención Primaria Sector Alcañiz,Atención Primaria Sector Alcañiz
+347,2016,52BA,Gerencia Sector Barbastro,Gerencia Sector Barbastro
+348,2016,52BA1,Gerencia Sector Barbastro,Gerencia Sector Barbastro
+349,2016,52BA2,Hospital Barbastro,Hospital Barbastro
+350,2016,52BA3,Centro Sociosanitario de Fraga,Centro Sociosanitario de Fraga
+351,2016,52BA4,Atención Primaria Sector Barbastro,Atención Primaria Sector Barbastro
+352,2016,52CA,Gerencia Sector Calatayud,Gerencia Sector Calatayud
+353,2016,52CA1,Gerencia Sector Calatayud,Gerencia Sector Calatayud
+354,2016,52CA2,Hospital Ernest Lluch Martin,Hospital Ernest Lluch Martin
+355,2016,52CA3,Atención Primaria Sector Calatayud,Atención Primaria Sector Calatayud
+356,2016,52HU,Gerencia Sector Huesca,Gerencia Sector Huesca
+357,2016,52HU1,Gerencia Sector Huesca,Gerencia Sector Huesca
+358,2016,52HU2,Hospital San Jorge de Huesca,Hospital San Jorge de Huesca
+359,2016,52HU3,Hospital Sagrado Corazón de Jesús,Hospital Sagrado Corazón de Jesús
+360,2016,52HU4,C.R.P. Santo Cristo de los Milagros,C.R.P. Santo Cristo de los Milagros
+361,2016,52HU5,Atención Primaria Sector Huesca,Atención Primaria Sector Huesca
+362,2016,52TE,Gerencia Sector Teruel,Gerencia Sector Teruel
+363,2016,52TE1,Gerencia Sector Teruel,Gerencia Sector Teruel
+364,2016,52TE2,Hospital Obispo Polanco Teruel,Hospital Obispo Polanco Teruel
+365,2016,52TE3,Hospital San José,Hospital San José
+366,2016,52TE4,C.R.P. San Juan de Dios,C.R.P. San Juan de Dios
+367,2016,52TE5,Atención Primaria Sector Teruel,Atención Primaria Sector Teruel
+368,2016,52Z1,Gerencia Sector Zaragoza I,Gerencia Sector Zaragoza I
+369,2016,52Z11,Gerencia Sector Zaragoza I,Gerencia Sector Zaragoza I
+370,2016,52Z12,Hospital Royo Villanova,Hospital Royo Villanova
+371,2016,52Z13,Hospital Nuestra Señora de Gracia,Hospital Nuestra Señora de Gracia
+372,2016,52Z14,Atención Primaria Sector Zaragoza I,Atención Primaria Sector Zaragoza I
+373,2016,52Z2,Gerencia Sector Zaragoza II,Gerencia Sector Zaragoza II
+374,2016,52Z21,Gerencia Sector Zaragoza II,Gerencia Sector Zaragoza II
+375,2016,52Z22,Hospital Universitario Miguel Servet,Hospital Universitario Miguel Servet
+376,2016,52Z23,Atención Primaria Sector Zaragoza II,Atención Primaria Sector Zaragoza II
+377,2016,52Z3,Gerencia Sector Zaragoza III,Gerencia Sector Zaragoza III
+378,2016,52Z31,Gerencia Sector Zaragoza III,Gerencia Sector Zaragoza III
+379,2016,52Z32,Hospital Clínico Universitario Lozano Bl,Hospital Clínico Universitario Lozano Bl
+380,2016,52Z33,H.Geriático San Jorge de Zaragoza,H.Geriático San Jorge de Zaragoza
+381,2016,52Z34,C.R.P. Nuestra Señora del Pilar,C.R.P. Nuestra Señora del Pilar
+382,2016,52Z35,Atención Primaria Sector Zaragoza III,Atención Primaria Sector Zaragoza III
+383,2016,53,Instituto Aragonés de Servicios Sociales,Instituto Aragonés de Servicios Sociales
+384,2016,5300,Ingresos Inst. Aragonés Serv. Sociales,Ingresos Inst. Aragonés Serv. Sociales
+385,2016,53000,Ingresos Inst. Aragonés Serv. Sociales,Ingresos Inst. Aragonés Serv. Sociales
+386,2016,5301,Instituto Aragonés de Servicios Sociales,Instituto Aragonés de Servicios Sociales
+387,2016,53010,Instituto Aragonés de Servicios Sociales,Instituto Aragonés de Servicios Sociales
+388,2016,53AAA,Acción concertada Plazas Mayores Huesca,Acción concertada Plazas Mayores Huesca
+389,2016,53AAB,Acción concertada Plazas Mayores Teruel,Acción concertada Plazas Mayores Teruel
+390,2016,53AAC,Acción concertada Plazas Mayores Zaragoz,Acción concertada Plazas Mayores Zaragoz
+391,2016,53AB,Residencias,Residencias
+392,2016,53ABA,Residencia de Mayores Ciudad de Huesca,Residencia de Mayores Ciudad de Huesca
+393,2016,53ABB,"Res.Mayores ""Sagrada Familia""-Huesca","Res.Mayores ""Sagrada Familia""-Huesca"
+394,2016,53ABC,"Res.Mayores ""San Blas""-Huesca","Res.Mayores ""San Blas""-Huesca"
+395,2016,53ABD,"Res.Mayores ""Turia""-Teruel","Res.Mayores ""Turia""-Teruel"
+396,2016,53ABE,Residencia de Utrillas,Residencia de Utrillas
+397,2016,53ABF,"Residencia de ""Mayores Ciudad de Albarra","Residencia de ""Mayores Ciudad de Albarra"
+398,2016,53ABG,"Res. de Mayores ""Javalambre"" Teruel","Res. de Mayores ""Javalambre"" Teruel"
+399,2016,53ABH,Res. de Mayores  de Movera,Res. de Mayores  de Movera
+400,2016,53ABI,Res. de Mayores  de Borja,Res. de Mayores  de Borja
+401,2016,53ABJ,"Res. Mayores ""Romareda"" Zaragoza","Res. Mayores ""Romareda"" Zaragoza"
+402,2016,53ABK,Res. de Mayores de Alagon,Res. de Mayores de Alagon
+403,2016,53ABL,"Res. de Mayores ""Las Fuentes"" Zaragoza","Res. de Mayores ""Las Fuentes"" Zaragoza"
+404,2016,53ABM,Centro Asistencial de Calatayud,Centro Asistencial de Calatayud
+405,2016,53ABN,"Centro Asistencial ""Hogar Doz"" Tarazona","Centro Asistencial ""Hogar Doz"" Tarazona"
+406,2016,53ABO,Res. Mayores Actur de Zaragoza,Res. Mayores Actur de Zaragoza
+407,2016,53ABP,"Res. Mayores ""Oliver"" Zaragoza","Res. Mayores ""Oliver"" Zaragoza"
+408,2016,53ABQ,"Res. Mayores ""Elías Martinez"" Zaragoza","Res. Mayores ""Elías Martinez"" Zaragoza"
+409,2016,53ABR,Res. de Mayores de Utebo,Res. de Mayores de Utebo
+410,2016,53ABS,"Res. de Mayores ""Delicias"" - Zaragoza","Res. de Mayores ""Delicias"" - Zaragoza"
+411,2016,53ACA,"Centro Día en Res. ""Ciudad de Huesca""","Centro Día en Res. ""Ciudad de Huesca"""
+412,2016,53ACB,"Centro Dia Res. ""Sagr.Familia"" Huesca","Centro Dia Res. ""Sagr.Familia"" Huesca"
+413,2016,53ACC,Centro de Dia de Fraga,Centro de Dia de Fraga
+414,2016,53ACD,"Centro Dia en Res.""Romareda"" Zaragoza","Centro Dia en Res.""Romareda"" Zaragoza"
+415,2016,53ACE,"Centro Dia Res ""Las Fuentes"" Zaragoza","Centro Dia Res ""Las Fuentes"" Zaragoza"
+416,2016,53ACF,Centro de Dia de Calatayud,Centro de Dia de Calatayud
+417,2016,53ACG,Hogar 3ª Edad de Ejea de los Caballeros,Hogar 3ª Edad de Ejea de los Caballeros
+418,2016,53ACH,Centro de Día Barrio San José Zaragoza,Centro de Día Barrio San José Zaragoza
+419,2016,53ACI,"Centro de Dia ""San Blas"" Zaragoza","Centro de Dia ""San Blas"" Zaragoza"
+420,2016,53ACJ,"Centro de Dia ""Delicias"" de Zaragoza","Centro de Dia ""Delicias"" de Zaragoza"
+421,2016,53ACK,"Centro de Dia ""Picarral"" de Zaragoza","Centro de Dia ""Picarral"" de Zaragoza"
+422,2016,53ACL,Centro de Dia Valdefierro Zaragoza,Centro de Dia Valdefierro Zaragoza
+423,2016,53ACM,"C. Día y Usos Cultur. Casa Aísa, Huesca","C. Día y Usos Cultur. Casa Aísa, Huesca"
+424,2016,53ACN,"C. Día y Usos Cultur. Casa Aísa, Huesca","C. Día y Usos Cultur. Casa Aísa, Huesca"
+425,2016,53ACO,"Centro de Día ""San León"" - Teruel","Centro de Día ""San León"" - Teruel"
+426,2016,53AD,IASS - Centro Mayores (Hogares),IASS - Centro Mayores (Hogares)
+427,2016,53ADA,Hogar de Barbastro,Hogar de Barbastro
+428,2016,53ADB,Hogar de Binefar,Hogar de Binefar
+429,2016,53ADC,Hogar de Huesca,Hogar de Huesca
+430,2016,53ADD,Hogar de Jaca,Hogar de Jaca
+431,2016,53ADE,Hogar de  Monzón,Hogar de  Monzón
+432,2016,53ADF,Hogar de Sabiñánigo,Hogar de Sabiñánigo
+433,2016,53ADG,"Hogar en Res. Mayores ""Turia"" Teruel","Hogar en Res. Mayores ""Turia"" Teruel"
+434,2016,53ADH,Hogar en Res. Mayores Utrillas,Hogar en Res. Mayores Utrillas
+435,2016,53ADI,Hogar de Alcañiz,Hogar de Alcañiz
+436,2016,53ADJ,Hogar de Andorra,Hogar de Andorra
+437,2016,53ADK,Hogar de Calamocha,Hogar de Calamocha
+438,2016,53ADL,Hogar de Calanda,Hogar de Calanda
+439,2016,53ADM,Hogar de Ojos Negros,Hogar de Ojos Negros
+440,2016,53ADN,Hogar Torrecilla de Alcañiz,Hogar Torrecilla de Alcañiz
+441,2016,53ADO,"Hogar ""Balsas de Ebro Viejo"" Zaragoza","Hogar ""Balsas de Ebro Viejo"" Zaragoza"
+442,2016,53ADP,"Hogar ""Boterón"" de Zaragoza","Hogar ""Boterón"" de Zaragoza"
+443,2016,53ADQ,Club de Casetas,Club de Casetas
+444,2016,53ADR,"Club ""Cervantes"" de Gallur","Club ""Cervantes"" de Gallur"
+445,2016,53ADS,Hogar de Illueca,Hogar de Illueca
+446,2016,53ADT,Hogar Las Fuentes-Zaragoza,Hogar Las Fuentes-Zaragoza
+447,2016,53ADU,"Hogar ""Roger de Flor"" de Zaragoza","Hogar ""Roger de Flor"" de Zaragoza"
+448,2016,53ADV,Hogar de la Tercera Edad Moncayo,Hogar de la Tercera Edad Moncayo
+449,2016,53ADW,Hogar de Mayores Valdefierro - Zaragoza,Hogar de Mayores Valdefierro - Zaragoza
+450,2016,53ADX,Comedor Personas Mayores San Blas de Fonz (Huesca),Comedor Personas Mayores San Blas de Fonz (Huesca)
+451,2016,53AFA,Aulas de Tercera Edad,Aulas de Tercera Edad
+452,2016,53AHA,Gastos Varios de Mayores de Huesca,Gastos Varios de Mayores de Huesca
+453,2016,53AHB,Gastos Varios de Mayores de Teruel,Gastos Varios de Mayores de Teruel
+454,2016,53AHC,Gastos Varios de Mayores de Zaragoza,Gastos Varios de Mayores de Zaragoza
+455,2016,53AHD,Gastos Varios de Mayores en Gerencia,Gastos Varios de Mayores en Gerencia
+456,2016,53AIA,Convenios y Subv. de Mayores Huesca,Convenios y Subv. de Mayores Huesca
+457,2016,53AIB,Convenios y Subv. de Mayores de Teruel,Convenios y Subv. de Mayores de Teruel
+458,2016,53AIC,Convenios y Subv. de Mayores de Zaragoza,Convenios y Subv. de Mayores de Zaragoza
+459,2016,53AID,Convenios y Subv. de Mayores de Gerencia,Convenios y Subv. de Mayores de Gerencia
+460,2016,53AJA,Prestaciones de Mayores de Huesca,Prestaciones de Mayores de Huesca
+461,2016,53AJB,Prestaciones de Mayores de Teruel,Prestaciones de Mayores de Teruel
+462,2016,53AJC,Prestaciones de Mayores de Zaragoza,Prestaciones de Mayores de Zaragoza
+463,2016,53AJD,Ayudas Alimenticias,Ayudas Alimenticias
+464,2016,53AJE,Prestaciones Extraordinarias,Prestaciones Extraordinarias
+465,2016,53AJF,Prestaciones Plan Dependencia - Huesca,Prestaciones Plan Dependencia - Huesca
+466,2016,53AJG,Prestaciones Plan Dependencia - Teruel,Prestaciones Plan Dependencia - Teruel
+467,2016,53AJH,Prestaciones Plan Dependencia - Zaragoza,Prestaciones Plan Dependencia - Zaragoza
+468,2016,53BAA,Acción Concertada Discapacitados Huesca,Acción Concertada Discapacitados Huesca
+469,2016,53BAB,Acción Concertada Discapacitados Teruel,Acción Concertada Discapacitados Teruel
+470,2016,53BAC,Ac.Concertada Dispacitados Zaragoza,Ac.Concertada Dispacitados Zaragoza
+471,2016,53BAD,Ac.Concertada Transf.Dip.Prov. de Zarago,Ac.Concertada Transf.Dip.Prov. de Zarago
+472,2016,53BAE,Acción Concertada Tutelados en Huesca,Acción Concertada Tutelados en Huesca
+473,2016,53BAF,Acción Concertada Tutelados en Teruel,Acción Concertada Tutelados en Teruel
+474,2016,53BAG,Acción Concertada Tutelados en Zaragoza,Acción Concertada Tutelados en Zaragoza
+475,2016,53BAH,Acción Concertada Tutelados en Gerencia,Acción Concertada Tutelados en Gerencia
+476,2016,53BB,Centro Asistencial,Centro Asistencial
+477,2016,53BBA,"Centro Asistencial ""El Pinar""  de Teruel","Centro Asistencial ""El Pinar""  de Teruel"
+478,2016,53BBB,Centro Atención Minus.Psíquicos de Zarag,Centro Atención Minus.Psíquicos de Zarag
+479,2016,53BBC,Centro Dependientes Cesaraugusta Zaragoz,Centro Dependientes Cesaraugusta Zaragoz
+480,2016,53BEA,Centro Base Huesca,Centro Base Huesca
+481,2016,53BEB,Centro Base Teruel,Centro Base Teruel
+482,2016,53BEC,Centro Base I de Zaragoza,Centro Base I de Zaragoza
+483,2016,53BED,Centro Base II de Zaragoza,Centro Base II de Zaragoza
+484,2016,53BHA,Gastos Varios Dispacitados Huesca,Gastos Varios Dispacitados Huesca
+485,2016,53BHB,Gastos Varios Dispacitados Teruel,Gastos Varios Dispacitados Teruel
+486,2016,53BHC,Gastos Varios Dispacitados Zaragoza,Gastos Varios Dispacitados Zaragoza
+487,2016,53BHD,Gastos Varios Dispacitados Gerencia,Gastos Varios Dispacitados Gerencia
+488,2016,53BHE,Gastos Varios Tutelados en Huesca,Gastos Varios Tutelados en Huesca
+489,2016,53BHF,Gastos Varios Tutelados en Teruel,Gastos Varios Tutelados en Teruel
+490,2016,53BHG,Gastos Varios Tutelados en Zaragoza,Gastos Varios Tutelados en Zaragoza
+491,2016,53BHH,Gastos Varios Tutelados en Gerencia,Gastos Varios Tutelados en Gerencia
+492,2016,53BIA,Convenios y Subv. Discapacitados Huesca,Convenios y Subv. Discapacitados Huesca
+493,2016,53BIB,Convenios y Subv. Discapacitados Teruel,Convenios y Subv. Discapacitados Teruel
+494,2016,53BIC,Convenios y Subv. Discapacitados Zaragoz,Convenios y Subv. Discapacitados Zaragoz
+495,2016,53BID,Convenios y Subv. Discapacitados Gerenci,Convenios y Subv. Discapacitados Gerenci
+496,2016,53BIE,Convenios y Subv. de Tutelados en Huesca,Convenios y Subv. de Tutelados en Huesca
+497,2016,53BIF,Convenios y Subv. de Tutelados en Teruel,Convenios y Subv. de Tutelados en Teruel
+498,2016,53BIG,Convenios y Subv. de Tutelados en Zarago,Convenios y Subv. de Tutelados en Zarago
+499,2016,53BIH,Convenios y Subv. de Tutelados en Gerenc,Convenios y Subv. de Tutelados en Gerenc
+500,2016,53BJA,Prestaciones Dispacitados de Huesca,Prestaciones Dispacitados de Huesca
+501,2016,53BJB,Prestaciones Dispacitados de Teruel,Prestaciones Dispacitados de Teruel
+502,2016,53BJC,Prestaciones Dispacitados de Zaragoza,Prestaciones Dispacitados de Zaragoza
+503,2016,53CAA,Acción Concertada Plazas Menores Huesca,Acción Concertada Plazas Menores Huesca
+504,2016,53CAB,Acción Concertada Plazas Menores Teruel,Acción Concertada Plazas Menores Teruel
+505,2016,53CAC,Acción Concertada Plazas Menores Zaragoz,Acción Concertada Plazas Menores Zaragoz
+506,2016,53CAD,Acción Concertada Plazas Menores Gerenci,Acción Concertada Plazas Menores Gerenci
+507,2016,53CBA,Vivienda Tutelada de Huesca,Vivienda Tutelada de Huesca
+508,2016,53CBB,Vivienda Tutelada de Teruel,Vivienda Tutelada de Teruel
+509,2016,53CBC,"COA ""Juan Lanuza I"" de Zaragoza","COA ""Juan Lanuza I"" de Zaragoza"
+510,2016,53CBD,"Res. Menores  ""Cesaraugusta"" de Zaragoza","Res. Menores  ""Cesaraugusta"" de Zaragoza"
+511,2016,53CBE,"Res. Menores  ""Infanta Isabel"" de Zarago","Res. Menores  ""Infanta Isabel"" de Zarago"
+512,2016,53CBF,"C.O.A. ""Juan Lanuza II"" de Zaragoza","C.O.A. ""Juan Lanuza II"" de Zaragoza"
+513,2016,53CBG,"Res. de Menores ""Salduba"" de Zaragoza","Res. de Menores ""Salduba"" de Zaragoza"
+514,2016,53CBH,Piso Prep. Adop. Medina Albaida Zaragoza,Piso Prep. Adop. Medina Albaida Zaragoza
+515,2016,53CBI,"C.E.I. ""San Jorge"" de Zaragoza","C.E.I. ""San Jorge"" de Zaragoza"
+516,2016,53CBJ,Centro Internamiento Menores  Juslibol,Centro Internamiento Menores  Juslibol
+517,2016,53CBK,"Res. Menores ""Villacampa"" de Zaragoza","Res. Menores ""Villacampa"" de Zaragoza"
+518,2016,53CBL,"Vivienda Hogar  ""L. Loste"" de Huesca","Vivienda Hogar  ""L. Loste"" de Huesca"
+519,2016,53CBM,Piso de Emancipación - Teruel,Piso de Emancipación - Teruel
+520,2016,53CGA,Supervia/Lagasca de Zaragoza,Supervia/Lagasca de Zaragoza
+521,2016,53CHA,Gastos Varios  de Menores de Huesca,Gastos Varios  de Menores de Huesca
+522,2016,53CHB,Gastos Varios  de Menores de Teruel,Gastos Varios  de Menores de Teruel
+523,2016,53CHC,Gastos Varios  de Menores de Zaragoza,Gastos Varios  de Menores de Zaragoza
+524,2016,53CHD,Gastos Varios  de Menores de Gerencia,Gastos Varios  de Menores de Gerencia
+525,2016,53CIA,Convenios y Subv. Menores de Huesca,Convenios y Subv. Menores de Huesca
+526,2016,53CIB,Convenios y Subv. Menores de Teruel,Convenios y Subv. Menores de Teruel
+527,2016,53CIC,Convenios y Subv. Menores de Zaragoza,Convenios y Subv. Menores de Zaragoza
+528,2016,53CID,Convenios y Subv. Menores de Gerencia,Convenios y Subv. Menores de Gerencia
+529,2016,53CJA,Acogimientos  Remunerados de Huesca,Acogimientos  Remunerados de Huesca
+530,2016,53CJB,Acogimientos  Remunerados de Teruel,Acogimientos  Remunerados de Teruel
+531,2016,53CJC,Acogimientos  Remunerados de Zaragoza,Acogimientos  Remunerados de Zaragoza
+532,2016,53CJD,Acogimientos  Remunerados de Gerencia,Acogimientos  Remunerados de Gerencia
+533,2016,53CJE,Prestaciones  Menores de Huesca,Prestaciones  Menores de Huesca
+534,2016,53CJF,Prestaciones  de Menores de Teruel,Prestaciones  de Menores de Teruel
+535,2016,53CJG,Prestaciones  Menores de Zaragoza,Prestaciones  Menores de Zaragoza
+536,2016,53CJH,Ayudas  Urgentes Menores D.88/98  Huesca,Ayudas  Urgentes Menores D.88/98  Huesca
+537,2016,53CJI,Ayudas  Urgentes Menores D.88/98  Teruel,Ayudas  Urgentes Menores D.88/98  Teruel
+538,2016,53CJJ,Ayudas  Urgentes Menores D.88/98  Zarago,Ayudas  Urgentes Menores D.88/98  Zarago
+539,2016,53DAA,Acción Concertada Plz. Inserción Huesca,Acción Concertada Plz. Inserción Huesca
+540,2016,53DHA,Gastos Varios inserción en Gerencia,Gastos Varios inserción en Gerencia
+541,2016,53DIA,Convenios y  Subv. de Inserción Huesca,Convenios y  Subv. de Inserción Huesca
+542,2016,53DIB,Convenios y  Subv. Inserción Teruel,Convenios y  Subv. Inserción Teruel
+543,2016,53DIC,Convenios y  Subv. de Inserción Zaragoza,Convenios y  Subv. de Inserción Zaragoza
+544,2016,53DID,Convenios y  Subv. de Inserción Gerencia,Convenios y  Subv. de Inserción Gerencia
+545,2016,53DIE,Conv.  y  Subv. Programas varios Huesca,Conv.  y  Subv. Programas varios Huesca
+546,2016,53DIF,Con. y Subv. Programas Varios en Teruel,Con. y Subv. Programas Varios en Teruel
+547,2016,53DIG,Conv.  y  Subv. Programas varios Zaragoz,Conv.  y  Subv. Programas varios Zaragoz
+548,2016,53DIH,Conv.  y  Subv. Programas varios Gerenci,Conv.  y  Subv. Programas varios Gerenci
+549,2016,53DJA,Ayudas de Urgencia en  Zaragoza,Ayudas de Urgencia en  Zaragoza
+550,2016,53DJB,Prestaciones de Insercción en  Huesca,Prestaciones de Insercción en  Huesca
+551,2016,53DJC,Prestaciones de Insercción en Teruel,Prestaciones de Insercción en Teruel
+552,2016,53DJD,Prestaciones de Insercción en Zaragoza,Prestaciones de Insercción en Zaragoza
+553,2016,53EIA,Serv. Sociales Entidades Locales Huesca,Serv. Sociales Entidades Locales Huesca
+554,2016,53EIB,Serv. Sociales Entidades Locales Teruel,Serv. Sociales Entidades Locales Teruel
+555,2016,53EIC,Serv. Sociales Entidades Locales Zaragoz,Serv. Sociales Entidades Locales Zaragoz
+556,2016,53EID,Serv. Sociales Entidades Locales Gerenci,Serv. Sociales Entidades Locales Gerenci
+557,2016,53EIE,Servicios Sociales Base  Area deZaragoza,Servicios Sociales Base  Area deZaragoza
+558,2016,53FBA,"Residencia  ""Padre Polanco"" Orihuela Tre","Residencia  ""Padre Polanco"" Orihuela Tre"
+559,2016,53GGA,Dirección Provincial de  Huesca,Dirección Provincial de  Huesca
+560,2016,53GGB,Dirección Provincial  de Teruel,Dirección Provincial  de Teruel
+561,2016,53GGC,Dirección Provincial  de Zaragoza,Dirección Provincial  de Zaragoza
+562,2016,53GGD,Gerencia de IASS,Gerencia de IASS
+563,2016,54,Instituto Aragonés de la Mujer,Instituto Aragonés de la Mujer
+564,2016,5400,Ingresos del Inst. Aragonés de la Mujer,Ingresos del Inst. Aragonés de la Mujer
+565,2016,54000,Ingresos del Inst. Aragonés de la Mujer,Ingresos del Inst. Aragonés de la Mujer
+566,2016,5401,Instituto Aragonés de la Mujer,Instituto Aragonés de la Mujer
+567,2016,54010,Instituto Aragonés de la Mujer,Instituto Aragonés de la Mujer
+568,2016,55,Instituto Aragonés de la Juventud,Instituto Aragonés de la Juventud
+569,2016,5500,Ingresos del Inst. Arag. de la Juventud,Ingresos del Inst. Arag. de la Juventud
+570,2016,55000,Ingresos del Inst. Arag. de la Juventud,Ingresos del Inst. Arag. de la Juventud
+571,2016,5501,Instituto Aragonés de la Juventud,Instituto Aragonés de la Juventud
+572,2016,55010,Instituto Aragonés de la Juventud,Instituto Aragonés de la Juventud
+573,2016,56,Inst.Arag.Enseñanzas Artíst.Superiores,Inst.Arag.Enseñanzas Artíst.Superiores
+574,2016,5600,Ingresos Inst. Ar. Enseñanzas Artíst.Sup,Ingresos Inst. Ar. Enseñanzas Artíst.Sup
+575,2016,56000,Ingresos Inst. Ar. Enseñanzas Artíst.Sup,Ingresos Inst. Ar. Enseñanzas Artíst.Sup
+576,2016,5601,Inst.Arag.Enseñanzas Artíst.Superiores,Inst.Arag.Enseñanzas Artíst.Superiores
+577,2016,56010,Inst.Arag.Enseñanzas Artíst.Superiores,Inst.Arag.Enseñanzas Artíst.Superiores
+578,2016,71,E.P. Aragonesa de Servicios Telemáticos,E.P. Aragonesa de Servicios Telemáticos
+579,2016,7100,Ingresos Aragonesa Servicios Telemáticos,Ingresos Aragonesa Servicios Telemáticos
+580,2016,71000,Ingresos Aragonesa Servicios Telemáticos,Ingresos Aragonesa Servicios Telemáticos
+581,2016,7101,E.P. Aragonesa de Servicios Telemáticos,E.P. Aragonesa de Servicios Telemáticos
+582,2016,71010,E.P. Aragonesa de Servicios Telemáticos,E.P. Aragonesa de Servicios Telemáticos
+583,2016,7101A,AST - TELECOMUNICACIONES,AST - TELECOMUNICACIONES
+584,2016,72,Instituto Aragonés del Agua,Instituto Aragonés del Agua
+585,2016,7200,Ingresos del Instituto Aragonés del Agua,Ingresos del Instituto Aragonés del Agua
+586,2016,72000,Ingresos del Instituto Aragonés del Agua,Ingresos del Instituto Aragonés del Agua
+587,2016,7201,Instituto Aragonés del Agua,Instituto Aragonés del Agua
+588,2016,72010,Instituto Aragonés del Agua,Instituto Aragonés del Agua
+589,2016,73,Instituto Aragonés Ciencias de la Salud,Instituto Aragonés Ciencias de la Salud
+590,2016,7300,Ingresos Inst. Aragonés Ciencias Salud,Ingresos Inst. Aragonés Ciencias Salud
+591,2016,73000,Ingresos Inst. Aragonés Ciencias Salud,Ingresos Inst. Aragonés Ciencias Salud
+592,2016,7301,Instituto Aragonés Ciencias de la Salud,Instituto Aragonés Ciencias de la Salud
+593,2016,73010,Instituto Aragonés Ciencias de la Salud,Instituto Aragonés Ciencias de la Salud
+594,2016,74,Centro Investigación y Tecnol. Agroalim.,Centro Investigación y Tecnol. Agroalim.
+595,2016,7400,Ingresos Centro Invest. y Tecn. Agroalim,Ingresos Centro Invest. y Tecn. Agroalim
+596,2016,74000,Ingresos Centro Invest. y Tecn. Agroalim,Ingresos Centro Invest. y Tecn. Agroalim
+597,2016,7401,Centro Investigación y Tecnol. Agroalim.,Centro Investigación y Tecnol. Agroalim.
+598,2016,74010,Centro Investigación y Tecnol. Agroalim.,Centro Investigación y Tecnol. Agroalim.
+599,2016,75,Instituto Aragonés de Gestión Ambiental,Instituto Aragonés de Gestión Ambiental
+600,2016,7500,Ingresos Inst. Arag. Gestión Ambiental,Ingresos Inst. Arag. Gestión Ambiental
+601,2016,75000,Ingresos Inst. Arag. Gestión Ambiental,Ingresos Inst. Arag. Gestión Ambiental
+602,2016,7501,Instituto Aragonés de Gestión Ambiental,Instituto Aragonés de Gestión Ambiental
+603,2016,75010,Instituto Aragonés de Gestión Ambiental,Instituto Aragonés de Gestión Ambiental
+604,2016,76,E.P. Aragonesa Banco de Sangre y Tejidos,E.P. Aragonesa Banco de Sangre y Tejidos
+605,2016,7600,Ingresos E.P. Banco de Sangre y Tejidos,Ingresos E.P. Banco de Sangre y Tejidos
+606,2016,76000,Ingresos E.P. Banco de Sangre y Tejidos,Ingresos E.P. Banco de Sangre y Tejidos
+607,2016,7601,E.P. Aragonesa Banco de Sangre y Tejidos,E.P. Aragonesa Banco de Sangre y Tejidos
+608,2016,76010,E.P. Aragonesa Banco de Sangre y Tejidos,E.P. Aragonesa Banco de Sangre y Tejidos
+609,2016,77,Agencia de Calidad y Prospectiva Univers,Agencia de Calidad y Prospectiva Univers
+610,2016,7700,Ingresos Ag. Calidad y Prosp. Univ.,Ingresos Ag. Calidad y Prosp. Univ.
+611,2016,77000,Ingresos Ag. Calidad y Prosp. Univ.,Ingresos Ag. Calidad y Prosp. Univ.
+612,2016,7701,Agencia de Calidad y Prospectiva Univers,Agencia de Calidad y Prospectiva Univers
+613,2016,77010,Agencia de Calidad y Prospectiva Univers,Agencia de Calidad y Prospectiva Univers
+614,2016,90,No operativa,Consorcio Aragonés Sanitario Alta Resol.
+615,2016,9000,No operativa,Ingr. Consorcio Arag. Sanitario Alta Res
+616,2016,90000,No operativa,Ingr. Consorcio Arag. Sanitario Alta Res
+617,2016,9001,No operativa,Consorcio Aragonés Sanitario Alta Resol.
+618,2016,90010,No operativa,Consorcio Aragonés Sanitario Alta Resol.
+619,2016,90CS,No operativa,Centros Alta Resolución
+620,2016,90CS2,No operativa,Centro A.R. Pirineos (JACA)
+621,2016,90CS3,No operativa,Centro A.R. Cinco Villas (EJEA)
+622,2016,90CS4,No operativa,Centro A.R. Bajo Cinca (FRAGA)
+623,2016,90CS5,No operativa,Centro A.R. Moncayo (TARAZONA)

@@ -1,0 +1,232 @@
+﻿_id,EJERCICIO,GRUPO,FUNCION,SUBFUNCION,PROGRAMA,DESCRIPCION CORTA,DESCRIPCION LARGA
+1,2023,0,,,,Deuda Pública,Deuda Pública
+2,2023,1,,,,Deuda Pública,Deuda Pública
+3,2023,1,,,,Servcios Carácter General,Servicios de Carácter General
+4,2023,3,,,,Seg Protecc y Prom Social,"Seguridad, Protección y Promoción Social"
+5,2023,4,,,,Prod.Bienes Púb. c.social,Producción de Bienes Públicos de Carácter Social
+6,2023,5,,,,Prod.Bien P carac.econom.,Producc. de Bienes Públicos de Carácter Económico
+7,2023,6,,,,Reg Econom Caráct General,Regulación Económica de Carácter General
+8,2023,7,,,,Reg Econ Sect Productivos,Regulación Económica de Sectores Productivos
+9,2023,9,,,,Transfer a otras AA.PP.,Transferencias a otras Administraciones Públicas
+10,2023,1,11,,,Deuda Pública,Deuda Pública
+11,2023,1,11,,,Alta Dirección C.A. y Gob,Alta Dirección de la C.A. y del Gobierno
+12,2023,1,12,,,Administración General,Administración General
+13,2023,1,13,,,Rel. Ext. y Coop. Intern.,Relaciones Exteriores y Cooperación Internacional
+14,2023,1,14,,,Justicia,Justicia
+15,2023,3,31,,,Seg. y Protección Social,Seguridad y Protección Social
+16,2023,3,32,,,Promoción Social,Promoción Social
+17,2023,4,41,,,Sanidad,Sanidad
+18,2023,4,42,,,Educación,Educación
+19,2023,4,43,,,Vivienda y Urbanismo,Vivienda y Urbanismo
+20,2023,4,44,,,Bienestar Comunitario,Bienestar Comunitario
+21,2023,4,45,,,Cultura,Cultura
+22,2023,4,46,,,Otros Srvcios Com. y Soc.,Otros Servicios Comunitarios y Sociales
+23,2023,5,51,,,Infraestructuras Básicas,Infraestructuras Básicas y del Transporte
+24,2023,5,53,,,Infraestructuras Agrarias,Infraestructuras Agrarias
+25,2023,5,54,,,"Invest Cient, Téc y Aplic","Investigación Científica, Técnica y Aplicada"
+26,2023,5,55,,,Inform Básica y Estadíst,Información Básica y Estadística
+27,2023,6,61,,,Act Económicas Generales,Actuaciones Económicas Generales
+28,2023,6,62,,,Comercio,Comercio
+29,2023,6,63,,,Actividad Financiera,Actividad Financiera
+30,2023,6,64,,,Otras act. carácter econ.,Otras actuaciones de carácter económico
+31,2023,7,71,,,Agricultura y Ganadería,Agricultura y Ganadería
+32,2023,7,72,,,Industria,Industria
+33,2023,7,73,,,Energía y Minas,Energía y Minas
+34,2023,7,75,,,Turismo,Turismo
+35,2023,9,91,,,Transfer AA.PP. Territ,Transferencias a AA.PP. Territoriales
+36,2023,1,11,111,,Amortiz. y gastos Deuda,Amortización y Gastos Financieros de la Deuda
+37,2023,1,11,111,,Alta Dirección (Cortes),Alta Dirección de la C.A. (Cortes de Aragón)
+38,2023,1,11,112,,Alta Dirección (P Gob.Ar),Alta Dirección de la C.A. (Presidencia Gob Aragón)
+39,2023,1,12,121,,Servicios Generales,Servicios Generales
+40,2023,1,12,122,,Función Pública,Función Pública
+41,2023,1,12,123,,Formac y perfecc personal,Formación y Perfeccionamiento del personal (IAAP)
+42,2023,1,12,125,,Gastos relat. Admón.Local,Gastos relativos a la Administración Local
+43,2023,1,12,126,,Otros Servicios Generales,Otros Servicios Generales
+44,2023,1,13,131,,Rel. Exteriores,Relaciones Exteriores
+45,2023,1,13,134,,Cooperación Internacional,Cooperación Internacional
+46,2023,1,14,142,,Administración Justicia,Administración de Justicia
+47,2023,3,31,311,,Admón y Promoción Social,Admón y Promoción Social
+48,2023,3,31,313,,Acción Social,Acción Social
+49,2023,3,31,315,,Relaciones Laborales,Relaciones Laborales
+50,2023,3,32,322,,Promoción del Empleo,Promoción del Empleo
+51,2023,3,32,323,,Promoción Sociocultural,Promoción Sociocultural
+52,2023,3,32,324,,Acción favor Inmigrantes,Acción en favor de los Inmigrantes
+53,2023,4,41,411,,Admón General Sanidad,Administración General de Sanidad
+54,2023,4,41,412,,"Hosp,Svcios, Asist y Cent","Hospitales, Svcios, Asistencias y Centros de Salud"
+55,2023,4,41,413,,Acciones Públicas Salud,Acciones Públicas relativas a la Salud
+56,2023,4,42,421,,Admón General Educación,Administración General de Educación
+57,2023,4,42,422,,Enseñanza,Enseñanza
+58,2023,4,42,423,,Becas y Ayudas,Becas y Ayudas
+59,2023,4,43,431,,Vivienda,Vivienda
+60,2023,4,43,432,,Urbanismo y Arquitectura,Urbanismo y Arquitectura
+61,2023,4,44,442,,Protecc y Medio Ambiente,Protección y Medio Ambiente
+62,2023,4,44,443,,Otros Srvcios Bstar Com.,Otros servicios de Bienestar Comunitario
+63,2023,4,45,452,,"Archivos,Bibliot y Museos","Archivos, Bibliotecas y Museos"
+64,2023,4,45,455,,Promoción Cultural,Promoción Cultural
+65,2023,4,45,457,,Deportes y Educ Física,Deportes y Educación Física
+66,2023,4,45,458,,Patr. Hist-Artíst y Arqu.,Patrimonio Histórico-Artístico y Arqueológico
+67,2023,4,46,463,,Asoc y Partic. Ciudadana,Asociación y Participación Ciudadana
+68,2023,5,51,511,,Admón G. Infr. Básic.Tte,Administración General de Infr. Básicas y del Tte
+69,2023,5,51,512,,Recursos Hidráulicos,Recursos Hidráulicos
+70,2023,5,51,513,,Transporte Terrestre,Transporte Terrestre
+71,2023,5,53,531,,Reforma y Dllo Agrario,Reforma y Desarrollo Agrario
+72,2023,5,53,533,,Mejora del Medio Natural,Mejora del Medio Natural
+73,2023,5,54,541,,"Ad G. Ciencia, Universidad y Sdad. del Conocimi","Adm. Gen. Ciencia, Universidad y Sdad. del Conocim"
+74,2023,5,54,542,,Invest Técnica y Aplicada,Investigación Técnica y Aplicada
+75,2023,5,55,551,,"Estadís, Cartogr y Meteor","Estadística, Cartografía y Meteorología"
+76,2023,6,61,611,,Admón Gen. Hacienda y Administración Pública,Ad. Gen.de Hacienda y Administración Pública
+77,2023,6,61,612,,Regulac Económica General,Regulación Económica General
+78,2023,6,61,615,,Asuntos de la C.E,Asuntos de la Comunidad Europea
+79,2023,6,62,622,,Comercio Interior,Comercio Interior
+80,2023,6,62,623,,Comercio Exterior,Comercio Exterior
+81,2023,6,63,631,,Administración Financiera,Administración Financiera
+82,2023,6,64,641,,Junta Contratación Adtva.,Junta de Contratación Administrativa
+83,2023,6,64,642,,Defensa Competencia,Defensa de la Competencia
+84,2023,7,71,711,,"Ad.G Agricultura, Ganadería y Medio Ambiente","Adm.Gener. Agricultura, Ganadería y Medio Ambiente"
+85,2023,7,71,712,,Promoción Población Rural,Promoción de la Población Rural
+86,2023,7,71,716,,Calidad y Seguridad Alimentaria,Calidad y Seguridad Alimentaria
+87,2023,7,72,721,,Act Admtvas sobre Industria,Adm. General sobre Industria
+88,2023,7,72,722,,Act Admtvas sobre Industria,Actuaciones Administrativas sobre Industria
+89,2023,7,72,723,,Apoyo a la PYME,Apoyo a la Pequeña y Mediana Empresa
+90,2023,7,73,731,,Planif y Prod Energ y Minas,Planificación y Producción Energética y Minera
+91,2023,7,75,751,,Ordción y Prom Turística,Ordenación y Promoción Turística
+92,2023,9,91,911,,Transfer AA.PP. Comarcal,Transferencias a Administraciones Comarcales
+93,2023,1,11,111,1111,Cortes de Aragón,Cortes de Aragón (Actividad Legislativa)
+94,2023,1,11,111,1112,Actuaciones del Justicia,Actuaciones del Justicia de Aragón
+95,2023,1,11,111,1113,Aljafería,Aljafería
+96,2023,1,11,111,1114,Act. Cámara de Cuentas,Actuaciones de la Cámara de Cuentas de Aragón
+97,2023,1,11,112,1121,Presidencia y Órg Presid,Presidencia y Órganos de la Presidencia
+98,2023,1,11,112,1124,Tribunal Admtvo. de Contratos Públicos de Aragón,Tribunal Admtvo. de Contratos Públicos de Aragón
+99,2023,1,11,112,1125,Consejo Cons. Aragón,Consejo Consultivo de Aragón
+100,2023,1,12,121,1211,Servicios Generales de Presidencia y Relacs.Instit,Servicios Generales de Presidencia y Relacs.Instit
+101,2023,1,12,121,1212,"Servicios Centrales, Edificios e Instalaciones","Servicios Centrales, Edificios e Instalaciones"
+102,2023,1,12,121,1213,Servicios de Seguridad y Protección Civil,Servicios de Seguridad y Protección Civil
+103,2023,1,12,121,1214,No operativo,No operativo
+104,2023,1,12,121,1215,Servicios de Interior,Servicios de Interior
+105,2023,1,12,121,1216,Comunidades Aragonesas Exterior,Comunidades Aragonesas en el Exterior
+106,2023,1,12,121,1217,Relac. Institucionales,Relaciones Institucionales
+107,2023,1,12,121,1219,Unidad Policía Nacional adscrita a la C.Autónoma,Unidad Policía Nacional adscrita a la C.Autónoma
+108,2023,1,12,122,1221,Dirección y Administración de la Función Pública,Dirección y Administración de la Función Pública
+109,2023,1,12,123,1231,"Selección, Formación y Perfeccionamiento Personal","Selección, Formación y Perfeccionamiento Personal"
+110,2023,1,12,125,1251,Apoyo a la Administración Local,Apoyo a la Administración Local
+111,2023,1,12,125,1252,Política Territorial,Política Territorial
+112,2023,1,12,125,1253,Estrategias Territoriales,Estrategias Territoriales
+113,2023,1,12,125,1259,Cooperación con la Policía Local,Cooperación con la Policía Local
+114,2023,1,12,126,1261,Serv.Coord.Admva.Huesca,Servicios de Coordinación Administrativa en Huesca
+115,2023,1,12,126,1262,Serv.Coord.Admva.Teruel,Servicios de Coordinación Administrativa en Teruel
+116,2023,1,12,126,1263,Servicios Jurídicos,Servicios Jurídicos
+117,2023,1,12,126,1264,IInformación Ciudadana y Doc Administrativa,Información Ciudadana y Documentación Admva.
+118,2023,1,12,126,1265,Servicios Telemáticos,Servicios Telemáticos
+119,2023,1,12,126,1266,Televisión y Radio Autonómicas,Televisión y Radio Autonómicas
+120,2023,1,12,126,1267,Actuaciones Relativas al Desarrollo Estatutario,Actuaciones Relativas al Desarrollo Estatutario
+121,2023,1,12,126,1268,Inform. Partic. Ciudadana,Información y Participación Ciudadana
+122,2023,1,12,126,1269,Serv.Gen.Pol.Terr. e Int(No operativo),Serv.Grales P. Territorial e Interior (No operativ
+123,2023,1,13,131,1311,Act. Relac. Exteriores,Actuaciones de Relaciones Exteriores
+124,2023,1,13,134,1341,Cooperación al Desarrollo,Cooperación al Desarrollo
+125,2023,1,14,142,1421,Serv. Admon. Justicia,Servicios de Administración de Justicia
+126,2023,1,14,142,1422,Ministerio Fiscal,Ministerio Fiscal
+127,2023,3,31,311,3111,Serv. Grales. Cuidadanía y Derechos Sociales,Serv. Grales. Ciudadanía y Derechos Sociales
+128,2023,3,31,313,3131,Prest. Asistenciales y Serv. Sociales (No operativ,Prest. Asistenciales y Serv. Sociales (No operativ
+129,2023,3,31,313,3132,Gestión y Dllo Serv Soc,Gestión y Desarrollo de los Servicios Sociales
+130,2023,3,31,313,3133,Polít Integral de Apoyo a las Familias y de Iguald,Polít Integral de Apoyo a las Familias y de Iguald
+131,2023,3,31,313,3134,Atención a la dependencia (No operativo),Atención a la dependencia (No operativo)
+132,2023,3,31,313,3135,Acción Social a favor del personal,Acción Social en Favor del Personal
+133,2023,3,31,313,3136,Fondo Inc. Soc.y Ay Fam U,Fondo de Inclusión Social y Ayuda Familiar Urgente
+134,2023,3,31,315,3151,Relaciones Laborales,Relaciones Laborales
+135,2023,3,32,322,3221,Fomento del Empleo. INAEM,Fomento del Empleo. Instituto Aragonés de Empleo
+136,2023,3,32,322,3222,Fomento del Empleo EE.TT. (No operativo),Fomento del Empleo EE.TT. (No operativo)
+137,2023,3,32,322,3225,Fomento del Empleo,Fomento del Empleo
+138,2023,3,32,322,3229,Consejo Econom y Social,Consejo Económico y Social de Aragón
+139,2023,3,32,323,3231,Promoción de la Juventud,Promoción de la Juventud
+140,2023,3,32,323,3232,Promoción de la Mujer,Promoción de la Mujer
+141,2023,3,32,324,3241,Apoyo a la Inmigración,Apoyo a la Inmigración
+142,2023,4,41,411,4111,Serv. Gener. Sanidad,Serv. Gener. Sanidad
+143,2023,4,41,412,4121,Asistencia Sanitaria,Asistencia Sanitaria
+144,2023,4,41,412,4123,Asist. Sanit. Medio Rural (No operativo),Asistencia Sanitaria Medio Rural (CASAR) (No opera
+145,2023,4,41,412,4124,Prod.comp.sanguín. y tej.,Producc. componentes sanguíneos y de tejidos
+146,2023,4,41,413,4131,Protecc y Promoción Salud,Protección y Promoción de la Salud
+147,2023,4,41,413,4132,Serv. Atención Usuario,Servicios de Atención al Usuario
+148,2023,4,41,413,4134,Salud Pública,Salud Pública
+149,2023,4,42,421,4211,"Serv. Gen. Educación, Cultura y Deporte","Servicios Generales Educación, Cultura y Deporte"
+150,2023,4,42,421,4212,Gestión de Personal,Gestión de Personal
+151,2023,4,42,422,4220,Formación Profesional,Formación Profesional
+152,2023,4,42,422,4221,Educ Infantil y Primaria,Educación Infantil y Primaria
+153,2023,4,42,422,4222,Educ Secundaria,Educ Secundaria
+154,2023,4,42,422,4223,Educación Especial,Educación Especial
+155,2023,4,42,422,4224,Enseñanzas Artísticas,Enseñanzas Artísticas
+156,2023,4,42,422,4225,Educación Permanente,Educación Permanente
+157,2023,4,42,422,4226,Plan Aragonés de F.P.,Plan Aragonés de Formación Profesional
+158,2023,4,42,422,4227,Formación del Profesorado,Formación del Profesorado
+159,2023,4,42,422,4228,Educación Universitaria,Educación Universitaria
+160,2023,4,42,422,4229,Eval. Calidad Enseñanza S,Evaluación de la calidad de la Enseñanza Superior
+161,2023,4,42,423,4231,Innovación y Participación,Innovación y Participación
+162,2023,4,42,423,4232,Equidad,Equidad
+163,2023,4,43,431,4311,Promoción y Admón.Viviendas,Promoción y Administración de Viviendas
+164,2023,4,43,431,4312,Gestión Social de la Vivienda,Gestión social de la vivienda
+165,2023,4,43,432,4321,Urbanismo,Urbanismo
+166,2023,4,43,432,4323,Arquitectura y Rehabilitación,Arquitectura y Rehabilitación
+167,2023,4,44,442,4422,Protecc y Mejor Medio Amb,Protección y Mejora del Medio Ambiente
+168,2023,4,44,442,4423,Gestión Ambiental,Gestión Ambiental
+169,2023,4,44,443,4431,Control del Consumo,Control del Consumo
+170,2023,4,45,452,4521,"Archivos, Museos y Bibliotecas","Archivos, Museos y Bibliotecas"
+171,2023,4,45,452,4522,Gestión de Bibliotecas (No operativo),Gestión de Bibliotecas (No operativo)
+172,2023,4,45,455,4551,Fom y prom lenguas propias,Fomento y promoción de las lenguas propias
+173,2023,4,45,455,4553,Prom y Acción Cultural (No operativo),Promoción y Acción Cultural (No operativo)
+174,2023,4,45,457,4571,Fom y apoyo Activ. Depor,Fomento y apoyo a la Actividad Deportiva
+175,2023,4,45,458,4581,Promoción de la Cultura,Promoción de la Cultura
+176,2023,4,45,458,4582,Protección del Patrimonio Cultural,Protección del Patrimonio Cultural
+177,2023,4,46,463,4631,Elecc. Institucionales,Elecciones Institucionales
+178,2023,5,51,511,5111,"S G Vert. Territorrio, Movilidad y Vivienda","Serv.G. Verteb. Territorrio, Movilidad y Vivienda"
+179,2023,5,51,512,5121,Gest e Infr Recur Hidrául,Gestión e Infraestructura de Recursos Hidráulicos
+180,2023,5,51,513,5131,Carreteras,Carreteras
+181,2023,5,51,513,5132,Transportes,Transportes
+182,2023,5,53,531,5311,Mej Estr Agrar y Dllo Rur,Mejora de Estructuras Agrarias y Desarrollo Rural
+183,2023,5,53,531,5312,Des. Sost. Medio Rural,Desarrollo Sostenible en el Medio Rural
+184,2023,5,53,533,5331,Prot y mejora Medio Nat.,Protección y mejora del Medio Natural
+185,2023,5,53,533,5332,Cons. Biodiv. y Des.Sost,Conservac. de la Biodivers y Desarrollo Sostenible
+186,2023,5,54,541,5411,"Serv. G. Ciencia, Universidad y Sdad. del Conocimi","Serv. G. Ciencia, Universidad y Sdad. del Conocimi"
+187,2023,5,54,542,5421,Investigación Agroalimentaria,Investigación Agroalimentaria
+188,2023,5,54,542,5422,Inv Tecnolog Aplic Indust,Investigación y Tecnología Aplicada a la Industria
+189,2023,5,54,542,5423,"Investigación, Desarrollo e Innovac Tec","Investigación, Desarrollo e Innovación Tecnológica"
+190,2023,5,54,542,5424,Inves y Dllo Sdad. Información,Investigación y Dllo. Sociedad de la Información
+191,2023,5,54,542,5425,Inves. y Des. Area de Salud,Investigación y Desarrollo en el Área de la Salud
+192,2023,5,54,542,5426,Administración electrónica,Administración electrónica
+193,2023,5,55,551,5511,Elaboración y Difusión Estadística,Elaboración y Difusión Estadística
+194,2023,6,61,611,6111,Serv Generales Hacienda y Administración Pública,Serv. Gen. de Hacienda y Administración Pública
+195,2023,6,61,611,6112,"Ser.v Generales Economía, Planificación y Empleo","Serv. Generales Economía, Planificación y Empleo"
+196,2023,6,61,612,6120,Fondo Inversiones de Teruel,Fondo Inversiones de Teruel
+197,2023,6,61,612,6121,Planific.y Direcc Presup,Planificación y Dirección Presupuestaria
+198,2023,6,61,612,6122,Promoción y Dllo Económ.,Promoción y Desarrollo Económico
+199,2023,6,61,612,6123,Plan Minería del Carbón,Plan Minería del Carbón y Dllo Alternat Com.Min
+200,2023,6,61,612,6124,Corp. Empr. Públ. Aragón,Corporación Empresarial Pública de Aragón
+201,2023,6,61,612,6125,Planificación Económica,Planificación Económica
+202,2023,6,61,612,6126,Apoyo Dllo Econ y Social,Apoyo al Desarrollo Económico y Social
+203,2023,6,61,612,6127,Gastos no clasificados,Gastos no clasificados
+204,2023,6,61,612,6128,Fondo Gastos Personal,Fondo de Gastos de Personal
+205,2023,6,61,612,6129,Fondo Contingencia,Fondo de Contingencia de Ejecución Presupuestaria
+206,2023,6,61,615,6152,Act Programas Europeos,Actuaciones relativas a Programas Europeos
+207,2023,6,62,622,6221,Ordción y Prom Comercial,Ordenación y Promoción Comercial
+208,2023,6,62,623,6231,Comerc Ext. y Rel.Ec. Int,Comercio Exterior y Relaciones Económicas Inter
+209,2023,6,63,631,6311,Gestión e Inspec Tributos,Gestión e Inspección de Tributos
+210,2023,6,63,631,6312,Control Interno y Contab,Control Interno y Contabilidad
+211,2023,6,63,631,6313,Gestión del Patrimonio,Gestión del Patrimonio
+212,2023,6,63,631,6314,Gestión de Tesorería,Gestión de Tesorería
+213,2023,6,63,631,6315,Estudios Econ y Regulació,Estudios Económicos y Regulación
+214,2023,6,64,641,6411,Jta Cons. Contr.Ad y Reg,Jta Consultiva Contratación Admtva y Registros
+215,2023,6,64,641,6412,Contratación Pública,Contratación Pública
+216,2023,6,64,642,6421,Acts. Defensa Competencia,Actuaciones en materia de Defensa de Competencia
+217,2023,7,71,711,7111,"Serv.Gen. Agricultura, Ganadería y Medio Ambiente","Serv.Gen. Agricultura, Ganadería y Medio Ambiente"
+218,2023,7,71,712,7121,Dllo Agroalim y Fmto Asoc,Desarrollo Agroalimentario y Fomento Asociativo
+219,2023,7,71,712,7122,Coordinación y Gestión de Servicios Agroambientale,Coordinación y Gestión de Servicios Agroambient.
+220,2023,7,71,712,7123,Producción Agraria y Gestión de Ayudas,Producción Agraria y Gestión de Ayudas
+221,2023,7,71,712,7128,Política Agraria Comunitaria,Política Agraria Comunitaria
+222,2023,7,71,712,7129,Caza y Pesca,Caza y Pesca
+223,2023,7,71,716,7161,Calidad y Seguridad Alimentaria,Calidad y Seguridad Alimentaria
+224,2023,7,72,721,7211,"Serv.Gen.  Industria, Competitividad y Des. Empres","Serv.Gen.  Industria, Competitividad y Des. Empres"
+225,2023,7,72,722,7221,Act Admtvas sobre Industria,Actuaciones Administrativas sobre Industria
+226,2023,7,72,723,7231,Fomento Industrial,Fomento Industrial
+227,2023,7,73,731,7311,Fmto y Gestión Energética,Fomento y Gestión Energética
+228,2023,7,73,731,7312,Apoyo a la Minería,Apoyo a la Minería
+229,2023,7,75,751,7511,Ordción y Prom y Fmto Turismo,"Ordenación, Promoción y Fomento del Turismo"
+230,2023,9,91,911,9111,Transfer AA.PP. Comarcal,Transferencias a Administraciones Comarcales
+231,2023,9,91,911,9112,Cohesión Comarcal,Cohesión Comarcal
