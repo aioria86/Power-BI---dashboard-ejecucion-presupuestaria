@@ -1,0 +1,136 @@
+table 'Estado de ejecución gastos - 2013'
+	lineageTag: 65b85b1a-8fd8-4c8b-9c41-750b7262cc60
+
+	column _id
+		dataType: string
+		lineageTag: 79d76d11-e4bc-4c3c-9140-eeb24a51707c
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ejercicio
+		dataType: string
+		lineageTag: b3651df3-9b92-4d66-80f6-4ec62094fa04
+		summarizeBy: none
+		sourceColumn: Ejercicio
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Centro Gestor'
+		dataType: string
+		lineageTag: ef4560bc-bbed-4324-9e70-826bfe6d3d75
+		summarizeBy: none
+		sourceColumn: Centro Gestor
+
+		annotation SummarizationSetBy = Automatic
+
+	column Funcional
+		dataType: string
+		lineageTag: ee02200b-a11c-49d0-b5af-ea0ef5aa648d
+		summarizeBy: none
+		sourceColumn: Funcional
+
+		annotation SummarizationSetBy = Automatic
+
+	column Economico
+		dataType: string
+		lineageTag: 38ca9625-1651-4154-891b-60171cd0581b
+		summarizeBy: none
+		sourceColumn: Economico
+
+		annotation SummarizationSetBy = Automatic
+
+	column Financiacion
+		dataType: string
+		lineageTag: d3c9bd17-4300-4d35-a715-ca569085e457
+		summarizeBy: none
+		sourceColumn: Financiacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column Descripcion
+		dataType: string
+		lineageTag: ba21a047-8c23-49b2-a77d-99cb0d95353a
+		summarizeBy: none
+		sourceColumn: Descripcion
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Credito inicial'
+		dataType: double
+		lineageTag: b47a2344-3c65-4374-bfcf-2e650741aefb
+		summarizeBy: sum
+		sourceColumn: Credito inicial
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Modificaciones
+		dataType: double
+		lineageTag: 276b8d80-d8ef-490d-a0d6-9fca2ffcad57
+		summarizeBy: sum
+		sourceColumn: Modificaciones
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Credito Definitivo'
+		dataType: double
+		lineageTag: 725dfb22-62aa-47a4-8154-654913e111a3
+		summarizeBy: sum
+		sourceColumn: Credito Definitivo
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Comprometido
+		dataType: double
+		lineageTag: a4545945-7499-4570-b6f6-71b097d466f1
+		summarizeBy: sum
+		sourceColumn: Comprometido
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Obligaciones Reconocidas'
+		dataType: double
+		lineageTag: f0e40564-8edb-425f-857b-458dcf6860e1
+		summarizeBy: sum
+		sourceColumn: Obligaciones Reconocidas
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Pagado
+		dataType: double
+		lineageTag: 62076e37-5c40-4ba9-b46d-8b8ed86e96c8
+		summarizeBy: sum
+		sourceColumn: Pagado
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'Estado de ejecución gastos - 2013' = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución gastos\Estado de ejecución gastos - 2013.csv"),[Delimiter=",", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}, {"Column8", type text}, {"Column9", type text}, {"Column10", type text}, {"Column11", type text}, {"Column12", type text}, {"Column13", type text}}),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(#"Cambiar tipo", [PromoteAllScalars=true]),
+				    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Encabezados promovidos", {{"Credito inicial", type number}, {"Modificaciones", type number}, {"Credito Definitivo", type number}, {"Comprometido", type number}, {"Obligaciones Reconocidas", type number}, {"Pagado", type number}}, "en-US"),
+				    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+				    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+				in
+				    #"Texto limpio"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

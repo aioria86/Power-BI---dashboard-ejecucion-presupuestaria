@@ -1,0 +1,39 @@
+expression fn_Transformar_Gastos =
+		let
+		    Origen = (miArchivo as binary) =>
+		let
+		    Origen = Csv.Document(
+		        miArchivo,
+		        [Delimiter=",", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]
+		    ),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Texto recortado" = Table.TransformColumns(#"Encabezados promovidos",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}}),
+		    #"Tipo cambiado con configuración regional" =
+		        Table.TransformColumnTypes(
+		            #"Texto limpio",
+		            {
+		                {"Credito inicial", type number},
+		                {"Modificaciones", type number},
+		                {"Credito Definitivo", type number},
+		                {"Comprometido", type number},
+		                {"Obligaciones Reconocidas", type number},
+		                {"Pagado", type number}
+		            },
+		            "en-US"
+		        )
+		in
+		    #"Tipo cambiado con configuración regional",
+		    #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}, {"Column8", type text}, {"Column9", type text}, {"Column10", type text}, {"Column11", type text}, {"Column12", type text}, {"Column13", type text}}),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(#"Cambiar tipo", [PromoteAllScalars=true]),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Encabezados promovidos", {{"Credito inicial", type number}, {"Modificaciones", type number}, {"Credito Definitivo", type number}, {"Comprometido", type number}, {"Obligaciones Reconocidas", type number}, {"Pagado", type number}}, "en-US"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: a9b2835f-b0c8-4fcd-8e59-00fbb22d7c35
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
