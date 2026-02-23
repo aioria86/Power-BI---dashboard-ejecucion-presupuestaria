@@ -1,0 +1,123 @@
+table Fact_Ingresos
+	lineageTag: ea374ed2-c472-4b02-88a8-611e9d13f925
+
+	column _id
+		dataType: string
+		lineageTag: a0a4ddbe-c454-47a6-b246-6e2fd611e40e
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ejercicio
+		dataType: int64
+		formatString: 0
+		lineageTag: d50e92f8-de5d-49f8-b00e-618a186c637e
+		summarizeBy: sum
+		sourceColumn: Ejercicio
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Centro Gestor'
+		dataType: string
+		lineageTag: 19972eab-3359-4372-b4c8-dfda9bfbbe38
+		summarizeBy: none
+		sourceColumn: Centro Gestor
+
+		annotation SummarizationSetBy = Automatic
+
+	column Economico
+		dataType: string
+		lineageTag: ec9caa4f-fcac-466c-8f03-3d6aef0250f3
+		summarizeBy: none
+		sourceColumn: Economico
+
+		annotation SummarizationSetBy = Automatic
+
+	column Financiacion
+		dataType: string
+		lineageTag: d8470835-44eb-41bf-902f-3486445583e4
+		summarizeBy: none
+		sourceColumn: Financiacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column Descripcion
+		dataType: string
+		lineageTag: abc37af9-8d0b-4c7f-b3a5-e03256761685
+		summarizeBy: none
+		sourceColumn: Descripcion
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Prevision Inicial'
+		dataType: double
+		lineageTag: be0e3c5d-9d09-4d62-8284-8d17551cc5f1
+		summarizeBy: sum
+		sourceColumn: Prevision Inicial
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Modificaciones
+		dataType: double
+		lineageTag: b992a311-236a-4ffd-801f-e1ac52385ace
+		summarizeBy: sum
+		sourceColumn: Modificaciones
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Prevision Definitiva'
+		dataType: double
+		lineageTag: 428afe00-01a7-4914-b03f-5b7f7158a19e
+		summarizeBy: sum
+		sourceColumn: Prevision Definitiva
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'D. Rec. Netos'
+		dataType: double
+		lineageTag: aaa7a6dc-7a1e-4b4b-82b8-76f1e30c3f80
+		summarizeBy: sum
+		sourceColumn: D. Rec. Netos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Recaudado Neto'
+		dataType: double
+		lineageTag: dee13f61-17e9-4c7d-8354-46a02afad138
+		summarizeBy: sum
+		sourceColumn: Recaudado Neto
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Centro gestor 2'
+		dataType: string
+		lineageTag: 23188967-170d-4803-8b7b-b0d938c2e298
+		summarizeBy: none
+		sourceColumn: Centro gestor
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Fact_Ingresos = m
+		mode: import
+		source =
+				let
+				    Origen = Table.Combine({#"Estado de ejecución de ingresos - 2024", #"Estado de ejecución de ingresos - 2013", #"Estado de ejecución de ingresos - 2014", #"Estado de ejecución de ingresos - 2015", #"Estado de ejecución de ingresos - 2016", #"Estado de ejecución de ingresos - 2017", #"Estado de ejecución de ingresos - 2018", #"Estado de ejecución de ingresos - 2019", #"Estado de ejecución de ingresos - 2020", #"Estado de ejecución de ingresos - 2021", #"Estado de ejecución de ingresos - 2022", #"Estado de ejecución de ingresos - 2023"}),
+				    #"Filas filtradas" = Table.SelectRows(Origen, each true)
+				in
+				    #"Filas filtradas"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

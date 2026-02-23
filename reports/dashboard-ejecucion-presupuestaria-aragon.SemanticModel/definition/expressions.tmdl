@@ -250,3 +250,230 @@ expression 'Estado de ejecución gastos - 2013' =
 
 	annotation PBI_ResultType = Table
 
+expression 'Estado de ejecución de ingresos - 2013' =
+		let
+		    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución de ingresos\Estado de ejecución de ingresos - 2013.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"Ejercicio", Int64.Type}}),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Tipo cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "en-US"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: ad573f27-8f64-4832-bf7f-6e061e258ece
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Estado de ejecución de ingresos - 2014' =
+		let
+		    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución de ingresos\Estado de ejecución de ingresos - 2014.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Encabezados promovidos",{{"D.Rec. Netos", "D. Rec. Netos"}}),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas con nombre cambiado",{{"Ejercicio", Int64.Type}}),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Tipo cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "es-ES"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: 77ed5a78-aaab-48a9-bdff-e50d3e051c0a
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Estado de ejecución de ingresos - 2015' =
+		let
+		    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución de ingresos\Estado de ejecución de ingresos - 2015.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Encabezados promovidos",{{"D.Rec. Netos", "D. Rec. Netos"}}),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas con nombre cambiado",{{"Ejercicio", Int64.Type}}),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Tipo cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "es-ES"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: 75e6556b-5e7b-4d81-9e03-4d86c09f1680
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Estado de ejecución de ingresos - 2016' =
+		let
+		    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución de ingresos\Estado de ejecución de ingresos - 2016.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Encabezados promovidos",{{"D.Rec. Netos", "D. Rec. Netos"}}),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas con nombre cambiado",{{"Ejercicio", Int64.Type}}),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Tipo cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "es-ES"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: 3ad6c630-c86f-4f1f-8538-70ae9b7e75a2
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Estado de ejecución de ingresos - 2017' =
+		let
+		    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución de ingresos\Estado de ejecución de ingresos - 2017.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Encabezados promovidos",{{"D.Rec. Netos", "D. Rec. Netos"}}),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas con nombre cambiado",{{"Ejercicio", Int64.Type}}),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Tipo cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "es-ES"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: 1049cb5d-5e63-45ac-9b4c-bd324da6e9d7
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Estado de ejecución de ingresos - 2018' =
+		let
+		    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución de ingresos\Estado de ejecución de ingresos - 2018.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Encabezados promovidos",{{"D.Rec. Netos", "D. Rec. Netos"}}),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas con nombre cambiado",{{"Ejercicio", Int64.Type}}),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Tipo cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "es-ES"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: a2b536f5-42d8-45a2-80a7-06a5be7e483e
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Estado de ejecución de ingresos - 2019' =
+		let
+		    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución de ingresos\Estado de ejecución de ingresos - 2019.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Columnas con nombre cambiado1" = Table.RenameColumns(#"Encabezados promovidos",{{"Derechos Reconocidos Netos ( DRN )", "D.Rec. Netos"}}),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Columnas con nombre cambiado1",{{"D.Rec. Netos", "D. Rec. Netos"}, {"Recaudacion Neta", "Recaudado Neto"}}),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas con nombre cambiado",{{"Ejercicio", Int64.Type}}),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Tipo cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "es-ES"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: 824985d6-fbf7-4f35-ac35-242a495a0593
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Estado de ejecución de ingresos - 2020' =
+		let
+		    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución de ingresos\Estado de ejecución de ingresos - 2020.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"Ejercicio", Int64.Type}}),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Tipo cambiado",{{"D.Rec. Netos", "D. Rec. Netos"}}),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Columnas con nombre cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "es-ES"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: eadffad7-c5de-4711-a8e1-4cef7933d7ac
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Estado de ejecución de ingresos - 2021' =
+		let
+		    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución de ingresos\Estado de ejecución de ingresos - 2021.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"Ejercicio", Int64.Type}}),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Tipo cambiado",{{"D.Rec. Netos", "D. Rec. Netos"}}),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Columnas con nombre cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "es-ES"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: 362fa581-b19f-4718-a4e7-76ca2b4e550d
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Estado de ejecución de ingresos - 2022' =
+		let
+		    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución de ingresos\Estado de ejecución de ingresos - 2022.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"Ejercicio", Int64.Type}}),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Tipo cambiado",{{"D.Rec. Netos", "D. Rec. Netos"}}),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Columnas con nombre cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "es-ES"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: 94f9cc3b-f580-49c6-960d-74b727334474
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Estado de ejecución de ingresos - 2023' =
+		let
+		    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución de ingresos\Estado de ejecución de ingresos - 2023.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"Ejercicio", Int64.Type}}),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Tipo cambiado",{{"D.Rec. Netos", "D. Rec. Netos"}}),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Columnas con nombre cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "es-ES"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: 354fb5cb-bb99-4176-8ce1-0d85d195d84e
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Estado de ejecución de ingresos - 2024' =
+		let
+		    Origen = Csv.Document(File.Contents("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estado de ejecución de ingresos\Estado de ejecución de ingresos - 2024.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"Ejercicio", Int64.Type}}),
+		    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Tipo cambiado",{{"D.Rec. Netos", "D. Rec. Netos"}}),
+		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Columnas con nombre cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "es-ES"),
+		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		in
+		    #"Texto limpio"
+	lineageTag: 85b88a90-ee9f-467e-92fc-ec953bf4def7
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
+expression 'Errores en Fact_Gastos' =
+		let
+		Origen = Fact_Gastos,
+		  #"Errores de coincidencia detectados" = let
+		    tableWithOnlyPrimitiveTypes = Table.SelectColumns(Origen, Table.ColumnsOfType(Origen, {type nullable number, type nullable text, type nullable logical, type nullable date, type nullable datetime, type nullable datetimezone, type nullable time, type nullable duration})),
+		    recordTypeFields = Type.RecordFields(Type.TableRow(Value.Type(tableWithOnlyPrimitiveTypes))),
+		    fieldNames = Record.FieldNames(recordTypeFields),
+		    fieldTypes = List.Transform(Record.ToList(recordTypeFields), each [Type]),
+		    pairs = List.Transform(List.Positions(fieldNames), (i) => {fieldNames{i}, (v) => if v = null or Value.Is(v, fieldTypes{i}) then v else error [Message = "El tipo del valor no coincide con el tipo de la columna.", Detail = v], fieldTypes{i}})
+		in
+		    Table.TransformColumns(Origen, pairs),
+		  #"Índice agregado" = Table.AddIndexColumn(#"Errores de coincidencia detectados", "Número de fila" ,1),
+		  #"Conservar errores" = Table.SelectRowsWithErrors(#"Índice agregado", {"_id", "Ejercicio", "Centro Gestor", "Funcional", "Economico", "Financiacion", "Descripcion", "Credito inicial", "Modificaciones", "Credito Definitivo", "Comprometido", "Obligaciones Reconocidas", "Pagado"}),
+		  #"Columnas reordenadas" = Table.ReorderColumns(#"Conservar errores", {"Número de fila", "_id", "Ejercicio", "Centro Gestor", "Funcional", "Economico", "Financiacion", "Descripcion", "Credito inicial", "Modificaciones", "Credito Definitivo", "Comprometido", "Obligaciones Reconocidas", "Pagado"})
+		in
+		  #"Columnas reordenadas"
+	lineageTag: bf28097a-1a21-4343-87b4-3299dc2909c5
+	queryGroup: 'Errores en las consultas: 23/02/2026 23:07:03'
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

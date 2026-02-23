@@ -10,9 +10,10 @@ table Fact_Gastos
 		annotation SummarizationSetBy = Automatic
 
 	column Ejercicio
-		dataType: string
+		dataType: int64
+		formatString: 0
 		lineageTag: 0c4a81b5-b10f-471e-9bb5-114fe2c2c5f7
-		summarizeBy: none
+		summarizeBy: sum
 		sourceColumn: Ejercicio
 
 		annotation SummarizationSetBy = Automatic
@@ -121,9 +122,10 @@ table Fact_Gastos
 		mode: import
 		source =
 				let
-				    Origen = Table.Combine({#"Estado de ejecución gastos - 2023", #"Estado de ejecución gastos - 2013", #"Estado de ejecución gastos - 2024", #"Estado de ejecución gastos - 2015", #"Estado de ejecución gastos - 2014", #"Estado de ejecución gastos - 2016", #"Estado de ejecución gastos - 2017", #"Estado de ejecución gastos - 2018", #"Estado de ejecución gastos - 2019", #"Estado de ejecución gastos - 2020", #"Estado de ejecución gastos - 2021", #"Estado de ejecución gastos - 2022"})
+				    Origen = Table.Combine({#"Estado de ejecución gastos - 2023", #"Estado de ejecución gastos - 2013", #"Estado de ejecución gastos - 2024", #"Estado de ejecución gastos - 2015", #"Estado de ejecución gastos - 2014", #"Estado de ejecución gastos - 2016", #"Estado de ejecución gastos - 2017", #"Estado de ejecución gastos - 2018", #"Estado de ejecución gastos - 2019", #"Estado de ejecución gastos - 2020", #"Estado de ejecución gastos - 2021", #"Estado de ejecución gastos - 2022"}),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(Origen,{{"Ejercicio", Int64.Type}})
 				in
-				    Origen
+				    #"Tipo cambiado"
 
 	annotation PBI_NavigationStepName = Navegación
 
