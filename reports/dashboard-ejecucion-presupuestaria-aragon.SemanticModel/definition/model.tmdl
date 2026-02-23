@@ -10,9 +10,9 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["Estado de ejecución gastos - 2013","fn_Transformar_Gastos"]
+annotation PBI_QueryOrder = ["Estado de ejecución gastos - 2013","fn_Transformar_Gastos","Estado de ejecución gastos - 2024","Estado de ejecución gastos - 2015","Estado de ejecución gastos - 2014","Estado de ejecución gastos - 2016","Estado de ejecución gastos - 2017","Estado de ejecución gastos - 2018","Estado de ejecución gastos - 2019","Estado de ejecución gastos - 2020","Estado de ejecución gastos - 2021","Estado de ejecución gastos - 2022","Estado de ejecución gastos - 2023","Fact_Gastos"]
 
-ref table 'Estado de ejecución gastos - 2013'
+ref table Fact_Gastos
 
 ref cultureInfo es-ES
 
