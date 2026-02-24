@@ -1,4 +1,4 @@
-﻿_id,Ejercicio,Centro gestor,Economico,Financiacion,Descripcion,Prevision Inicial,Modificaciones,Prevision Definitiva,D.Rec. Netos,Recaudado Neto
+﻿_id,Ejercicio,Centro Gestor,Economico,Financiacion,Descripcion,Prevision Inicial,Modificaciones,Prevision Definitiva,D.Rec. Netos,Recaudado Neto
 1,2018,12500,100000,91003,Tarifa Autonómica del I.R.P.F.,"1.257.652.140,00",,"1.257.652.140,00","1.257.652.140,00","1.257.652.140,00"
 2,2018,12500,100006,91003,Tarifa Autonómica IRPF Ejercicios Anteriores,"87.317.750,00",,"87.317.750,00","98.258.627,91","98.258.627,91"
 3,2018,12500,110000,91003,Sobre adquisiciones por herencia o legado,"147.040.100,00",,"147.040.100,00",,
