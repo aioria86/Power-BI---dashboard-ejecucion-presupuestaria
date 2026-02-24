@@ -1,0 +1,57 @@
+table Dim_Financiacion
+	lineageTag: d5205345-5181-4e13-9a4c-5a28a322e085
+
+	column id_financiacion
+		dataType: string
+		lineageTag: 1b373f67-f6ab-4dfd-8823-f77c7bb1b8f2
+		summarizeBy: none
+		sourceColumn: id_financiacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column descripcion_corta_financiacion
+		dataType: string
+		lineageTag: 54641620-d0b0-43d2-9f61-701bb94ba295
+		summarizeBy: none
+		sourceColumn: descripcion_corta_financiacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column descripcion_financiacion
+		dataType: string
+		lineageTag: 5edaa36b-d110-4757-8ff6-a5b831186caf
+		summarizeBy: none
+		sourceColumn: descripcion_financiacion
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Financiacion = m
+		mode: import
+		source =
+				let
+				    Origen = Folder.Files("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estructura de financiación de la ejecución presupuestaria"),
+				    #"Archivos ocultos filtrados1" = Table.SelectRows(Origen, each [Attributes]?[Hidden]? <> true),
+				    #"Invocar función personalizada1" = Table.AddColumn(#"Archivos ocultos filtrados1", "Transformar archivo", each #"Transformar archivo"([Content])),
+				    #"Columnas con nombre cambiado1" = Table.RenameColumns(#"Invocar función personalizada1", {"Name", "Source.Name"}),
+				    #"Otras columnas quitadas1" = Table.SelectColumns(#"Columnas con nombre cambiado1", {"Source.Name", "Transformar archivo"}),
+				    #"Columna de tabla expandida1" = Table.ExpandTableColumn(#"Otras columnas quitadas1", "Transformar archivo", Table.ColumnNames(#"Transformar archivo"(#"Archivo de ejemplo"))),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(#"Columna de tabla expandida1", [PromoteAllScalars=true]),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Encabezados promovidos",{"Estructura de financiación de la ejecución presupuestaria - 2013.csv"}),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas quitadas",{{"EJERCICIO", Int64.Type}}),
+				    #"Errores quitados" = Table.RemoveRowsWithErrors(#"Tipo cambiado", {"EJERCICIO"}),
+				    #"Filas filtradas" = Table.SelectRows(#"Errores quitados", each ([FINANCIACION] <> "")),
+				    #"Texto recortado" = Table.TransformColumns(#"Filas filtradas",{{"DESCRIPCION CORTA", Text.Trim, type text}}),
+				    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"DESCRIPCION CORTA", Text.Clean, type text}}),
+				    #"Texto recortado1" = Table.TransformColumns(#"Texto limpio",{{"DESCRIPCION LARGA", Text.Trim, type text}}),
+				    #"Texto limpio1" = Table.TransformColumns(#"Texto recortado1",{{"DESCRIPCION LARGA", Text.Clean, type text}}),
+				    #"Columnas quitadas1" = Table.RemoveColumns(#"Texto limpio1",{"EJERCICIO", "GASTO/INGRESO", "ORIGEN", "FONDO"}),
+				    #"Duplicados quitados" = Table.Distinct(#"Columnas quitadas1", {"FINANCIACION"}),
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Duplicados quitados",{{"FINANCIACION", "id_financiacion"}, {"DESCRIPCION LARGA", "descripcion_financiacion"}, {"DESCRIPCION CORTA", "descripcion_corta_financiacion"}}),
+				    #"Columnas quitadas2" = Table.RemoveColumns(#"Columnas con nombre cambiado",{"_id"})
+				in
+				    #"Columnas quitadas2"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
