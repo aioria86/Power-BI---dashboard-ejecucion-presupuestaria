@@ -563,3 +563,46 @@ expression 'Transformar archivo (2)' =
 
 	annotation PBI_ResultType = Function
 
+expression Parámetro3 = #"Archivo de ejemplo (3)" meta [IsParameterQuery=true, BinaryIdentifier=#"Archivo de ejemplo (3)", Type="Binary", IsParameterQueryRequired=true]
+	lineageTag: 071e18b0-4a65-4403-8f14-0d51cf96e9a3
+	queryGroup: 'Transformar archivo de Estructura funcional de la ejecución presupuestaria\Consultas auxiliares'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Archivo de ejemplo (3)' =
+		let
+		    Origen = Folder.Files("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estructura funcional de la ejecución presupuestaria"),
+		    Navegación1 = Origen{0}[Content]
+		in
+		    Navegación1
+	lineageTag: ebfd5815-901b-408f-af39-fefec039430f
+	queryGroup: 'Transformar archivo de Estructura funcional de la ejecución presupuestaria\Consultas auxiliares'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Transformar archivo de ejemplo (3)' =
+		let
+		    Origen = Csv.Document(Parámetro3,[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}, {"Column8", type text}})
+		in
+		    #"Cambiar tipo"
+	lineageTag: 6664e49f-6c8e-485e-932a-a779a0d288d8
+	queryGroup: 'Transformar archivo de Estructura funcional de la ejecución presupuestaria'
+
+	annotation PBI_ResultType = Table
+
+expression 'Transformar archivo (3)' =
+		let
+		    Origen = (Parámetro3) => let
+		        Origen = Csv.Document(Parámetro3,[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		        #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}, {"Column8", type text}})
+		    in
+		        #"Cambiar tipo"
+		in
+		    Origen
+	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""Transformar archivo de ejemplo (3)""}" ]
+	lineageTag: f00fbe6f-54c5-4974-85bb-c932be0e79db
+	queryGroup: 'Transformar archivo de Estructura funcional de la ejecución presupuestaria\Consultas auxiliares'
+
+	annotation PBI_ResultType = Function
+

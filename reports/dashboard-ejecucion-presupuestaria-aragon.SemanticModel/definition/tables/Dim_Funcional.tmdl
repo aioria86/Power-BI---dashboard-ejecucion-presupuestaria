@@ -1,0 +1,78 @@
+table Dim_Funcional
+	lineageTag: 3eae4bae-813f-46d6-a404-c6b23b7e0e73
+
+	column id_grupo_funcional
+		dataType: string
+		lineageTag: e6dba1b2-42cd-4036-8e7f-ab41b3b66f6b
+		summarizeBy: none
+		sourceColumn: id_grupo_funcional
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_funcion
+		dataType: string
+		lineageTag: 578aff98-e19e-4de3-a667-0c083d24a94c
+		summarizeBy: none
+		sourceColumn: id_funcion
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_subfuncion
+		dataType: string
+		lineageTag: fcac36f3-0703-4d3d-a2dd-fa7fb615f1a3
+		summarizeBy: none
+		sourceColumn: id_subfuncion
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_programa
+		dataType: string
+		lineageTag: efa9c66c-4246-418e-888b-01226b889eed
+		summarizeBy: none
+		sourceColumn: id_programa
+
+		annotation SummarizationSetBy = Automatic
+
+	column descripcion_corta_programa
+		dataType: string
+		lineageTag: 5798275d-6f5a-4fd0-b11d-bf6d639ca9df
+		summarizeBy: none
+		sourceColumn: descripcion_corta_programa
+
+		annotation SummarizationSetBy = Automatic
+
+	column descripcion_programa
+		dataType: string
+		lineageTag: 183f81d0-09e1-4466-b110-b18d66971acf
+		summarizeBy: none
+		sourceColumn: descripcion_programa
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Funcional = m
+		mode: import
+		source =
+				let
+				    Origen = Folder.Files("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estructura funcional de la ejecución presupuestaria"),
+				    #"Archivos ocultos filtrados1" = Table.SelectRows(Origen, each [Attributes]?[Hidden]? <> true),
+				    #"Invocar función personalizada1" = Table.AddColumn(#"Archivos ocultos filtrados1", "Transformar archivo (3)", each #"Transformar archivo (3)"([Content])),
+				    #"Columnas con nombre cambiado1" = Table.RenameColumns(#"Invocar función personalizada1", {"Name", "Source.Name"}),
+				    #"Otras columnas quitadas1" = Table.SelectColumns(#"Columnas con nombre cambiado1", {"Source.Name", "Transformar archivo (3)"}),
+				    #"Columna de tabla expandida1" = Table.ExpandTableColumn(#"Otras columnas quitadas1", "Transformar archivo (3)", Table.ColumnNames(#"Transformar archivo (3)"(#"Archivo de ejemplo (3)"))),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Columna de tabla expandida1",{"Source.Name"}),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(#"Columnas quitadas", [PromoteAllScalars=true]),
+				    #"Texto recortado" = Table.TransformColumns(#"Encabezados promovidos",{{"DESCRIPCION CORTA", Text.Trim, type text}, {"DESCRIPCION LARGA", Text.Trim, type text}}),
+				    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"DESCRIPCION CORTA", Text.Clean, type text}, {"DESCRIPCION LARGA", Text.Clean, type text}}),
+				    #"Filas filtradas" = Table.SelectRows(#"Texto limpio", each ([PROGRAMA] <> "")),
+				    #"Columnas quitadas1" = Table.RemoveColumns(#"Filas filtradas",{"_id", "EJERCICIO"}),
+				    #"Filas filtradas1" = Table.SelectRows(#"Columnas quitadas1", each true),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Filas filtradas1",{{"PROGRAMA", type text}, {"SUBFUNCION", type text}, {"FUNCION", type text}, {"GRUPO", type text}}),
+				    #"Duplicados quitados" = Table.Distinct(#"Tipo cambiado", {"PROGRAMA"}),
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Duplicados quitados",{{"GRUPO", "id_grupo_funcional"}, {"FUNCION", "id_funcion"}, {"SUBFUNCION", "id_subfuncion"}, {"PROGRAMA", "id_programa"}, {"DESCRIPCION CORTA", "descripcion_corta_programa"}, {"DESCRIPCION LARGA", "descripcion_programa"}})
+				in
+				    #"Columnas con nombre cambiado"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
