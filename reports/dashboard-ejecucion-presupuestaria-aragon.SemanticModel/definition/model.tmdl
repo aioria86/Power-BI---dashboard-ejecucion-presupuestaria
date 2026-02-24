@@ -47,7 +47,7 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["Estado de ejecución gastos - 2013","fn_Transformar_Gastos","Estado de ejecución gastos - 2024","Estado de ejecución gastos - 2015","Estado de ejecución gastos - 2014","Estado de ejecución gastos - 2016","Estado de ejecución gastos - 2017","Estado de ejecución gastos - 2018","Estado de ejecución gastos - 2019","Estado de ejecución gastos - 2020","Estado de ejecución gastos - 2021","Estado de ejecución gastos - 2022","Estado de ejecución gastos - 2023","Fact_Gastos","Estado de ejecución de ingresos - 2013","Estado de ejecución de ingresos - 2014","Estado de ejecución de ingresos - 2015","Estado de ejecución de ingresos - 2016","Estado de ejecución de ingresos - 2017","Estado de ejecución de ingresos - 2018","Estado de ejecución de ingresos - 2019","Estado de ejecución de ingresos - 2020","Estado de ejecución de ingresos - 2021","Estado de ejecución de ingresos - 2022","Estado de ejecución de ingresos - 2023","Estado de ejecución de ingresos - 2024","Fact_Ingresos","Errores en Fact_Gastos","Dim_Financiacion","Archivo de ejemplo","Parámetro1","Transformar archivo de ejemplo","Transformar archivo","Dim_Economico","Archivo de ejemplo (2)","Parámetro2","Transformar archivo de ejemplo (2)","Transformar archivo (2)","Dim_Funcional","Archivo de ejemplo (3)","Parámetro3","Transformar archivo de ejemplo (3)","Transformar archivo (3)","Dim_CentroGestor","Archivo de ejemplo (4)","Parámetro4","Transformar archivo de ejemplo (4)","Transformar archivo (4)"]
+annotation PBI_QueryOrder = ["Estado de ejecución gastos - 2013","fn_Transformar_Gastos","Estado de ejecución gastos - 2024","Estado de ejecución gastos - 2015","Estado de ejecución gastos - 2014","Estado de ejecución gastos - 2016","Estado de ejecución gastos - 2017","Estado de ejecución gastos - 2018","Estado de ejecución gastos - 2019","Estado de ejecución gastos - 2020","Estado de ejecución gastos - 2021","Estado de ejecución gastos - 2022","Estado de ejecución gastos - 2023","Fact_Gastos","Estado de ejecución de ingresos - 2013","Estado de ejecución de ingresos - 2014","Estado de ejecución de ingresos - 2015","Estado de ejecución de ingresos - 2016","Estado de ejecución de ingresos - 2017","Estado de ejecución de ingresos - 2018","Estado de ejecución de ingresos - 2019","Estado de ejecución de ingresos - 2020","Estado de ejecución de ingresos - 2021","Estado de ejecución de ingresos - 2022","Estado de ejecución de ingresos - 2023","Estado de ejecución de ingresos - 2024","Fact_Ingresos","Errores en Fact_Gastos","Dim_Financiacion","Archivo de ejemplo","Parámetro1","Transformar archivo de ejemplo","Transformar archivo","Dim_Economico","Archivo de ejemplo (2)","Parámetro2","Transformar archivo de ejemplo (2)","Transformar archivo (2)","Dim_Funcional","Archivo de ejemplo (3)","Parámetro3","Transformar archivo de ejemplo (3)","Transformar archivo (3)","Dim_CentroGestor","Archivo de ejemplo (4)","Parámetro4","Transformar archivo de ejemplo (4)","Transformar archivo (4)","Tabla de Medidas","Dim_Ejercicio"]
 
 ref table Fact_Gastos
 ref table Fact_Ingresos
@@ -55,6 +55,8 @@ ref table Dim_Financiacion
 ref table Dim_Economico
 ref table Dim_Funcional
 ref table Dim_CentroGestor
+ref table 'Tabla de Medidas'
+ref table Dim_Ejercicio
 
 ref cultureInfo es-ES
 

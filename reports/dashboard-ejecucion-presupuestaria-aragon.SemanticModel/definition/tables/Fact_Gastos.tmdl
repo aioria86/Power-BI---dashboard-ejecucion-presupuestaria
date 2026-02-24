@@ -13,7 +13,7 @@ table Fact_Gastos
 		dataType: int64
 		formatString: 0
 		lineageTag: 0c4a81b5-b10f-471e-9bb5-114fe2c2c5f7
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Ejercicio
 
 		annotation SummarizationSetBy = Automatic
@@ -123,9 +123,13 @@ table Fact_Gastos
 		source =
 				let
 				    Origen = Table.Combine({#"Estado de ejecución gastos - 2023", #"Estado de ejecución gastos - 2013", #"Estado de ejecución gastos - 2024", #"Estado de ejecución gastos - 2015", #"Estado de ejecución gastos - 2014", #"Estado de ejecución gastos - 2016", #"Estado de ejecución gastos - 2017", #"Estado de ejecución gastos - 2018", #"Estado de ejecución gastos - 2019", #"Estado de ejecución gastos - 2020", #"Estado de ejecución gastos - 2021", #"Estado de ejecución gastos - 2022"}),
-				    #"Tipo cambiado" = Table.TransformColumnTypes(Origen,{{"Ejercicio", Int64.Type}})
+				    #"Tipo cambiado" = Table.TransformColumnTypes(Origen,{{"Ejercicio", type text}}),
+				    #"Filas filtradas" = Table.SelectRows(#"Tipo cambiado", each ([Ejercicio] <> "Resultado total")),
+				    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Filas filtradas",{{"Ejercicio", Int64.Type}}),
+				    #"Filas filtradas1" = Table.SelectRows(#"Tipo cambiado1", each true),
+				    #"Filas filtradas2" = Table.SelectRows(#"Filas filtradas1", each [Ejercicio] >= 2013)
 				in
-				    #"Tipo cambiado"
+				    #"Filas filtradas2"
 
 	annotation PBI_NavigationStepName = Navegación
 

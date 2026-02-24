@@ -1,0 +1,194 @@
+table 'Tabla de Medidas'
+	lineageTag: e2864f84-e8ff-4b5d-a36b-a5cdea7cbba9
+
+	measure 'Total Credito Inicial' =
+			
+			SUM (
+			    Fact_Gastos[Credito inicial]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 6bd17ae7-1985-4ac5-9b9e-d402668d19c9
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Total Modificaciones' =
+			
+			SUM (
+			    Fact_Gastos[Modificaciones]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 656367b7-ce56-4420-8e0a-3de7deb9b864
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Total Credito Definitivo' =
+			
+			SUM (
+			    Fact_Gastos[Credito Definitivo]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: b3f1f69c-f7a7-45ce-a821-c26e20929aa3
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Total Comprometido' =
+			
+			SUM (
+			    Fact_Gastos[Comprometido]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 12f75144-2a05-44b9-bccc-6df7bd252c91
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Total Obligaciones Reconocidas' =
+			
+			SUM (
+			    Fact_Gastos[Obligaciones Reconocidas]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 2aa72a6c-316b-4789-9410-a05e8ffc517b
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Total Pagado' =
+			
+			SUM (
+			    Fact_Gastos[Pagado]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: b674d119-2fe3-4ac8-9c58-21d47d163989
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure '% Obligaciones Reconocidas' =
+			
+			DIVIDE(
+			    [Total Obligaciones Reconocidas],
+			    [Total Credito Definitivo]
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: cf5e6c50-d405-492b-a1d3-81f9533c0bf0
+
+	measure '% Ejecucion' =
+			
+			DIVIDE(
+			    [Total Pagado],
+			    [Total Credito Definitivo]
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: d29592c3-8e88-4c47-90a0-099df9bb3b20
+
+	measure 'Variacion Presupuestaria' =
+			
+			[Total Credito Definitivo] - [Total Credito Inicial]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: a1471914-fdba-4e6f-a17c-734d8f91490f
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Total Prevision Inicial' =
+			
+			SUM (
+			    Fact_Ingresos[Prevision Inicial]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 00b092a4-04fb-4fd4-883c-7cd84ceef437
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Total Modificaciones Ingresos' =
+			
+			SUM (
+			    Fact_Ingresos[Modificaciones]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: fac1f953-7883-444d-a1a1-fd174003c4a8
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Total Prevision Definitiva' =
+			
+			SUM (
+			    Fact_Ingresos[Prevision Definitiva]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 886571fd-8d5b-4a8d-b146-24e40a9f62f6
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Total Derechos Reconocidos Netos' =
+			
+			SUM (
+			    Fact_Ingresos[D. Rec. Netos]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 7b0120be-d6cf-484e-b09f-b5209274b908
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Total Recaudado Neto' =
+			
+			SUM (
+			    Fact_Ingresos[Recaudado Neto]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 8334479b-de79-484e-9cac-c8a41bb76c71
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure '% Ejecucion Ingresos' =
+			
+			DIVIDE(
+			    [Total Derechos Reconocidos Netos],
+			    [Total Prevision Definitiva],
+			    0
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 0640bd44-3653-4c67-baf6-3b1a18c1fbed
+
+	measure Medida
+		lineageTag: 3ea2cefa-2339-4e63-baaa-e15dca8c7cc7
+
+		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
+
+	measure '% Recaudacion' =
+			
+			DIVIDE(
+			    [Total Recaudado Neto],
+			    [Total Derechos Reconocidos Netos],
+			    0
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 395cd917-304e-44a3-b5ee-9a1adccafb5e
+
+	measure 'Resultado Presupuestario' =
+			
+			[Total Derechos Reconocidos Netos] - [Total Obligaciones Reconocidas]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 2de6e095-3ae2-4d6a-8da9-257f49042f88
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Capacidad Necesidad Financiacion' =
+			
+			[Total Recaudado Neto] - [Total Pagado]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: d013fac5-a0e1-4234-826c-90883b16f7e7
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	partition 'Tabla de Medidas' = m
+		mode: import
+		source =
+				let
+				    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Columna1 = _t]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(Origen,{{"Columna1", type text}}),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Tipo cambiado",{"Columna1"})
+				in
+				    #"Columnas quitadas"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

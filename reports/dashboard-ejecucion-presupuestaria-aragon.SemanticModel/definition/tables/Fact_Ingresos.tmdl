@@ -13,7 +13,7 @@ table Fact_Ingresos
 		dataType: int64
 		formatString: 0
 		lineageTag: d50e92f8-de5d-49f8-b00e-618a186c637e
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: Ejercicio
 
 		annotation SummarizationSetBy = Automatic
@@ -99,14 +99,6 @@ table Fact_Ingresos
 		annotation SummarizationSetBy = Automatic
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
-
-	column 'Centro gestor 2'
-		dataType: string
-		lineageTag: 23188967-170d-4803-8b7b-b0d938c2e298
-		summarizeBy: none
-		sourceColumn: Centro gestor
-
-		annotation SummarizationSetBy = Automatic
 
 	partition Fact_Ingresos = m
 		mode: import

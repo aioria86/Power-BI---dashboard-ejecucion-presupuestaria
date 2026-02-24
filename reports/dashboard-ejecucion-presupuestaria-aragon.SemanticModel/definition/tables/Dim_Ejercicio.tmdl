@@ -1,0 +1,34 @@
+table Dim_Ejercicio
+	lineageTag: 740c076e-ac74-4be5-8579-a431fb601bf7
+
+	column Ejercicio
+		dataType: int64
+		formatString: 0
+		lineageTag: 5e16531a-18b4-4cbf-be6c-50392d2d8095
+		summarizeBy: none
+		sourceColumn: Ejercicio
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Ejercicio = m
+		mode: import
+		source =
+				let
+				    Origen = Table.Combine({#"Estado de ejecución gastos - 2023", #"Estado de ejecución gastos - 2013", #"Estado de ejecución gastos - 2024", #"Estado de ejecución gastos - 2015", #"Estado de ejecución gastos - 2014", #"Estado de ejecución gastos - 2016", #"Estado de ejecución gastos - 2017", #"Estado de ejecución gastos - 2018", #"Estado de ejecución gastos - 2019", #"Estado de ejecución gastos - 2020", #"Estado de ejecución gastos - 2021", #"Estado de ejecución gastos - 2022"}),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(Origen,{{"Ejercicio", type text}}),
+				    #"Filas filtradas" = Table.SelectRows(#"Tipo cambiado", each ([Ejercicio] <> "Resultado total")),
+				    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Filas filtradas",{{"Ejercicio", Int64.Type}}),
+				    #"Filas filtradas1" = Table.SelectRows(#"Tipo cambiado1", each true),
+				    #"Filas filtradas2" = Table.SelectRows(#"Filas filtradas1", each [Ejercicio] >= 2013),
+				    Ejercicio1 = #"Filas filtradas2"[Ejercicio],
+				    #"Duplicados quitados" = List.Distinct(Ejercicio1),
+				    #"Convertida en tabla" = Table.FromList(#"Duplicados quitados", Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Convertida en tabla",{{"Column1", "Ejercicio"}}),
+				    #"Tipo cambiado2" = Table.TransformColumnTypes(#"Columnas con nombre cambiado",{{"Ejercicio", Int64.Type}})
+				in
+				    #"Tipo cambiado2"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

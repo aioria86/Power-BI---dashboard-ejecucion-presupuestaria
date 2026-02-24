@@ -2,3 +2,35 @@ relationship AutoDetected_6ea8ccfa-596f-4b3e-95ef-a8ef26c0564c
 	fromColumn: Fact_Ingresos.'Centro Gestor'
 	toColumn: Dim_CentroGestor.id_centro_gestor
 
+relationship b27565a3-c961-a8c9-0752-92a8cdc62268
+	fromColumn: Fact_Gastos.Funcional
+	toColumn: Dim_Funcional.id_programa
+
+relationship fb4cd4aa-f25f-60b9-3e61-bce3afc8d9ae
+	fromColumn: Fact_Gastos.Financiacion
+	toColumn: Dim_Financiacion.id_financiacion
+
+relationship 55920609-f68b-d06a-1d28-95fa3f9fbc15
+	fromColumn: Fact_Ingresos.Financiacion
+	toColumn: Dim_Financiacion.id_financiacion
+
+relationship 0d3d51de-efaa-928a-78fb-7cc9e73f912a
+	fromColumn: Fact_Gastos.Economico
+	toColumn: Dim_Economico.id_subconcepto
+
+relationship c123b0fd-cc58-5068-4de8-971e1e61101d
+	fromColumn: Fact_Ingresos.Economico
+	toColumn: Dim_Economico.id_subconcepto
+
+relationship b048601e-9dcc-f569-ab95-78cf97558673
+	fromColumn: Fact_Gastos.'Centro Gestor'
+	toColumn: Dim_CentroGestor.id_centro_gestor
+
+relationship AutoDetected_f5e8a359-db9d-4667-ab8c-3858747fc993
+	fromColumn: Fact_Gastos.Ejercicio
+	toColumn: Dim_Ejercicio.Ejercicio
+
+relationship AutoDetected_76101b7a-735d-45d2-8474-c0a635543936
+	fromColumn: Fact_Ingresos.Ejercicio
+	toColumn: Dim_Ejercicio.Ejercicio
+
