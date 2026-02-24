@@ -1,0 +1,78 @@
+table Dim_Economico
+	lineageTag: 0f897004-567d-46b2-954a-8eed5763d50e
+
+	column capitulo
+		dataType: string
+		lineageTag: 32405d3b-fa6b-4c33-a13b-8fcdfd81fa38
+		summarizeBy: none
+		sourceColumn: capitulo
+
+		annotation SummarizationSetBy = Automatic
+
+	column articulo
+		dataType: string
+		lineageTag: 592cc491-0bfb-4487-b876-7948d7d8819e
+		summarizeBy: none
+		sourceColumn: articulo
+
+		annotation SummarizationSetBy = Automatic
+
+	column concepto
+		dataType: string
+		lineageTag: 43901b06-bb9a-422f-822b-df4bef382882
+		summarizeBy: none
+		sourceColumn: concepto
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_subconcepto
+		dataType: string
+		lineageTag: 7e2d5681-e9cb-4d44-97cc-72d967bb8182
+		summarizeBy: none
+		sourceColumn: id_subconcepto
+
+		annotation SummarizationSetBy = Automatic
+
+	column descripcion_corta_subconcepto
+		dataType: string
+		lineageTag: b0cd540f-8593-4442-a120-0a9125ebc76c
+		summarizeBy: none
+		sourceColumn: descripcion_corta_subconcepto
+
+		annotation SummarizationSetBy = Automatic
+
+	column descripcion_subconcepto
+		dataType: string
+		lineageTag: 8899a06b-e228-4ca7-8a40-3fad3c76dbe6
+		summarizeBy: none
+		sourceColumn: descripcion_subconcepto
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Economico = m
+		mode: import
+		source =
+				let
+				    Origen = Folder.Files("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estructura económica de la ejecución presupuestaria"),
+				    #"Archivos ocultos filtrados1" = Table.SelectRows(Origen, each [Attributes]?[Hidden]? <> true),
+				    #"Invocar función personalizada1" = Table.AddColumn(#"Archivos ocultos filtrados1", "Transformar archivo (2)", each #"Transformar archivo (2)"([Content])),
+				    #"Columnas con nombre cambiado1" = Table.RenameColumns(#"Invocar función personalizada1", {"Name", "Source.Name"}),
+				    #"Otras columnas quitadas1" = Table.SelectColumns(#"Columnas con nombre cambiado1", {"Source.Name", "Transformar archivo (2)"}),
+				    #"Columna de tabla expandida1" = Table.ExpandTableColumn(#"Otras columnas quitadas1", "Transformar archivo (2)", Table.ColumnNames(#"Transformar archivo (2)"(#"Archivo de ejemplo (2)"))),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Columna de tabla expandida1",{"Source.Name"}),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(#"Columnas quitadas", [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"EJERCICIO", Int64.Type}}),
+				    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado",{{"DESCRIPCION CORTA", Text.Trim, type text}, {"DESCRIPCION LARGA", Text.Trim, type text}}),
+				    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"DESCRIPCION CORTA", Text.Clean, type text}, {"DESCRIPCION LARGA", Text.Clean, type text}}),
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Texto limpio",{{"SUBCONCEPTO", "id_subconcepto"}, {"DESCRIPCION LARGA", "descripcion_subconcepto"}, {"DESCRIPCION CORTA", "descripcion_corta_subconcepto"}, {"CONCEPTO", "concepto"}, {"ARTICULO", "articulo"}, {"CAPITULO", "capitulo"}}),
+				    #"Columnas quitadas1" = Table.RemoveColumns(#"Columnas con nombre cambiado",{"_id", "EJERCICIO", "GASTO/INGRESO"}),
+				    #"Filas filtradas" = Table.SelectRows(#"Columnas quitadas1", each ([id_subconcepto] <> "")),
+				    #"Duplicados quitados" = Table.Distinct(#"Filas filtradas", {"id_subconcepto"}),
+				    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Duplicados quitados",{{"articulo", type text}, {"concepto", type text}, {"id_subconcepto", type text}, {"capitulo", type text}})
+				in
+				    #"Tipo cambiado1"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
