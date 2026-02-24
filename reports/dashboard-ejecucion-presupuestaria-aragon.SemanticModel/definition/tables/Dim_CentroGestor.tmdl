@@ -1,0 +1,52 @@
+table Dim_CentroGestor
+	lineageTag: 0f96e49c-1bdc-4538-82d7-ead0d44b17bb
+
+	column id_centro_gestor
+		dataType: string
+		lineageTag: 7ea3f4ff-a183-4555-a4fc-28fb7623d54a
+		summarizeBy: none
+		sourceColumn: id_centro_gestor
+
+		annotation SummarizationSetBy = Automatic
+
+	column descripcion_corta_centro_gestor
+		dataType: string
+		lineageTag: ab9ce703-98c6-4c4c-9a99-2c12d41c366c
+		summarizeBy: none
+		sourceColumn: descripcion_corta_centro_gestor
+
+		annotation SummarizationSetBy = Automatic
+
+	column descripcion_centro_gestor
+		dataType: string
+		lineageTag: f73eb24a-32ef-4f3e-8bdc-324c4a75901c
+		summarizeBy: none
+		sourceColumn: descripcion_centro_gestor
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_CentroGestor = m
+		mode: import
+		source =
+				let
+				    Origen = Folder.Files("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estructura orgánica de la ejecución presupuestaria"),
+				    #"Archivos ocultos filtrados1" = Table.SelectRows(Origen, each [Attributes]?[Hidden]? <> true),
+				    #"Invocar función personalizada1" = Table.AddColumn(#"Archivos ocultos filtrados1", "Transformar archivo (4)", each #"Transformar archivo (4)"([Content])),
+				    #"Columnas con nombre cambiado1" = Table.RenameColumns(#"Invocar función personalizada1", {"Name", "Source.Name"}),
+				    #"Otras columnas quitadas1" = Table.SelectColumns(#"Columnas con nombre cambiado1", {"Source.Name", "Transformar archivo (4)"}),
+				    #"Columna de tabla expandida1" = Table.ExpandTableColumn(#"Otras columnas quitadas1", "Transformar archivo (4)", Table.ColumnNames(#"Transformar archivo (4)"(#"Archivo de ejemplo (4)"))),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Columna de tabla expandida1",{"Source.Name"}),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(#"Columnas quitadas", [PromoteAllScalars=true]),
+				    #"Columnas quitadas1" = Table.RemoveColumns(#"Encabezados promovidos",{"_id", "EJERCICIO"}),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas quitadas1",{{"CENTRO GESTOR", type text}, {"DESCRIPCION CORTA", type text}, {"DESCRIPCION LARGA", type text}}),
+				    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado",{{"DESCRIPCION CORTA", Text.Trim, type text}, {"DESCRIPCION LARGA", Text.Trim, type text}}),
+				    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"DESCRIPCION CORTA", Text.Clean, type text}, {"DESCRIPCION LARGA", Text.Clean, type text}}),
+				    #"Duplicados quitados" = Table.Distinct(#"Texto limpio", {"CENTRO GESTOR"}),
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Duplicados quitados",{{"CENTRO GESTOR", "id_centro_gestor"}, {"DESCRIPCION CORTA", "descripcion_corta_centro_gestor"}, {"DESCRIPCION LARGA", "descripcion_centro_gestor"}})
+				in
+				    #"Columnas con nombre cambiado"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

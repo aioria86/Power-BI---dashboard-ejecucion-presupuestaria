@@ -1,0 +1,4 @@
+relationship AutoDetected_6ea8ccfa-596f-4b3e-95ef-a8ef26c0564c
+	fromColumn: Fact_Ingresos.'Centro Gestor'
+	toColumn: Dim_CentroGestor.id_centro_gestor
+

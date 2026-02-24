@@ -606,3 +606,46 @@ expression 'Transformar archivo (3)' =
 
 	annotation PBI_ResultType = Function
 
+expression Parámetro4 = #"Archivo de ejemplo (4)" meta [IsParameterQuery=true, BinaryIdentifier=#"Archivo de ejemplo (4)", Type="Binary", IsParameterQueryRequired=true]
+	lineageTag: 0eeda6f3-33eb-41f9-8111-58a69dc4fc38
+	queryGroup: 'Transformar archivo de Estructura orgánica de la ejecución presupuestaria\Consultas auxiliares'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Archivo de ejemplo (4)' =
+		let
+		    Origen = Folder.Files("C:\Users\Juan Manuel\Documents\PERSONALES\PROYECTOS\Power BI - dashboard-ejecucion-presupuestaria\data\raw\Estructura orgánica de la ejecución presupuestaria"),
+		    Navegación1 = Origen{0}[Content]
+		in
+		    Navegación1
+	lineageTag: a677e476-3b11-4164-8a88-0ba5914e0b2b
+	queryGroup: 'Transformar archivo de Estructura orgánica de la ejecución presupuestaria\Consultas auxiliares'
+
+	annotation PBI_ResultType = Binary
+
+expression 'Transformar archivo de ejemplo (4)' =
+		let
+		    Origen = Csv.Document(Parámetro4,[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}})
+		in
+		    #"Cambiar tipo"
+	lineageTag: 816fe904-3559-4a62-90b8-76974607af82
+	queryGroup: 'Transformar archivo de Estructura orgánica de la ejecución presupuestaria'
+
+	annotation PBI_ResultType = Table
+
+expression 'Transformar archivo (4)' =
+		let
+		    Origen = (Parámetro4) => let
+		        Origen = Csv.Document(Parámetro4,[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		        #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}})
+		    in
+		        #"Cambiar tipo"
+		in
+		    Origen
+	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""Transformar archivo de ejemplo (4)""}" ]
+	lineageTag: f88e3cca-07d0-4bde-b379-d82114324b51
+	queryGroup: 'Transformar archivo de Estructura orgánica de la ejecución presupuestaria\Consultas auxiliares'
+
+	annotation PBI_ResultType = Function
+
