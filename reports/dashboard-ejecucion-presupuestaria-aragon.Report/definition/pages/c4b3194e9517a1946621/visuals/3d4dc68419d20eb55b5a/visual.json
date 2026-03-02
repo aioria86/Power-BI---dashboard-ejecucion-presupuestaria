@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "3d4dc68419d20eb55b5a",
+  "position": {
+    "x": 160.28218694885362,
+    "y": 257.35449735449737,
+    "z": 10000,
+    "height": 462.64550264550263,
+    "width": 1116.3315696649026,
+    "tabOrder": 33
+  },
+  "visualGroup": {
+    "displayName": "Grupo - Quien Gasta",
+    "groupMode": "ScaleMode"
+  },
+  "isHidden": true
+}

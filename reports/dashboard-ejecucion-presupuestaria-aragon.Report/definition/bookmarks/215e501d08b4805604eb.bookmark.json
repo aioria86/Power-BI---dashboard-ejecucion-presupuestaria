@@ -1,0 +1,1398 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.0.0/schema.json",
+  "displayName": "En que se Gasta",
+  "name": "215e501d08b4805604eb",
+  "options": {
+    "targetVisualNames": []
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "c4b3194e9517a1946621",
+    "sections": {
+      "c4b3194e9517a1946621": {
+        "visualContainers": {
+          "b9f0ae765d23a025547e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "9feafa123e537ab4d3b7",
+                  "type": "TopN",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "subquery",
+                        "Expression": {
+                          "Subquery": {
+                            "Query": {
+                              "Version": 2,
+                              "From": [
+                                {
+                                  "Name": "d",
+                                  "Entity": "Dim_Funcional",
+                                  "Type": 0
+                                },
+                                {
+                                  "Name": "t",
+                                  "Entity": "Tabla de Medidas",
+                                  "Type": 0
+                                }
+                              ],
+                              "Select": [
+                                {
+                                  "Column": {
+                                    "Expression": {
+                                      "SourceRef": {
+                                        "Source": "d"
+                                      }
+                                    },
+                                    "Property": "descripcion_corta_programa"
+                                  },
+                                  "Name": "field"
+                                }
+                              ],
+                              "OrderBy": [
+                                {
+                                  "Direction": 2,
+                                  "Expression": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "t"
+                                        }
+                                      },
+                                      "Property": "Total Obligaciones Reconocidas"
+                                    }
+                                  }
+                                }
+                              ],
+                              "Top": 10
+                            }
+                          }
+                        },
+                        "Type": 2
+                      },
+                      {
+                        "Name": "d",
+                        "Entity": "Dim_Funcional",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "d"
+                                    }
+                                  },
+                                  "Property": "descripcion_corta_programa"
+                                }
+                              }
+                            ],
+                            "Table": {
+                              "SourceRef": {
+                                "Source": "subquery"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Funcional"
+                        }
+                      },
+                      "Property": "descripcion_corta_programa"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "354f57549b8e126e0d0d",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Total Obligaciones Reconocidas"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Total Obligaciones Reconocidas"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Funcional"
+                        }
+                      },
+                      "Property": "descripcion_corta_programa"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "eb09a6765710d0b5be50": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "61dde7528aab061a8b8d",
+                  "type": "TopN",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "subquery",
+                        "Expression": {
+                          "Subquery": {
+                            "Query": {
+                              "Version": 2,
+                              "From": [
+                                {
+                                  "Name": "d",
+                                  "Entity": "Dim_CentroGestor",
+                                  "Type": 0
+                                },
+                                {
+                                  "Name": "t",
+                                  "Entity": "Tabla de Medidas",
+                                  "Type": 0
+                                }
+                              ],
+                              "Select": [
+                                {
+                                  "Column": {
+                                    "Expression": {
+                                      "SourceRef": {
+                                        "Source": "d"
+                                      }
+                                    },
+                                    "Property": "descripcion_corta_centro_gestor"
+                                  },
+                                  "Name": "field"
+                                }
+                              ],
+                              "OrderBy": [
+                                {
+                                  "Direction": 2,
+                                  "Expression": {
+                                    "Measure": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "t"
+                                        }
+                                      },
+                                      "Property": "Total Obligaciones Reconocidas"
+                                    }
+                                  }
+                                }
+                              ],
+                              "Top": 10
+                            }
+                          }
+                        },
+                        "Type": 2
+                      },
+                      {
+                        "Name": "d",
+                        "Entity": "Dim_CentroGestor",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "In": {
+                            "Expressions": [
+                              {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "d"
+                                    }
+                                  },
+                                  "Property": "descripcion_corta_centro_gestor"
+                                }
+                              }
+                            ],
+                            "Table": {
+                              "SourceRef": {
+                                "Source": "subquery"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_CentroGestor"
+                        }
+                      },
+                      "Property": "descripcion_corta_centro_gestor"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "a6d0af87d45d07e2514e",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Total Obligaciones Reconocidas"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "clusteredBarChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Total Obligaciones Reconocidas"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_CentroGestor"
+                        }
+                      },
+                      "Property": "descripcion_corta_centro_gestor"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "3d2063303114c90a3a1a": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "120c13f0210bed9ca118",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "Dim_CentroGestor",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "d"
+                                        }
+                                      },
+                                      "Property": "descripcion_corta_centro_gestor"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "null"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_CentroGestor"
+                        }
+                      },
+                      "Property": "descripcion_corta_centro_gestor"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "625e3502989571c0c434",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Funcional"
+                        }
+                      },
+                      "Property": "descripcion_corta_programa"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "ec11ac6402da564cd68b",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Total Credito Definitivo"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "7cf12775d7d0c9d0e8ab",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Total Obligaciones Reconocidas"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "78bc2fa10b0bbdab8a7c",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Ejecución Presupuestaria"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "a2ce4f720d0836001605",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Participación Gasto"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "tableEx",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 1,
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_CentroGestor"
+                        }
+                      },
+                      "Property": "descripcion_corta_centro_gestor"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "64ea378880a8e0733c0b": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "97dedf8100b9289ebe01",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Ejercicio"
+                        }
+                      },
+                      "Property": "Ejercicio"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "general": [
+                    {
+                      "properties": {
+                        "filter": {
+                          "filter": {
+                            "Version": 2,
+                            "From": [
+                              {
+                                "Name": "d",
+                                "Entity": "Dim_Ejercicio",
+                                "Type": 0
+                              }
+                            ],
+                            "Where": [
+                              {
+                                "Condition": {
+                                  "In": {
+                                    "Expressions": [
+                                      {
+                                        "Column": {
+                                          "Expression": {
+                                            "SourceRef": {
+                                              "Source": "d"
+                                            }
+                                          },
+                                          "Property": "Ejercicio"
+                                        }
+                                      }
+                                    ],
+                                    "Values": [
+                                      [
+                                        {
+                                          "Literal": {
+                                            "Value": "2023L"
+                                          }
+                                        }
+                                      ]
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "true"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Ejercicio"
+                        }
+                      },
+                      "Property": "Ejercicio"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "97f012d1c5b460be1651": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "4e307cf29464c9001c17": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "bb87f32076b660d8c616",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Ejecución Financiera"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Ejecución Financiera"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "fce702a0037b30aab417": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "fbf8452897a095d213b7": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "3f76538552a0ba2cb98b": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "bf1e8eda00ebc0028105",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Ejecucion Badge Target"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "27ea4e08be0005bbe6ae": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "0f26d251c236282249c5",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Ejecucion Badge LY"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "902f0203ea490075844d": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "1663800a25d502b86b06",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Recaudacion"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Recaudacion"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "41e7e14f4d09037d60c1": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "951b86d4586182166060": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "bbe40af40e452a78092e": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "a3451fea07810edc0041",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Recaudacion Badge Target"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "56177d7ad2085c2cb9d0": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "ce41991105152d07ed50",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Recaudacion Badge LY"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "19e1d25c40cab4c804a5": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "3da318a0970c125ca3e1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Resultado Presupuestario"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Resultado Presupuestario"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "dd3242e0250c1d07c1cc": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "727df89c02b6b77ecede": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "eec0d6b87c8c55cbeaeb": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "a9e9ce3cca5d6be4bb09",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Resultado Badge Target"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "bafbc51a005501abd861": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "6f3f88c0e0308ea9320e",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Resultado Badge LY"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "c3cb8d450a134930c7d2": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "b8ce5802de0706831029",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Capacidad Necesidad Financiacion"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Capacidad Necesidad Financiacion"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "10a62769089d9bcb8000": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "26ca0ccad3da7040e05a": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "127f001db13029c4011b": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "d433cb507cab22dc6d39",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Capacidad Badge Target"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "b15105ba0951bdc45017": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "656ba5d5bc6e90d35708",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Capacidad Badge LY"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "77f4c3b00200166d32d0": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "fab3569312c32a14d9c0": {
+            "singleVisual": {
+              "visualType": "pageNavigator",
+              "objects": {}
+            }
+          },
+          "8ef751ef7a921ee23b60": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "557933f4447b3b06cdc4": {
+            "singleVisual": {
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "b6cec73e6e9be4417bb7": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "740510ce5402d4612c49",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Economico"
+                        }
+                      },
+                      "Property": "capitulo"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "be7716949c16d7c53409",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Total Obligaciones Reconocidas"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "barChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Total Obligaciones Reconocidas"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Economico"
+                        }
+                      },
+                      "Property": "capitulo"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "f2c3c50553e56ea83257": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "33086cd729226190aee1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Ejercicio"
+                        }
+                      },
+                      "Property": "Ejercicio"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "149e1efcd7ac1366ac90",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Total Obligaciones Reconocidas"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "ad21984a49ddacb10078",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Economico"
+                        }
+                      },
+                      "Property": "capitulo"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "columnChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Total Obligaciones Reconocidas"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Ejercicio"
+                        }
+                      },
+                      "Property": "Ejercicio"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "82da82140c0c9c1b81e5": {
+            "filters": {
+              "byExpr": [
+                {
+                  "name": "120c13f0210bed9ca118",
+                  "type": "Categorical",
+                  "filter": {
+                    "Version": 2,
+                    "From": [
+                      {
+                        "Name": "d",
+                        "Entity": "Dim_CentroGestor",
+                        "Type": 0
+                      }
+                    ],
+                    "Where": [
+                      {
+                        "Condition": {
+                          "Not": {
+                            "Expression": {
+                              "In": {
+                                "Expressions": [
+                                  {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "d"
+                                        }
+                                      },
+                                      "Property": "descripcion_corta_centro_gestor"
+                                    }
+                                  }
+                                ],
+                                "Values": [
+                                  [
+                                    {
+                                      "Literal": {
+                                        "Value": "null"
+                                      }
+                                    }
+                                  ]
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_CentroGestor"
+                        }
+                      },
+                      "Property": "descripcion_corta_centro_gestor"
+                    }
+                  },
+                  "howCreated": 1
+                },
+                {
+                  "name": "e103ebd1a67e54709bd5",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Economico"
+                        }
+                      },
+                      "Property": "capitulo"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "e782e7a91e8a575a9011",
+                  "type": "Categorical",
+                  "expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Dim_Economico"
+                        }
+                      },
+                      "Property": "articulo"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "6a2e46128d74987070b2",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Total Credito Definitivo"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "dbc70a3ccc3093cec6a1",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "Total Obligaciones Reconocidas"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "3c34d73f08d6d75a79b4",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Ejecución Presupuestaria"
+                    }
+                  },
+                  "howCreated": 0
+                },
+                {
+                  "name": "10a4c3d5365830e50148",
+                  "type": "Advanced",
+                  "expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Participación Económica"
+                    }
+                  },
+                  "howCreated": 0
+                }
+              ]
+            },
+            "singleVisual": {
+              "visualType": "tableEx",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Tabla de Medidas"
+                        }
+                      },
+                      "Property": "% Participación Económica"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "visualContainerGroups": {
+          "3d4dc68419d20eb55b5a": {
+            "isHidden": true
+          },
+          "551095b0b7d911308ce3": {
+            "isHidden": false
+          },
+          "1c6344b2304a0523b359": {
+            "isHidden": false
+          },
+          "574b5ae8e2a64547b7ba": {
+            "isHidden": false
+          }
+        }
+      }
+    },
+    "objects": {
+      "merge": {
+        "outspacePane": [
+          {
+            "properties": {
+              "expanded": {
+                "expr": {
+                  "Literal": {
+                    "Value": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

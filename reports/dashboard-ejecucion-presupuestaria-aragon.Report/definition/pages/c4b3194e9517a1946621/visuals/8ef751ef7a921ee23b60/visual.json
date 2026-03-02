@@ -4,7 +4,7 @@
   "position": {
     "x": 11.680608365019012,
     "y": 596.68441064638785,
-    "z": 12,
+    "z": 8000,
     "height": 62.29657794676806,
     "width": 139.19391634980988,
     "tabOrder": 31
@@ -87,7 +87,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#BDBDBD'"
+                      "Value": "'#1F3C88'"
                     }
                   }
                 }
@@ -117,6 +117,35 @@
           },
           "selector": {
             "id": "default"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "visualLink": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "type": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Bookmark'"
+                }
+              }
+            },
+            "bookmark": {
+              "expr": {
+                "Literal": {
+                  "Value": "'215e501d08b4805604eb'"
+                }
+              }
+            }
           }
         }
       ]

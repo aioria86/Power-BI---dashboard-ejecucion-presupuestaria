@@ -462,6 +462,18 @@ table 'Tabla de Medidas'
 		formatString: 0.00\ %;-0.00\ %;0.00\ %
 		lineageTag: bc98ee46-d200-4e9f-b443-420836446626
 
+	measure '% Participación Económica' =
+			
+			DIVIDE(
+			    [Total Obligaciones Reconocidas],
+			    CALCULATE(
+			        [Total Obligaciones Reconocidas],
+			        ALL(Dim_Economico)
+			    )
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 54c143b3-4a18-4055-8ca2-18f94967c455
+
 	partition 'Tabla de Medidas' = m
 		mode: import
 		source =

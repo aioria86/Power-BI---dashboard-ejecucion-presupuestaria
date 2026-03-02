@@ -733,6 +733,16 @@ cultureInfo es-ES
 			          "capitulo": {
 			            "State": "Generated"
 			          }
+			        },
+			        {
+			          "Capítulo Económico": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -748,6 +758,16 @@ cultureInfo es-ES
 			        {
 			          "articulo": {
 			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Artículo Económico": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -1478,6 +1498,16 @@ cultureInfo es-ES
 			            },
 			            "Weight": 0.9
 			          }
+			        },
+			        {
+			          "Crédito Definitivo (€)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -1560,6 +1590,16 @@ cultureInfo es-ES
 			            },
 			            "Weight": 0.9
 			          }
+			        },
+			        {
+			          "Obligaciones Reconocidas (€)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -1635,7 +1675,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "tabla_de_medida.ejecucion": {
+			    "tabla_de_medida.ejecución_financiera": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "Tabla de Medidas",
@@ -1645,28 +1685,28 @@ cultureInfo es-ES
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "% ejecucion": {
+			          "% ejecución financiera": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "percentage ejecucion": {
+			          "percentage ejecución financiera": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
 			              "Agent": "Thesaurus"
 			            },
-			            "Weight": 0.6
+			            "Weight": 0.609
 			          }
 			        },
 			        {
-			          "pct ejecucion": {
+			          "pct ejecución financiera": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
 			              "Agent": "Thesaurus"
 			            },
-			            "Weight": 0.582
+			            "Weight": 0.591
 			          }
 			        },
 			        {
@@ -2001,7 +2041,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "tabla_de_medida.ejecucion_gasto": {
+			    "tabla_de_medida.ejecución_presupuestaria": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "Tabla de Medidas",
@@ -2011,12 +2051,12 @@ cultureInfo es-ES
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "% ejecucion gasto": {
+			          "% ejecución presupuestaria": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "percentage ejecucion gasto": {
+			          "percentage ejecución presupuestaria": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
@@ -2026,7 +2066,7 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
-			          "pct ejecucion gasto": {
+			          "pct ejecución presupuestaria": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
@@ -2037,6 +2077,16 @@ cultureInfo es-ES
 			        },
 			        {
 			          "% Ejecución": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "% Ejecución (Compromiso)": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -3248,6 +3298,52 @@ cultureInfo es-ES
 			          }
 			        }
 			      ]
+			    },
+			    "tabla_de_medida.participación_económica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Participación Económica"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% participación económica": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage participación económica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct participación económica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "% Peso en el Gasto": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
@@ -3616,6 +3712,39 @@ cultureInfo es-ES
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dim_funcionals_have_fact_gastos"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_participación_económica": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.participación_económica": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.participación_económica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.participación_económica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__participación_económica"
 			        }
 			      ]
 			    },
@@ -4906,7 +5035,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "fact_gasto_has_tabla_de_medida_ejecucion_gasto": {
+			    "fact_gasto_has_tabla_de_medida_ejecución_presupuestaria": {
 			      "Binding": {
 			        "ConceptualEntity": "Fact_Gastos"
 			      },
@@ -4917,9 +5046,9 @@ cultureInfo es-ES
 			            "Entity": "fact_gasto"
 			          }
 			        },
-			        "tabla_de_medida.ejecucion_gasto": {
+			        "tabla_de_medida.ejecución_presupuestaria": {
 			          "Target": {
-			            "Entity": "tabla_de_medida.ejecucion_gasto"
+			            "Entity": "tabla_de_medida.ejecución_presupuestaria"
 			          }
 			        }
 			      },
@@ -4930,12 +5059,12 @@ cultureInfo es-ES
 			              "Role": "fact_gasto"
 			            },
 			            "Object": {
-			              "Role": "tabla_de_medida.ejecucion_gasto"
+			              "Role": "tabla_de_medida.ejecución_presupuestaria"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "fact_gastos_have__ejecucion_gasto"
+			          "ID": "fact_gastos_have__ejecución_presupuestaria"
 			        }
 			      ]
 			    },
@@ -5335,7 +5464,7 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "fact_gasto_has_tabla_de_medida_ejecucion": {
+			    "fact_gasto_has_tabla_de_medida_ejecución_financiera": {
 			      "Binding": {
 			        "ConceptualEntity": "Fact_Gastos"
 			      },
@@ -5346,9 +5475,9 @@ cultureInfo es-ES
 			            "Entity": "fact_gasto"
 			          }
 			        },
-			        "tabla_de_medida.ejecucion": {
+			        "tabla_de_medida.ejecución_financiera": {
 			          "Target": {
-			            "Entity": "tabla_de_medida.ejecucion"
+			            "Entity": "tabla_de_medida.ejecución_financiera"
 			          }
 			        }
 			      },
@@ -5359,12 +5488,12 @@ cultureInfo es-ES
 			              "Role": "fact_gasto"
 			            },
 			            "Object": {
-			              "Role": "tabla_de_medida.ejecucion"
+			              "Role": "tabla_de_medida.ejecución_financiera"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "fact_gastos_have__ejecucion"
+			          "ID": "fact_gastos_have__ejecución_financiera"
 			        }
 			      ]
 			    },

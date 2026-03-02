@@ -4,5 +4,12 @@
   "displayName": "Análisis de Gastos",
   "displayOption": "FitToPage",
   "height": 720,
-  "width": 1280
+  "width": 1280,
+  "visualInteractions": [
+    {
+      "source": "64ea378880a8e0733c0b",
+      "target": "f2c3c50553e56ea83257",
+      "type": "NoFilter"
+    }
+  ]
 }

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "574b5ae8e2a64547b7ba",
+  "position": {
+    "x": 162.53968253968253,
+    "y": 257.35449735449737,
+    "z": 12001,
+    "height": 462.78659611992936,
+    "width": 1114.0740740740739,
+    "tabOrder": 36
+  },
+  "visualGroup": {
+    "displayName": "Grupo - En que se Gasta",
+    "groupMode": "ScaleMode"
+  }
+}
