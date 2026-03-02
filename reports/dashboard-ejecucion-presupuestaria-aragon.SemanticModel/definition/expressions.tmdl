@@ -507,11 +507,11 @@ expression 'Transformar archivo de ejemplo' =
 
 expression 'Transformar archivo' =
 		let
-		    Origen = (Parámetro1) => let
-		        Origen = Csv.Document(Parámetro1,[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
-		        #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}, {"Column8", type text}})
-		    in
-		        #"Cambiar tipo"
+		    Origen = (Parámetro1 as binary) => let
+		    Origen = Csv.Document(Parámetro1,[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}, {"Column8", type text}})
+		in
+		    #"Cambiar tipo"
 		in
 		    Origen
 	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""Transformar archivo de ejemplo""}" ]
@@ -550,11 +550,11 @@ expression 'Transformar archivo de ejemplo (2)' =
 
 expression 'Transformar archivo (2)' =
 		let
-		    Origen = (Parámetro2) => let
-		        Origen = Csv.Document(Parámetro2,[Delimiter=",", Columns=9, Encoding=65001, QuoteStyle=QuoteStyle.None]),
-		        #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}, {"Column8", type text}, {"Column9", type text}})
-		    in
-		        #"Cambiar tipo"
+		    Origen = (Parámetro2 as binary) => let
+		    Origen = Csv.Document(Parámetro2,[Delimiter=",", Columns=9, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}, {"Column8", type text}, {"Column9", type text}})
+		in
+		    #"Cambiar tipo"
 		in
 		    Origen
 	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""Transformar archivo de ejemplo (2)""}" ]
@@ -593,11 +593,11 @@ expression 'Transformar archivo de ejemplo (3)' =
 
 expression 'Transformar archivo (3)' =
 		let
-		    Origen = (Parámetro3) => let
-		        Origen = Csv.Document(Parámetro3,[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
-		        #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}, {"Column8", type text}})
-		    in
-		        #"Cambiar tipo"
+		    Origen = (Parámetro3 as binary) => let
+		    Origen = Csv.Document(Parámetro3,[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}, {"Column6", type text}, {"Column7", type text}, {"Column8", type text}})
+		in
+		    #"Cambiar tipo"
 		in
 		    Origen
 	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""Transformar archivo de ejemplo (3)""}" ]
@@ -636,11 +636,11 @@ expression 'Transformar archivo de ejemplo (4)' =
 
 expression 'Transformar archivo (4)' =
 		let
-		    Origen = (Parámetro4) => let
-		        Origen = Csv.Document(Parámetro4,[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.None]),
-		        #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}})
-		    in
-		        #"Cambiar tipo"
+		    Origen = (Parámetro4 as binary) => let
+		    Origen = Csv.Document(Parámetro4,[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+		    #"Cambiar tipo" = Table.TransformColumnTypes(Origen,{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}, {"Column5", type text}})
+		in
+		    #"Cambiar tipo"
 		in
 		    Origen
 	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""Transformar archivo de ejemplo (4)""}" ]

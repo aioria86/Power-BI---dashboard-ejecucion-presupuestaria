@@ -178,6 +178,87 @@ table 'Tabla de Medidas'
 
 		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
 
+	measure '% Ejecucion Gasto' =
+			
+			DIVIDE(
+			    [Total Obligaciones Reconocidas],
+			    [Total Credito Definitivo]
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 0543acf3-feff-46b8-b365-f3f6a902d23f
+
+	measure '% Ejecuion LY' =
+			
+			CALCULATE(
+			    [% Ejecucion],
+			    FILTER(
+			        ALL(Dim_Ejercicio),
+			        Dim_Ejercicio[Ejercicio] = MAX(Dim_Ejercicio[Ejercicio]) - 1
+			    )
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: b9858185-db96-4590-a3a4-523a8d0b75cb
+
+	measure '% Ejecucion Delta LY' =
+			
+			[% Ejecucion] - [% Ejecuion LY]
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: ab4153ae-7384-4a43-8e46-8c56949060fe
+
+	measure '% Ejecucion Delta Target' =
+			
+			[% Ejecucion] - 1
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 7c93c173-dcfa-4085-8d0a-cad1fe3322b2
+
+	measure '% Ejecucion Badge LY' = ```
+			
+			VAR Delta = [% Ejecucion Delta LY]
+			VAR DeltaPct = 
+			    FORMAT(Delta, "+0.00%;-0.00%")
+			RETURN
+			IF(
+			    ISBLANK([% Ejecuion LY]),
+			    BLANK(),
+			    DeltaPct &
+			    IF(Delta >= 0, " ▲ ", " ▼ ")
+			    --IF(Delta >= 0, " ▲ vs Año Ant.", " ▼ vs Año Ant.")
+			)
+			```
+		lineageTag: 0f88797a-8a6a-4ed7-8417-027dbc4fc2b5
+
+	measure '% Ejecucion Badge Target' =
+			
+			VAR Delta = [% Ejecucion Delta Target]
+			RETURN
+			FORMAT(Delta, "+0.00%;-0.00%") &
+			IF(Delta >= 0, " ▲ ", " ▼ ")
+			--IF(Delta >= 0, " ▲ vs 100%", " ▼ vs 100%")
+		lineageTag: 6881e07c-8098-424c-973a-51ac284a9820
+
+	measure 'Delta Obligaciones LY' =
+			
+			[Total Obligaciones Reconocidas] -
+			CALCULATE(
+			    [Total Obligaciones Reconocidas],
+			    FILTER(
+			        ALL(Dim_Ejercicio),
+			        Dim_Ejercicio[Ejercicio] = MAX(Dim_Ejercicio[Ejercicio]) - 1
+			    )
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 1a87bcdd-789c-4c54-b97a-65ef22c3d441
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Delta Monto Target' =
+			
+			[Total Credito Definitivo] - [Total Pagado]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 19e6d84f-2cfd-4188-8051-16a7bd718f05
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
 	partition 'Tabla de Medidas' = m
 		mode: import
 		source =

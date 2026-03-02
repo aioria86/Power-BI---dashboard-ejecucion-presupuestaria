@@ -80,13 +80,12 @@ table Fact_Gastos
 
 	column 'Credito Definitivo'
 		dataType: double
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
 		lineageTag: da933b1e-9645-408a-992a-5520dcd16443
 		summarizeBy: sum
 		sourceColumn: Credito Definitivo
 
 		annotation SummarizationSetBy = Automatic
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	column Comprometido
 		dataType: double

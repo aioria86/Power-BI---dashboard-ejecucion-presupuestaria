@@ -2,8 +2,4957 @@ cultureInfo es-ES
 
 	linguisticMetadata =
 			{
-			  "Version": "1.0.0",
-			  "Language": "en-US"
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "fact_gasto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fact gasto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Fact_Gastos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.entity__id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_ identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.ejercicio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "Ejercicio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ejercicio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.centro_gestor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "Centro Gestor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "centro gestor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.funcional": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "Funcional"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "funcional": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.economico": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "Economico"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "economico": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.financiacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "Financiacion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "financiacion": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.descripcion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "Descripcion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descripcion": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.credito_inicial": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "Credito inicial"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "credito inicial": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.modificacione": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "Modificaciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modificacione": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.credito_definitivo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "Credito Definitivo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "credito definitivo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.comprometido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "Comprometido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "comprometido": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.obligaciones_reconocida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "Obligaciones Reconocidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "obligaciones reconocida": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "obligacione reconocida": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "fact_gasto.pagado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Gastos",
+			          "ConceptualProperty": "Pagado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pagado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_ingreso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Ingresos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fact ingreso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Fact_Ingresos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fact_ingreso.entity__id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Ingresos",
+			          "ConceptualProperty": "_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_ identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fact_ingreso.ejercicio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Ingresos",
+			          "ConceptualProperty": "Ejercicio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ejercicio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_ingreso.centro_gestor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Ingresos",
+			          "ConceptualProperty": "Centro Gestor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "centro gestor": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_ingreso.economico": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Ingresos",
+			          "ConceptualProperty": "Economico"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "economico": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_ingreso.financiacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Ingresos",
+			          "ConceptualProperty": "Financiacion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "financiacion": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_ingreso.descripcion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Ingresos",
+			          "ConceptualProperty": "Descripcion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descripcion": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_ingreso.prevision_inicial": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Ingresos",
+			          "ConceptualProperty": "Prevision Inicial"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prevision inicial": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_ingreso.modificacione": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Ingresos",
+			          "ConceptualProperty": "Modificaciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modificacione": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_ingreso.prevision_definitiva": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Ingresos",
+			          "ConceptualProperty": "Prevision Definitiva"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prevision definitiva": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_ingreso.d__rec__neto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Ingresos",
+			          "ConceptualProperty": "D. Rec. Netos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "d. rec. neto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fact_ingreso.recaudado_neto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Ingresos",
+			          "ConceptualProperty": "Recaudado Neto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recaudado neto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_financiacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Financiacion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim financiacion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dim_Financiacion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_financiacion.id_financiacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Financiacion",
+			          "ConceptualProperty": "id_financiacion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id financiacion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_financiacion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification financiacion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity financiacion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier financiacion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential financiacion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_financiacion.descripcion_corta_financiacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Financiacion",
+			          "ConceptualProperty": "descripcion_corta_financiacion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descripcion corta financiacion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "descripcion_corta_financiacion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_financiacion.descripcion_financiacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Financiacion",
+			          "ConceptualProperty": "descripcion_financiacion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descripcion financiacion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "descripcion_financiacion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_economico": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Economico"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim economico": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dim_Economico": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_economico.capitulo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Economico",
+			          "ConceptualProperty": "capitulo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "capitulo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_economico.articulo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Economico",
+			          "ConceptualProperty": "articulo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "articulo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_economico.concepto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Economico",
+			          "ConceptualProperty": "concepto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "concepto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_economico.id_subconcepto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Economico",
+			          "ConceptualProperty": "id_subconcepto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id subconcepto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_subconcepto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification subconcepto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity subconcepto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier subconcepto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential subconcepto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_economico.descripcion_corta_subconcepto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Economico",
+			          "ConceptualProperty": "descripcion_corta_subconcepto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descripcion corta subconcepto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "descripcion_corta_subconcepto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_economico.descripcion_subconcepto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Economico",
+			          "ConceptualProperty": "descripcion_subconcepto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descripcion subconcepto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "descripcion_subconcepto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_funcional": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Funcional"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim funcional": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dim_Funcional": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_funcional.id_grupo_funcional": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Funcional",
+			          "ConceptualProperty": "id_grupo_funcional"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id grupo funcional": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_grupo_funcional": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification grupo funcional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity grupo funcional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier grupo funcional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential grupo funcional": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "dim_funcional.id_funcion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Funcional",
+			          "ConceptualProperty": "id_funcion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id funcion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_funcion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification funcion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity funcion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier funcion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential funcion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_funcional.id_subfuncion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Funcional",
+			          "ConceptualProperty": "id_subfuncion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id subfuncion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_subfuncion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification subfuncion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity subfuncion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier subfuncion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential subfuncion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_funcional.id_programa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Funcional",
+			          "ConceptualProperty": "id_programa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id programa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_programa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification programa": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity programa": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier programa": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential programa": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "dim_funcional.descripcion_corta_programa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Funcional",
+			          "ConceptualProperty": "descripcion_corta_programa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descripcion corta programa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "descripcion_corta_programa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_funcional.descripcion_programa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Funcional",
+			          "ConceptualProperty": "descripcion_programa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descripcion programa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "descripcion_programa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_centro_gestor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_CentroGestor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim centro gestor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dim_CentroGestor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_centro_gestor.id_centro_gestor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_CentroGestor",
+			          "ConceptualProperty": "id_centro_gestor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id centro gestor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_centro_gestor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification centro gestor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity centro gestor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier centro gestor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential centro gestor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "dim_centro_gestor.descripcion_corta_centro_gestor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_CentroGestor",
+			          "ConceptualProperty": "descripcion_corta_centro_gestor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descripcion corta centro gestor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "descripcion_corta_centro_gestor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_centro_gestor.descripcion_centro_gestor": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_CentroGestor",
+			          "ConceptualProperty": "descripcion_centro_gestor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "descripcion centro gestor": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "descripcion_centro_gestor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tabla de medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.total_credito_inicial": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Total Credito Inicial"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total credito inicial": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate credito inicial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall credito inicial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.total_modificaciones": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Total Modificaciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total modificaciones": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate modificacione": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall modificacione": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.total_credito_definitivo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Total Credito Definitivo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total credito definitivo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate credito definitivo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall credito definitivo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.total_comprometido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Total Comprometido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total comprometido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate comprometido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall comprometido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.total_obligaciones_reconocidas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Total Obligaciones Reconocidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total obligaciones reconocidas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate obligacione reconocida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall obligacione reconocida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.total_pagado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Total Pagado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total pagado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate pagado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall pagado": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.obligaciones_reconocidas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Obligaciones Reconocidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% obligaciones reconocidas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage obligacione reconocida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct obligacione reconocida": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.ejecucion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Ejecucion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% ejecucion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage ejecucion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct ejecucion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Ejecución Presupuestaria (%)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.variacion_presupuestaria": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Variacion Presupuestaria"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variacion presupuestaria": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.total_prevision_inicial": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Total Prevision Inicial"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total prevision inicial": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate prevision inicial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall prevision inicial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.total_modificaciones_ingresos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Total Modificaciones Ingresos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total modificaciones ingresos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate modificacione ingreso": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall modificacione ingreso": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.total_prevision_definitiva": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Total Prevision Definitiva"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total prevision definitiva": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate prevision definitiva": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall prevision definitiva": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.total_derechos_reconocidos_netos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Total Derechos Reconocidos Netos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total derechos reconocidos netos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate derecho reconocido neto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "overall derecho reconocido neto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.total_recaudado_neto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Total Recaudado Neto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total recaudado neto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate recaudado neto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall recaudado neto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.ejecucion_ingresos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Ejecucion Ingresos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% ejecucion ingresos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage ejecucion ingreso": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct ejecucion ingreso": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Medida"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.recaudacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Recaudacion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% recaudacion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage recaudacion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct recaudacion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.resultado_presupuestario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Resultado Presupuestario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado presupuestario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.capacidad_necesidad_financiacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Capacidad Necesidad Financiacion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "capacidad necesidad financiacion": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.ejecucion_gasto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Ejecucion Gasto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% ejecucion gasto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage ejecucion gasto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct ejecucion gasto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.ejecuion_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Ejecuion LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% ejecuion LY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage ejecuion ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct ejecuion ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.ejecucion_delta_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Ejecucion Delta LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% ejecucion delta LY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage ejecucion delta ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct ejecucion delta ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.ejecucion_delta_target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Ejecucion Delta Target"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% ejecucion delta target": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "% ejecucion delta focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "% ejecucion delta goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "% ejecucion delta objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "percentage ejecucion delta target": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct ejecucion delta target": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.ejecucion_badge_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Ejecucion Badge LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% ejecucion badge LY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage ejecucion badge ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct ejecucion badge ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "vs. Año anterior": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.ejecucion_badge_target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Ejecucion Badge Target"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% ejecucion badge target": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "% ejecucion badge focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "% ejecucion badge goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "% ejecucion badge objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "percentage ejecucion badge target": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct ejecucion badge target": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "Pendiente de ejecutar": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.delta_obligaciones_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Delta Obligaciones LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delta obligaciones LY": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_ejercicio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Ejercicio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim ejercicio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dim_Ejercicio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_ejercicio.ejercicio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Ejercicio",
+			          "ConceptualProperty": "Ejercicio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ejercicio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.delta_monto_target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Delta Monto Target"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delta monto target": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "target": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "monto target": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "delta monto focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "delta monto goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "delta monto objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "monto focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "monto goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "monto objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "fact_ingreso_has_dim_economico": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "dim_economico": {
+			          "Target": {
+			            "Entity": "dim_economico"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "dim_economico"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_dim_economicos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_economico"
+			            },
+			            "Object": {
+			              "Role": "fact_ingreso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_economicos_have_fact_ingresos"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_dim_financiacion": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "dim_financiacion": {
+			          "Target": {
+			            "Entity": "dim_financiacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "dim_financiacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_dim_financiacions"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_financiacion"
+			            },
+			            "Object": {
+			              "Role": "fact_ingreso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_financiacions_have_fact_ingresos"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_dim_centro_gestor": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "dim_centro_gestor": {
+			          "Target": {
+			            "Entity": "dim_centro_gestor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "dim_centro_gestor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_dim_centro_gestors"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_centro_gestor"
+			            },
+			            "Object": {
+			              "Role": "fact_ingreso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_centro_gestors_have_fact_ingresos"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_dim_ejercicio": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "dim_ejercicio": {
+			          "Target": {
+			            "Entity": "dim_ejercicio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "dim_ejercicio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_dim_ejercicios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_ejercicio"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_ejercicios_have_fact_gastos"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_dim_centro_gestor": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "dim_centro_gestor": {
+			          "Target": {
+			            "Entity": "dim_centro_gestor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "dim_centro_gestor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_dim_centro_gestors"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_centro_gestor"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_centro_gestors_have_fact_gastos"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_dim_economico": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "dim_economico": {
+			          "Target": {
+			            "Entity": "dim_economico"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "dim_economico"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_dim_economicos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_economico"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_economicos_have_fact_gastos"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_dim_financiacion": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "dim_financiacion": {
+			          "Target": {
+			            "Entity": "dim_financiacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "dim_financiacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_dim_financiacions"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_financiacion"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_financiacions_have_fact_gastos"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_dim_funcional": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "dim_funcional": {
+			          "Target": {
+			            "Entity": "dim_funcional"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "dim_funcional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_dim_funcionals"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_funcional"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_funcionals_have_fact_gastos"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_delta_monto_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.delta_monto_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.delta_monto_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.delta_monto_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_delta_monto_target"
+			        }
+			      ]
+			    },
+			    "dim_ejercicio_has_ejercicio": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Ejercicio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_ejercicio": {
+			          "Target": {
+			            "Entity": "dim_ejercicio"
+			          }
+			        },
+			        "dim_ejercicio.ejercicio": {
+			          "Target": {
+			            "Entity": "dim_ejercicio.ejercicio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_ejercicio"
+			            },
+			            "Object": {
+			              "Role": "dim_ejercicio.ejercicio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_ejercicios_have_ejercicios"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_delta_obligaciones_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.delta_obligaciones_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.delta_obligaciones_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.delta_obligaciones_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_delta_obligaciones_LY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_ejecucion_badge_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.ejecucion_badge_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.ejecucion_badge_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.ejecucion_badge_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__ejecucion_badge_target"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_ejecucion_badge_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.ejecucion_badge_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.ejecucion_badge_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.ejecucion_badge_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__ejecucion_badge_LY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_ejecucion_delta_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.ejecucion_delta_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.ejecucion_delta_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.ejecucion_delta_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__ejecucion_delta_target"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_ejecucion_delta_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.ejecucion_delta_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.ejecucion_delta_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.ejecucion_delta_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__ejecucion_delta_LY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_ejecuion_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.ejecuion_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.ejecuion_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.ejecuion_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__ejecuion_LY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_ejecucion_gasto": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.ejecucion_gasto": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.ejecucion_gasto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.ejecucion_gasto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__ejecucion_gasto"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_capacidad_necesidad_financiacion": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.capacidad_necesidad_financiacion": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.capacidad_necesidad_financiacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.capacidad_necesidad_financiacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_capacidad_necesidad_financiacion"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_capacidad_necesidad_financiacion": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.capacidad_necesidad_financiacion": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.capacidad_necesidad_financiacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.capacidad_necesidad_financiacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_capacidad_necesidad_financiacion"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_resultado_presupuestario": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.resultado_presupuestario": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.resultado_presupuestario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.resultado_presupuestario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_resultado_presupuestario"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_resultado_presupuestario": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.resultado_presupuestario": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.resultado_presupuestario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.resultado_presupuestario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_resultado_presupuestario"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_recaudacion": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.recaudacion": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.recaudacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.recaudacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have__recaudacion"
+			        }
+			      ]
+			    },
+			    "tabla_de_medida_has_medida": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla de Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_de_medida": {
+			          "Target": {
+			            "Entity": "tabla_de_medida"
+			          }
+			        },
+			        "tabla_de_medida.medida": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.medida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_de_medida"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.medida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_de_medidas_have_medida"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_ejecucion_ingresos": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.ejecucion_ingresos": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.ejecucion_ingresos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.ejecucion_ingresos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have__ejecucion_ingresos"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_total_recaudado_neto": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.total_recaudado_neto": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.total_recaudado_neto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.total_recaudado_neto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_total_recaudado_neto"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_total_derechos_reconocidos_netos": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.total_derechos_reconocidos_netos": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.total_derechos_reconocidos_netos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.total_derechos_reconocidos_netos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_total_derechos_reconocidos_netos"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_total_prevision_definitiva": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.total_prevision_definitiva": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.total_prevision_definitiva"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.total_prevision_definitiva"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_total_prevision_definitiva"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_total_modificaciones_ingresos": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.total_modificaciones_ingresos": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.total_modificaciones_ingresos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.total_modificaciones_ingresos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_total_modificaciones_ingresos"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_total_prevision_inicial": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.total_prevision_inicial": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.total_prevision_inicial"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.total_prevision_inicial"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_total_prevision_inicial"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_variacion_presupuestaria": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.variacion_presupuestaria": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.variacion_presupuestaria"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.variacion_presupuestaria"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_variacion_presupuestaria"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_ejecucion": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.ejecucion": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.ejecucion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.ejecucion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__ejecucion"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_obligaciones_reconocidas": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.obligaciones_reconocidas": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.obligaciones_reconocidas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.obligaciones_reconocidas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__obligaciones_reconocidas"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_total_pagado": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.total_pagado": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.total_pagado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.total_pagado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_total_pagado"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_total_obligaciones_reconocidas": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.total_obligaciones_reconocidas": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.total_obligaciones_reconocidas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.total_obligaciones_reconocidas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_total_obligaciones_reconocidas"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_total_comprometido": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.total_comprometido": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.total_comprometido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.total_comprometido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_total_comprometido"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_total_credito_definitivo": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.total_credito_definitivo": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.total_credito_definitivo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.total_credito_definitivo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_total_credito_definitivo"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_total_modificaciones": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.total_modificaciones": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.total_modificaciones"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.total_modificaciones"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_total_modificaciones"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_total_credito_inicial": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.total_credito_inicial": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.total_credito_inicial"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.total_credito_inicial"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_total_credito_inicial"
+			        }
+			      ]
+			    },
+			    "dim_centro_gestor_has_descripcion_centro_gestor": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_CentroGestor"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_centro_gestor": {
+			          "Target": {
+			            "Entity": "dim_centro_gestor"
+			          }
+			        },
+			        "dim_centro_gestor.descripcion_centro_gestor": {
+			          "Target": {
+			            "Entity": "dim_centro_gestor.descripcion_centro_gestor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_centro_gestor"
+			            },
+			            "Object": {
+			              "Role": "dim_centro_gestor.descripcion_centro_gestor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_centro_gestors_have_descripcion_centro_gestors"
+			        }
+			      ]
+			    },
+			    "dim_centro_gestor_has_descripcion_corta_centro_gestor": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_CentroGestor"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_centro_gestor": {
+			          "Target": {
+			            "Entity": "dim_centro_gestor"
+			          }
+			        },
+			        "dim_centro_gestor.descripcion_corta_centro_gestor": {
+			          "Target": {
+			            "Entity": "dim_centro_gestor.descripcion_corta_centro_gestor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_centro_gestor"
+			            },
+			            "Object": {
+			              "Role": "dim_centro_gestor.descripcion_corta_centro_gestor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_centro_gestors_have_descripcion_corta_centro_gestors"
+			        }
+			      ]
+			    },
+			    "dim_centro_gestor_has_id_centro_gestor": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_CentroGestor"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_centro_gestor": {
+			          "Target": {
+			            "Entity": "dim_centro_gestor"
+			          }
+			        },
+			        "dim_centro_gestor.id_centro_gestor": {
+			          "Target": {
+			            "Entity": "dim_centro_gestor.id_centro_gestor"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_centro_gestor"
+			            },
+			            "Object": {
+			              "Role": "dim_centro_gestor.id_centro_gestor"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_centro_gestors_have_id_centro_gestors"
+			        }
+			      ]
+			    },
+			    "dim_funcional_has_descripcion_programa": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Funcional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_funcional": {
+			          "Target": {
+			            "Entity": "dim_funcional"
+			          }
+			        },
+			        "dim_funcional.descripcion_programa": {
+			          "Target": {
+			            "Entity": "dim_funcional.descripcion_programa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_funcional"
+			            },
+			            "Object": {
+			              "Role": "dim_funcional.descripcion_programa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_funcionals_have_descripcion_programas"
+			        }
+			      ]
+			    },
+			    "dim_funcional_has_descripcion_corta_programa": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Funcional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_funcional": {
+			          "Target": {
+			            "Entity": "dim_funcional"
+			          }
+			        },
+			        "dim_funcional.descripcion_corta_programa": {
+			          "Target": {
+			            "Entity": "dim_funcional.descripcion_corta_programa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_funcional"
+			            },
+			            "Object": {
+			              "Role": "dim_funcional.descripcion_corta_programa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_funcionals_have_descripcion_corta_programas"
+			        }
+			      ]
+			    },
+			    "dim_funcional_has_id_programa": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Funcional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_funcional": {
+			          "Target": {
+			            "Entity": "dim_funcional"
+			          }
+			        },
+			        "dim_funcional.id_programa": {
+			          "Target": {
+			            "Entity": "dim_funcional.id_programa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_funcional"
+			            },
+			            "Object": {
+			              "Role": "dim_funcional.id_programa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_funcionals_have_id_programas"
+			        }
+			      ]
+			    },
+			    "dim_funcional_has_id_subfuncion": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Funcional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_funcional": {
+			          "Target": {
+			            "Entity": "dim_funcional"
+			          }
+			        },
+			        "dim_funcional.id_subfuncion": {
+			          "Target": {
+			            "Entity": "dim_funcional.id_subfuncion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_funcional"
+			            },
+			            "Object": {
+			              "Role": "dim_funcional.id_subfuncion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_funcionals_have_id_subfuncions"
+			        }
+			      ]
+			    },
+			    "dim_funcional_has_id_funcion": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Funcional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_funcional": {
+			          "Target": {
+			            "Entity": "dim_funcional"
+			          }
+			        },
+			        "dim_funcional.id_funcion": {
+			          "Target": {
+			            "Entity": "dim_funcional.id_funcion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_funcional"
+			            },
+			            "Object": {
+			              "Role": "dim_funcional.id_funcion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_funcionals_have_id_funcions"
+			        }
+			      ]
+			    },
+			    "dim_funcional_has_id_grupo_funcional": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Funcional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_funcional": {
+			          "Target": {
+			            "Entity": "dim_funcional"
+			          }
+			        },
+			        "dim_funcional.id_grupo_funcional": {
+			          "Target": {
+			            "Entity": "dim_funcional.id_grupo_funcional"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_funcional"
+			            },
+			            "Object": {
+			              "Role": "dim_funcional.id_grupo_funcional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_funcionals_have_id_grupo_funcionals"
+			        }
+			      ]
+			    },
+			    "dim_economico_has_descripcion_subconcepto": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Economico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_economico": {
+			          "Target": {
+			            "Entity": "dim_economico"
+			          }
+			        },
+			        "dim_economico.descripcion_subconcepto": {
+			          "Target": {
+			            "Entity": "dim_economico.descripcion_subconcepto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_economico"
+			            },
+			            "Object": {
+			              "Role": "dim_economico.descripcion_subconcepto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_economicos_have_descripcion_subconceptos"
+			        }
+			      ]
+			    },
+			    "dim_economico_has_descripcion_corta_subconcepto": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Economico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_economico": {
+			          "Target": {
+			            "Entity": "dim_economico"
+			          }
+			        },
+			        "dim_economico.descripcion_corta_subconcepto": {
+			          "Target": {
+			            "Entity": "dim_economico.descripcion_corta_subconcepto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_economico"
+			            },
+			            "Object": {
+			              "Role": "dim_economico.descripcion_corta_subconcepto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_economicos_have_descripcion_corta_subconceptos"
+			        }
+			      ]
+			    },
+			    "dim_economico_has_id_subconcepto": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Economico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_economico": {
+			          "Target": {
+			            "Entity": "dim_economico"
+			          }
+			        },
+			        "dim_economico.id_subconcepto": {
+			          "Target": {
+			            "Entity": "dim_economico.id_subconcepto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_economico"
+			            },
+			            "Object": {
+			              "Role": "dim_economico.id_subconcepto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_economicos_have_id_subconceptos"
+			        }
+			      ]
+			    },
+			    "dim_economico_has_concepto": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Economico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_economico": {
+			          "Target": {
+			            "Entity": "dim_economico"
+			          }
+			        },
+			        "dim_economico.concepto": {
+			          "Target": {
+			            "Entity": "dim_economico.concepto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_economico"
+			            },
+			            "Object": {
+			              "Role": "dim_economico.concepto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_economicos_have_conceptos"
+			        }
+			      ]
+			    },
+			    "dim_economico_has_articulo": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Economico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_economico": {
+			          "Target": {
+			            "Entity": "dim_economico"
+			          }
+			        },
+			        "dim_economico.articulo": {
+			          "Target": {
+			            "Entity": "dim_economico.articulo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_economico"
+			            },
+			            "Object": {
+			              "Role": "dim_economico.articulo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_economicos_have_articulos"
+			        }
+			      ]
+			    },
+			    "dim_economico_has_capitulo": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Economico"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_economico": {
+			          "Target": {
+			            "Entity": "dim_economico"
+			          }
+			        },
+			        "dim_economico.capitulo": {
+			          "Target": {
+			            "Entity": "dim_economico.capitulo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_economico"
+			            },
+			            "Object": {
+			              "Role": "dim_economico.capitulo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_economicos_have_capitulos"
+			        }
+			      ]
+			    },
+			    "dim_financiacion_has_descripcion_financiacion": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Financiacion"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_financiacion": {
+			          "Target": {
+			            "Entity": "dim_financiacion"
+			          }
+			        },
+			        "dim_financiacion.descripcion_financiacion": {
+			          "Target": {
+			            "Entity": "dim_financiacion.descripcion_financiacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_financiacion"
+			            },
+			            "Object": {
+			              "Role": "dim_financiacion.descripcion_financiacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_financiacions_have_descripcion_financiacions"
+			        }
+			      ]
+			    },
+			    "dim_financiacion_has_descripcion_corta_financiacion": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Financiacion"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_financiacion": {
+			          "Target": {
+			            "Entity": "dim_financiacion"
+			          }
+			        },
+			        "dim_financiacion.descripcion_corta_financiacion": {
+			          "Target": {
+			            "Entity": "dim_financiacion.descripcion_corta_financiacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_financiacion"
+			            },
+			            "Object": {
+			              "Role": "dim_financiacion.descripcion_corta_financiacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_financiacions_have_descripcion_corta_financiacions"
+			        }
+			      ]
+			    },
+			    "dim_financiacion_has_id_financiacion": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Financiacion"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_financiacion": {
+			          "Target": {
+			            "Entity": "dim_financiacion"
+			          }
+			        },
+			        "dim_financiacion.id_financiacion": {
+			          "Target": {
+			            "Entity": "dim_financiacion.id_financiacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_financiacion"
+			            },
+			            "Object": {
+			              "Role": "dim_financiacion.id_financiacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_financiacions_have_id_financiacions"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_recaudado_neto": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "fact_ingreso.recaudado_neto": {
+			          "Target": {
+			            "Entity": "fact_ingreso.recaudado_neto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "fact_ingreso.recaudado_neto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_recaudado_netos"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_d__rec__neto": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "fact_ingreso.d__rec__neto": {
+			          "Target": {
+			            "Entity": "fact_ingreso.d__rec__neto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "fact_ingreso.d__rec__neto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_d__rec__netos"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_prevision_definitiva": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "fact_ingreso.prevision_definitiva": {
+			          "Target": {
+			            "Entity": "fact_ingreso.prevision_definitiva"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "fact_ingreso.prevision_definitiva"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_prevision_definitivas"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_modificacione": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "fact_ingreso.modificacione": {
+			          "Target": {
+			            "Entity": "fact_ingreso.modificacione"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "fact_ingreso.modificacione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_modificaciones"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_prevision_inicial": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "fact_ingreso.prevision_inicial": {
+			          "Target": {
+			            "Entity": "fact_ingreso.prevision_inicial"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "fact_ingreso.prevision_inicial"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_prevision_inicials"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_descripcion": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "fact_ingreso.descripcion": {
+			          "Target": {
+			            "Entity": "fact_ingreso.descripcion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "fact_ingreso.descripcion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_descripcions"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_entity__id": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "fact_ingreso.entity__id": {
+			          "Target": {
+			            "Entity": "fact_ingreso.entity__id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "fact_ingreso.entity__id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have__ids"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_pagado": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "fact_gasto.pagado": {
+			          "Target": {
+			            "Entity": "fact_gasto.pagado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto.pagado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_pagados"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_obligaciones_reconocida": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "fact_gasto.obligaciones_reconocida": {
+			          "Target": {
+			            "Entity": "fact_gasto.obligaciones_reconocida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto.obligaciones_reconocida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_obligaciones_reconocidas"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_comprometido": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "fact_gasto.comprometido": {
+			          "Target": {
+			            "Entity": "fact_gasto.comprometido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto.comprometido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_comprometidos"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_credito_definitivo": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "fact_gasto.credito_definitivo": {
+			          "Target": {
+			            "Entity": "fact_gasto.credito_definitivo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto.credito_definitivo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_credito_definitivos"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "fact_gasto.credito_definitivo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "credito_definitivo_indicates_how_expensive_fact_gastos_are"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_modificacione": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "fact_gasto.modificacione": {
+			          "Target": {
+			            "Entity": "fact_gasto.modificacione"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto.modificacione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_modificaciones"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_credito_inicial": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "fact_gasto.credito_inicial": {
+			          "Target": {
+			            "Entity": "fact_gasto.credito_inicial"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto.credito_inicial"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_credito_inicials"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_descripcion": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "fact_gasto.descripcion": {
+			          "Target": {
+			            "Entity": "fact_gasto.descripcion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto.descripcion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_descripcions"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_entity__id": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "fact_gasto.entity__id": {
+			          "Target": {
+			            "Entity": "fact_gasto.entity__id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "fact_gasto.entity__id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__ids"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_dim_ejercicio": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "dim_ejercicio": {
+			          "Target": {
+			            "Entity": "dim_ejercicio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "dim_ejercicio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_dim_ejercicios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_ejercicio"
+			            },
+			            "Object": {
+			              "Role": "fact_ingreso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_ejercicios_have_fact_ingresos"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
 			}
 		contentType: json
 

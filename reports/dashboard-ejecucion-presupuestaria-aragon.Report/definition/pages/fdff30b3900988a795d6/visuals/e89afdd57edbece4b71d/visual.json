@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "e89afdd57edbece4b71d",
+  "position": {
+    "x": 70.319227913882713,
+    "y": 63.582089552238806,
+    "z": 2000,
+    "height": 184.51396533626894,
+    "width": 302.2180855189531,
+    "tabOrder": 7
+  },
+  "visualGroup": {
+    "displayName": "Grupo KPI % Ejecuión",
+    "groupMode": "ScaleMode"
+  }
+}
