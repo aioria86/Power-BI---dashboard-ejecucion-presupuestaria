@@ -147,11 +147,6 @@ table 'Tabla de Medidas'
 		formatString: 0.00\ %;-0.00\ %;0.00\ %
 		lineageTag: 0640bd44-3653-4c67-baf6-3b1a18c1fbed
 
-	measure Medida
-		lineageTag: 3ea2cefa-2339-4e63-baaa-e15dca8c7cc7
-
-		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
-
 	measure '% Recaudacion' =
 			
 			DIVIDE(
@@ -258,6 +253,202 @@ table 'Tabla de Medidas'
 		lineageTag: 19e6d84f-2cfd-4188-8051-16a7bd718f05
 
 		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure '% Recaudacion LY' =
+			
+			CALCULATE(
+			    [% Recaudacion],
+			    FILTER(
+			        ALL(Dim_Ejercicio),
+			        Dim_Ejercicio[Ejercicio] = MAX(Dim_Ejercicio[Ejercicio]) - 1
+			    )
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: b7b19420-79a1-4d06-a0c6-5f5ef6f8ae72
+
+	measure '% Recaudacion Delta Target' = [% Recaudacion] - 1
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 7dd1dab6-a57c-4dbc-8ee4-e12b2bdb2236
+
+	measure '% Recaudacion Delta LY' =
+			
+			[% Recaudacion] - [% Recaudacion LY]
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 5b63931b-7a7d-4439-a30e-4bf01a0137c4
+
+	measure '% Recaudacion Badge LY' =
+			
+			VAR Delta = [% Recaudacion Delta LY]
+			VAR DeltaPct =
+			    FORMAT(Delta, "+0.00%;-0.00%")
+			RETURN
+			IF(
+			    ISBLANK([% Recaudacion LY]),
+			    BLANK(),
+			    DeltaPct &
+			    IF(Delta >= 0, " ▲ ", " ▼ ")
+			)
+		lineageTag: fe59eaa5-5a87-49fa-9a22-aecf19a41d07
+
+	measure '% Recaudacion Badge Target' =
+			
+			VAR Delta = [% Recaudacion Delta Target]
+			RETURN
+			FORMAT(Delta, "+0.00%;-0.00%") &
+			IF(Delta >= 0, " ▲ ", " ▼ ")
+		lineageTag: f70d9f70-2e0c-4b09-92bb-634857a7d67c
+
+	measure 'Delta Recaudado LY' =
+			
+			[Total Recaudado Neto] -
+			CALCULATE(
+			    [Total Recaudado Neto],
+			    FILTER(
+			        ALL(Dim_Ejercicio),
+			        Dim_Ejercicio[Ejercicio] = MAX(Dim_Ejercicio[Ejercicio]) - 1
+			    )
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: ad3f3b94-1a65-45ed-87fb-4561c17d9441
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Delta Monto Recaudacion Target' =
+			
+			[Total Derechos Reconocidos Netos] -
+			[Total Recaudado Neto]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: bb20c1f5-801c-4179-bf3d-931cc6cba14a
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Resultado Presupuestario LY' =
+			
+			CALCULATE(
+			    [Resultado Presupuestario],
+			    FILTER(
+			        ALL(Dim_Ejercicio),
+			        Dim_Ejercicio[Ejercicio] = MAX(Dim_Ejercicio[Ejercicio]) - 1
+			    )
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 2945e3ec-8700-4f77-b1a5-bca9f3dcbacb
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Delta Resultado LY' = ```
+			
+			[Resultado Presupuestario] - 
+			[Resultado Presupuestario LY]
+			```
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 69399c60-96b1-4d62-bdfe-5a40de871f30
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure '% Resultado Delta LY' =
+			
+			DIVIDE(
+			    [Delta Resultado LY],
+			    ABS([Resultado Presupuestario LY]),
+			    0
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: f51ae3c2-9b5d-4c72-ac8b-70bc0d02fdd5
+
+	measure 'Resultado Badge LY' =
+			
+			VAR Delta = [Delta Resultado LY]
+			VAR DeltaFmt =
+			    FORMAT(
+			        Delta,
+			        "+#,0,,.00 "" mill.""" &
+			        ";-#,0,,.00 "" mill."""
+			    )
+			RETURN
+			IF(
+			    ISBLANK([Resultado Presupuestario LY]),
+			    BLANK(),
+			    DeltaFmt &
+			    IF(Delta >= 0, " ▲ ", " ▼ ")
+			)
+		lineageTag: 9a6cacb3-16a7-4327-ac58-80a9837fc3aa
+
+	measure 'Resultado Presupuestario Target' = 0
+		formatString: 0
+		lineageTag: 18a3a284-104b-41df-90ce-dd86e42d995d
+
+	measure 'Delta Resultado Target' =
+			
+			[Resultado Presupuestario]
+		lineageTag: b42dbe53-1541-4517-9165-c149bc0131a9
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Resultado Badge Target' =
+			
+			VAR Delta = [Resultado Presupuestario]
+			RETURN
+			FORMAT(
+			    Delta,
+			    "+#,0,,.00 "" mill.""" &
+			    ";-#,0,,.00 "" mill."""
+			) &
+			IF(Delta >= 0, " ▲ ", " ▼ ")
+		lineageTag: c5a9b457-43b6-4722-bd91-fc181b86d2d8
+
+	measure 'Capacidad Necesidad Financiacion LY' =
+			
+			CALCULATE(
+			    [Capacidad Necesidad Financiacion],
+			    FILTER(
+			        ALL(Dim_Ejercicio),
+			        Dim_Ejercicio[Ejercicio] = MAX(Dim_Ejercicio[Ejercicio]) - 1
+			    )
+			)
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 49b98dbf-9f0d-470e-8893-d23d9848c902
+
+	measure 'Delta Capacidad LY' =
+			
+			[Capacidad Necesidad Financiacion] -
+			[Capacidad Necesidad Financiacion LY]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: aaa92826-7077-4646-a8ed-c940a9c69330
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Capacidad Badge LY' =
+			
+			VAR Delta = [Delta Capacidad LY]
+			VAR DeltaFmt =
+			    FORMAT(Delta / 1000000, "+0.00;-0.00") & " mill."
+			RETURN
+			IF(
+			    ISBLANK([Capacidad Necesidad Financiacion LY]),
+			    BLANK(),
+			    DeltaFmt &
+			    IF(Delta >= 0, " ▲ ", " ▼ ")
+			)
+		lineageTag: 40a11aad-a6b3-4dcf-8803-0b57e32b3dc6
+
+	measure 'Delta Capacidad Target' =
+			
+			[Capacidad Necesidad Financiacion]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 3a6d5b50-2440-41cb-a58a-a976e11bee9b
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Capacidad Badge Target' =
+			
+			VAR Delta = [Capacidad Necesidad Financiacion]
+			VAR DeltaFmt =
+			    FORMAT(Delta / 1000000, "+0.00;-0.00") & " mill."
+			RETURN
+			DeltaFmt &
+			IF(Delta >= 0, " ▲ ", " ▼ ")
+		lineageTag: d1e84332-43b0-46d5-95ac-1a5871ef76cf
 
 	partition 'Tabla de Medidas' = m
 		mode: import

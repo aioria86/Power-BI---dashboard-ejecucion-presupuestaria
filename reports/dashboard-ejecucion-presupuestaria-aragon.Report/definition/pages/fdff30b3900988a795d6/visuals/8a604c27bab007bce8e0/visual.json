@@ -81,7 +81,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "2024L"
+                                "Value": "2023L"
                               }
                             }
                           ]
@@ -94,7 +94,25 @@
             }
           }
         }
+      ],
+      "selection": [
+        {
+          "properties": {
+            "strictSingleSelect": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
       ]
+    },
+    "syncGroup": {
+      "groupName": "Ejercicio",
+      "fieldChanges": true,
+      "filterChanges": true
     },
     "drillFilterOtherVisuals": true
   }

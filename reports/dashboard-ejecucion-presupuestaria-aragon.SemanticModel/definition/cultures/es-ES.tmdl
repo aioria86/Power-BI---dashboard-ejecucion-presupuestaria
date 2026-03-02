@@ -1873,22 +1873,6 @@ cultureInfo es-ES
 			        }
 			      ]
 			    },
-			    "tabla_de_medida.medida": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "Tabla de Medidas",
-			          "ConceptualProperty": "Medida"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "medida": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
 			    "tabla_de_medida.recaudacion": {
 			      "Definition": {
 			        "Binding": {
@@ -1922,6 +1906,16 @@ cultureInfo es-ES
 			            },
 			            "Weight": 0.582
 			          }
+			        },
+			        {
+			          "Grado de Recaudación (%)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -1953,6 +1947,16 @@ cultureInfo es-ES
 			        {
 			          "capacidad necesidad financiacion": {
 			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Capacidad / Necesidad de Financiación": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -2424,6 +2428,730 @@ cultureInfo es-ES
 			          }
 			        }
 			      ]
+			    },
+			    "tabla_de_medida.recaudacion_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Recaudacion LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% recaudacion LY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage recaudacion ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct recaudacion ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.recaudacion_delta_target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Recaudacion Delta Target"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% recaudacion delta target": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "% recaudacion delta focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "% recaudacion delta goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "% recaudacion delta objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "percentage recaudacion delta target": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct recaudacion delta target": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.recaudacion_delta_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Recaudacion Delta LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% recaudacion delta LY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage recaudacion delta ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct recaudacion delta ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.recaudacion_badge_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Recaudacion Badge LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% recaudacion badge LY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage recaudacion badge ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct recaudacion badge ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "vs. Año anterior": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.recaudacion_badge_target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Recaudacion Badge Target"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% recaudacion badge target": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "% recaudacion badge focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "% recaudacion badge goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "% recaudacion badge objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "percentage recaudacion badge target": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct recaudacion badge target": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "Pendiente de Recaudar": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.delta_recaudado_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Delta Recaudado LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delta recaudado LY": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.delta_monto_recaudacion_target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Delta Monto Recaudacion Target"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delta monto recaudacion target": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "delta monto recaudacion focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "delta monto recaudacion goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "delta monto recaudacion objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.resultado_presupuestario_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Resultado Presupuestario LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado presupuestario LY": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.delta_resultado_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Delta Resultado LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delta resultado LY": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.resultado_delta_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Resultado Delta LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% resultado delta LY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage resultado delta ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct resultado delta ly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.resultado_badge_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Resultado Badge LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado badge LY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vs. Año anterior": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.resultado_presupuestario_target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Resultado Presupuestario Target"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado presupuestario target": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "resultado presupuestario focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "resultado presupuestario goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "resultado presupuestario objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.delta_resultado_target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Delta Resultado Target"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delta resultado target": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "delta resultado focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "delta resultado goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "delta resultado objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.resultado_badge_target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Resultado Badge Target"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resultado badge target": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "resultado badge focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "resultado badge goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "resultado badge objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "vs. Equilibrio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.capacidad_necesidad_financiacion_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Capacidad Necesidad Financiacion LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "capacidad necesidad financiacion LY": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.delta_capacidad_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Delta Capacidad LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delta capacidad LY": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.capacidad_badge_LY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Capacidad Badge LY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "capacidad badge LY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vs. Año anterior": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.delta_capacidad_target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Delta Capacidad Target"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delta capacidad target": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "delta capacidad focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "delta capacidad goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "delta capacidad objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.capacidad_badge_target": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Capacidad Badge Target"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "capacidad badge target": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "capacidad badge focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "capacidad badge goal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "capacidad badge objective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "vs. Equilibrio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
@@ -2792,6 +3520,996 @@ cultureInfo es-ES
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dim_funcionals_have_fact_gastos"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_capacidad_badge_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.capacidad_badge_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.capacidad_badge_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.capacidad_badge_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_capacidad_badge_target"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_capacidad_badge_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.capacidad_badge_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.capacidad_badge_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.capacidad_badge_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_capacidad_badge_target"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_delta_capacidad_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.delta_capacidad_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.delta_capacidad_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.delta_capacidad_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_delta_capacidad_target"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_delta_capacidad_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.delta_capacidad_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.delta_capacidad_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.delta_capacidad_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_delta_capacidad_target"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_capacidad_badge_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.capacidad_badge_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.capacidad_badge_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.capacidad_badge_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_capacidad_badge_LY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_capacidad_badge_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.capacidad_badge_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.capacidad_badge_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.capacidad_badge_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_capacidad_badge_LY"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_delta_capacidad_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.delta_capacidad_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.delta_capacidad_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.delta_capacidad_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_delta_capacidad_LY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_delta_capacidad_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.delta_capacidad_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.delta_capacidad_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.delta_capacidad_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_delta_capacidad_LY"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_capacidad_necesidad_financiacion_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.capacidad_necesidad_financiacion_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.capacidad_necesidad_financiacion_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.capacidad_necesidad_financiacion_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_capacidad_necesidad_financiacion_LY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_capacidad_necesidad_financiacion_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.capacidad_necesidad_financiacion_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.capacidad_necesidad_financiacion_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.capacidad_necesidad_financiacion_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_capacidad_necesidad_financiacion_LY"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_resultado_badge_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.resultado_badge_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.resultado_badge_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.resultado_badge_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_resultado_badge_target"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_resultado_badge_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.resultado_badge_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.resultado_badge_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.resultado_badge_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_resultado_badge_target"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_delta_resultado_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.delta_resultado_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.delta_resultado_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.delta_resultado_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_delta_resultado_target"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_delta_resultado_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.delta_resultado_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.delta_resultado_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.delta_resultado_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_delta_resultado_target"
+			        }
+			      ]
+			    },
+			    "tabla_de_medida_has_resultado_presupuestario_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla de Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_de_medida": {
+			          "Target": {
+			            "Entity": "tabla_de_medida"
+			          }
+			        },
+			        "tabla_de_medida.resultado_presupuestario_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.resultado_presupuestario_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_de_medida"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.resultado_presupuestario_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_de_medidas_have_resultado_presupuestario_target"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_resultado_badge_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.resultado_badge_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.resultado_badge_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.resultado_badge_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_resultado_badge_LY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_resultado_badge_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.resultado_badge_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.resultado_badge_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.resultado_badge_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_resultado_badge_LY"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_resultado_delta_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.resultado_delta_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.resultado_delta_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.resultado_delta_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have__resultado_delta_LY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_resultado_delta_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.resultado_delta_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.resultado_delta_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.resultado_delta_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__resultado_delta_LY"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_delta_resultado_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.delta_resultado_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.delta_resultado_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.delta_resultado_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_delta_resultado_LY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_delta_resultado_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.delta_resultado_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.delta_resultado_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.delta_resultado_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_delta_resultado_LY"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_resultado_presupuestario_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.resultado_presupuestario_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.resultado_presupuestario_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.resultado_presupuestario_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_resultado_presupuestario_LY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_resultado_presupuestario_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.resultado_presupuestario_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.resultado_presupuestario_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.resultado_presupuestario_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_resultado_presupuestario_LY"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_delta_monto_recaudacion_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.delta_monto_recaudacion_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.delta_monto_recaudacion_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.delta_monto_recaudacion_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_delta_monto_recaudacion_target"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_delta_recaudado_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.delta_recaudado_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.delta_recaudado_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.delta_recaudado_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_delta_recaudado_LY"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_recaudacion_badge_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.recaudacion_badge_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.recaudacion_badge_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.recaudacion_badge_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have__recaudacion_badge_target"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_recaudacion_badge_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.recaudacion_badge_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.recaudacion_badge_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.recaudacion_badge_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have__recaudacion_badge_LY"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_recaudacion_delta_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.recaudacion_delta_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.recaudacion_delta_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.recaudacion_delta_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have__recaudacion_delta_LY"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_recaudacion_delta_target": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.recaudacion_delta_target": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.recaudacion_delta_target"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.recaudacion_delta_target"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have__recaudacion_delta_target"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_recaudacion_LY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.recaudacion_LY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.recaudacion_LY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.recaudacion_LY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have__recaudacion_LY"
 			        }
 			      ]
 			    },
@@ -3254,39 +4972,6 @@ cultureInfo es-ES
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "fact_ingresos_have__recaudacion"
-			        }
-			      ]
-			    },
-			    "tabla_de_medida_has_medida": {
-			      "Binding": {
-			        "ConceptualEntity": "Tabla de Medidas"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "tabla_de_medida": {
-			          "Target": {
-			            "Entity": "tabla_de_medida"
-			          }
-			        },
-			        "tabla_de_medida.medida": {
-			          "Target": {
-			            "Entity": "tabla_de_medida.medida"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "tabla_de_medida"
-			            },
-			            "Object": {
-			              "Role": "tabla_de_medida.medida"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "tabla_de_medidas_have_medida"
 			        }
 			      ]
 			    },
