@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "16c8b2d78c9b854a4e5e",
+  "position": {
+    "x": 654.25938002557825,
+    "y": 62.017699115044238,
+    "z": 8,
+    "height": 184.63716814159292,
+    "width": 301.30973451327435,
+    "tabOrder": 3000
+  },
+  "visualGroup": {
+    "displayName": "Grupo KPI Resultado Presupuestario",
+    "groupMode": "ScaleMode"
+  }
+}

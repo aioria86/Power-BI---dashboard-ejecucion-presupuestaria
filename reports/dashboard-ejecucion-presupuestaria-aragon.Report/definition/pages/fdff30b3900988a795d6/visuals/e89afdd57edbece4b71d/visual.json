@@ -6,7 +6,8 @@
     "y": 63.582089552238806,
     "z": 2000,
     "height": 184.47761194029852,
-    "width": 301.79104477611941
+    "width": 301.79104477611941,
+    "tabOrder": 2000
   },
   "visualGroup": {
     "displayName": "Grupo KPI % Ejecuión",

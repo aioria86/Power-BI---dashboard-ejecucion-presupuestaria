@@ -23,7 +23,7 @@
                       "Entity": "Tabla de Medidas"
                     }
                   },
-                  "Property": "% Ejecucion"
+                  "Property": "% Ejecución Financiera"
                 }
               },
               "queryRef": "Tabla de Medidas.% Ejecucion",
@@ -43,7 +43,7 @@
                     "Entity": "Tabla de Medidas"
                   }
                 },
-                "Property": "% Ejecucion"
+                "Property": "% Ejecución Financiera"
               }
             },
             "direction": "Descending"

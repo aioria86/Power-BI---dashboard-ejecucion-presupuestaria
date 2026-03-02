@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "1c6344b2304a0523b359",
+  "position": {
+    "x": 975.15898154279216,
+    "y": 62.017699115044238,
+    "z": 9,
+    "height": 184.63716814159292,
+    "width": 301.30973451327435,
+    "tabOrder": 8000
+  },
+  "visualGroup": {
+    "displayName": "Grupo KPI Capacidad Necesidad Financiacion",
+    "groupMode": "ScaleMode"
+  }
+}

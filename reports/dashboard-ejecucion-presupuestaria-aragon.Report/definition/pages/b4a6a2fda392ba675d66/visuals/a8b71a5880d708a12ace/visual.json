@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "a8b71a5880d708a12ace",
   "position": {
-    "x": 1116.4714828897338,
-    "y": 0,
+    "x": 11.680608365019012,
+    "y": 256.97338403041823,
     "z": 1000,
-    "height": 49.6425855513308,
-    "width": 159.63498098859316,
-    "tabOrder": 5
+    "height": 62.29657794676806,
+    "width": 139.19391634980988,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "slicer",
@@ -121,7 +121,41 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Ejercicio'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.5
+                    }
+                  }
                 }
               }
             }

@@ -1171,6 +1171,16 @@ cultureInfo es-ES
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "Programa": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -1301,6 +1311,16 @@ cultureInfo es-ES
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Centro Gestor": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -1448,6 +1468,16 @@ cultureInfo es-ES
 			            },
 			            "Weight": 0.591
 			          }
+			        },
+			        {
+			          "Crédito Definitivo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -1519,6 +1549,16 @@ cultureInfo es-ES
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "Obligaciones Reconocidas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -1599,7 +1639,7 @@ cultureInfo es-ES
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "Tabla de Medidas",
-			          "ConceptualProperty": "% Ejecucion"
+			          "ConceptualProperty": "% Ejecución Financiera"
 			        }
 			      },
 			      "State": "Generated",
@@ -1965,7 +2005,7 @@ cultureInfo es-ES
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "Tabla de Medidas",
-			          "ConceptualProperty": "% Ejecucion Gasto"
+			          "ConceptualProperty": "% Ejecución Presupuestaria"
 			        }
 			      },
 			      "State": "Generated",
@@ -1993,6 +2033,16 @@ cultureInfo es-ES
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "% Ejecución": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -3152,6 +3202,52 @@ cultureInfo es-ES
 			          }
 			        }
 			      ]
+			    },
+			    "tabla_de_medida.participación_gasto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Participación Gasto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% participación gasto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage participación gasto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct participación gasto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "% Participación": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
@@ -3520,6 +3616,39 @@ cultureInfo es-ES
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dim_funcionals_have_fact_gastos"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_participación_gasto": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.participación_gasto": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.participación_gasto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.participación_gasto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__participación_gasto"
 			        }
 			      ]
 			    },

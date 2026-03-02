@@ -70,7 +70,7 @@ table 'Tabla de Medidas'
 		formatString: 0.00\ %;-0.00\ %;0.00\ %
 		lineageTag: cf5e6c50-d405-492b-a1d3-81f9533c0bf0
 
-	measure '% Ejecucion' =
+	measure '% Ejecución Financiera' =
 			
 			DIVIDE(
 			    [Total Pagado],
@@ -173,7 +173,7 @@ table 'Tabla de Medidas'
 
 		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
 
-	measure '% Ejecucion Gasto' =
+	measure '% Ejecución Presupuestaria' =
 			
 			DIVIDE(
 			    [Total Obligaciones Reconocidas],
@@ -185,7 +185,7 @@ table 'Tabla de Medidas'
 	measure '% Ejecuion LY' =
 			
 			CALCULATE(
-			    [% Ejecucion],
+			    [% Ejecución Financiera],
 			    FILTER(
 			        ALL(Dim_Ejercicio),
 			        Dim_Ejercicio[Ejercicio] = MAX(Dim_Ejercicio[Ejercicio]) - 1
@@ -196,13 +196,13 @@ table 'Tabla de Medidas'
 
 	measure '% Ejecucion Delta LY' =
 			
-			[% Ejecucion] - [% Ejecuion LY]
+			[% Ejecución Financiera] - [% Ejecuion LY]
 		formatString: 0.00\ %;-0.00\ %;0.00\ %
 		lineageTag: ab4153ae-7384-4a43-8e46-8c56949060fe
 
 	measure '% Ejecucion Delta Target' =
 			
-			[% Ejecucion] - 1
+			[% Ejecución Financiera] - 1
 		formatString: 0.00\ %;-0.00\ %;0.00\ %
 		lineageTag: 7c93c173-dcfa-4085-8d0a-cad1fe3322b2
 
@@ -422,7 +422,7 @@ table 'Tabla de Medidas'
 			
 			VAR Delta = [Delta Capacidad LY]
 			VAR DeltaFmt =
-			    FORMAT(Delta / 1000000, "+0.00;-0.00") & " mill."
+			    FORMAT(Delta / 1000000, "+#,##0.00;-#,##0.00") & " mill."
 			RETURN
 			IF(
 			    ISBLANK([Capacidad Necesidad Financiacion LY]),
@@ -444,11 +444,23 @@ table 'Tabla de Medidas'
 			
 			VAR Delta = [Capacidad Necesidad Financiacion]
 			VAR DeltaFmt =
-			    FORMAT(Delta / 1000000, "+0.00;-0.00") & " mill."
+			    FORMAT(Delta / 1000000, "+#,##0.00;-#,##0.00") & " mill."
 			RETURN
 			DeltaFmt &
 			IF(Delta >= 0, " ▲ ", " ▼ ")
 		lineageTag: d1e84332-43b0-46d5-95ac-1a5871ef76cf
+
+	measure '% Participación Gasto' =
+			
+			DIVIDE(
+			    [Total Obligaciones Reconocidas],
+			    CALCULATE(
+			        [Total Obligaciones Reconocidas],
+			        ALL(Dim_CentroGestor)
+			    )
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: bc98ee46-d200-4e9f-b443-420836446626
 
 	partition 'Tabla de Medidas' = m
 		mode: import

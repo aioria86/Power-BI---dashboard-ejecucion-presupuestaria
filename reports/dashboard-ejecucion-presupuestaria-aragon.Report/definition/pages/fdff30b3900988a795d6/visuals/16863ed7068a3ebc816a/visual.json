@@ -7,7 +7,7 @@
     "z": 1000,
     "height": 92.238805970149258,
     "width": 300.8955223880597,
-    "tabOrder": 1
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "cardVisual",
@@ -23,7 +23,7 @@
                       "Entity": "Tabla de Medidas"
                     }
                   },
-                  "Property": "% Ejecucion"
+                  "Property": "% Ejecución Financiera"
                 }
               },
               "queryRef": "Tabla de Medidas.% Ejecucion",
@@ -43,7 +43,7 @@
                     "Entity": "Tabla de Medidas"
                   }
                 },
-                "Property": "% Ejecucion"
+                "Property": "% Ejecución Financiera"
               }
             },
             "direction": "Descending"
