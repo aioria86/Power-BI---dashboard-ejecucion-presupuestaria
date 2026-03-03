@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "8b78fa1d4cc6da240a60",
+  "position": {
+    "x": 332.22703514553251,
+    "y": 62.017699115044238,
+    "z": 1,
+    "height": 184.63716814159292,
+    "width": 302.44247787610618,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "Grupo KPI % Recaudación",
+    "groupMode": "ScaleMode"
+  }
+}

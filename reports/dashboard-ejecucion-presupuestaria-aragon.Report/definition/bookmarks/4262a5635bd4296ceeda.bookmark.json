@@ -596,12 +596,6 @@
               }
             }
           },
-          "97f012d1c5b460be1651": {
-            "singleVisual": {
-              "visualType": "shape",
-              "objects": {}
-            }
-          },
           "4e307cf29464c9001c17": {
             "filters": {
               "byExpr": [
@@ -1019,12 +1013,6 @@
           "fab3569312c32a14d9c0": {
             "singleVisual": {
               "visualType": "pageNavigator",
-              "objects": {}
-            }
-          },
-          "8ef751ef7a921ee23b60": {
-            "singleVisual": {
-              "visualType": "shape",
               "objects": {}
             }
           },

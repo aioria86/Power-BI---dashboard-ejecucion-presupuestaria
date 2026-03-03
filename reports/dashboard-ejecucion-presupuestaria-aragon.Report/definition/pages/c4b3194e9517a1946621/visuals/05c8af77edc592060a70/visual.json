@@ -1,0 +1,64 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "05c8af77edc592060a70",
+  "position": {
+    "x": 11.086614173228346,
+    "y": 508.97637795275591,
+    "z": 12000,
+    "height": 145.13385826771653,
+    "width": 143.11811023622047
+  },
+  "visual": {
+    "visualType": "bookmarkNavigator",
+    "objects": {
+      "bookmarks": [
+        {
+          "properties": {
+            "selectedBookmark": {
+              "expr": {
+                "Literal": {
+                  "Value": "'4262a5635bd4296ceeda'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "layout": [
+        {
+          "properties": {
+            "orientation": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "fill": [
+        {
+          "properties": {
+            "fillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1F3C88'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "selected"
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "howCreated": "InsertVisualButton"
+}

@@ -4,5 +4,17 @@
   "displayName": "Balance y Resultado",
   "displayOption": "FitToPage",
   "height": 720,
-  "width": 1280
+  "width": 1280,
+  "visualInteractions": [
+    {
+      "source": "84d520c0ecdb159c620e",
+      "target": "80cb3bd07536e9d20e58",
+      "type": "NoFilter"
+    },
+    {
+      "source": "84d520c0ecdb159c620e",
+      "target": "b432516d56886e097ad3",
+      "type": "NoFilter"
+    }
+  ]
 }

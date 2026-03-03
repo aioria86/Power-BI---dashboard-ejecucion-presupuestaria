@@ -474,6 +474,166 @@ table 'Tabla de Medidas'
 		formatString: 0.00\ %;-0.00\ %;0.00\ %
 		lineageTag: 54c143b3-4a18-4055-8ca2-18f94967c455
 
+	measure 'Variación Resultado YoY' =
+			
+			[Resultado Presupuestario] -
+			CALCULATE(
+			    [Resultado Presupuestario],
+			    FILTER(
+			        ALL(Dim_Ejercicio),
+			        Dim_Ejercicio[Ejercicio] = MAX(Dim_Ejercicio[Ejercicio]) - 1
+			    )
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 1942577b-a852-45dd-bb3f-c716c67c8965
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure '% Variación Resultado YoY' =
+			
+			DIVIDE(
+			    [Variación Resultado YoY],
+			    CALCULATE(
+			        [Resultado Presupuestario],
+			        FILTER(
+			            ALL(Dim_Ejercicio),
+			            Dim_Ejercicio[Ejercicio] = MAX(Dim_Ejercicio[Ejercicio]) - 1
+			        )
+			    )
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 1250aa04-6f58-4e40-9f17-ac0602e772ae
+
+	measure 'Variación Resultado Acumulada' =
+			
+			VAR PrimerAno =
+			    CALCULATE(
+			        MIN(Dim_Ejercicio[Ejercicio]),
+			        ALL(Dim_Ejercicio)
+			    )
+			RETURN
+			[Resultado Presupuestario] -
+			CALCULATE(
+			    [Resultado Presupuestario],
+			    FILTER(
+			        ALL(Dim_Ejercicio),
+			        Dim_Ejercicio[Ejercicio] = PrimerAno
+			    )
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: f739ff08-ff79-4f8f-b86e-b131ad235e4e
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Variación Capacidad YoY' =
+			
+			[Capacidad Necesidad Financiacion] -
+			CALCULATE(
+			    [Capacidad Necesidad Financiacion],
+			    FILTER(
+			        ALL(Dim_Ejercicio),
+			        Dim_Ejercicio[Ejercicio] = MAX(Dim_Ejercicio[Ejercicio]) - 1
+			    )
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: c428b7d7-92ec-4cd5-ab26-b66b82e4a1fb
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Variación Capacidad Acumulada' =
+			
+			VAR PrimerAno =
+			    CALCULATE(
+			        MIN(Dim_Ejercicio[Ejercicio]),
+			        ALL(Dim_Ejercicio)
+			    )
+			RETURN
+			[Capacidad Necesidad Financiacion] -
+			CALCULATE(
+			    [Capacidad Necesidad Financiacion],
+			    FILTER(
+			        ALL(Dim_Ejercicio),
+			        Dim_Ejercicio[Ejercicio] = PrimerAno
+			    )
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 8c7378e0-8148-4e2e-a640-a977869173af
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Año Máximo Resultado' =
+			
+			VAR MaxValor =
+			    MAXX(
+			        ALL(Dim_Ejercicio),
+			        [Resultado Presupuestario]
+			    )
+			RETURN
+			CALCULATE(
+			    MAX(Dim_Ejercicio[Ejercicio]),
+			    FILTER(
+			        ALL(Dim_Ejercicio),
+			        [Resultado Presupuestario] = MaxValor
+			    )
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: bcbe0216-d01a-457c-9330-20b2818cf985
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure 'Etiqueta Máximo Resultado' =
+			
+			VAR AnoMax = [Año Máximo Resultado]
+			VAR ValorMax =
+			    MAXX(
+			        ALL(Dim_Ejercicio),
+			        [Resultado Presupuestario]
+			    )
+			RETURN
+			"Año con mayor superávit: " &
+			AnoMax &
+			" (" &
+			FORMAT(ValorMax / 1000000, "0.00") &
+			" mill.)"
+		lineageTag: e559c343-62e8-4c4f-8689-bebe03c1b937
+
+	measure 'Promedio Resultado Histórico' =
+			
+			AVERAGEX(
+			    ALL(Dim_Ejercicio),
+			    [Resultado Presupuestario]
+			)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: fded5b18-a9dd-4dd1-b5be-8b49a3f8a889
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	measure '% Años en Superávit' =
+			
+			VAR TotalAnios =
+			    COUNTROWS(ALL(Dim_Ejercicio))
+			VAR AniosSuperavit =
+			    COUNTROWS(
+			        FILTER(
+			            ALL(Dim_Ejercicio),
+			            [Resultado Presupuestario] > 0
+			        )
+			    )
+			RETURN
+			DIVIDE(AniosSuperavit, TotalAnios)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 472efbd1-1192-4bd1-b667-e2edb7fbf093
+
+	measure 'Desviación Resultado' =
+			
+			STDEVX.P(
+			    ALL(Dim_Ejercicio),
+			    [Resultado Presupuestario]
+			)
+		lineageTag: 89fbb7e3-185a-45e0-993d-d116c9d2f89b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	partition 'Tabla de Medidas' = m
 		mode: import
 		source =

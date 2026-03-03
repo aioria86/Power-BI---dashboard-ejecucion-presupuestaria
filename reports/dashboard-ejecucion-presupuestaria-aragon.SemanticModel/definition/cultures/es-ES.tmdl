@@ -3344,6 +3344,146 @@ cultureInfo es-ES
 			          }
 			        }
 			      ]
+			    },
+			    "tabla_de_medida.variación_resultado_YoY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Variación Resultado YoY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variación resultado YoY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Variación anual": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.variación_resultado_YoY1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Variación Resultado YoY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% variación resultado YoY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage variación resultado yoy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct variación resultado yoy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.variación_resultado_acumulada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Variación Resultado Acumulada"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variación resultado acumulada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Variación acumulada": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.variación_capacidad_YoY": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Variación Capacidad YoY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variación capacidad YoY": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Variación anual": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.variación_capacidad_acumulada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Variación Capacidad Acumulada"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variación capacidad acumulada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Variación acumulada": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
@@ -3712,6 +3852,336 @@ cultureInfo es-ES
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dim_funcionals_have_fact_gastos"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_variación_capacidad_acumulada": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.variación_capacidad_acumulada": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.variación_capacidad_acumulada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.variación_capacidad_acumulada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_variación_capacidad_acumulada"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_variación_capacidad_acumulada": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.variación_capacidad_acumulada": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.variación_capacidad_acumulada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.variación_capacidad_acumulada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_variación_capacidad_acumulada"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_variación_capacidad_YoY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.variación_capacidad_YoY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.variación_capacidad_YoY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.variación_capacidad_YoY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_variación_capacidad_YoY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_variación_capacidad_YoY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.variación_capacidad_YoY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.variación_capacidad_YoY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.variación_capacidad_YoY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_variación_capacidad_YoY"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_variación_resultado_acumulada": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.variación_resultado_acumulada": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.variación_resultado_acumulada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.variación_resultado_acumulada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_variación_resultado_acumulada"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_variación_resultado_acumulada": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.variación_resultado_acumulada": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.variación_resultado_acumulada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.variación_resultado_acumulada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_variación_resultado_acumulada"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_variación_resultado_YoY1": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.variación_resultado_YoY1": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.variación_resultado_YoY1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.variación_resultado_YoY1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have__variación_resultado_YoY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_variación_resultado_YoY1": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.variación_resultado_YoY1": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.variación_resultado_YoY1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.variación_resultado_YoY1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have__variación_resultado_YoY"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_variación_resultado_YoY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.variación_resultado_YoY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.variación_resultado_YoY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.variación_resultado_YoY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_variación_resultado_YoY"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_variación_resultado_YoY": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.variación_resultado_YoY": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.variación_resultado_YoY"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.variación_resultado_YoY"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_variación_resultado_YoY"
 			        }
 			      ]
 			    },

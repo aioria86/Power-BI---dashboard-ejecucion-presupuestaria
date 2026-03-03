@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "8ef751ef7a921ee23b60",
+  "name": "ac06363302923d13c085",
   "position": {
-    "x": 11.680608365019012,
-    "y": 596.68441064638785,
-    "z": 8000,
-    "height": 62.29657794676806,
-    "width": 139.19391634980988,
-    "tabOrder": 31
+    "x": 10.915763509787965,
+    "y": 80.22580067074577,
+    "z": 4000,
+    "height": 12.075471698113208,
+    "width": 275.54030874785593,
+    "tabOrder": 19
   },
   "visual": {
     "visualType": "shape",
@@ -18,7 +18,7 @@
             "tileShape": {
               "expr": {
                 "Literal": {
-                  "Value": "'rectangle'"
+                  "Value": "'line'"
                 }
               }
             }
@@ -38,7 +38,7 @@
           }
         }
       ],
-      "text": [
+      "outline": [
         {
           "properties": {
             "show": {
@@ -52,24 +52,15 @@
         },
         {
           "properties": {
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'¿En qué se gasta?'"
-                }
-              }
-            },
-            "fontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "15D"
+            "lineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.3
+                    }
+                  }
                 }
               }
             }
@@ -86,29 +77,9 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "Literal": {
-                      "Value": "'#1F3C88'"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
-          }
-        }
-      ],
-      "outline": [
-        {
-          "properties": {
-            "lineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
+                      "ColorId": 0,
+                      "Percent": -0.3
                     }
                   }
                 }
@@ -118,31 +89,13 @@
           "selector": {
             "id": "default"
           }
-        }
-      ]
-    },
-    "visualContainerObjects": {
-      "visualLink": [
+        },
         {
           "properties": {
             "show": {
               "expr": {
                 "Literal": {
                   "Value": "true"
-                }
-              }
-            },
-            "type": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Bookmark'"
-                }
-              }
-            },
-            "bookmark": {
-              "expr": {
-                "Literal": {
-                  "Value": "'215e501d08b4805604eb'"
                 }
               }
             }
@@ -152,5 +105,6 @@
     },
     "drillFilterOtherVisuals": true
   },
+  "parentGroupName": "d41e7e3d48c65be6a445",
   "howCreated": "InsertVisualButton"
 }
