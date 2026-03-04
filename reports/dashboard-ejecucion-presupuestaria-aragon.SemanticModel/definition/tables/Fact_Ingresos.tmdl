@@ -10,7 +10,7 @@ table Fact_Ingresos
 		annotation SummarizationSetBy = Automatic
 
 	column Ejercicio
-		dataType: int64
+		dataType: double
 		formatString: 0
 		lineageTag: d50e92f8-de5d-49f8-b00e-618a186c637e
 		summarizeBy: none

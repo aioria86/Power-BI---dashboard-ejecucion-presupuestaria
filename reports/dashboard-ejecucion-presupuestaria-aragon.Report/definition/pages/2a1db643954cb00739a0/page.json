@@ -4,5 +4,17 @@
   "displayName": "Análisis de Ingresos",
   "displayOption": "FitToPage",
   "height": 720,
-  "width": 1280
+  "width": 1280,
+  "visualInteractions": [
+    {
+      "source": "fe5a57406d65bcdaad49",
+      "target": "3ec80c5f9031321cebbe",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fe5a57406d65bcdaad49",
+      "target": "be355420321ab4e02998",
+      "type": "NoFilter"
+    }
+  ]
 }

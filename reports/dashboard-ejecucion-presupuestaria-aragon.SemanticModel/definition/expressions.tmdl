@@ -129,9 +129,10 @@ expression 'Estado de ejecución gastos - 2017' =
 		    #"Encabezados promovidos" = Table.PromoteHeaders(#"Cambiar tipo", [PromoteAllScalars=true]),
 		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Encabezados promovidos", {{"Credito inicial", type number}, {"Modificaciones", type number}, {"Credito Definitivo", type number}, {"Comprometido", type number}, {"Obligaciones Reconocidas", type number}, {"Pagado", type number}}, "es-ES"),
 		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
-		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}}),
+		    #"Valor reemplazado" = Table.ReplaceValue(#"Texto limpio","2016","2017",Replacer.ReplaceText,{"Ejercicio"})
 		in
-		    #"Texto limpio"
+		    #"Valor reemplazado"
 	lineageTag: b7a017c1-6c24-4e08-8c9c-c32597769393
 
 	annotation PBI_NavigationStepName = Navegación
@@ -325,9 +326,10 @@ expression 'Estado de ejecución de ingresos - 2017' =
 		    #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas con nombre cambiado",{{"Ejercicio", Int64.Type}}),
 		    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Tipo cambiado", {{"Prevision Inicial", type number}, {"Modificaciones", type number}, {"Prevision Definitiva", type number}, {"D. Rec. Netos", type number}, {"Recaudado Neto", type number}}, "es-ES"),
 		    #"Texto recortado" = Table.TransformColumns(#"Tipo cambiado con configuración regional",{{"Descripcion", Text.Trim, type text}}),
-		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}})
+		    #"Texto limpio" = Table.TransformColumns(#"Texto recortado",{{"Descripcion", Text.Clean, type text}}),
+		    #"Valor reemplazado" = Table.ReplaceValue(#"Texto limpio",2016,2017,Replacer.ReplaceValue,{"Ejercicio"})
 		in
-		    #"Texto limpio"
+		    #"Valor reemplazado"
 	lineageTag: 1049cb5d-5e63-45ac-9b4c-bd324da6e9d7
 
 	annotation PBI_NavigationStepName = Navegación
