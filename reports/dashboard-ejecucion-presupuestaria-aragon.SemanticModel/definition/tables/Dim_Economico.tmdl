@@ -68,9 +68,12 @@ table Dim_Economico
 				    #"Columnas quitadas1" = Table.RemoveColumns(#"Columnas con nombre cambiado",{"_id", "EJERCICIO", "GASTO/INGRESO"}),
 				    #"Filas filtradas" = Table.SelectRows(#"Columnas quitadas1", each ([id_subconcepto] <> "")),
 				    #"Duplicados quitados" = Table.Distinct(#"Filas filtradas", {"id_subconcepto"}),
-				    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Duplicados quitados",{{"articulo", type text}, {"concepto", type text}, {"id_subconcepto", type text}, {"capitulo", type text}})
+				    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Duplicados quitados",{{"articulo", type text}, {"concepto", type text}, {"id_subconcepto", type text}, {"capitulo", type text}}),
+				    #"Filas filtradas1" = Table.SelectRows(#"Tipo cambiado1", each true),
+				    #"Valor reemplazado" = Table.ReplaceValue(#"Filas filtradas1","-1","S/C",Replacer.ReplaceText,{"id_subconcepto"}),
+				    #"Valor reemplazado1" = Table.ReplaceValue(#"Valor reemplazado","-1","S/C",Replacer.ReplaceText,{"capitulo"})
 				in
-				    #"Tipo cambiado1"
+				    #"Valor reemplazado1"
 
 	annotation PBI_NavigationStepName = Navegación
 

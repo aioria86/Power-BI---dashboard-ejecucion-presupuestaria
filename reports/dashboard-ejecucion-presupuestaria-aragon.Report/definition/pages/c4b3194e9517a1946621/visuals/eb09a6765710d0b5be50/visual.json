@@ -101,6 +101,32 @@
             }
           }
         }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Obligaciones Reconocidas'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryAxis": [
+        {
+          "properties": {
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Centro Gestor'"
+                }
+              }
+            }
+          }
+        }
       ]
     },
     "visualContainerObjects": {

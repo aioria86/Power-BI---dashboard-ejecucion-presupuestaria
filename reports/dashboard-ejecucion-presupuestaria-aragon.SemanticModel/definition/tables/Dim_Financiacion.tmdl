@@ -48,9 +48,10 @@ table Dim_Financiacion
 				    #"Duplicados quitados" = Table.Distinct(#"Columnas quitadas1", {"FINANCIACION"}),
 				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Duplicados quitados",{{"FINANCIACION", "id_financiacion"}, {"DESCRIPCION LARGA", "descripcion_financiacion"}, {"DESCRIPCION CORTA", "descripcion_corta_financiacion"}}),
 				    #"Columnas quitadas2" = Table.RemoveColumns(#"Columnas con nombre cambiado",{"_id"}),
-				    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Columnas quitadas2",{{"id_financiacion", type text}})
+				    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Columnas quitadas2",{{"id_financiacion", type text}}),
+				    #"Filas filtradas1" = Table.SelectRows(#"Tipo cambiado1", each true)
 				in
-				    #"Tipo cambiado1"
+				    #"Filas filtradas1"
 
 	annotation PBI_NavigationStepName = Navegación
 

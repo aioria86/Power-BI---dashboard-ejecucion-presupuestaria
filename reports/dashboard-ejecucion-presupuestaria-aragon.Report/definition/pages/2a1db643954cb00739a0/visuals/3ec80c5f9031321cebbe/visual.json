@@ -4,7 +4,7 @@
   "position": {
     "x": 11.566265060240962,
     "y": 256.3855421686747,
-    "z": 6000,
+    "z": 5000,
     "height": 247.71084337349396,
     "width": 629.39759036144574,
     "tabOrder": 5001
@@ -89,6 +89,21 @@
         ],
         "isDefaultSort": true
       }
+    },
+    "objects": {
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
     },
     "visualContainerObjects": {
       "title": [

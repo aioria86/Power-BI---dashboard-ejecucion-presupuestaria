@@ -4,7 +4,7 @@
   "position": {
     "x": 647.710843373494,
     "y": 511.80722891566262,
-    "z": 9000,
+    "z": 8000,
     "height": 207.22891566265059,
     "width": 629.39759036144574,
     "tabOrder": 5004
@@ -83,6 +83,32 @@
                       "Value": "'#1F3C88'"
                     }
                   }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Derechos Reconocidos Netos'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryAxis": [
+        {
+          "properties": {
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Financiación'"
                 }
               }
             }

@@ -4,7 +4,7 @@
   "position": {
     "x": 11.566265060240962,
     "y": 511.80722891566262,
-    "z": 8000,
+    "z": 7000,
     "height": 208.19277108433732,
     "width": 629.39759036144574,
     "tabOrder": 5003
@@ -83,6 +83,19 @@
                       "Value": "'#1F3C88'"
                     }
                   }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Derechos Reconocidos Netos'"
                 }
               }
             }

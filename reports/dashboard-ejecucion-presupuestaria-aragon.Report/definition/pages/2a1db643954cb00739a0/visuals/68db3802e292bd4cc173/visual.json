@@ -4,7 +4,7 @@
   "position": {
     "x": 0,
     "y": 0,
-    "z": 11000,
+    "z": 10000,
     "height": 720,
     "width": 1276.6521360069746,
     "tabOrder": 9004
@@ -12,6 +12,5 @@
   "visualGroup": {
     "displayName": "Grupo - Filtros",
     "groupMode": "ScaleMode"
-  },
-  "isHidden": true
+  }
 }

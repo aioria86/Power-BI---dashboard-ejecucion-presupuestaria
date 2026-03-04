@@ -4,7 +4,7 @@
   "position": {
     "x": 13.391455972101133,
     "y": 257.78552746294679,
-    "z": 6000,
+    "z": 5000,
     "height": 234.35047951176983,
     "width": 627.16652136006974,
     "tabOrder": 7000
@@ -104,6 +104,19 @@
           },
           "selector": {
             "metadata": "Tabla de Medidas.Total Obligaciones Reconocidas"
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
           }
         }
       ]

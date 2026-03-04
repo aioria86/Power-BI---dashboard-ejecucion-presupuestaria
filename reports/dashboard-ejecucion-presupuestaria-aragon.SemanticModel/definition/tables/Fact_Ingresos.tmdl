@@ -105,9 +105,12 @@ table Fact_Ingresos
 		source =
 				let
 				    Origen = Table.Combine({#"Estado de ejecución de ingresos - 2024", #"Estado de ejecución de ingresos - 2013", #"Estado de ejecución de ingresos - 2014", #"Estado de ejecución de ingresos - 2015", #"Estado de ejecución de ingresos - 2016", #"Estado de ejecución de ingresos - 2017", #"Estado de ejecución de ingresos - 2018", #"Estado de ejecución de ingresos - 2019", #"Estado de ejecución de ingresos - 2020", #"Estado de ejecución de ingresos - 2021", #"Estado de ejecución de ingresos - 2022", #"Estado de ejecución de ingresos - 2023"}),
-				    #"Filas filtradas" = Table.SelectRows(Origen, each true)
+				    #"Filas filtradas" = Table.SelectRows(Origen, each true),
+				    #"Valor reemplazado" = Table.ReplaceValue(#"Filas filtradas","","-1",Replacer.ReplaceValue,{"Economico"}),
+				    #"Valor reemplazado1" = Table.ReplaceValue(#"Valor reemplazado","","-1",Replacer.ReplaceValue,{"Financiacion"}),
+				    #"Valor reemplazado2" = Table.ReplaceValue(#"Valor reemplazado1","-1","S/C",Replacer.ReplaceText,{"Economico"})
 				in
-				    #"Filas filtradas"
+				    #"Valor reemplazado2"
 
 	annotation PBI_NavigationStepName = Navegación
 
