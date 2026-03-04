@@ -28,7 +28,8 @@
               },
               "queryRef": "Tabla de Medidas.Capacidad Necesidad Financiacion",
               "nativeQueryRef": "Capacidad / Necesidad de Financiación",
-              "displayName": "Capacidad / Necesidad de Financiación"
+              "displayName": "Capacidad / Necesidad de Financiación",
+              "format": "#,0.00 \"€\";-#,0.00 \"€\";#,0.00 \"€\""
             }
           ]
         }

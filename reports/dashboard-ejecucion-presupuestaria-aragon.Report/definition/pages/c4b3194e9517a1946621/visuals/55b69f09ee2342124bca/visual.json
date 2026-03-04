@@ -1,66 +1,42 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "557933f4447b3b06cdc4",
+  "name": "55b69f09ee2342124bca",
   "position": {
-    "x": 16.663478987801405,
-    "y": 378.35785010885331,
-    "z": 2000,
-    "height": 55.4828897338403,
-    "width": 140.16730038022814,
-    "tabOrder": 4000
+    "x": 8.9276373147340884,
+    "y": 661.76111595466432,
+    "z": 4000,
+    "height": 40.174367916303396,
+    "width": 162.92938099389713,
+    "tabOrder": 5000
   },
   "visual": {
-    "visualType": "shape",
+    "visualType": "actionButton",
     "objects": {
-      "shape": [
+      "icon": [
         {
           "properties": {
-            "tileShape": {
+            "shapeType": {
               "expr": {
                 "Literal": {
-                  "Value": "'rectangle'"
+                  "Value": "'back'"
+                }
+              }
+            },
+            "lineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }
-          }
-        }
-      ],
-      "rotation": [
-        {
-          "properties": {
-            "shapeAngle": {
-              "expr": {
-                "Literal": {
-                  "Value": "0L"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "outline": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "fill": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ],
@@ -81,14 +57,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Clasificación del Gasto:'"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "12D"
+                  "Value": "'Cerrar Filtros'"
                 }
               }
             },
@@ -104,10 +73,10 @@
                 }
               }
             },
-            "underline": {
+            "horizontalAlignment": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "'center'"
                 }
               }
             },
@@ -115,13 +84,6 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
-                }
-              }
-            },
-            "horizontalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'left'"
                 }
               }
             }
@@ -133,13 +95,27 @@
       ]
     },
     "visualContainerObjects": {
-      "title": [
+      "visualLink": [
         {
           "properties": {
-            "text": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "'Forma - tit clasificacion'"
+                  "Value": "true"
+                }
+              }
+            },
+            "type": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Bookmark'"
+                }
+              }
+            },
+            "bookmark": {
+              "expr": {
+                "Literal": {
+                  "Value": "'0d35ef71111a6079c829'"
                 }
               }
             }

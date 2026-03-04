@@ -1,12 +1,12 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "37cbc683942989c140ee",
+  "name": "a8e5c215235441b49922",
   "position": {
-    "x": 8.9276373147340884,
-    "y": 661.76111595466432,
-    "z": 3000,
-    "height": 40.174367916303396,
-    "width": 162.92938099389713
+    "x": 12.275501307759372,
+    "y": 535.65823888404532,
+    "z": 4250,
+    "height": 50.217959895379252,
+    "width": 143.95815170008717
   },
   "visual": {
     "visualType": "actionButton",
@@ -17,19 +17,7 @@
             "shapeType": {
               "expr": {
                 "Literal": {
-                  "Value": "'back'"
-                }
-              }
-            },
-            "lineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
+                  "Value": "'blank'"
                 }
               }
             }
@@ -56,7 +44,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Cerrar Filtros'"
+                  "Value": "'¿En que se gasta?'"
                 }
               }
             },
@@ -71,18 +59,57 @@
                   }
                 }
               }
-            },
-            "horizontalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "outline": [
+        {
+          "properties": {
+            "lineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
-            },
-            "bold": {
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "fill": [
+        {
+          "properties": {
+            "show": {
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "fillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.1
+                    }
+                  }
                 }
               }
             }
@@ -93,37 +120,8 @@
         }
       ]
     },
-    "visualContainerObjects": {
-      "visualLink": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "type": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Bookmark'"
-                }
-              }
-            },
-            "bookmark": {
-              "expr": {
-                "Literal": {
-                  "Value": "'d1c9c1314ec0e9c255b7'"
-                }
-              }
-            }
-          }
-        }
-      ]
-    },
     "drillFilterOtherVisuals": true
   },
-  "parentGroupName": "80bf8c94e43da58b9e88",
+  "parentGroupName": "64e64694049498e27bca",
   "howCreated": "InsertVisualButton"
 }

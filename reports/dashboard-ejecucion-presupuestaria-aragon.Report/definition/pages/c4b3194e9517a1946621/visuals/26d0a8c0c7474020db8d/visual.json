@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "64ea378880a8e0733c0b",
+  "name": "26d0a8c0c7474020db8d",
   "position": {
-    "x": 11.680608365019012,
-    "y": 256.97338403041823,
-    "z": 0,
-    "height": 62.29657794676806,
-    "width": 139.19391634980988,
-    "tabOrder": 0
+    "x": 8.9276373147340884,
+    "y": 271.17698343504793,
+    "z": 3000,
+    "height": 66.957279860505665,
+    "width": 150.65387968613774,
+    "tabOrder": 10002
   },
   "visual": {
     "visualType": "slicer",
@@ -131,6 +131,13 @@
                   "Value": "'Ejercicio'"
                 }
               }
+            },
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
             }
           }
         }
@@ -169,5 +176,6 @@
       "filterChanges": true
     },
     "drillFilterOtherVisuals": true
-  }
+  },
+  "parentGroupName": "64e64694049498e27bca"
 }

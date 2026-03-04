@@ -481,121 +481,6 @@
               ]
             }
           },
-          "64ea378880a8e0733c0b": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "0ca84a36126071da1c1d",
-                  "type": "Advanced",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Ejercicio"
-                        }
-                      },
-                      "Property": "Ejercicio"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "general": [
-                    {
-                      "properties": {
-                        "filter": {
-                          "filter": {
-                            "Version": 2,
-                            "From": [
-                              {
-                                "Name": "d",
-                                "Entity": "Dim_Ejercicio",
-                                "Type": 0
-                              }
-                            ],
-                            "Where": [
-                              {
-                                "Condition": {
-                                  "In": {
-                                    "Expressions": [
-                                      {
-                                        "Column": {
-                                          "Expression": {
-                                            "SourceRef": {
-                                              "Source": "d"
-                                            }
-                                          },
-                                          "Property": "Ejercicio"
-                                        }
-                                      }
-                                    ],
-                                    "Values": [
-                                      [
-                                        {
-                                          "Literal": {
-                                            "Value": "2023L"
-                                          }
-                                        }
-                                      ]
-                                    ]
-                                  }
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    }
-                  ],
-                  "data": [
-                    {
-                      "properties": {
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Dropdown'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ],
-                  "selection": [
-                    {
-                      "properties": {
-                        "strictSingleSelect": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "true"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "activeProjections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Dim_Ejercicio"
-                        }
-                      },
-                      "Property": "Ejercicio"
-                    }
-                  }
-                ]
-              }
-            }
-          },
           "4e307cf29464c9001c17": {
             "filters": {
               "byExpr": [
@@ -1007,12 +892,6 @@
           "77f4c3b00200166d32d0": {
             "singleVisual": {
               "visualType": "shape",
-              "objects": {}
-            }
-          },
-          "fab3569312c32a14d9c0": {
-            "singleVisual": {
-              "visualType": "pageNavigator",
               "objects": {}
             }
           },
