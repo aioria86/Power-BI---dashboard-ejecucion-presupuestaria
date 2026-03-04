@@ -634,6 +634,15 @@ table 'Tabla de Medidas'
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure 'Brecha Recaudación' =
+			
+			[Total Derechos Reconocidos Netos] -
+			[Total Recaudado Neto]
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: a4ead175-d0b0-4896-a0a7-e207835bdc76
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
 	partition 'Tabla de Medidas' = m
 		mode: import
 		source =
