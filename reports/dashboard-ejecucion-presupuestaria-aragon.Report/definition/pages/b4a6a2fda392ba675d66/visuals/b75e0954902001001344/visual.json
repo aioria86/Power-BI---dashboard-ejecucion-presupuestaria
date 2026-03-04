@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Tabla de Medidas.Resultado Presupuestario",
-              "nativeQueryRef": "Resultado Presupuestario"
+              "nativeQueryRef": "Resultado Presupuestario",
+              "format": "#,0.00 \"€\";-#,0.00 \"€\";#,0.00 \"€\""
             }
           ]
         }

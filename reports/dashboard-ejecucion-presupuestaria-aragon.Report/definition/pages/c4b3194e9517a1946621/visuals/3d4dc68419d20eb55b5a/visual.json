@@ -7,10 +7,11 @@
     "z": 10000,
     "height": 462.64550264550263,
     "width": 1116.3315696649026,
-    "tabOrder": 33
+    "tabOrder": 5000
   },
   "visualGroup": {
     "displayName": "Grupo - Quien Gasta",
     "groupMode": "ScaleMode"
-  }
+  },
+  "isHidden": true
 }

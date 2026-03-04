@@ -7,7 +7,7 @@
     "z": 0,
     "height": 268.641975308642,
     "width": 599.36507936507928,
-    "tabOrder": 1
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -281,20 +281,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "a6d0af87d45d07e2514e",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Tabla de Medidas"
-              }
-            },
-            "Property": "Total Obligaciones Reconocidas"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }

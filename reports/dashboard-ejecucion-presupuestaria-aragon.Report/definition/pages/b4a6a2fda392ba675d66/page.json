@@ -4,5 +4,17 @@
   "displayName": "Overview Ejecutivo",
   "displayOption": "FitToPage",
   "height": 720,
-  "width": 1280
+  "width": 1280,
+  "visualInteractions": [
+    {
+      "source": "a8b71a5880d708a12ace",
+      "target": "e1128ed3be070607cb0b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a8b71a5880d708a12ace",
+      "target": "e288cb9243b4090082e8",
+      "type": "NoFilter"
+    }
+  ]
 }

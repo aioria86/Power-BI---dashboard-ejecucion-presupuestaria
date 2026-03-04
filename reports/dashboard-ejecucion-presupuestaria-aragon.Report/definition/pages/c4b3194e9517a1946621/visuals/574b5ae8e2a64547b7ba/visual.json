@@ -7,11 +7,10 @@
     "z": 11000,
     "height": 462.78659611992936,
     "width": 1114.0740740740739,
-    "tabOrder": 36
+    "tabOrder": 6000
   },
   "visualGroup": {
     "displayName": "Grupo - En que se Gasta",
     "groupMode": "ScaleMode"
-  },
-  "isHidden": true
+  }
 }

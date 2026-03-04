@@ -50,6 +50,22 @@
           "type": "BaseTheme"
         }
       ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "filter2200289729824002.png",
+          "path": "filter2200289729824002.png",
+          "type": "Image"
+        },
+        {
+          "name": "gobierno-de-aragon-logo-letras1613414210085311.png",
+          "path": "gobierno-de-aragon-logo-letras1613414210085311.png",
+          "type": "Image"
+        }
+      ]
     }
   ],
   "settings": {
