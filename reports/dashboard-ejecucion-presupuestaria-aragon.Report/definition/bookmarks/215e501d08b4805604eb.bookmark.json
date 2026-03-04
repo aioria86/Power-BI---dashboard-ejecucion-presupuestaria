@@ -3,7 +3,8 @@
   "displayName": "En que se Gasta",
   "name": "215e501d08b4805604eb",
   "options": {
-    "targetVisualNames": []
+    "targetVisualNames": [],
+    "suppressData": true
   },
   "explorationState": {
     "version": "1.3",

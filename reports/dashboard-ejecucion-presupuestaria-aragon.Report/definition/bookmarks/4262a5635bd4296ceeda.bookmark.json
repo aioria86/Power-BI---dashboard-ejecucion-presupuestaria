@@ -3,7 +3,8 @@
   "displayName": "Quien Gasta",
   "name": "4262a5635bd4296ceeda",
   "options": {
-    "targetVisualNames": []
+    "targetVisualNames": [],
+    "suppressData": true
   },
   "explorationState": {
     "version": "1.3",

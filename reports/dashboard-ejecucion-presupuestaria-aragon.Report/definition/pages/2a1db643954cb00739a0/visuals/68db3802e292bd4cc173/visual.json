@@ -12,5 +12,6 @@
   "visualGroup": {
     "displayName": "Grupo - Filtros",
     "groupMode": "ScaleMode"
-  }
+  },
+  "isHidden": true
 }

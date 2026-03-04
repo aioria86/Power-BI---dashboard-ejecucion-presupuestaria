@@ -11,7 +11,8 @@
       "940fd773e25306d800ba",
       "c35918e05a53ee508d90",
       "ba7e64a62d300d516a9d"
-    ]
+    ],
+    "suppressData": true
   },
   "explorationState": {
     "version": "1.3",

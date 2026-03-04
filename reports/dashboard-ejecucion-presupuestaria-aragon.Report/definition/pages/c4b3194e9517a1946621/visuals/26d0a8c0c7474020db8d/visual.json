@@ -170,6 +170,11 @@
         }
       ]
     },
+    "syncGroup": {
+      "groupName": "Ejercicio",
+      "fieldChanges": true,
+      "filterChanges": true
+    },
     "drillFilterOtherVisuals": true
   },
   "parentGroupName": "64e64694049498e27bca"

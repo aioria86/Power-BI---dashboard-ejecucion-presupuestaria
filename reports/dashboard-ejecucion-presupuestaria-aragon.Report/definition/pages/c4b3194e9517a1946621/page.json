@@ -5,5 +5,11 @@
   "displayOption": "FitToPage",
   "height": 720,
   "width": 1280,
-  "visualInteractions": []
+  "visualInteractions": [
+    {
+      "source": "26d0a8c0c7474020db8d",
+      "target": "f2c3c50553e56ea83257",
+      "type": "NoFilter"
+    }
+  ]
 }

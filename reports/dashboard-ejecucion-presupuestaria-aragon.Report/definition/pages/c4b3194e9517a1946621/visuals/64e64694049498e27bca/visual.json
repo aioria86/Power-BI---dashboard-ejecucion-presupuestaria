@@ -12,5 +12,6 @@
   "visualGroup": {
     "displayName": "Grupo - Filtros Pag 2",
     "groupMode": "ScaleMode"
-  }
+  },
+  "isHidden": true
 }

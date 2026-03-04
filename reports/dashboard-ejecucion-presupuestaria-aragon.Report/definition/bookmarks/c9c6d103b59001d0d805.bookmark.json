@@ -3,7 +3,8 @@
   "displayName": "Filtros - ON - Pag 2",
   "name": "c9c6d103b59001d0d805",
   "options": {
-    "targetVisualNames": []
+    "targetVisualNames": [],
+    "suppressData": true
   },
   "explorationState": {
     "version": "1.3",

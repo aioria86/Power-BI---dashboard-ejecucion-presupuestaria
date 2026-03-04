@@ -4,7 +4,8 @@
   "name": "b2b30bfd6e30ab2433be",
   "options": {
     "targetVisualNames": [],
-    "suppressActiveSection": true
+    "suppressActiveSection": true,
+    "suppressData": true
   },
   "explorationState": {
     "version": "1.3",
