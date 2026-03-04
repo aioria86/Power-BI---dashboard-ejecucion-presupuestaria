@@ -58,7 +58,8 @@
               },
               "queryRef": "Tabla de Medidas.Total Credito Definitivo",
               "nativeQueryRef": "Crédito Definitivo",
-              "displayName": "Crédito Definitivo"
+              "displayName": "Crédito Definitivo",
+              "format": "#,0.00 \"€\";-#,0.00 \"€\";#,0.00 \"€\""
             },
             {
               "field": {
@@ -73,7 +74,8 @@
               },
               "queryRef": "Tabla de Medidas.Total Obligaciones Reconocidas",
               "nativeQueryRef": "Obligaciones Reconocidas",
-              "displayName": "Obligaciones Reconocidas"
+              "displayName": "Obligaciones Reconocidas",
+              "format": "#,0.00 \"€\";-#,0.00 \"€\";#,0.00 \"€\""
             },
             {
               "field": {

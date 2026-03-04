@@ -46,7 +46,8 @@
                 }
               },
               "queryRef": "Tabla de Medidas.Total Obligaciones Reconocidas",
-              "nativeQueryRef": "Total Obligaciones Reconocidas"
+              "nativeQueryRef": "Total Obligaciones Reconocidas",
+              "format": "#,0.00 \"€\";-#,0.00 \"€\";#,0.00 \"€\""
             }
           ]
         }

@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "ff196e3e0a5283cc60ae",
   "position": {
-    "x": 1116.7634124890062,
-    "y": 257.80123131046611,
+    "x": 1085.3731343283582,
+    "y": 257.910447761194,
     "z": 6000,
-    "height": 222.90237467018468,
-    "width": 158.73350923482849,
+    "height": 222.98507462686567,
+    "width": 189.85074626865671,
     "tabOrder": 5000
   },
   "visual": {
@@ -28,7 +28,8 @@
               },
               "queryRef": "Tabla de Medidas.Variación Resultado YoY",
               "nativeQueryRef": "Variación interanual",
-              "displayName": "Variación interanual"
+              "displayName": "Variación interanual",
+              "format": "#,0.00 \"€\";-#,0.00 \"€\";#,0.00 \"€\""
             },
             {
               "field": {
@@ -43,7 +44,8 @@
               },
               "queryRef": "Tabla de Medidas.Variación Resultado Acumulada",
               "nativeQueryRef": "Variación acumulada",
-              "displayName": "Variación acumulada"
+              "displayName": "Variación acumulada",
+              "format": "#,0.00 \"€\";-#,0.00 \"€\";#,0.00 \"€\""
             }
           ]
         }

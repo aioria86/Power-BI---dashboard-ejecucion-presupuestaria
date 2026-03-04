@@ -196,13 +196,13 @@ table 'Tabla de Medidas'
 
 	measure '% Ejecucion Delta LY' =
 			
-			[% Ejecución Financiera] - [% Ejecuion LY]
+			[% Ejecución Presupuestaria] - [% Ejecuion LY]
 		formatString: 0.00\ %;-0.00\ %;0.00\ %
 		lineageTag: ab4153ae-7384-4a43-8e46-8c56949060fe
 
 	measure '% Ejecucion Delta Target' =
 			
-			[% Ejecución Financiera] - 1
+			[% Ejecución Presupuestaria] - 1
 		formatString: 0.00\ %;-0.00\ %;0.00\ %
 		lineageTag: 7c93c173-dcfa-4085-8d0a-cad1fe3322b2
 

@@ -23,10 +23,10 @@
                       "Entity": "Tabla de Medidas"
                     }
                   },
-                  "Property": "% Ejecución Financiera"
+                  "Property": "% Ejecución Presupuestaria"
                 }
               },
-              "queryRef": "Tabla de Medidas.% Ejecucion",
+              "queryRef": "Tabla de Medidas.% Ejecución Presupuestaria",
               "nativeQueryRef": "Ejecución Presupuestaria (%)",
               "displayName": "Ejecución Presupuestaria (%)"
             }

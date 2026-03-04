@@ -2094,6 +2094,16 @@ cultureInfo es-ES
 			            },
 			            "Weight": 0.9
 			          }
+			        },
+			        {
+			          "Ejecución Presupuestaria (%)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -3584,55 +3594,25 @@ cultureInfo es-ES
 			          }
 			        }
 			      ]
+			    },
+			    "tabla_de_medida.brecha_recaudación": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Brecha Recaudación"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "brecha recaudación": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
-			    "fact_ingreso_has_dim_economico": {
-			      "Binding": {
-			        "ConceptualEntity": "Fact_Ingresos"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "fact_ingreso": {
-			          "Target": {
-			            "Entity": "fact_ingreso"
-			          }
-			        },
-			        "dim_economico": {
-			          "Target": {
-			            "Entity": "dim_economico"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "fact_ingreso"
-			            },
-			            "Object": {
-			              "Role": "dim_economico"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "fact_ingresos_have_dim_economicos"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "dim_economico"
-			            },
-			            "Object": {
-			              "Role": "fact_ingreso"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "dim_economicos_have_fact_ingresos"
-			        }
-			      ]
-			    },
 			    "fact_ingreso_has_dim_financiacion": {
 			      "Binding": {
 			        "ConceptualEntity": "Fact_Ingresos"
@@ -3952,6 +3932,39 @@ cultureInfo es-ES
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dim_funcionals_have_fact_gastos"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_brecha_recaudación": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.brecha_recaudación": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.brecha_recaudación"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.brecha_recaudación"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_brecha_recaudación"
 			        }
 			      ]
 			    },
@@ -7708,6 +7721,52 @@ cultureInfo es-ES
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "fact_gastos_have__ids"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_dim_economico": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "dim_economico": {
+			          "Target": {
+			            "Entity": "dim_economico"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "dim_economico"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_dim_economicos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_economico"
+			            },
+			            "Object": {
+			              "Role": "fact_ingreso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_economicos_have_fact_ingresos"
 			        }
 			      ]
 			    },
