@@ -3360,7 +3360,7 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
-			          "Variación anual": {
+			          "Variación interanual": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -3448,7 +3448,7 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
-			          "Variación anual": {
+			          "Cambio interanual": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -3481,6 +3481,106 @@ cultureInfo es-ES
 			              "Agent": "PowerBI.VisualColumnRename"
 			            },
 			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.año_máximo_resultado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Año Máximo Resultado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año máximo resultado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.etiqueta_máximo_resultado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Etiqueta Máximo Resultado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "etiqueta máximo resultado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.promedio_resultado_histórico": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Promedio Resultado Histórico"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "promedio resultado histórico": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.años_en_superávit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "% Años en Superávit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% años en superávit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage año en superávit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct año en superávit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "tabla_de_medida.desviación_resultado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Tabla de Medidas",
+			          "ConceptualProperty": "Desviación Resultado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "desviación resultado": {
+			            "State": "Generated"
 			          }
 			        }
 			      ]
@@ -3852,6 +3952,303 @@ cultureInfo es-ES
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dim_funcionals_have_fact_gastos"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_desviación_resultado": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.desviación_resultado": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.desviación_resultado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.desviación_resultado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_desviación_resultado"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_desviación_resultado": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.desviación_resultado": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.desviación_resultado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.desviación_resultado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_desviación_resultado"
+			        }
+			      ]
+			    },
+			    "tabla_de_medida_has_años_en_superávit": {
+			      "Binding": {
+			        "ConceptualEntity": "Tabla de Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tabla_de_medida": {
+			          "Target": {
+			            "Entity": "tabla_de_medida"
+			          }
+			        },
+			        "tabla_de_medida.años_en_superávit": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.años_en_superávit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tabla_de_medida"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.años_en_superávit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tabla_de_medidas_have__años_en_superávit"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_promedio_resultado_histórico": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.promedio_resultado_histórico": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.promedio_resultado_histórico"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.promedio_resultado_histórico"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_promedio_resultado_histórico"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_promedio_resultado_histórico": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.promedio_resultado_histórico": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.promedio_resultado_histórico"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.promedio_resultado_histórico"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_promedio_resultado_histórico"
+			        }
+			      ]
+			    },
+			    "fact_ingreso_has_tabla_de_medida_etiqueta_máximo_resultado": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Ingresos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_ingreso": {
+			          "Target": {
+			            "Entity": "fact_ingreso"
+			          }
+			        },
+			        "tabla_de_medida.etiqueta_máximo_resultado": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.etiqueta_máximo_resultado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_ingreso"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.etiqueta_máximo_resultado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_ingresos_have_etiqueta_máximo_resultado"
+			        }
+			      ]
+			    },
+			    "fact_gasto_has_tabla_de_medida_etiqueta_máximo_resultado": {
+			      "Binding": {
+			        "ConceptualEntity": "Fact_Gastos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fact_gasto": {
+			          "Target": {
+			            "Entity": "fact_gasto"
+			          }
+			        },
+			        "tabla_de_medida.etiqueta_máximo_resultado": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.etiqueta_máximo_resultado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fact_gasto"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.etiqueta_máximo_resultado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fact_gastos_have_etiqueta_máximo_resultado"
+			        }
+			      ]
+			    },
+			    "dim_ejercicio_has_tabla_de_medida_etiqueta_máximo_resultado": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Ejercicio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_ejercicio": {
+			          "Target": {
+			            "Entity": "dim_ejercicio"
+			          }
+			        },
+			        "tabla_de_medida.etiqueta_máximo_resultado": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.etiqueta_máximo_resultado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_ejercicio"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.etiqueta_máximo_resultado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_ejercicios_have_etiqueta_máximo_resultado"
+			        }
+			      ]
+			    },
+			    "dim_ejercicio_has_tabla_de_medida_año_máximo_resultado": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Ejercicio"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_ejercicio": {
+			          "Target": {
+			            "Entity": "dim_ejercicio"
+			          }
+			        },
+			        "tabla_de_medida.año_máximo_resultado": {
+			          "Target": {
+			            "Entity": "tabla_de_medida.año_máximo_resultado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_ejercicio"
+			            },
+			            "Object": {
+			              "Role": "tabla_de_medida.año_máximo_resultado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_ejercicios_have_año_máximo_resultado"
 			        }
 			      ]
 			    },

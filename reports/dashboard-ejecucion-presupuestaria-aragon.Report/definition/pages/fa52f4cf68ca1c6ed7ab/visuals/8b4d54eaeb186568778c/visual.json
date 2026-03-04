@@ -4,7 +4,7 @@
   "position": {
     "x": 1116.7634124890062,
     "y": 497.59014951627086,
-    "z": 9000,
+    "z": 7000,
     "height": 222.90237467018468,
     "width": 158.73350923482849,
     "tabOrder": 6000
@@ -27,8 +27,8 @@
                 }
               },
               "queryRef": "Tabla de Medidas.Variación Capacidad YoY",
-              "nativeQueryRef": "Variación anual",
-              "displayName": "Variación anual"
+              "nativeQueryRef": "Cambio interanual",
+              "displayName": "Cambio interanual"
             },
             {
               "field": {

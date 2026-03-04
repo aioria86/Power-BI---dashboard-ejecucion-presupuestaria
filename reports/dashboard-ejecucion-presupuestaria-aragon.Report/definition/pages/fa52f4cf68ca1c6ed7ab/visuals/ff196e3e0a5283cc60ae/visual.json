@@ -4,7 +4,7 @@
   "position": {
     "x": 1116.7634124890062,
     "y": 257.80123131046611,
-    "z": 8000,
+    "z": 6000,
     "height": 222.90237467018468,
     "width": 158.73350923482849,
     "tabOrder": 5000
@@ -27,8 +27,8 @@
                 }
               },
               "queryRef": "Tabla de Medidas.Variación Resultado YoY",
-              "nativeQueryRef": "Variación anual",
-              "displayName": "Variación anual"
+              "nativeQueryRef": "Variación interanual",
+              "displayName": "Variación interanual"
             },
             {
               "field": {
